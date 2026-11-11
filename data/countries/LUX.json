@@ -1,0 +1,398 @@
+{
+  "id": "LUX",
+  "isoNumeric": "442",
+  "name": "Luxembourg",
+  "capital": "Luxembourg City",
+  "flag": "h:#ed2939,#ffffff,#00a1de",
+  "lonLat": [
+    6.13,
+    49.61
+  ],
+  "modes": {
+    "train": {
+      "sum": "Luxembourg station (Gare Centrale) is the one main station for CFL trains. Since 1 March 2020, 2nd class travel on all trains inside Luxembourg is free for everyone, tourists included. Only 1st class and journeys across the border need a ticket.",
+      "sched": "Trains to Trier, Metz and Brussels run about every hour, to Liege about every 2 hours, and to Paris about 5 times a day by TGV. Check the CFL app or mobiliteit.lu for exact times.",
+      "tickets": [
+        "2nd class inside Luxembourg: no ticket needed",
+        "1st class: 3 EUR for 2 hours, 6 EUR for a day, 10 two-hour tickets 24 EUR, monthly pass 60 EUR. 1st class tickets are not valid on international lines",
+        "Cross-border 2nd class is free up to the border, and also to Athus (Belgium), Audun-le-Tiche and Volmerange-les-Mines (France)",
+        "Examples abroad: Thionville 3.90 EUR, Arlon 4.60 EUR, Trier 5.40 EUR (2nd class), Brussels from about 21 EUR",
+        "Paris by TGV INOUI: about 2 h 10 min, price changes by date. Seat reservation is compulsory"
+      ],
+      "tip": "Free means 2nd class only. If you sit in a 1st class coach without a 1st class ticket, you can be fined 150 EUR. Carry an ID, because staff can ask for it.",
+      "link": [
+        "Luxembourg trains (transports.public.lu)",
+        "https://transports.public.lu/en/se-deplacer/transports-publics/train.html"
+      ],
+      "buy": [
+        "Nothing to buy for 2nd class trains inside Luxembourg",
+        "CFL go app, CFL International App and the CFL website",
+        "Ticket machines at stations and CFL counters. Sales centres at Luxembourg station and Belval-University, phone +352 2489 2489",
+        "Buy 1st class tickets before you board",
+        "Cross-border: you must show a valid ticket, checks start at the last stop in Luxembourg before the border",
+        "TGV and TER to France: SNCF Connect or station counters"
+      ],
+      "destinations": [
+        {
+          "to": "Pétange",
+          "country": "Luxembourg",
+          "type": "domestic",
+          "time": "about 25 min",
+          "station": "Luxembourg",
+          "operator": "CFL"
+        },
+        {
+          "to": "Esch-sur-Alzette",
+          "country": "Luxembourg",
+          "type": "domestic",
+          "time": "about 25 min",
+          "station": "Luxembourg",
+          "operator": "CFL",
+          "note": "Direct trains run many times an hour"
+        },
+        {
+          "to": "Wasserbillig",
+          "country": "Luxembourg",
+          "type": "domestic",
+          "time": "about 30 min",
+          "station": "Luxembourg",
+          "operator": "CFL",
+          "note": "On the Moselle at the German border"
+        },
+        {
+          "to": "Ettelbruck",
+          "country": "Luxembourg",
+          "type": "domestic",
+          "time": "about 30 min",
+          "station": "Luxembourg",
+          "operator": "CFL",
+          "note": "Change here for Diekirch"
+        },
+        {
+          "to": "Diekirch",
+          "country": "Luxembourg",
+          "type": "domestic",
+          "time": "about 40 min",
+          "station": "Luxembourg",
+          "operator": "CFL"
+        },
+        {
+          "to": "Troisvierges",
+          "country": "Luxembourg",
+          "type": "domestic",
+          "time": "about 1 h",
+          "station": "Luxembourg",
+          "operator": "CFL",
+          "note": "Northern line via Ettelbruck and Clervaux"
+        },
+        {
+          "to": "Arlon",
+          "country": "Belgium",
+          "type": "international",
+          "time": "about 20 min",
+          "station": "Luxembourg",
+          "operator": "CFL, SNCB",
+          "note": "Free in 2nd class on the Luxembourg side, then a ticket"
+        },
+        {
+          "to": "Thionville",
+          "country": "France",
+          "type": "international",
+          "time": "about 30 min",
+          "station": "Luxembourg",
+          "operator": "SNCF TER, TGV",
+          "note": "One to five trains an hour"
+        },
+        {
+          "to": "Metz",
+          "country": "France",
+          "type": "international",
+          "time": "about 40 min",
+          "station": "Luxembourg",
+          "operator": "SNCF TER, TGV INOUI"
+        },
+        {
+          "to": "Trier",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 1 h",
+          "station": "Luxembourg",
+          "operator": "CFL, DB",
+          "note": "Hourly, about 5.40 EUR in 2nd class"
+        },
+        {
+          "to": "Nancy",
+          "country": "France",
+          "type": "international",
+          "time": "about 1 h 30 min",
+          "station": "Luxembourg",
+          "operator": "SNCF TER Grand Est"
+        },
+        {
+          "to": "Paris Est",
+          "country": "France",
+          "type": "international",
+          "time": "about 2 h 10 min",
+          "station": "Luxembourg",
+          "operator": "TGV INOUI",
+          "note": "5 direct trains a day, reservation compulsory"
+        },
+        {
+          "to": "Koblenz",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 2 h 25 min",
+          "station": "Luxembourg",
+          "operator": "DB, CFL Regional-Express",
+          "note": "Via Trier, along the Moselle"
+        },
+        {
+          "to": "Liege",
+          "country": "Belgium",
+          "type": "international",
+          "time": "about 2 h 30 min",
+          "station": "Luxembourg",
+          "operator": "SNCB IC",
+          "note": "About every 2 hours via Ettelbruck"
+        },
+        {
+          "to": "Strasbourg",
+          "country": "France",
+          "type": "international",
+          "time": "about 2 h 30 min",
+          "station": "Luxembourg",
+          "operator": "TGV INOUI",
+          "note": "Via Thionville and Metz"
+        },
+        {
+          "to": "Brussels",
+          "country": "Belgium",
+          "type": "international",
+          "time": "about 3 h 15 min",
+          "station": "Luxembourg",
+          "operator": "SNCB IC",
+          "note": "About every hour via Arlon and Namur. No catering on board"
+        },
+        {
+          "to": "Lyon",
+          "country": "France",
+          "type": "international",
+          "time": "about 5 h 30 min",
+          "station": "Luxembourg",
+          "operator": "TGV INOUI",
+          "note": "TGV via Metz and Strasbourg"
+        },
+        {
+          "to": "Marseille",
+          "country": "France",
+          "type": "international",
+          "time": "about 7 h 30 min",
+          "station": "Luxembourg",
+          "operator": "TGV INOUI",
+          "note": "TGV via Metz, Strasbourg and Lyon"
+        },
+        {
+          "to": "Montpellier",
+          "country": "France",
+          "type": "international",
+          "time": "about 7 h 30 min",
+          "station": "Luxembourg",
+          "operator": "TGV INOUI",
+          "note": "One TGV a day"
+        }
+      ]
+    },
+    "tram": {
+      "sum": "The Luxtram line T1 runs about 16 km from Stadion through the centre to Kirchberg and Luxembourg Airport, with 24 stops. Trams, buses and the funicular are all free, so no ticket is needed.",
+      "sched": "Trams run every 3 to 8 minutes in the daytime. Check mobiliteit.lu for first and last tram times.",
+      "tickets": [
+        "No ticket needed on the tram, on city buses or on the funicular",
+        "Pets travel free and there is no charge for luggage",
+        "Children under 4 must be with someone aged 12 or older",
+        "You can ride the whole line, including the airport, for free"
+      ],
+      "tip": "Take the tram from Gare Centrale to Hamilius for the old town, or on to Kirchberg for the European institutions and Philharmonie. Carry your ID in case staff ask.",
+      "link": [
+        "Luxembourg tram (transports.public.lu)",
+        "https://transports.public.lu/en/se-deplacer/transports-publics/tram.html"
+      ],
+      "buy": [
+        "Nothing to buy: public transport in Luxembourg is free",
+        "Nothing to validate and no gates",
+        "Plan trips with the Mobiliteit.lu app or website"
+      ]
+    },
+    "bus": {
+      "sum": "City buses (AVL) and national RGTR buses are free. RGTR buses also cross the border to Germany, France and Belgium. Nightrider buses run at weekends after the regular service ends.",
+      "sched": "City buses run from early morning to late evening. Nightrider night buses run on weekend nights. Check mobiliteit.lu for times.",
+      "tickets": [
+        "No ticket needed on buses inside Luxembourg",
+        "Cross-border RGTR buses: free to the last stop before the border, then a RegioZone ticket",
+        "RegioZone ticket: 3 EUR for 2 hours, 5 EUR for a day, valid on buses to neighbouring countries",
+        "Saarbrucken Express coach: 5 EUR for 2 hours, 9 EUR for a day"
+      ],
+      "tip": "On a cross-border bus, buy your RegioZone ticket before the border. Inspectors check from the last Luxembourg stop.",
+      "link": [
+        "Free public transport (Ville de Luxembourg)",
+        "https://www.vdl.lu/en/node/84265"
+      ],
+      "buy": [
+        "Inside Luxembourg: nothing to buy",
+        "RegioZone tickets: CFL go app, CFL website, ticket machines and CFL counters",
+        "Mobiliteit.lu for route planning",
+        "Mobility Centre at Luxembourg station for passes and cross-border tickets"
+      ]
+    },
+    "airport": {
+      "sum": "Luxembourg Airport (LUX) at Findel is about 10 km east of the centre. The tram stop Findel - Luxembourg Airport opened on 2 March 2025, and buses 29, 16 and 6 also run to the city. All are free.",
+      "sched": "From Theater tram stop the tram takes about 16 minutes with a tram every few minutes. Bus 29 from Gare Centrale takes under 22 minutes and runs about every 20 minutes. Lines 16 and 6 run from Hamilius and the city centre.",
+      "tickets": [
+        "Tram and city buses: free, no ticket needed",
+        "Regional RGTR buses 223, 302, 361 and 850 also stop at the airport and are free inside Luxembourg",
+        "Taxi: charged by meter, rank outside the terminal. Check infotaxi.lu for fares",
+        "Train: no station at the airport, the nearest is Luxembourg Gare Centrale"
+      ],
+      "tip": "From Gare Centrale, bus 29 is the fastest way. From Kirchberg or the old town, the tram is quicker.",
+      "link": [
+        "Luxembourg Airport: getting to the airport",
+        "https://www.lux-airport.lu/parking-transport/getting-to-the-airport/"
+      ],
+      "buy": [
+        "Tram and bus: nothing to buy",
+        "Taxi: from the rank at arrivals, or book at infotaxi.lu",
+        "Plan the trip with the Mobiliteit.lu app"
+      ]
+    }
+  },
+  "metro": {
+    "note": "Luxembourg City has no metro. The Luxtram T1 line, buses and a funicular are all free to use.",
+    "mapLabel": "Luxtram line and stops (transports.public.lu)",
+    "mapUrl": "https://transports.public.lu/en/se-deplacer/transports-publics/tram.html",
+    "lines": [
+      "Tram T1 runs Stadion - Howald - Gare Centrale - Hamilius - Etoile - Kirchberg - Findel Airport",
+      "Gare Centrale: trams, buses and all CFL trains meet here",
+      "Hamilius and Place de Metz serve the old town",
+      "Philharmonie - Mudam, Europaparlament and Luxexpo are on the Kirchberg section",
+      "Findel - Luxembourg Airport is the last stop on the line"
+    ]
+  },
+  "tips": [
+    "Public transport inside Luxembourg is free, but 1st class trains and journeys across the border are not.",
+    "Carry an ID card or passport. Inspectors can ask for it, and fines apply on 1st class without a ticket.",
+    "The LuxembourgPass is sold for sights and costs 23 EUR for 1 day for one person. It is not needed for transport.",
+    "Trains to Trier, Metz and Brussels leave about every hour, so day trips across the border are easy."
+  ],
+  "apps": [
+    {
+      "name": "Mobiliteit.lu",
+      "what": "Journey planner for trains, trams and buses"
+    },
+    {
+      "name": "CFL go",
+      "what": "CFL train tickets, 1st class and cross-border"
+    },
+    {
+      "name": "CFL International App",
+      "what": "International train tickets"
+    },
+    {
+      "name": "SNCF Connect",
+      "what": "TGV and TER tickets to France"
+    }
+  ],
+  "verified": "2026-11-11",
+  "sources": [
+    {
+      "title": "Mobiliteit.lu: Fares",
+      "url": "https://www.mobiliteit.lu/en/tickets-page/fares/"
+    },
+    {
+      "title": "Mobiliteit.lu: Harmonisation and digitalisation of cross-border and 1st class tickets",
+      "url": "https://www.mobiliteit.lu/en/tickets-page/harmonisation-and-digitalisation-of-cross-border-and-1st-class-tickets/"
+    },
+    {
+      "title": "Guichet.lu: Using public transport in Luxembourg",
+      "url": "https://guichet.public.lu/en/citoyens/transport/transports-commun/gratuite-transports/circulation-transports-publics.html"
+    },
+    {
+      "title": "Ville de Luxembourg: Free public transport",
+      "url": "https://www.vdl.lu/en/node/84265"
+    },
+    {
+      "title": "Luxembourg.public.lu: Public transport",
+      "url": "https://luxembourg.public.lu/en/living/mobility/public-transport.html"
+    },
+    {
+      "title": "transports.public.lu: Train",
+      "url": "https://transports.public.lu/en/se-deplacer/transports-publics/train.html"
+    },
+    {
+      "title": "transports.public.lu: Tram",
+      "url": "https://transports.public.lu/en/se-deplacer/transports-publics/tram.html"
+    },
+    {
+      "title": "transports.public.lu: Tram to Luxembourg Airport",
+      "url": "https://transports.public.lu/en/plus/actualites/2025/02-fevrier-27-tram-aeroport.html"
+    },
+    {
+      "title": "Luxembourg Airport: Getting to the airport",
+      "url": "https://www.lux-airport.lu/parking-transport/getting-to-the-airport/"
+    },
+    {
+      "title": "Paperjam: Five case studies getting to the airport",
+      "url": "https://en.paperjam.lu/article/five-case-studies-getting-to-the-airport"
+    },
+    {
+      "title": "Gouvernement.lu: Kirchberg summer works 2026",
+      "url": "https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2026/06-juin/24-travaux-kirchberg.html"
+    },
+    {
+      "title": "Paperjam: First class single tickets up by 50 percent",
+      "url": "https://paperjam.lu/article/les-billets-a-lunite-en-premiere-classe-en-hausse-de-50"
+    },
+    {
+      "title": "Chamber of Deputies: Answer on first class tickets (150 EUR fine)",
+      "url": "https://wdocs-pub.chd.lu/docs/exped/0140/127/281273.pdf"
+    },
+    {
+      "title": "Luxtoday: Trains in Luxembourg",
+      "url": "https://luxtoday.lu/en/knowledge/trains-in-luxembourg"
+    },
+    {
+      "title": "Luxtoday: Public transport in Luxembourg",
+      "url": "https://luxtoday.lu/de/blog/luxemburgische-offentliche-verkehrsmittel"
+    },
+    {
+      "title": "Just Arrived: Trains in Luxembourg",
+      "url": "https://www.justarrived.lu/en/mobilite-luxembourg/transports-ferroviaires-trains/"
+    },
+    {
+      "title": "Frontaliers Grand Est: CFL fares",
+      "url": "https://frontaliers-grandest.eu/accueil/transports/luxembourg/trains/offres-tarifaires"
+    },
+    {
+      "title": "Seat61: London to Luxembourg by train",
+      "url": "https://www.seat61.com/Luxembourg.htm"
+    },
+    {
+      "title": "Wikipedia mirror: Luxembourg railway station services",
+      "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Gare_de_Luxembourg"
+    },
+    {
+      "title": "SNCF Connect: Luxembourg to Paris timetable",
+      "url": "https://www.sncf-connect.com/en-en/train/timetables/luxembourg/paris"
+    },
+    {
+      "title": "Thetrainline: Luxembourg to Esch-sur-Alzette",
+      "url": "https://www.thetrainline.com/en/train-times/luxembourg-to-esch-sur-alzette"
+    },
+    {
+      "title": "Omio: Luxembourg to Koblenz",
+      "url": "https://www.omio.co.uk/trains/luxembourg/koblenz-j0wh8"
+    },
+    {
+      "title": "Visit Luxembourg: LuxembourgPass",
+      "url": "https://visitluxembourg.com/plan-your-stay/luxembourgcard"
+    }
+  ]
+}

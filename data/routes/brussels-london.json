@@ -1,0 +1,700 @@
+{
+  "id": "brussels-london",
+  "title": "Brussels to London by Train: The Ultimate Eurostar Travel Guide (2026)",
+  "short": "Brussels to London by Eurostar, with tickets, check-in, border rules and alternatives.",
+  "summary": "Eurostar runs direct from Brussels-Midi to London St Pancras International in about 2 hours, with fares from about 44 EUR one way. This guide covers classes, luggage, check-in, border and entry rules, and the options by plane, coach, ferry and car.",
+  "from": {
+    "city": "Brussels",
+    "station": "Brussels-Midi/Bruxelles-Midi",
+    "country": "BEL"
+  },
+  "to": {
+    "city": "London",
+    "station": "London St Pancras International",
+    "country": "GBR"
+  },
+  "stats": [
+    {
+      "label": "Fastest time",
+      "value": "About 2 h (2 h 01 min on Eurostar's site)"
+    },
+    {
+      "label": "Trains a day",
+      "value": "About 10 direct trains, 7 days a week"
+    },
+    {
+      "label": "Prices from",
+      "value": "About 44 EUR or 39 GBP one way"
+    },
+    {
+      "label": "Distance",
+      "value": "About 320 km by rail"
+    }
+  ],
+  "official": [
+    {
+      "label": "Eurostar Brussels to London",
+      "url": "https://www.eurostar.com/uk-en/train/brussels-to-london"
+    },
+    {
+      "label": "Eurostar check-in and arrival times",
+      "url": "https://www.eurostar.com/uk-en/travel-info/your-trip/check-in"
+    },
+    {
+      "label": "Eurostar Brussels-Midi station guide",
+      "url": "https://eurostar.com/uk-en/travel-info/stations/brussels-midi"
+    },
+    {
+      "label": "Eurostar luggage rules",
+      "url": "https://www.eurostar.com/uk-en/travel-info/travel-planning/luggage"
+    },
+    {
+      "label": "Eurostar fares, fees and conditions",
+      "url": "https://www.eurostar.com/uk-en/travel-info/travel-planning/eurostar-fares-and-fees"
+    },
+    {
+      "label": "Eurostar travel documents",
+      "url": "https://www.eurostar.com/travel-info/your-trip/travel-documents"
+    },
+    {
+      "label": "Eurostar and SNCB connecting trains",
+      "url": "https://www.eurostar.com/uk-en/travel-info/connecting-train/sncb"
+    },
+    {
+      "label": "GOV.UK: Apply for an electronic travel authorisation (ETA)",
+      "url": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta"
+    },
+    {
+      "label": "GOV.UK: EU Entry/Exit System",
+      "url": "https://gov.uk/entry-exit-system"
+    }
+  ],
+  "sections": [
+    {
+      "id": "fast-facts",
+      "title": "Fast facts and route overview",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Eurostar is the only direct train between Brussels and London. It runs through the Channel Tunnel from city centre to city centre. Belgian exit checks and UK entry checks both happen in Brussels before you board, so you can walk straight out of St Pancras when you arrive."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Item",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Distance",
+              "About 320 km by rail"
+            ],
+            [
+              "Departure station",
+              "Brussels-Midi/Bruxelles-Midi, Avenue Fonsny 47 b, 1060 Brussels"
+            ],
+            [
+              "Arrival station",
+              "London St Pancras International, in King's Cross"
+            ],
+            [
+              "Check-in requirement",
+              "Eurostar recommends arriving 45 to 60 minutes before departure in Standard and Plus, and 30 to 45 minutes in Premier. Gates close 30 minutes before departure (15 minutes in Premier)."
+            ],
+            [
+              "Luggage limit",
+              "2 pieces plus 1 small hand item in Standard and Plus. 3 pieces plus 1 hand item in Premier. Each bag up to 85 cm long on London routes. No weight limit, but you must be able to carry each bag yourself."
+            ],
+            [
+              "Liquid rules",
+              "No liquid volume limit. Some alcohol restrictions apply."
+            ],
+            [
+              "Journey time",
+              "From about 2 hours. Eurostar's site shows 2 h 01 min."
+            ],
+            [
+              "Frequency",
+              "About 10 direct trains a day, from early morning to the evening"
+            ],
+            [
+              "Operator",
+              "Eurostar"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Eurostar's UK site shows Standard fares from 39 GBP one way and its Belgian site shows from 44 EUR one way. Both are sample prices that depend on the date, and the euro price assumes a return trip. Check your own date before you plan around them."
+        }
+      ]
+    },
+    {
+      "id": "tickets",
+      "title": "Ticket classes and price breakdown",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Eurostar has three classes: Standard, Plus and Premier. Older guides call them Standard, Standard Premier and Business Premier. The current names are Standard, Plus and Premier."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Class",
+            "What is included",
+            "Who it suits",
+            "Sample one-way fare, Brussels to London"
+          ],
+          "rows": [
+            [
+              "Standard",
+              "Standard seat. 2 bags plus 1 small hand item. Free Wi-Fi and plug sockets. Food and drink to buy on board. Free exchange until 1 hour before departure.",
+              "Budget travellers and short trips",
+              "From about 39 GBP or 44 EUR"
+            ],
+            [
+              "Plus",
+              "More spacious seat. A choice of two dishes and drinks served at your seat on London routes. Same luggage, Wi-Fi and exchange terms as Standard.",
+              "Travellers who want a meal and a roomier seat",
+              "Check eurostar.com for your date"
+            ],
+            [
+              "Premier",
+              "More spacious seat. Menu by European chefs. Lounge access in Brussels and London. 3 bags plus 1 hand item. Priority gates on London routes. Same-day boarding guarantee. Free exchange and refund until 48 hours after departure.",
+              "Business travellers and people who need flexibility",
+              "Check eurostar.com for your date"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Standard figure is Eurostar's own sample price. Real prices depend on the date, time and how full the train is. Fares rise as seats sell, like airline fares, so the cheapest tickets go first."
+        },
+        {
+          "type": "p",
+          "text": "How far ahead tickets go on sale: Eurostar's help centre says you can book Brussels to London roughly 10 to 11 months before travel. Dates can shift when engineering work affects a line."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Children aged 4 to 11 get a discount on Standard and Plus. Eurostar's pages give different amounts, so check the price when you book. There is no child discount in Premier.",
+            "Children under 4 travel free if they sit on an adult's lap.",
+            "Group fares: groups of 10 or more have their own change and refund terms. Free date or time changes are allowed up to 31 days before departure. Refunds are 80 percent up to 31 days before, 50 percent from 30 to 9 days before, and nothing from 8 days before.",
+            "Flexibility in Standard and Plus: change the date or time free of charge until 1 hour before departure. You pay any price difference and a cheaper fare is not refunded. Refunds cost 25 GBP per person per leg if requested at least 7 days before departure. Within 7 days the ticket is not refundable.",
+            "Phone or station bookings in Standard and Plus carry a 12 GBP service fee. Booking on eurostar.com or in the app avoids it. Missing the gate and being rebooked on a later train costs 44 GBP in Standard and Plus, if there is space."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Interrail pass holders: you need a seat reservation and cannot board with the pass alone. Interrail lists a reservation fee of 35 EUR in Standard and 40 EUR in Plus on this route. Booking through the Interrail reservation system adds a 2 EUR fee per person per train. A second class pass allows Standard only. A first class pass allows Standard or Plus. Premier is not available with an Interrail pass. Seats for pass holders are limited, so book early. If they are sold out you must buy a normal ticket. Eurail pass holders should check Eurail's own pages."
+        },
+        {
+          "type": "p",
+          "text": "Coming from another Belgian city: you can book the Eurostar and a connecting SNCB train together on eurostar.com, from hubs such as Antwerp and Liège. They are two separate tickets, and an SNCB mobile ticket is only accepted if it is stored in the Eurostar app. If a late SNCB train makes you miss your Eurostar, Eurostar will get you to your destination at no cost. Ask the SNCB staff for proof of the delay."
+        }
+      ]
+    },
+    {
+      "id": "timetable",
+      "title": "Timetable and journey times",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Eurostar's public route page loads its timetable live, so use the timetable on eurostar.com for exact departures on your date. The notes below come from third-party booking sites and may not match this week's schedule."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Item",
+            "Typical"
+          ],
+          "rows": [
+            [
+              "Brussels to London, first train",
+              "About 07:56 on most days (Trainline and Rail Europe). Check your date, as some sites list earlier departures."
+            ],
+            [
+              "Brussels to London, last train",
+              "About 20:56 (Trainline and Rail Europe)"
+            ],
+            [
+              "London to Brussels first and last trains",
+              "Check the Eurostar timetable for the first and last departure on your date."
+            ],
+            [
+              "Frequency",
+              "About 10 direct trains a day"
+            ],
+            [
+              "Fastest journey",
+              "About 2 hours. Eurostar's site shows 2 h 01 min."
+            ],
+            [
+              "Operating days",
+              "Every day. Check Christmas Day and Boxing Day, when service is reduced or stops."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Busy days: Fridays and Sunday afternoons are busy and dearer. School holidays and bank holiday weekends also sell out early."
+        },
+        {
+          "type": "tip",
+          "text": "A day trip is possible in either direction, but the last train from Brussels leaves around 21:00 and the first around 08:00 on most days. Confirm the times for your date before you book."
+        }
+      ]
+    },
+    {
+      "id": "stations",
+      "title": "Stations and getting there",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Brussels-Midi (Bruxelles-Midi in French, Brussel-Zuid in Dutch) is at Avenue Fonsny 47 b, 1060 Brussels. Eurostar check-in is at the Channel Terminal, under platforms 1 and 2. Follow the signs for platforms 1 and 2. The station has luggage lockers open 24 hours, a bureau de change, shops, restaurants and a Eurostar information desk near platforms 4 and 5. Eurostar advises against driving to the station because traffic is heavy around 06:00 to 09:00 and 16:00 to 20:00."
+        },
+        {
+          "type": "p",
+          "text": "Passport checks at Brussels-Midi happen twice: first by Belgian authorities and then by UK Border Force. Depending on your nationality and passport, you may be able to use ePassport gates."
+        },
+        {
+          "type": "p",
+          "text": "London St Pancras International is in King's Cross, next to King's Cross station. The Underground, buses and National Rail trains connect there. Because UK entry checks take place in Brussels, you can leave the station directly on arrival."
+        },
+        {
+          "type": "table",
+          "head": [
+            "From Brussels-Midi to",
+            "How",
+            "Time"
+          ],
+          "rows": [
+            [
+              "Brussels Central and Grand Place",
+              "Local SNCB train one stop to Brussels Central, then a short walk",
+              "The Grand Place is about 1.8 km from Brussels-Midi, roughly a 22 minute walk"
+            ],
+            [
+              "Brussels Airport (Zaventem)",
+              "Direct SNCB train",
+              "About 20 to 25 minutes"
+            ],
+            [
+              "Charleroi Airport",
+              "Flibco or FlixBus coach, or train plus TEC shuttle",
+              "About 55 minutes by coach, 70 to 90 minutes by train and shuttle"
+            ],
+            [
+              "Eurostar and ICE trains to the Netherlands or Germany",
+              "Platforms 3 to 6, with possible security checks",
+              "Allow at least an hour to reach a connecting platform"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Metro, tram and bus: Brussels-Midi is also served by the city network run by STIB. Check stib.be for current lines and times."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Arrive at Brussels-Midi",
+              "text": "Arrive at the time on your ticket. Eurostar recommends 45 to 60 minutes in Standard and Plus and 30 to 45 minutes in Premier."
+            },
+            {
+              "title": "Go to the Channel Terminal",
+              "text": "Follow the signs for platforms 1 and 2. The terminal is under those platforms."
+            },
+            {
+              "title": "Scan your ticket",
+              "text": "Use the ticket in the Eurostar app or a printout at the gates. Gates close 30 minutes before departure in Standard and Plus, and 15 minutes in Premier."
+            },
+            {
+              "title": "Pass the border checks",
+              "text": "Belgian officers check you out of the Schengen area, then UK Border Force checks you into the UK. Have your passport ready, and your UK ETA if you need one."
+            },
+            {
+              "title": "Pass the security scan",
+              "text": "Put bags through the scanner. There is no liquid volume limit."
+            },
+            {
+              "title": "Wait in the departure area",
+              "text": "The platform is announced on the screens. Board when your train is called."
+            },
+            {
+              "title": "Find your coach and seat",
+              "text": "Your ticket shows the coach and seat number. Keep your bags near you or in the luggage racks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onboard",
+      "title": "On the train",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Seating: all seats are reserved. Plus and Premier seats are more spacious.",
+            "Power and Wi-Fi: free Wi-Fi and plug sockets at the seat in all three classes.",
+            "Food and drink: in Standard you can buy snacks, meals and drinks on board, and you can bring your own food. In Plus a choice of two dishes and drinks is served at your seat on London routes. Premier has a chef-designed menu.",
+            "Luggage: put larger bags in the racks at the end of the coach or above your seat. Folded pushchairs travel free in the luggage rack. Children have 1 piece of luggage plus 1 hand item.",
+            "Extra bags: on Brussels to London you can pre-book extra bags on selected trains through the Registered Luggage Service, from 35 GBP per bag, up to 85 x 85 x 36 cm. Oversized items start from 60 GBP. Check Manage your booking to see if your train is eligible.",
+            "Bikes: from 45 GBP, booked in advance. A disassembled bike up to 165 x 90 x 36 cm must be in a box or sealed bag. Eurostar also accepts fully assembled standard road bikes on the Brussels route.",
+            "Pets: pets are not allowed on trains to and from London. Guide and assistance dogs and cats may travel free if you contact Eurostar at least 24 hours before.",
+            "Accessibility: call Eurostar on +44 (0) 3432 186 186 before you travel. If you need help, arrive at least 60 minutes before departure and go to the Eurostar Assist desk. A wheelchair user fare lets you stay in your own wheelchair, and one companion can travel at a reduced rate."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "borders",
+      "title": "Passports, border checks and entry rules",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Status as of 11 November 2026. This is practical information only and not legal advice. Check the official pages named below before you travel."
+        },
+        {
+          "type": "p",
+          "text": "Border checks: on Brussels to London, both Belgian exit checks and UK entry checks take place at Brussels-Midi before you board. On London to Brussels, the UK and Belgian checks take place at St Pancras. You can leave the station straight away when you arrive."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Rule",
+            "Status and date"
+          ],
+          "rows": [
+            [
+              "UK Electronic Travel Authorisation (ETA)",
+              "Most visitors from Europe, the USA, Canada, Australia and other listed countries need an ETA to enter the UK. It costs 20 GBP from 8 April 2026, lasts 2 years or until your passport expires, and covers stays of up to 6 months. Every traveller needs one, including babies and children. Most applications take about 3 working days. British and Irish passport holders do not need one. Apply on GOV.UK or in the official app only."
+            ],
+            [
+              "EU Entry/Exit System (EES)",
+              "Started on 12 October 2025. Non-EU travellers who are not exempt may be asked for a photo and fingerprints when they enter or leave the Schengen area, and Brussels-Midi can apply these checks. Registration is free and the record lasts 3 years. Allow extra time."
+            ],
+            [
+              "ETIAS",
+              "Not running. As of August 2026 the EU was not taking applications and had not announced a start date. Do not pay any website that sells ETIAS now. Check the official EU Travel Europe site."
+            ],
+            [
+              "Passport (EU, EEA and Swiss citizens going to the UK)",
+              "A passport is needed, valid for the length of your UK stay. A national ID card that meets the biometric standard is also accepted. Check Eurostar's travel documents page before you travel."
+            ],
+            [
+              "Passport (other nationalities)",
+              "A valid passport, plus an ETA or visa as your nationality requires. Use the GOV.UK visa checker."
+            ],
+            [
+              "Stay limit",
+              "An ETA covers visits of up to 6 months to the UK. Visa-free stays in the Schengen area are limited to 90 days in any 180-day period."
+            ],
+            [
+              "Advance Passenger Information",
+              "The UK requires passport details (or national ID card details for EU, EEA and Swiss citizens) for every traveller on the booking before you travel to or from the UK"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Children: babies and children must each have their own valid travel document. Children aged 12 to 15 may travel alone on some routes with a completed unaccompanied minor form, on trains leaving between 06:00 and 17:00 local time."
+        },
+        {
+          "type": "p",
+          "text": "Dual British and Irish citizens cannot get an ETA and must show a British or Irish passport. Official pages to read: GOV.UK Apply for an electronic travel authorisation, GOV.UK Entry Exit System, and Eurostar travel documents."
+        }
+      ]
+    },
+    {
+      "id": "alternatives",
+      "title": "Other ways to get from Brussels to London",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Flights: direct flights from Brussels Airport to London take about 1 hour 5 minutes to 1 hour 20 minutes in the air. Brussels Airlines and British Airways fly direct, mostly to Heathrow. Fares from about 58 GBP appear when booked in advance, but prices vary widely by date. Add the trip to the airport (about 20 to 25 minutes by train from Brussels-Midi), security, and the trip into central London. Allow about 4 to 5 hours door to door."
+        },
+        {
+          "type": "p",
+          "text": "Coach: FlixBus runs about 6 services a day from Brussels to London, with stops including Brussels-North, Brussels-Midi and London Victoria Coach Station. The average trip is about 8 hours 35 minutes. Fares start from about 36 GBP. Some other operators advertise a faster trip of about 6 hours 30 minutes. Fares are higher on busy dates."
+        },
+        {
+          "type": "p",
+          "text": "Ferry plus train: Stena Line sails from Hook of Holland to Harwich. The crossing takes about 6 hours 30 minutes to 9 hours 30 minutes, and the overnight sailing leaves at 22:00 and arrives about 07:30. You need a train from Brussels to Hook of Holland and a train from Harwich to London, so this is a full day or an overnight trip. Foot passenger fares on booking sites start around 200 GBP, so check Stena Line for current prices. Dover to Calais ferries from DFDS carry vehicles only and do not take foot passengers."
+        },
+        {
+          "type": "p",
+          "text": "Driving with Eurotunnel Le Shuttle: the crossing from Calais to Folkestone takes about 35 minutes, with up to 4 departures an hour. Day Trip and Overnight fares start from 59 GBP per car one way and need a return within 2 days. Standard fares start from 124 GBP each way for an average car. Fuel and tolls are extra. Allow about 5 to 6 hours door to door from central Brussels, plus time to check in at the terminal."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Mode",
+            "Typical total time",
+            "Best when"
+          ],
+          "rows": [
+            [
+              "Eurostar",
+              "About 3 to 4 hours door to door",
+              "You want the fastest, simplest city-centre trip"
+            ],
+            [
+              "Flight",
+              "About 4 to 5 hours door to door",
+              "You find a very cheap fare and live or stay near an airport"
+            ],
+            [
+              "Coach",
+              "About 8 to 9 hours",
+              "You have the lowest budget and time to spare"
+            ],
+            [
+              "Ferry and train",
+              "A full day or overnight",
+              "You want to avoid the tunnel and the plane"
+            ],
+            [
+              "Drive with Le Shuttle",
+              "About 5 to 6 hours",
+              "You have a car, luggage or a group"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Money-saving and first-timer tips",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Get your UK ETA first. Apply on GOV.UK before you book, as most applications take about 3 working days and some take longer. It costs 20 GBP per person, including children.",
+            "Book early. Tickets open roughly 10 to 11 months ahead, and the cheapest fares sell out first.",
+            "Be flexible on days. Avoid Friday and Sunday afternoons and school holidays.",
+            "Book on eurostar.com or the app. Phone and station bookings in Standard and Plus cost an extra 12 GBP.",
+            "Use free exchange. In Standard and Plus you can change the date or time free until 1 hour before departure, paying any difference.",
+            "Pack so you can carry every bag yourself. Each bag must be up to 85 cm long on this route. Extra bags can be pre-booked on selected trains from 35 GBP.",
+            "Travelling from Bruges, Ghent or Antwerp? Book the connecting SNCB train with your Eurostar on eurostar.com so a late train does not cost you your seat.",
+            "Allow extra time at the station. Two passport checks and the EES procedures can take longer at busy times.",
+            "Premier gives free changes and refunds until 48 hours after departure, plus lounge access in Brussels and London. It is worth it when your plans may change.",
+            "If your train is delayed or cancelled: for a delay of 60 to 119 minutes you can claim 25 percent of the ticket price. For 120 minutes or more you can claim 50 percent. Compensation can be taken as cash or vouchers, and vouchers pay more. You can also take a refund or be re-routed. Start your claim with Eurostar customer service."
+          ]
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "mode": "Eurostar train",
+      "time": "About 3 to 4 hours door to door",
+      "from": "Brussels-Midi to London St Pancras",
+      "price": "From about 39 GBP or 44 EUR one way in Standard, more in Plus and Premier",
+      "best": "The fastest and simplest city-centre option."
+    },
+    {
+      "mode": "Flight",
+      "time": "About 4 to 5 hours door to door",
+      "from": "Brussels Airport to London Heathrow",
+      "price": "From about 58 GBP when booked in advance, often much more",
+      "best": "Worth it only when the fare is very low and the airports are close to you."
+    },
+    {
+      "mode": "Coach",
+      "time": "About 8 to 9 hours",
+      "from": "Brussels-North or Brussels-Midi to London Victoria Coach Station",
+      "price": "From about 36 GBP, higher on busy dates",
+      "best": "The lowest fares if you have plenty of time."
+    },
+    {
+      "mode": "Ferry and train",
+      "time": "A full day or overnight",
+      "from": "Train to Hook of Holland, Stena Line to Harwich, train to London",
+      "price": "Check Stena Line for foot passenger fares, which start around 200 GBP on booking sites",
+      "best": "For travellers who want to avoid the tunnel and the plane and have a full day."
+    },
+    {
+      "mode": "Drive with Eurotunnel",
+      "time": "About 5 to 6 hours",
+      "from": "Brussels to Calais, Le Shuttle to Folkestone, then drive to London",
+      "price": "From about 59 to 124 GBP per car each way, plus fuel and tolls",
+      "best": "A good choice for groups, heavy luggage or onward touring by car."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does the Brussels to London train take?",
+      "a": "The fastest Eurostar takes about 2 hours. Eurostar's site shows 2 hours 01 minutes."
+    },
+    {
+      "q": "How much does Eurostar Brussels to London cost?",
+      "a": "Standard fares start from about 44 EUR or 39 GBP one way. Plus and Premier cost more, and prices rise as the train fills. Check eurostar.com for your date."
+    },
+    {
+      "q": "Where does the train leave from in Brussels?",
+      "a": "It leaves from Brussels-Midi (Bruxelles-Midi), Avenue Fonsny 47 b. Check-in is at the Channel Terminal under platforms 1 and 2."
+    },
+    {
+      "q": "How early should I check in?",
+      "a": "Eurostar recommends arriving 45 to 60 minutes before departure in Standard and Plus and 30 to 45 minutes in Premier. Gates close 30 minutes before departure (15 minutes in Premier)."
+    },
+    {
+      "q": "What are the luggage limits?",
+      "a": "Standard and Plus include 2 bags plus 1 small hand item. Premier includes 3 bags plus 1 hand item. Each bag can be up to 85 cm long on London routes. There is no weight limit, but you must carry the bags yourself."
+    },
+    {
+      "q": "Can I take liquids on Eurostar?",
+      "a": "Yes. There is no liquid volume limit. Some alcohol restrictions apply."
+    },
+    {
+      "q": "Do I need a visa or an ETA for the UK?",
+      "a": "It depends on your nationality. Most visitors from Europe, the USA, Canada and Australia need a UK ETA, which costs 20 GBP. British and Irish passport holders do not. Apply on GOV.UK only and use the visa checker if you are unsure."
+    },
+    {
+      "q": "Where are the passport checks?",
+      "a": "Both the Belgian exit check and the UK entry check take place at Brussels-Midi before you board. You can walk out of St Pancras on arrival."
+    },
+    {
+      "q": "Can I do Brussels to London as a day trip?",
+      "a": "Yes, but plan around the first train at about 08:00 and the last at about 21:00 on most days. Check the times for your date."
+    },
+    {
+      "q": "Can children travel free?",
+      "a": "Children under 4 travel free if they sit on an adult's lap. Children aged 4 to 11 pay a discounted fare in Standard and Plus."
+    },
+    {
+      "q": "What if the train is delayed?",
+      "a": "For a delay of 60 to 119 minutes you can claim 25 percent of the ticket price. For 120 minutes or more you can claim 50 percent. You can also ask for a refund or re-routing."
+    }
+  ],
+  "verified": "2026-11-11",
+  "sources": [
+    {
+      "title": "Eurostar: Brussels to London",
+      "url": "https://www.eurostar.com/uk-en/train/brussels-to-london"
+    },
+    {
+      "title": "Eurostar Belgium: Brussels to London",
+      "url": "https://www.eurostar.com/be-en/train/brussels-to-london"
+    },
+    {
+      "title": "Eurostar: Check-in",
+      "url": "https://www.eurostar.com/uk-en/travel-info/your-trip/check-in"
+    },
+    {
+      "title": "Eurostar: Brussels-Midi station",
+      "url": "https://eurostar.com/uk-en/travel-info/stations/brussels-midi"
+    },
+    {
+      "title": "Eurostar: Luggage",
+      "url": "https://www.eurostar.com/uk-en/travel-info/travel-planning/luggage"
+    },
+    {
+      "title": "Eurostar: Travel classes",
+      "url": "https://www.eurostar.com/uk-en/travel-info/eurostar-experience/travel-classes"
+    },
+    {
+      "title": "Eurostar: Fares and fees",
+      "url": "https://www.eurostar.com/uk-en/travel-info/travel-planning/eurostar-fares-and-fees"
+    },
+    {
+      "title": "Eurostar: Travel documents",
+      "url": "https://www.eurostar.com/travel-info/your-trip/travel-documents"
+    },
+    {
+      "title": "Eurostar: Connecting SNCB trains",
+      "url": "https://www.eurostar.com/uk-en/travel-info/connecting-train/sncb"
+    },
+    {
+      "title": "Eurostar: Rail passengers rights",
+      "url": "https://www.eurostar.com/uk-en/rail-passengers-rights"
+    },
+    {
+      "title": "Eurostar: Pet travel",
+      "url": "https://www.eurostar.com/uk-en/pet-travel"
+    },
+    {
+      "title": "Eurostar: Accessibility",
+      "url": "https://www.eurostar.com/be-en/travel-info/travel-planning/accessibility"
+    },
+    {
+      "title": "Eurostar help: How far in advance can I book",
+      "url": "https://help.eurostar.com/be-en/question/How-far-in-advance-can-I-book-Eurostar-tickets"
+    },
+    {
+      "title": "Eurostar: Interrail pass holder fares",
+      "url": "https://www.eurostar.com/uk-en/deals/interrail"
+    },
+    {
+      "title": "Interrail: International train reservation fees",
+      "url": "https://www.interrail.com/en/book-reservations/reservation-fees/international-train-reservation-fees"
+    },
+    {
+      "title": "B-Europe: Eurostar",
+      "url": "https://www.b-europe.com/EN/Trains/Eurostar"
+    },
+    {
+      "title": "GOV.UK: EU Entry/Exit System",
+      "url": "https://gov.uk/entry-exit-system"
+    },
+    {
+      "title": "GOV.UK: Apply for an electronic travel authorisation (ETA)",
+      "url": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta"
+    },
+    {
+      "title": "Seat61: Brussels-Midi station",
+      "url": "https://www.seat61.com/stations/brussels-midi.htm"
+    },
+    {
+      "title": "Seat61: Eurostar London to Brussels",
+      "url": "https://www.seat61.com/Belgium"
+    },
+    {
+      "title": "Rail Europe: Brussels to London train",
+      "url": "https://www.raileurope.com/destinations/brussels-london-train"
+    },
+    {
+      "title": "Trainline: Brussels to London",
+      "url": "https://www.thetrainline.com/en-us/train-times/brussels-to-london"
+    },
+    {
+      "title": "Omio: Brussels to London",
+      "url": "https://www.omio.co.uk/trains/brussels/london"
+    },
+    {
+      "title": "Omio: London to Brussels travel options",
+      "url": "https://www.omio.co.uk/travel/london/brussels"
+    },
+    {
+      "title": "Omio: Brussels to London Heathrow flights",
+      "url": "https://www.omio.co.uk/flights/brussels/london-heathrow-airport-xgiwi"
+    },
+    {
+      "title": "FlixBus: Brussels to London",
+      "url": "https://www.flixbus.co.uk/bus-routes/brussels-london"
+    },
+    {
+      "title": "Direct Ferries: Hook of Holland to Harwich",
+      "url": "https://directferries.co.uk/hook_of_holland_harwich_ferry.htm"
+    },
+    {
+      "title": "DFDS: Dover to Calais",
+      "url": "https://dfds.com/en-gb/passenger-ferries/ferry-crossings/ferries-to-france/dover-calais"
+    },
+    {
+      "title": "Le Shuttle (Eurotunnel)",
+      "url": "https://www.leshuttle.com/uk-en"
+    },
+    {
+      "title": "Le Shuttle: Standard fares and prices",
+      "url": "https://www.leshuttle.com/uk-en/tickets-fares-add-ons/standard-fares-and-prices"
+    },
+    {
+      "title": "Jetsetter Guide: ETIAS stays offline",
+      "url": "https://jetsetterguide.com/news/airlines/etias-stays-offline-eu-holds-back-launch-date"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "id": "PRT",
+  "isoNumeric": "620",
+  "name": "Portugal",
+  "capital": "Lisbon",
+  "flag": "prt",
+  "lonLat": [
+    -9.14,
+    38.72
+  ],
+  "modes": {
+    "train": {
+      "sum": "Santa Apolonia and Oriente are the main stations. CP runs Alfa Pendular and Intercity trains to Porto, and suburban lines to Sintra and Cascais.",
+      "sched": "Suburban lines to Cascais and Sintra run frequently from early morning until late evening.",
+      "tickets": [
+        "Lisbon to Sintra or Cascais: zone-based fare of a few euros one way",
+        "Lisbon to Porto: Alfa Pendular or Intercity, cheaper when booked early",
+        "Navegante card needed for suburban trains in the Lisbon area",
+        "CP app for tickets"
+      ],
+      "tip": "Cascais line departs from Cais do Sodre, Sintra line from Rossio.",
+      "link": [
+        "CP",
+        "https://www.cp.pt"
+      ],
+      "buy": [
+        "CP ticket offices and ticket machines in stations",
+        "CP website and CP app for Alfa Pendular and Intercidades. Seat reservation is compulsory",
+        "Sintra and Cascais lines: load zapping credit or a ticket on a navegante card (0.50 EUR) at station machines. Fertagus has its own tickets and machines",
+        "On board: generally not allowed. Only if the boarding station has no ticket sales, and then cash only, no extra fee",
+        "Without a valid ticket you can be fined 120 to 350 EUR on suburban and short regional trains, and 250 to 700 EUR on longer trips",
+        "Contactless bank cards do not work on CP trains. Buy and validate before you board"
+      ],
+      "destinations": [
+        {
+          "to": "Cascais",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 40 min",
+          "station": "Cais do Sodre",
+          "operator": "CP Urbanos (Cascais line)",
+          "note": "Frequent trains, first about 05:30"
+        },
+        {
+          "to": "Sintra",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 40 min",
+          "station": "Rossio",
+          "operator": "CP Urbanos (Sintra line)",
+          "note": "A train about every 15 min"
+        },
+        {
+          "to": "Setubal",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 1 h",
+          "station": "Roma-Areeiro (also Entrecampos, Sete Rios)",
+          "operator": "Fertagus",
+          "note": "Crosses the 25 de Abril bridge, a train every 20 min"
+        },
+        {
+          "to": "Evora",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 1 h 30 min",
+          "station": "Entrecampos or Oriente",
+          "operator": "Intercidades",
+          "note": "About 9 trains a day. Check which station your train uses"
+        },
+        {
+          "to": "Coimbra",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 1 h 40 min",
+          "station": "Oriente or Santa Apolonia",
+          "operator": "Alfa Pendular, Intercidades",
+          "note": "Arrives at Coimbra-B, outside the centre"
+        },
+        {
+          "to": "Aveiro",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 2 h 5 min",
+          "station": "Oriente or Santa Apolonia",
+          "operator": "Alfa Pendular, Intercidades"
+        },
+        {
+          "to": "Porto",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 2 h 45 min",
+          "station": "Oriente or Santa Apolonia",
+          "operator": "Alfa Pendular, Intercidades",
+          "note": "Trains through the day. Arrives at Porto Campanha"
+        },
+        {
+          "to": "Faro",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 3 h",
+          "station": "Oriente",
+          "operator": "Alfa Pendular, Intercidades",
+          "note": "Intercidades take about 3 h 30 min. Other Algarve stops include Albufeira-Ferreiras, Portimao and Lagos. Check which trains run direct"
+        },
+        {
+          "to": "Braga",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 3 h 30 min",
+          "station": "Oriente",
+          "operator": "Alfa Pendular",
+          "note": "A few trains a day via Coimbra and Porto"
+        },
+        {
+          "to": "Santarem",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 35 min",
+          "station": "Oriente or Santa Apolonia",
+          "operator": "Alfa Pendular, Intercidades",
+          "note": "On Intercidades trains towards Coimbra and Porto. Time is from Lisboa Oriente"
+        },
+        {
+          "to": "Entroncamento",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 55 min",
+          "station": "Oriente or Santa Apolonia",
+          "operator": "Alfa Pendular, Intercidades",
+          "note": "On Intercidades trains towards Coimbra and Porto. Time is from Lisboa Oriente"
+        },
+        {
+          "to": "Pombal",
+          "country": "Portugal",
+          "type": "domestic",
+          "time": "about 1 h 25 min",
+          "station": "Oriente or Santa Apolonia",
+          "operator": "Alfa Pendular, Intercidades",
+          "note": "On Intercidades trains towards Coimbra and Porto. Time is from Lisboa Oriente"
+        }
+      ]
+    },
+    "tram": {
+      "sum": "Tram 28 climbs the old districts and is famous, but very crowded. The metro has 4 lines.",
+      "sched": "Metro 06:30 to 01:00. Tram 28 runs from early morning to evening.",
+      "tickets": [
+        "Navegante occasional card: 0.50 EUR",
+        "Carris tram ticket on board: about 3.30 EUR, bus about 2.30 EUR",
+        "24-hour Carris and Metro ticket: about 7.25 EUR",
+        "Lisboa Card: includes attractions"
+      ],
+      "tip": "Take Tram 28 early in the morning to avoid queues, or choose tram 12 instead.",
+      "link": [
+        "Carris",
+        "https://www.carris.pt"
+      ],
+      "buy": [
+        "On board from the driver: about 3.30 EUR in cash. Small change only",
+        "Tap a contactless bank card on the reader by the door, about 3.30 EUR",
+        "Cheaper with a navegante card and zapping credit. Buy the card at metro machines or Carris shops",
+        "Bank cards do not work on the long trams of line 15E. Use navegante or cash"
+      ]
+    },
+    "bus": {
+      "sum": "Carris buses cover Lisbon and Carris Metropolitana buses cover the wider region. Rede Expressos runs coaches to other cities.",
+      "sched": "Day buses from early morning to about midnight, with some night routes.",
+      "tickets": [
+        "Same navegante card",
+        "Zapping credit gives cheaper fares",
+        "Navegante Municipal monthly pass: about 30 EUR",
+        "Rede Expressos: tickets online"
+      ],
+      "tip": "Top up Zapping credit and tap in each time you board, or tap a contactless bank card on Carris buses and trams.",
+      "link": [
+        "Carris",
+        "https://www.carris.pt"
+      ],
+      "buy": [
+        "Carris buses: on board from the driver, about 2.30 EUR in cash",
+        "Carris buses: tap a contactless bank card on the reader, about 2.30 EUR",
+        "Cheaper with a navegante card and zapping credit, from metro machines or Carris shops",
+        "Carris Metropolitana: use navegante. Only some routes take bank cards",
+        "Rede Expressos coaches: buy online"
+      ]
+    },
+    "airport": {
+      "sum": "Humberto Delgado Airport (LIS) is close to the city centre.",
+      "sched": "Metro red line reaches the centre in about 20 minutes.",
+      "tickets": [
+        "Metro: about 1.90 EUR plus 0.50 EUR for the navegante card",
+        "Taxi from the airport: fixed fares since October 2026, about 16 to 23 EUR by zone and time",
+        "Ride-hailing also available",
+        "Train from Oriente: connections to Porto"
+      ],
+      "tip": "The metro is the cheapest way from LIS to the city. For a taxi, buy a voucher at the Turismo de Lisboa desk in arrivals or pay the driver.",
+      "link": [
+        "ANA Aeroportos",
+        "https://www.aeroportolisboa.pt"
+      ],
+      "buy": [
+        "Metro red line: navegante card (0.50 EUR) plus a single at the machines or ticket office, or tap a contactless bank card at the gates",
+        "Carris bus 783: about 2.30 EUR from the driver, or cheaper with navegante",
+        "Night bus 208 to Oriente and Cais do Sodre: Carris fares",
+        "No train at the airport. Take the metro to Oriente for CP trains",
+        "The Aerobus shuttle no longer runs"
+      ]
+    }
+  },
+  "metro": {
+    "note": "Four metro lines: blue, yellow, green and red. The red line serves the airport. A new circular line is planned for 2027.",
+    "mapLabel": "Official metro map (Metro Lisboa)",
+    "mapUrl": "https://www.metrolisboa.pt/en/travel/diagrams-and-maps/",
+    "lines": [
+      "Blue (Azul), Yellow (Amarela), Green (Verde) and Red (Vermelha)",
+      "Baixa-Chiado links Blue and Green",
+      "Marques de Pombal links Blue and Yellow",
+      "Saldanha links Yellow and Red, and Alameda links Green and Red"
+    ]
+  },
+  "tips": [
+    "Lisbon is very hilly. A short taxi or ride-hail can save a tiring climb.",
+    "One navegante card works on metro, trams, buses and trains.",
+    "A contactless bank card works at metro gates and on Carris buses and trams, but not on CP trains."
+  ],
+  "apps": [
+    {
+      "name": "Carris",
+      "what": "Buses and trams"
+    },
+    {
+      "name": "navegante",
+      "what": "Top up and check your navegante card"
+    },
+    {
+      "name": "CP",
+      "what": "Train tickets"
+    },
+    {
+      "name": "Bolt",
+      "what": "Ride-hailing"
+    }
+  ],
+  "verified": "2026-11-11",
+  "sources": [
+    {
+      "title": "Metro Lisboa: Tarifas 2026",
+      "url": "https://www.metrolisboa.pt/wp-content/uploads/2025/12/Tarifas_site_2026_PT.pdf"
+    },
+    {
+      "title": "Metro Lisboa: Timetables and frequency",
+      "url": "https://www.metrolisboa.pt/en/travel/timetables-and-frequency/"
+    },
+    {
+      "title": "Metro Lisboa: Diagrams and maps",
+      "url": "https://www.metrolisboa.pt/en/travel/diagrams-and-maps/"
+    },
+    {
+      "title": "Metro Lisboa: FAQ",
+      "url": "https://www.metrolisboa.pt/en/faq/"
+    },
+    {
+      "title": "Echo Boomer: Carris prices from 1 January 2026",
+      "url": "https://echoboomer.pt/carris-atualiza-precos-bilhetes-lisboa-2026/"
+    },
+    {
+      "title": "ECO: navegante pass prices unchanged in 2026",
+      "url": "https://eco.sapo.pt/2025/12/18/preco-do-passe-navegante-sem-alteracoes-em-2026/"
+    },
+    {
+      "title": "CP: Lisbon urban train prices",
+      "url": "https://cp.pt/info/documents/d/cp/precos-comboios-urbanos-lisboa"
+    },
+    {
+      "title": "DECO PROteste: fixed taxi fares at Lisbon airport",
+      "url": "https://www.deco.proteste.pt/familia-consumo/ferias-lazer/noticias/taxis-com-tarifa-fixa-aeroporto-lisboa"
+    },
+    {
+      "title": "Sabado: Lisbon airport taxis with fixed fares from 15 October",
+      "url": "https://www.sabado.pt/portugal/amp/taxis-no-aeroporto-de-lisboa-com-taxa-fixa-a-partir-de-15-de-outubro"
+    },
+    {
+      "title": "Wego: Lisbon airport to city centre 2026",
+      "url": "https://blog.wego.com/lisbon-airport-to-city-centre/"
+    },
+    {
+      "title": "Contactless payment in Lisbon 2026",
+      "url": "https://publictransportguide.com/lisbon-contactless-payment-2026/"
+    },
+    {
+      "title": "Sabado: Lisbon circular line opening in Q1 2027",
+      "url": "https://www.sabado.pt/portugal/detalhe/abertura-da-linha-circular-do-metro-de-lisboa-no-primeiro-trimestre-de-2027"
+    },
+    {
+      "title": "App Store: navegante (TML)",
+      "url": "https://apps.apple.com/app/id6484591306"
+    },
+    {
+      "title": "Time Out Lisboa: apps for Lisbon public transport",
+      "url": "https://www.timeout.pt/lisboa/pt/viagens/as-apps-que-ajudam-a-navegar-pelos-transportes-publicos-de-lisboa"
+    },
+    {
+      "title": "Seat61: trains from Madrid (no direct Madrid-Lisbon, Porto-Lisbon times, Vigo-Valenca buses in 2026)",
+      "url": "https://seat61.com/international-trains/trains-from-Madrid.htm"
+    },
+    {
+      "title": "Olive Press: Lisbon-Madrid train planned, no direct train now (Aug 2026)",
+      "url": "https://www.theolivepress.es/spain-news/2026/08/19/lisbon-madrid-train-route-planned-as-renfe-targets-portugal-expansion/"
+    },
+    {
+      "title": "CP: Alfa Pendular and Intercidades timetable Lisbon-Algarve-Porto (from 19 Jul 2026)",
+      "url": "https://www.cp.pt/info/documents/d/cp/comboio-porto-lisboa-faro-lagos-v-r-s-antonio"
+    },
+    {
+      "title": "CP: general conditions of carriage (no on-board sales, fines without a ticket)",
+      "url": "https://www1.cp.pt/StaticFiles/Passageiros/5_informacao/informacao_util/condicoes_gerais_transporte/condicoes-gerais-transporte.pdf"
+    },
+    {
+      "title": "CP: Lisbon-Cascais urban timetable (from 6 Apr 2026)",
+      "url": "https://www.cp.pt/info/documents/d/cp/comboios-urbanos-lisboa-cascais-1"
+    },
+    {
+      "title": "CP: Intercidades Lisbon-Evora-Beja fares and stations",
+      "url": "https://cp.pt/info/documents/d/cp/precos-intercidades-lisboa-evora-beja"
+    },
+    {
+      "title": "Transit: CP Urbanos Sintra line",
+      "url": "https://transitapp.com/en/region/lisbon/cp-urbanos/comboio-linha-de-sintra"
+    },
+    {
+      "title": "Turismo de Lisboa: Fertagus Setubal to Roma-Areeiro (57 min)",
+      "url": "https://www.visitlisboa.com/en/places/fertagus"
+    },
+    {
+      "title": "Lisboa Secreta: Fertagus Setubal trains every 20 min",
+      "url": "https://lisboasecreta.co/en/fertagus-trains-lisbon-setubal-20-minutes/"
+    },
+    {
+      "title": "EveryRail: Lisbon to Faro by train",
+      "url": "https://everyrail.com/trains/lisbon-to-faro/"
+    },
+    {
+      "title": "EveryRail: Lisbon to Coimbra by train",
+      "url": "https://everyrail.com/trains/lisbon-to-coimbra/"
+    },
+    {
+      "title": "Omio: Lisbon to Evora trains",
+      "url": "https://www.omio.co.uk/trains/lisbon/evora-0uryv"
+    },
+    {
+      "title": "Show Me the Journey: Alfa Pendular routes",
+      "url": "https://showmethejourney.com/travel-on/train/alfa-pendular-portugal/"
+    },
+    {
+      "title": "Trains Tracking: Alfa Pendular Lisboa-Braga",
+      "url": "https://trainstracking.com/trains/alfa-pendular-lisboa-braga"
+    },
+    {
+      "title": "CP: Alfa Pendular and Intercidades timetable, Lisbon to the north",
+      "url": "https://www.cp.pt/info/documents/d/cp/comboios-alfa-pendular-intercidades-lisboa-norte"
+    }
+  ]
+}

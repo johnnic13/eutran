@@ -1,0 +1,418 @@
+{
+  "id": "NOR",
+  "isoNumeric": "578",
+  "name": "Norway",
+  "capital": "Oslo",
+  "flag": "nor",
+  "lonLat": [
+    10.75,
+    59.91
+  ],
+  "modes": {
+    "train": {
+      "sum": "Oslo S (Oslo Central) is the hub for all long-distance trains: Vy to Bergen, Skien and Gothenburg, SJ Norge to Trondheim, Lillehammer and Stockholm, Go-Ahead Nordic to Kristiansand and Stavanger, and Snälltåget to Gothenburg and Malmö. The Flytoget airport train and local trains also use Oslo S and Nationaltheatret.",
+      "sched": "Long-distance trains run from early morning to evening, with night trains to Bergen, Trondheim and Stavanger. A new timetable starts on 13 December 2026. Check vy.no or entur.no for exact times.",
+      "tickets": [
+        "Long-distance fares work like airline fares: the cheapest tickets sell out first, so book early on vy.no, sj.no or entur.no",
+        "Children under 6 travel free. Children 6 to 17, students and seniors get discounts",
+        "Night trains offer a seat, a comfort seat or a sleeping compartment. Reserve in advance",
+        "Interrail and Eurail passes are accepted on most trains. Reservations are required on long-distance services",
+        "Flåm Railway (Myrdal to Flåm, on the Bergen Line): book through Vy or Entur in advance",
+        "Ruter tickets are valid on Vy trains inside Oslo and Akershus, including the airport"
+      ],
+      "tip": "Entur (entur.no and the Entur app) shows every Norwegian operator in one place with no booking fee. Compare Vy, SJ Norge and Go-Ahead Nordic there.",
+      "link": [
+        "Vy",
+        "https://www.vy.no/en/train/oslo"
+      ],
+      "buy": [
+        "Vy app or vy.no for Vy trains",
+        "SJ Norge: sj.no, or Entur for Trondheim and Lillehammer",
+        "Go-Ahead Nordic and Snälltåget: their own websites, or Entur",
+        "Entur app or entur.no for all Norwegian trains",
+        "Vy sales points at Oslo S",
+        "Stockholm trains: SJ app or sj.se"
+      ],
+      "destinations": [
+        {
+          "to": "Oslo Airport Gardermoen",
+          "country": "Norway",
+          "type": "domestic",
+          "time": "about 19 min",
+          "station": "Oslo S",
+          "operator": "Flytoget, Vy",
+          "note": "Flytoget takes about 19 min, Vy regional trains about 23 min"
+        },
+        {
+          "to": "Lillehammer",
+          "country": "Norway",
+          "type": "domestic",
+          "time": "about 1 h 55 min",
+          "station": "Oslo S",
+          "operator": "SJ Norge, Vy",
+          "note": "On the Dovre Line towards Trondheim"
+        },
+        {
+          "to": "Skien",
+          "country": "Norway",
+          "type": "domestic",
+          "time": "about 2 h",
+          "station": "Oslo S",
+          "operator": "Vy",
+          "note": "About hourly"
+        },
+        {
+          "to": "Kristiansand",
+          "country": "Norway",
+          "type": "domestic",
+          "time": "about 4 h 25 min",
+          "station": "Oslo S",
+          "operator": "Go-Ahead Nordic",
+          "note": "About 6 direct trains a day on the Sørland Line"
+        },
+        {
+          "to": "Bergen",
+          "country": "Norway",
+          "type": "domestic",
+          "time": "about 6 h 30 min",
+          "station": "Oslo S",
+          "operator": "Vy",
+          "note": "Bergen Line over the Hardangervidda plateau, with a night train. Change at Myrdal for the Flåm Railway"
+        },
+        {
+          "to": "Trondheim",
+          "country": "Norway",
+          "type": "domestic",
+          "time": "about 7 h",
+          "station": "Oslo S",
+          "operator": "SJ Norge",
+          "note": "Dovre Line, with several day trains and one night train each way"
+        },
+        {
+          "to": "Stavanger",
+          "country": "Norway",
+          "type": "domestic",
+          "time": "about 7 h 45 min",
+          "station": "Oslo S",
+          "operator": "Go-Ahead Nordic",
+          "note": "Day trains via Kristiansand. The night train takes about 9 h 15 min"
+        },
+        {
+          "to": "Gothenburg",
+          "country": "Sweden",
+          "type": "international",
+          "time": "about 3 h 30 min",
+          "station": "Oslo S",
+          "operator": "Vy, Snälltåget",
+          "note": "Vy runs about every 2 hours. For Copenhagen change at Gothenburg, about 8 h 15 min in total"
+        },
+        {
+          "to": "Stockholm",
+          "country": "Sweden",
+          "type": "international",
+          "time": "about 5 h 30 min",
+          "station": "Oslo S",
+          "operator": "SJ",
+          "note": "Several trains a day. Reservations are required"
+        },
+        {
+          "to": "Malmö",
+          "country": "Sweden",
+          "type": "international",
+          "time": "about 6 h 35 min",
+          "station": "Oslo S",
+          "operator": "Snälltåget",
+          "note": "Daily day train via Gothenburg since 15 June 2026"
+        }
+      ]
+    },
+    "tram": {
+      "sum": "Ruter runs the T-bane (metro), trams, buses and boats in Oslo and Akershus on one ticket system. Six tram lines (12, 13, 15, 17, 18 and 19) serve the centre, and the T-bane has five lines through a shared city tunnel.",
+      "sched": "Check the Ruter app for exact times. The metro usually does not run at night. The metro is largely closed on 19 to 22 November 2026 for signal testing, with replacement buses and tram 19x.",
+      "tickets": [
+        "Single ticket: 46 NOK adult, 23 NOK senior (67 and over), 19 NOK child (6 to 17). Valid 60 minutes in one zone, plus 30 minutes for each extra zone",
+        "30-day ticket, Zone 1 (Oslo): 495 NOK adult, 281 NOK senior, 199 NOK child, 293 NOK student",
+        "24-hour and 7-day tickets: see the Ruter app for current prices. A 7-day ticket is valid for 7 days from activation",
+        "Oslo Pass (24, 48 or 72 hours): includes public transport in Oslo and Akershus, the airport train and many museums. Prices on visitoslo.com",
+        "Children under 6 travel free. On weekends and public holidays an adult can bring up to four children under 18 free",
+        "Fine without a valid ticket: 1,200 NOK on the spot, 1,470 NOK on invoice. Under 18: 1,200 NOK"
+      ],
+      "tip": "Activate your ticket on the reader every time you board a bus, tram, boat or metro. An unactivated ticket is treated as no ticket, and not knowing is not an excuse.",
+      "link": [
+        "Ruter: buy tickets",
+        "https://ruter.no/en/about-our-tickets/buy-tickets-here"
+      ],
+      "buy": [
+        "Ruter app (card or Vipps), the easiest way",
+        "Physical travel card, 50 NOK, from Narvesen, 7-Eleven and Mix kiosks",
+        "Ruter customer centre at Jernbanetorget 1",
+        "Ruter online store (for a travel card)",
+        "Also sold in the Vy, Entur and Brakar apps",
+        "Not possible on trams or the metro. Buy before you board"
+      ]
+    },
+    "bus": {
+      "sum": "Ruter city buses cover Oslo and Akershus on the same fares as the metro and tram. Line numbers 20 to 87 serve Oslo, with express lines marked E. Boats in the fjord (lines B1 and B2 to the islands, B10 to Nesodden) accept the same ticket.",
+      "sched": "Buses run all day. Night buses (lines with N, such as 1N, 2N, 3N) run on Friday and Saturday nights from the centre, mostly from about 01:00.",
+      "tickets": [
+        "Same fares as the metro: 46 NOK adult single, 23 NOK senior, 19 NOK child",
+        "On board buses and boats a single ticket costs 20 NOK more for adults and 10 NOK more for children and seniors",
+        "Night buses use a normal Ruter ticket",
+        "Island ferries B1 and B2 use a normal Ruter ticket and run mainly in summer",
+        "Long distance: Vy and other express buses leave from Oslo Bus Terminal"
+      ],
+      "tip": "Buy in the Ruter app before you board. The driver sells single tickets for cash only, and notes over 200 NOK are not accepted.",
+      "link": [
+        "Ruter: bus in Oslo",
+        "https://ruter.no/en/plan-journey/timetables-and-route-maps/bus-in-oslo"
+      ],
+      "buy": [
+        "Ruter app before you board",
+        "Travel card loaded with a ticket, activated on the reader",
+        "Driver: single ticket only, cash only, notes over 200 NOK not accepted, costs more",
+        "Boats: single tickets can be bought on board in cash",
+        "Kiosks and the Jernbanetorget customer centre"
+      ]
+    },
+    "airport": {
+      "sum": "Oslo Airport (OSL) is at Gardermoen, about 50 km north of the city. The Flytoget Airport Express reaches Oslo S in about 19 minutes, and Vy regional trains take about 23 minutes.",
+      "sched": "Flytoget runs about 6 times an hour to Oslo S (about every 10 minutes in the day). Vy regional trains run about 3 times an hour. Flybussen coaches take 40 to 60 minutes to the centre.",
+      "tickets": [
+        "Flytoget to Oslo S: 276 NOK adult, 138 NOK for youth 16 to 20, students and seniors over 67. Children under 16 travel free with an adult",
+        "Flytoget return ticket: valid for 90 days on any departure",
+        "Vy regional train: about half the price of Flytoget. Price shown on vy.no and in the Vy app",
+        "Ruter tickets are valid on Vy trains to the airport if they cover zone 4V. Check the zones in the Ruter app",
+        "Flybussen: price on flybussen.no, cheaper when bought in advance",
+        "Taxi: order at the machines outside arrivals, which show the fare before you ride"
+      ],
+      "tip": "Vy regional trains take only 3 to 4 minutes longer than Flytoget and cost much less. Flytoget does not accept Ruter tickets.",
+      "link": [
+        "Flytoget",
+        "https://flytoget.no/en/travel-information/tickets-and-fares/"
+      ],
+      "buy": [
+        "Flytoget: app, website, ticket machines, or tap a bank card at the station reader",
+        "Vy: app or vy.no",
+        "Ruter app (airport zone ticket)",
+        "Flybussen: flybussen.no or machines at the airport; card or cash on the bus",
+        "Taxi: order at the machines outside arrivals"
+      ]
+    }
+  },
+  "metro": {
+    "note": "The T-bane has five lines that share a tunnel through the centre. On 19 to 22 November 2026 almost the whole metro is closed day and night for signal testing. More closures are planned in 2027 on school and public holidays.",
+    "mapLabel": "Oslo metro lines and map (MetroEasy)",
+    "mapUrl": "https://metroeasy.com/norway/oslo-metro-t-bane/",
+    "lines": [
+      "Line 1: Frognerseteren to Bergkrystallen",
+      "Line 2: Østerås to Ellingsrudåsen",
+      "Line 3: Kolsås to Mortensrud",
+      "Line 4: Vestli to Bergkrystallen",
+      "Line 5: Sognsvann to Vestli",
+      "Majorstuen, Nationaltheatret, Stortinget, Jernbanetorget, Grønland and Tøyen are on the shared city tunnel"
+    ]
+  },
+  "tips": [
+    "Activate your ticket on a reader every time you board. The fine without a valid ticket is 1,200 NOK on the spot or 1,470 NOK by invoice.",
+    "Almost the whole T-bane is closed from 19 to 22 November 2026. Use the replacement buses and tram 19x, and check the Ruter app.",
+    "Compare Vy and Flytoget for the airport. Vy is much cheaper and only a few minutes slower.",
+    "On trams and the metro you cannot buy a ticket on board. Buses and boats sell single tickets for cash only, at a higher price."
+  ],
+  "apps": [
+    {
+      "name": "Ruter",
+      "what": "Tickets and journey planner for metro, tram, bus and boat"
+    },
+    {
+      "name": "Entur",
+      "what": "All Norwegian trains and buses, tickets with no booking fee"
+    },
+    {
+      "name": "Vy",
+      "what": "Train tickets, including the Bergen Line and airport trains"
+    },
+    {
+      "name": "Flytoget",
+      "what": "Airport Express tickets and live departures"
+    },
+    {
+      "name": "SJ",
+      "what": "Train tickets to Stockholm and on the Dovre Line"
+    }
+  ],
+  "verified": "2026-11-11",
+  "sources": [
+    {
+      "title": "Ruter: Billettpriser (single ticket prices)",
+      "url": "https://ruter.no/billetter/priser"
+    },
+    {
+      "title": "Ruter: 30-dagersbillett",
+      "url": "https://ruter.no/kjop-billett/billetter-og-priser/30-dagersbillett/"
+    },
+    {
+      "title": "Ruter: Cheaper monthly pass from 1 November",
+      "url": "https://ruter.no/en/aktuelt/produkter/cheaper-monthly-pass-november.md"
+    },
+    {
+      "title": "Ruter: Single ticket",
+      "url": "https://ruter.no/en/about-our-tickets/single-ticket.md"
+    },
+    {
+      "title": "Ruter: 24-hour ticket",
+      "url": "https://ruter.no/en/buying-tickets/tickets-and-fares/24-hour-tickets"
+    },
+    {
+      "title": "Ruter: 7-day tickets",
+      "url": "https://epi.ruter.no/en/buying-tickets/tickets-and-fares/7-day-tickets"
+    },
+    {
+      "title": "Ruter: Tourist in Oslo and Akershus",
+      "url": "https://ruter.no/en/about-our-tickets/tourist-ticket.md"
+    },
+    {
+      "title": "Ruter: Buy tickets here",
+      "url": "https://ruter.no/en/about-our-tickets/buy-tickets-here"
+    },
+    {
+      "title": "Ruter: Ticket control",
+      "url": "https://ruter.no/en/fa-hjelp-og-kontakt/ticket-control"
+    },
+    {
+      "title": "Ruter: Incorrect fee increase corrected (control fees)",
+      "url": "https://ruter.no/en/fa-hjelp-og-kontakt/billettkontroll/we-apologize-for-incorrect-fee-increase"
+    },
+    {
+      "title": "Ruter: Det store T-baneloftet (metro closures)",
+      "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/det-store-t-baneloftet"
+    },
+    {
+      "title": "Ruter: The great metro upgrade",
+      "url": "https://ruter.no/en/projects-and-new-development/the-great-metro-upgrade.md"
+    },
+    {
+      "title": "Ruter: Night metro in Oslo",
+      "url": "https://ruter.no/en/plan-journey/nattransport/night-metro.md"
+    },
+    {
+      "title": "Ruter: Night bus in Oslo and Akershus",
+      "url": "https://ruter.no/en/plan-journey/nattransport/night-bus.md"
+    },
+    {
+      "title": "Ruter: Bus in Oslo",
+      "url": "https://ruter.no/en/plan-journey/timetables-and-route-maps/bus-in-oslo"
+    },
+    {
+      "title": "Ruter: Tram timetables and route maps",
+      "url": "https://ruter.no/en/plan-journey/timetables-and-route-maps/tram.md"
+    },
+    {
+      "title": "Ruter: Ferry timetables and route maps",
+      "url": "https://ruter.no/en/plan-journey/timetables-and-route-maps/ferry.md"
+    },
+    {
+      "title": "Visit Oslo: Island hopping in the Oslo fjord",
+      "url": "https://www.visitoslo.com/activity/island-hopping-in-the-oslo-fjord"
+    },
+    {
+      "title": "Visit Oslo: Oslo Pass prices",
+      "url": "https://www.visitoslo.com/en/activities-and-attractions/oslo-pass/prices/"
+    },
+    {
+      "title": "MetroEasy: Oslo Metro (T-bane)",
+      "url": "https://metroeasy.com/norway/oslo-metro-t-bane/"
+    },
+    {
+      "title": "Flytoget: Tickets and fares",
+      "url": "https://flytoget.no/en/travel-information/tickets-and-fares/"
+    },
+    {
+      "title": "Flytoget: Train from Oslo Airport to the city",
+      "url": "https://flytoget.no/en/to-and-from-airport/train-from-oslo-airport-to-city/"
+    },
+    {
+      "title": "Visit Oslo: Flytoget Airport Express",
+      "url": "https://www.visitoslo.com/misc/flytoget-airport-express-train"
+    },
+    {
+      "title": "Visit Oslo: Flybussen",
+      "url": "https://www.visitoslo.com/misc/flybussen"
+    },
+    {
+      "title": "Visit Oslo: Oslo Gardermoen airport transport",
+      "url": "https://www.visitoslo.com/transport/transport-airport/oslo-gardermoen"
+    },
+    {
+      "title": "Vy: Train between Oslo and Oslo Airport Gardermoen",
+      "url": "https://www.vy.no/en/train/oslo-gardermoen"
+    },
+    {
+      "title": "Vy: To and from Oslo Airport Gardermoen",
+      "url": "https://www.vy.no/en/travelling-with-vy/to-and-from-airport/gardermoen"
+    },
+    {
+      "title": "Vy: Trains from Oslo",
+      "url": "https://www.vy.no/en/train/oslo"
+    },
+    {
+      "title": "Vy: Train travel in Norway",
+      "url": "https://www.vy.no/tog"
+    },
+    {
+      "title": "Avinor: Public transportation to and from Oslo Airport",
+      "url": "https://www.avinor.no/en/airport/oslo/info/public-transportation/"
+    },
+    {
+      "title": "SJ Norge: Train between Oslo and Trondheim",
+      "url": "https://www.sj.no/en/oslo-and-trondheim/"
+    },
+    {
+      "title": "SJ: High-speed train to Stockholm",
+      "url": "https://sj.no/en/highspeed"
+    },
+    {
+      "title": "Snälltåget: Malmö, Gothenburg and Oslo",
+      "url": "https://www.snalltaget.se/en/malmo-gothenburg-oslo"
+    },
+    {
+      "title": "Seat61: Trains from Oslo to other European cities",
+      "url": "https://www.seat61.com/international-trains/trains-from-Oslo.htm"
+    },
+    {
+      "title": "Interrail: Trains in Norway",
+      "url": "https://www.interrail.com/en/plan-your-trip/tips-and-tricks/trains-europe/trains-country/trains-norway"
+    },
+    {
+      "title": "Visit Bergen: Bergensbanen, Oslo to Bergen by train",
+      "url": "https://en.visitbergen.com/visitor-information/travel-information/getting-here/bergensbanen-oslo-to-bergen-by-train"
+    },
+    {
+      "title": "Euro Rail Times: Oslo to Bergen",
+      "url": "https://eurorailtimes.com/routes/oslo-bergen"
+    },
+    {
+      "title": "Fjord Tours: The Sørland Line",
+      "url": "https://www.fjordtours.com/en/norway/transportation/scenic-train-rides/sorlandet-line"
+    },
+    {
+      "title": "Omio: Oslo to Kristiansand by train",
+      "url": "https://www.omio.com.ar/trenes/oslo/kristiansand-thlda"
+    },
+    {
+      "title": "Omio: Oslo to Lillehammer by train",
+      "url": "https://www.omio.co.uk/trains/oslo/lillehammer-kzazx"
+    },
+    {
+      "title": "Rome2rio: Skien to Oslo",
+      "url": "https://www.rome2rio.com/s/Skien/Oslo"
+    },
+    {
+      "title": "Nachtzug.net: Stavanger to Oslo night train",
+      "url": "https://nachtzug.net/en/night-train/stavanger-oslo/"
+    },
+    {
+      "title": "Show Me The Journey: Trains in Norway",
+      "url": "https://showmethejourney.com/train-travel-info/countries/norway/"
+    }
+  ]
+}

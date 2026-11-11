@@ -1,0 +1,426 @@
+{
+  "id": "DNK",
+  "isoNumeric": "208",
+  "name": "Denmark",
+  "capital": "Copenhagen",
+  "flag": "dnk",
+  "lonLat": [
+    12.57,
+    55.68
+  ],
+  "modes": {
+    "train": {
+      "sum": "Copenhagen Central Station (København H) is the hub for DSB InterCity and InterCityLyn trains, regional trains, S-trains and Øresund trains to Sweden. Direct trains also run to Hamburg, Berlin and Prague.",
+      "sched": "InterCityLyn and InterCity trains to Odense, Aarhus and Aalborg leave every hour or more often, with more than 50 departures a day to Odense and more than 30 a day to Aarhus and to Aalborg. Øresund trains to Malmö run every 15 to 20 minutes. Hamburg has six departures a day.",
+      "tickets": [
+        "DSB Orange: limited cheap seats, on sale about two months ahead. From 69 DKK to Odense, 119 DKK to Aarhus and about 135 DKK to Aalborg",
+        "DSB Standard ticket: price depends on the route and is valid on any departure that day",
+        "DSB 1' (first class): drinks, newspapers and lounge access at Copenhagen and Odense stations",
+        "Up to two children under 12 travel free with an adult. Children aged 12 to 15 pay a reduced fare",
+        "Hamburg: early-booking fares from 28.99 EUR in 2nd class. A seat reservation costs about 5.50 EUR",
+        "Øresund trains to Malmö: a ticket bought in Denmark is valid on the booked train and on trains up to 3 hours before or after. No seat reservation needed"
+      ],
+      "tip": "You need a valid ticket before you board. If a ticket check finds none, the control fee is 750 DKK.",
+      "link": [
+        "DSB",
+        "https://www.dsb.dk/en/travelling-in-the-cities/copenhagen/types-of-tickets-for-copenhagen/"
+      ],
+      "buy": [
+        "DSB app or dsb.dk (e-ticket on your phone)",
+        "DSB ticket machines at train stations",
+        "DSB Salg & Service desk at Copenhagen Central Station",
+        "7-Eleven shops at stations",
+        "Not sold on board. DSB trains are self-service, and a ticket check without a valid ticket costs 750 DKK, payable within 14 days",
+        "Øresund trains to Sweden: oresundstag.se or the Skånetrafiken app",
+        "Hamburg, Berlin and Prague: dsb.dk"
+      ],
+      "destinations": [
+        {
+          "to": "Copenhagen Airport (Kastrup)",
+          "country": "Denmark",
+          "type": "domestic",
+          "time": "about 15 min",
+          "station": "Copenhagen Central",
+          "operator": "DSB regional, Øresund train",
+          "note": "Zone 4. Metro M2 also goes to the airport"
+        },
+        {
+          "to": "Roskilde",
+          "country": "Denmark",
+          "type": "domestic",
+          "time": "about 20 min",
+          "station": "Copenhagen Central",
+          "operator": "DSB regional"
+        },
+        {
+          "to": "Helsingør (Elsinore)",
+          "country": "Denmark",
+          "type": "domestic",
+          "time": "about 45 min",
+          "station": "Copenhagen Central",
+          "operator": "Regional train",
+          "note": "Nearest station for Kronborg Castle. Trains also stop at Østerport and Nørreport"
+        },
+        {
+          "to": "Odense",
+          "country": "Denmark",
+          "type": "domestic",
+          "time": "about 1 h 20 min",
+          "station": "Copenhagen Central",
+          "operator": "DSB InterCityLyn",
+          "note": "Regular InterCity trains take under 1 h 40 min"
+        },
+        {
+          "to": "Esbjerg",
+          "country": "Denmark",
+          "type": "domestic",
+          "time": "about 2 h 30 min",
+          "station": "Copenhagen Central",
+          "operator": "DSB InterCity"
+        },
+        {
+          "to": "Aarhus",
+          "country": "Denmark",
+          "type": "domestic",
+          "time": "about 2 h 50 min",
+          "station": "Copenhagen Central",
+          "operator": "DSB InterCityLyn",
+          "note": "Regular InterCity trains take just over 3 h"
+        },
+        {
+          "to": "Aalborg",
+          "country": "Denmark",
+          "type": "domestic",
+          "time": "about 4 h 15 min",
+          "station": "Copenhagen Central",
+          "operator": "DSB InterCityLyn",
+          "note": "InterCity trains take just under 5 h"
+        },
+        {
+          "to": "Malmö",
+          "country": "Sweden",
+          "type": "international",
+          "time": "about 35 min",
+          "station": "Copenhagen Central",
+          "operator": "Øresundståg",
+          "note": "Every 15 to 20 minutes. Carry a passport or ID card"
+        },
+        {
+          "to": "Helsingborg",
+          "country": "Sweden",
+          "type": "international",
+          "time": "about 1 h 25 min",
+          "station": "Copenhagen Central",
+          "operator": "Øresundståg",
+          "note": "Direct Øresund train"
+        },
+        {
+          "to": "Gothenburg",
+          "country": "Sweden",
+          "type": "international",
+          "time": "about 3 h 30 min",
+          "station": "Copenhagen Central",
+          "operator": "Øresundståg",
+          "note": "About one train an hour continues from Malmö to Gothenburg"
+        },
+        {
+          "to": "Stockholm",
+          "country": "Sweden",
+          "type": "international",
+          "time": "about 6 h",
+          "station": "Copenhagen Syd",
+          "operator": "Snälltåget",
+          "note": "Daily day train via Malmö, Linköping and Norrköping. It calls at Copenhagen Syd, not Copenhagen Central. SJ high-speed trains also run this route when available, see sj.se"
+        },
+        {
+          "to": "Hamburg",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 4 h 45 min",
+          "station": "Copenhagen Central",
+          "operator": "DSB EuroCity Express, ČD ComfortJet",
+          "note": "Six departures a day"
+        },
+        {
+          "to": "Berlin",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 7 h",
+          "station": "Copenhagen Central",
+          "operator": "ČD ComfortJet",
+          "note": "Direct day train that also stops at Hamburg and goes on to Prague"
+        },
+        {
+          "to": "Prague",
+          "country": "Czechia",
+          "type": "international",
+          "time": "about 11 h",
+          "station": "Copenhagen Central",
+          "operator": "ČD ComfortJet",
+          "note": "Direct day train via Hamburg, Berlin and Dresden"
+        }
+      ]
+    },
+    "tram": {
+      "sum": "Copenhagen has no trams. Four driverless Metro lines (M1 to M4) and the S-train (S-tog) carry most city trips, and harbour buses cross the water. One zone-based ticket works on the Metro, S-train, buses and harbour buses.",
+      "sched": "The Metro runs 24 hours a day, every day. By day trains come every 3 to 6 minutes on M1 and M2 and every 4 to 5 minutes on M3. At night trains run every 7 to 20 minutes.",
+      "tickets": [
+        "Single ticket for 2 zones: 24 DKK, valid 1 h 15 min. A 3-zone ticket is valid 1 h 30 min",
+        "City Pass Small (zones 1 to 4, includes the airport): 100 DKK for 24 hours, up to 340 DKK for 120 hours. Children pay half",
+        "Copenhagen Card DISCOVER: free public transport in zones 1 to 99 and 80+ attractions. Adults 589 DKK for 24 h, 859 DKK for 48 h, 1,039 DKK for 72 h, 1,419 DKK for 120 h",
+        "DSB 24-hour ticket: unlimited travel in all zones (1 to 99) for 24 hours",
+        "Up to two children under 12 travel free with an adult. Ages 12 to 15 pay half",
+        "Basiskort (Rejsekort card): 50 DKK personal, 80 DKK anonymous. Trips outside rush hour get 20% off"
+      ],
+      "tip": "Zones decide the price. Check the zone count for your trip in the Rejsebillet app before you buy, and check in and out every time if you use Rejsekort.",
+      "link": [
+        "Copenhagen Metro",
+        "https://m.dk/en/travel-with-the-metro/tickets/"
+      ],
+      "buy": [
+        "Rejsebillet app (single tickets and City Pass on your phone)",
+        "Rejsekort app or a Basiskort card (check in and out on every trip)",
+        "Ticket machines at all Metro stations and at train stations",
+        "DSB Salg & Service at Copenhagen Central Station and 7-Eleven shops at stations",
+        "Not sold on the Metro. Buy before you go through to the platform",
+        "No valid ticket: fine of 750 DKK on the Metro, S-train and DSB trains, and 1,000 DKK on Movia buses (half for children)"
+      ]
+    },
+    "bus": {
+      "sum": "Movia runs the city and regional buses. Harbour buses 991, 992 and 993 are part of the same system and use the same tickets. Routes 991 and 992 run the length of the harbour in opposite directions, and 993 links Nyhavn, Experimentarium and the Opera.",
+      "sched": "City buses run all day, so use Rejseplanen for exact departures. Harbour bus 993 runs on weekdays from 09:00 to 18:00, and in the evening only between the Opera and Nyhavn until 23:00.",
+      "tickets": [
+        "Same zone fare as the Metro and trains: 24 DKK for 2 zones, valid 1 h 15 min",
+        "Harbour buses accept all standard tickets, the City Pass and the Copenhagen Card DISCOVER",
+        "Two children under 12 travel free with an adult. Children aged 12 to 15 pay half"
+      ],
+      "tip": "Zone numbers are shown at every bus stop, so you can count the zones you need.",
+      "link": [
+        "Din Offentlige Transport (DOT)",
+        "https://dinoffentligetransport.dk/en/how-to-travel/the-zone-system"
+      ],
+      "buy": [
+        "Rejsebillet app before you board",
+        "Bus drivers sell single tickets",
+        "Ticket machines at Metro and train stations",
+        "Rejsekort: check in and out on the reader on the bus",
+        "No valid ticket: fine of 1,000 DKK on Movia buses (500 DKK for children)"
+      ]
+    },
+    "airport": {
+      "sum": "Copenhagen Airport (CPH) is in Kastrup, in zone 4. Metro M2 and trains both reach the city in about 15 minutes.",
+      "sched": "Metro M2 runs 24 hours a day, every 4 to 6 minutes by day and less often at night. Trains to Copenhagen Central leave from platform 2 about every 10 minutes. Platform 1 trains go to Sweden.",
+      "tickets": [
+        "Metro M2 to Kongens Nytorv or Nørreport: about 15 min. Train to Copenhagen Central: about 15 min",
+        "Both need a 3-zone single ticket. Check the price in the Rejsebillet app",
+        "City Pass Small (zones 1 to 4) covers the airport: 100 DKK for 24 hours",
+        "Copenhagen Card DISCOVER covers the airport trip. The HOP version does not",
+        "Two children under 12 travel free with an adult",
+        "Taxi to the centre: about 250 to 400 DKK, metered"
+      ],
+      "tip": "Tickets cannot be bought on board, and inspectors check the airport train. Buy before you go to the platform.",
+      "link": [
+        "Visit Copenhagen: airport to city",
+        "https://www.visitcopenhagen.com/copenhagen/planning/transportation/copenhagen-airport-to-city-center-all-your-options"
+      ],
+      "buy": [
+        "Ticket machines at the Metro station and the DSB ticket office in Terminal 3",
+        "The red DSB machines in Terminal 3 take coins and cards, not notes",
+        "Rejsebillet app",
+        "Not possible on board the Metro or trains",
+        "Taxis wait outside Terminal 3 and take cards"
+      ]
+    }
+  },
+  "metro": {
+    "note": "Four driverless Metro lines run 24 hours a day. M1 and M2 share the track from Vanløse to Christianshavn, then M1 goes to Vestamager and M2 to the airport. M3 is the Cityringen loop and M4 serves Nordhavn and Sydhavn.",
+    "mapLabel": "Copenhagen Metro (m.dk)",
+    "mapUrl": "https://m.dk/en/travel-with-the-metro/tickets/",
+    "lines": [
+      "M1: Vanløse to Vestamager",
+      "M2: Vanløse to Lufthavnen (the airport)",
+      "M3: Cityringen, a loop through the centre including Frederiksberg and Kongens Nytorv",
+      "M4: Nordhavn and Sydhavn, branching from M3 at Østerport and København H",
+      "Kongens Nytorv links M1, M2, M3 and M4. Nørreport links the Metro with the S-train"
+    ]
+  },
+  "tips": [
+    "Zones set the price. Check the zone count in the Rejsebillet app before you buy, because a ticket for too few zones counts as no ticket.",
+    "Trains to Sweden often leave from platform 26 at the far end of Copenhagen Central. Allow extra time and carry a passport or ID card.",
+    "Bikes need their own ticket on the Metro and regional trains. Bikes are not allowed on the Metro on weekdays from 07:00 to 09:00 and from 15:30 to 17:30.",
+    "Ticket checks are frequent. The fine without a valid ticket is 750 DKK on DSB and the Metro and 1,000 DKK on Movia buses."
+  ],
+  "apps": [
+    {
+      "name": "Rejsebillet",
+      "what": "Single tickets and City Pass for Metro, buses and trains"
+    },
+    {
+      "name": "Rejsekort",
+      "what": "Check in and out, off-peak discount"
+    },
+    {
+      "name": "DSB",
+      "what": "Train tickets, Orange fares and check-in"
+    },
+    {
+      "name": "Rejseplanen",
+      "what": "Journey planner for all Danish public transport"
+    },
+    {
+      "name": "Skånetrafiken",
+      "what": "Tickets for Øresund trains to Malmö"
+    }
+  ],
+  "verified": "2026-11-11",
+  "sources": [
+    {
+      "title": "DSB: Types of tickets for Copenhagen",
+      "url": "https://www.dsb.dk/en/travelling-in-the-cities/copenhagen/types-of-tickets-for-copenhagen/"
+    },
+    {
+      "title": "DSB: City Pass",
+      "url": "https://www.dsb.dk/en/tickets-and-services/citypass"
+    },
+    {
+      "title": "DOT: City Pass",
+      "url": "https://dinoffentligetransport.dk/citypass"
+    },
+    {
+      "title": "Public Transport DK: City Pass",
+      "url": "https://www.publictransport.dk/tickets/citypass"
+    },
+    {
+      "title": "Public Transport DK: Single tickets",
+      "url": "https://www.publictransport.dk/tickets/single-tickets"
+    },
+    {
+      "title": "DOT: Zones and rules when travelling through zones",
+      "url": "https://dinoffentligetransport.dk/en/how-to-travel/the-zone-system"
+    },
+    {
+      "title": "Copenhagen Metro: Tickets",
+      "url": "https://m.dk/en/travel-with-the-metro/tickets/"
+    },
+    {
+      "title": "DOT: Guide to cards and tickets, with control fees (PDF)",
+      "url": "https://dinoffentligetransport.dk/media/pjllfqki/vejledning-til-brug-af-kort-og-billetter-20250119.pdf"
+    },
+    {
+      "title": "DSB: Control fee",
+      "url": "https://www.dsb.dk/en/om-dsb/virksomheden/organisationen/kundeambassadoeren/control-fee"
+    },
+    {
+      "title": "DSB: The self-service principle",
+      "url": "https://www.dsb.dk/en/om-dsb/virksomheden/organisationen/dsb-customer-ambassador/the-self-service-principle-and-your-responsibility-for-having-a-ticket-for-the-train/"
+    },
+    {
+      "title": "DSB: Takst 2026",
+      "url": "https://www.dsb.dk/aktuelt/takst-2026/"
+    },
+    {
+      "title": "Nordisk Bil: DOT fares to rise from January 2026",
+      "url": "https://www.nordiskbil.com/dot-fares-to-rise-by-1-from-january/"
+    },
+    {
+      "title": "Visit Copenhagen: Public transport, a visitor's guide",
+      "url": "https://www.visitcopenhagen.com/copenhagen/planning/transportation/public-transport-in-copenhagen-a-visitors-guide"
+    },
+    {
+      "title": "Visit Copenhagen: Public transport",
+      "url": "https://www.visitcopenhagen.com/copenhagen/planning/transportation/public-transport-copenhagen"
+    },
+    {
+      "title": "Visit Copenhagen: Copenhagen Airport to the city centre",
+      "url": "https://www.visitcopenhagen.com/copenhagen/planning/transportation/copenhagen-airport-to-city-center-all-your-options"
+    },
+    {
+      "title": "Visit Denmark: Public transport",
+      "url": "https://www.visitdenmark.com/denmark/plan-your-trip/public-transport"
+    },
+    {
+      "title": "Copenhagen Card: Prices",
+      "url": "https://copenhagencard.com/view/prices?lang=EN"
+    },
+    {
+      "title": "Rejsekort: Basiskort",
+      "url": "https://www.rejsekort.dk/en/Basis"
+    },
+    {
+      "title": "Wikiwand: Copenhagen Metro",
+      "url": "https://www.wikiwand.com/en/articles/Copenhagen_Metro"
+    },
+    {
+      "title": "Wikiwand: Copenhagen Harbour Buses",
+      "url": "https://www.wikiwand.com/en/Copenhagen_Harbour_Buses"
+    },
+    {
+      "title": "Routes North: Copenhagen Airport to the city centre",
+      "url": "https://www.routesnorth.com/copenhagen/getting-from-copenhagen-airport-to-the-city-centre/"
+    },
+    {
+      "title": "DSB: Copenhagen to Odense",
+      "url": "https://www.dsb.dk/en/togture-i-danmark/copenhagen-odense/"
+    },
+    {
+      "title": "DSB: Aarhus to Copenhagen",
+      "url": "https://www.dsb.dk/en/train-rides-in-denmark/aarhus-copenhagen/"
+    },
+    {
+      "title": "DSB: Aalborg to Copenhagen",
+      "url": "https://www.dsb.dk/en/train-rides-in-denmark/aalborg-copenhagen/"
+    },
+    {
+      "title": "DSB: New timetable from 14 December 2025",
+      "url": "https://www.dsb.dk/trafikinformation/sporfornyelse/k26/"
+    },
+    {
+      "title": "Omio: Copenhagen to Esbjerg",
+      "url": "https://www.omio.com/trains/copenhagen/esbjerg"
+    },
+    {
+      "title": "Omio: Copenhagen to Roskilde",
+      "url": "https://www.omio.co.uk/trains/copenhagen/roskilde-aikvz"
+    },
+    {
+      "title": "Omio: Copenhagen to Helsingborg",
+      "url": "https://www.omio.co.uk/trains/copenhagen/helsingborg"
+    },
+    {
+      "title": "Omio: Copenhagen to Gothenburg",
+      "url": "https://www.omio.co.uk/trains/copenhagen-central-station/gothenburg-centralstation-0pjow"
+    },
+    {
+      "title": "Omio: Elsinore to Copenhagen",
+      "url": "https://www.omio.co.uk/trains/elsinore/copenhagen-sdys2"
+    },
+    {
+      "title": "European Traveler: Copenhagen to Helsingør",
+      "url": "https://www.european-traveler.com/denmark/cheap-transportation-to-helsingor-elsinore-from-copenhagen"
+    },
+    {
+      "title": "The Local: Every international train route from Denmark",
+      "url": "https://www.thelocal.dk/20260806/listed-every-international-train-route-from-denmark"
+    },
+    {
+      "title": "Seat61: Hamburg to Copenhagen by train",
+      "url": "https://seat61.com/trains-and-routes/hamburg-to-copenhagen-by-train.htm"
+    },
+    {
+      "title": "Railway News: Prague, Berlin and Copenhagen rail link",
+      "url": "https://railway-news.com/new-cross-border-rail-link-to-connect-prague-berlin-and-copenhagen/"
+    },
+    {
+      "title": "Seat61: Copenhagen, Malmo and Gothenburg by Oresund train",
+      "url": "https://www.seat61.com/trains-and-routes/oresund-train.htm"
+    },
+    {
+      "title": "Interrail: Trains in Denmark",
+      "url": "https://www.interrail.com/en/plan-your-trip/tips-and-tricks/trains-europe/trains-country/trains-denmark"
+    },
+    {
+      "title": "Snalltaget: Day train Hamburg, Copenhagen, Stockholm",
+      "url": "https://www.snalltaget.se/en/day-train-hamburg-copenhagen-stockholm"
+    }
+  ]
+}

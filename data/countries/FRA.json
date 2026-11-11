@@ -1,0 +1,836 @@
+{
+  "id": "FRA",
+  "isoNumeric": "250",
+  "name": "France",
+  "capital": "Paris",
+  "flag": "v:#0055a4,#ffffff,#ef4135",
+  "lonLat": [
+    2.35,
+    48.86
+  ],
+  "modes": {
+    "train": {
+      "sum": "Paris has six main-line stations (Gare du Nord, Gare de l'Est, Gare de Lyon, Montparnasse, Saint-Lazare, Austerlitz). High-speed TGV and Ouigo trains leave from them, and RER and Transilien trains cover the suburbs.",
+      "sched": "RER and Transilien run from early morning until about 01:00, every few minutes in the centre at peak times. TGV times vary by route.",
+      "tickets": [
+        "Metro-train-RER ticket: about 2.55 EUR, valid across the whole region except airports",
+        "Airport RER B to CDG: about 14 EUR one way (Paris Region - Airports ticket)",
+        "TGV / Intercites: book early on SNCF Connect for lower fares",
+        "Ouigo: low-cost high-speed, fares from about 10 EUR"
+      ],
+      "tip": "Validate paper tickets before boarding RER and Transilien. Gates check them on exit at some stations.",
+      "link": [
+        "SNCF Connect",
+        "https://www.sncf-connect.com"
+      ],
+      "buy": [
+        "RER and Transilien: ticket machines and counters in stations, or load tickets on a Navigo Easy card (about 2 EUR) or on your phone with the Ile-de-France Mobilites or Bonjour RATP app",
+        "Bank card tap-in is not yet possible on RER and Transilien trains (planned by 2030)",
+        "TGV INOUI, Ouigo, Intercites and TER: SNCF Connect app or website, station machines and ticket counters. Eurostar and Lyria tickets are sold online in advance",
+        "RER and Transilien: no tickets sold on board. A fine of about 50 to 70 EUR applies if you have no ticket",
+        "TGV INOUI: if you board without a ticket, go to the train manager before the check. You pay an on-board fare of about 38 EUR (short trips) up to about 174 EUR (over 800 km) in 2nd class",
+        "TGV INOUI without a ticket at a check: about 78 to 214 EUR in 2nd class, depending on distance"
+      ],
+      "destinations": [
+        {
+          "to": "Chantilly",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 25 min",
+          "station": "Gare du Nord",
+          "operator": "TER"
+        },
+        {
+          "to": "Versailles",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 40 min",
+          "station": "RER C stations in central Paris (e.g. Saint-Michel Notre-Dame, Invalides)",
+          "operator": "RER C",
+          "note": "Stop: Versailles Chateau Rive Gauche"
+        },
+        {
+          "to": "Disneyland Paris",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 40 min",
+          "station": "Chatelet - Les Halles",
+          "operator": "RER A",
+          "note": "Stop: Marne-la-Vallee Chessy"
+        },
+        {
+          "to": "Fontainebleau",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 40 min",
+          "station": "Gare de Lyon",
+          "operator": "Transilien R",
+          "note": "Stop: Fontainebleau-Avon"
+        },
+        {
+          "to": "Reims",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 45 min",
+          "station": "Gare de l'Est",
+          "operator": "TGV INOUI"
+        },
+        {
+          "to": "Giverny (Vernon)",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 45 min",
+          "station": "Saint-Lazare",
+          "operator": "TER",
+          "note": "Shuttle bus from Vernon-Giverny station to Giverny"
+        },
+        {
+          "to": "Chartres",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h",
+          "station": "Montparnasse",
+          "operator": "TER"
+        },
+        {
+          "to": "Lille",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h",
+          "station": "Gare du Nord",
+          "operator": "TGV INOUI"
+        },
+        {
+          "to": "Amiens",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h 05",
+          "station": "Gare du Nord",
+          "operator": "TER"
+        },
+        {
+          "to": "Tours",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h 10",
+          "station": "Montparnasse",
+          "operator": "TGV INOUI",
+          "note": "Slower TER trains from Austerlitz"
+        },
+        {
+          "to": "Rouen",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h 10",
+          "station": "Saint-Lazare",
+          "operator": "TER (Nomad)"
+        },
+        {
+          "to": "Blois",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h 25",
+          "station": "Austerlitz",
+          "operator": "TER, Ouigo",
+          "note": "For the Loire castles, e.g. Chambord"
+        },
+        {
+          "to": "Metz",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h 25",
+          "station": "Gare de l'Est",
+          "operator": "TGV INOUI"
+        },
+        {
+          "to": "Rennes",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h 25",
+          "station": "Montparnasse",
+          "operator": "TGV INOUI, Ouigo"
+        },
+        {
+          "to": "Nancy",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h 30",
+          "station": "Gare de l'Est",
+          "operator": "TGV INOUI"
+        },
+        {
+          "to": "Dijon",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h 35",
+          "station": "Gare de Lyon",
+          "operator": "TGV INOUI"
+        },
+        {
+          "to": "Strasbourg",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h 50",
+          "station": "Gare de l'Est",
+          "operator": "TGV INOUI, Ouigo"
+        },
+        {
+          "to": "Caen",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 1 h 50",
+          "station": "Saint-Lazare",
+          "operator": "TER (Nomad)"
+        },
+        {
+          "to": "Lyon",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 2 h",
+          "station": "Gare de Lyon",
+          "operator": "TGV INOUI, Ouigo, Frecciarossa"
+        },
+        {
+          "to": "Nantes",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 2 h",
+          "station": "Montparnasse",
+          "operator": "TGV INOUI, Ouigo"
+        },
+        {
+          "to": "Le Havre",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 2 h",
+          "station": "Saint-Lazare",
+          "operator": "TER (Nomad)"
+        },
+        {
+          "to": "Bordeaux",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 2 h 05",
+          "station": "Montparnasse",
+          "operator": "TGV INOUI, Ouigo"
+        },
+        {
+          "to": "Bayeux",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 2 h 10",
+          "station": "Saint-Lazare",
+          "operator": "TER (Nomad)",
+          "note": "For the D-Day beaches"
+        },
+        {
+          "to": "Saint-Malo",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 2 h 30",
+          "station": "Montparnasse",
+          "operator": "TGV INOUI",
+          "note": "A few trains a day"
+        },
+        {
+          "to": "La Rochelle",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 2 h 35",
+          "station": "Montparnasse",
+          "operator": "TGV INOUI"
+        },
+        {
+          "to": "Avignon",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 2 h 40",
+          "station": "Gare de Lyon",
+          "operator": "TGV INOUI, Ouigo",
+          "note": "Stop: Avignon TGV"
+        },
+        {
+          "to": "Marseille",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 3 h",
+          "station": "Gare de Lyon",
+          "operator": "TGV INOUI, Ouigo, Frecciarossa"
+        },
+        {
+          "to": "Grenoble",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 3 h",
+          "station": "Gare de Lyon",
+          "operator": "TGV INOUI"
+        },
+        {
+          "to": "Clermont-Ferrand",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 3 h 15",
+          "station": "Bercy",
+          "operator": "Intercites"
+        },
+        {
+          "to": "Montpellier",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 3 h 20",
+          "station": "Gare de Lyon",
+          "operator": "TGV INOUI, Ouigo"
+        },
+        {
+          "to": "Brest",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 3 h 30",
+          "station": "Montparnasse",
+          "operator": "TGV INOUI"
+        },
+        {
+          "to": "Annecy",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 3 h 45",
+          "station": "Gare de Lyon",
+          "operator": "TGV INOUI",
+          "note": "A few direct trains a day"
+        },
+        {
+          "to": "Biarritz",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 4 h 05",
+          "station": "Montparnasse",
+          "operator": "TGV INOUI, Ouigo"
+        },
+        {
+          "to": "Toulouse",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 4 h 30",
+          "station": "Montparnasse",
+          "operator": "TGV INOUI, Ouigo",
+          "note": "Also Intercites day and night trains from Austerlitz"
+        },
+        {
+          "to": "Nice",
+          "country": "France",
+          "type": "domestic",
+          "time": "about 5 h 40",
+          "station": "Gare de Lyon",
+          "operator": "TGV INOUI, Ouigo",
+          "note": "Some dates need a change in Marseille. Daily night train from Austerlitz"
+        },
+        {
+          "to": "Lourdes",
+          "country": "France",
+          "type": "domestic",
+          "time": "overnight",
+          "station": "Austerlitz",
+          "operator": "Intercites de Nuit",
+          "note": "Night train, via Bayonne and Pau"
+        },
+        {
+          "to": "Latour-de-Carol (for Andorra)",
+          "country": "France",
+          "type": "domestic",
+          "time": "overnight",
+          "station": "Austerlitz",
+          "operator": "Intercites de Nuit",
+          "note": "Night train, via Foix"
+        },
+        {
+          "to": "Briancon",
+          "country": "France",
+          "type": "domestic",
+          "time": "overnight",
+          "station": "Austerlitz",
+          "operator": "Intercites de Nuit",
+          "note": "Night train, certain days only. For the Alps"
+        },
+        {
+          "to": "Collioure",
+          "country": "France",
+          "type": "domestic",
+          "time": "overnight",
+          "station": "Austerlitz",
+          "operator": "Intercites de Nuit",
+          "note": "Night train to Cerbere, daily in summer only"
+        },
+        {
+          "to": "Brussels",
+          "country": "Belgium",
+          "type": "international",
+          "time": "about 1 h 22 min",
+          "station": "Gare du Nord",
+          "operator": "Eurostar"
+        },
+        {
+          "to": "Antwerp",
+          "country": "Belgium",
+          "type": "international",
+          "time": "about 2 h",
+          "station": "Gare du Nord",
+          "operator": "Eurostar"
+        },
+        {
+          "to": "Luxembourg",
+          "country": "Luxembourg",
+          "type": "international",
+          "time": "about 2 h 10",
+          "station": "Gare de l'Est",
+          "operator": "TGV INOUI"
+        },
+        {
+          "to": "London",
+          "country": "United Kingdom",
+          "type": "international",
+          "time": "about 2 h 16 min",
+          "station": "Gare du Nord",
+          "operator": "Eurostar",
+          "note": "Check-in and passport control before boarding"
+        },
+        {
+          "to": "Rotterdam",
+          "country": "Netherlands",
+          "type": "international",
+          "time": "about 2 h 40",
+          "station": "Gare du Nord",
+          "operator": "Eurostar"
+        },
+        {
+          "to": "Lausanne",
+          "country": "Switzerland",
+          "type": "international",
+          "time": "about 3 h 05",
+          "station": "Gare de Lyon",
+          "operator": "TGV Lyria"
+        },
+        {
+          "to": "Geneva",
+          "country": "Switzerland",
+          "type": "international",
+          "time": "about 3 h 10",
+          "station": "Gare de Lyon",
+          "operator": "TGV Lyria"
+        },
+        {
+          "to": "Stuttgart",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 3 h 10",
+          "station": "Gare de l'Est",
+          "operator": "TGV INOUI, ICE"
+        },
+        {
+          "to": "Amsterdam",
+          "country": "Netherlands",
+          "type": "international",
+          "time": "about 3 h 20",
+          "station": "Gare du Nord",
+          "operator": "Eurostar"
+        },
+        {
+          "to": "Cologne",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 3 h 20",
+          "station": "Gare du Nord",
+          "operator": "Eurostar"
+        },
+        {
+          "to": "Basel",
+          "country": "Switzerland",
+          "type": "international",
+          "time": "about 3 h 40",
+          "station": "Gare de Lyon",
+          "operator": "TGV Lyria"
+        },
+        {
+          "to": "Frankfurt",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 3 h 50",
+          "station": "Gare de l'Est",
+          "operator": "ICE, TGV INOUI"
+        },
+        {
+          "to": "Zurich",
+          "country": "Switzerland",
+          "type": "international",
+          "time": "about 4 h 05",
+          "station": "Gare de Lyon",
+          "operator": "TGV Lyria"
+        },
+        {
+          "to": "Dortmund",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 4 h 50",
+          "station": "Gare du Nord",
+          "operator": "Eurostar",
+          "note": "Via Cologne, Dusseldorf and Essen. A few trains a day"
+        },
+        {
+          "to": "Turin",
+          "country": "Italy",
+          "type": "international",
+          "time": "about 5 h 40",
+          "station": "Gare de Lyon",
+          "operator": "TGV INOUI, Frecciarossa"
+        },
+        {
+          "to": "Munich",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 5 h 45",
+          "station": "Gare de l'Est",
+          "operator": "TGV INOUI",
+          "note": "One or two trains a day"
+        },
+        {
+          "to": "Barcelona",
+          "country": "Spain",
+          "type": "international",
+          "time": "about 6 h 45",
+          "station": "Gare de Lyon",
+          "operator": "TGV INOUI",
+          "note": "Two trains a day, via Girona and Figueres"
+        },
+        {
+          "to": "Milan",
+          "country": "Italy",
+          "type": "international",
+          "time": "about 7 h",
+          "station": "Gare de Lyon",
+          "operator": "TGV INOUI, Frecciarossa",
+          "note": "About five trains a day"
+        },
+        {
+          "to": "Berlin",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 8 h",
+          "station": "Gare de l'Est",
+          "operator": "ICE, TGV INOUI",
+          "note": "One train a day, via Strasbourg and Frankfurt"
+        },
+        {
+          "to": "Berlin (night train)",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 16 h",
+          "station": "Gare du Nord",
+          "operator": "European Sleeper",
+          "note": "Night train, three times a week, via Brussels"
+        }
+      ]
+    },
+    "tram": {
+      "sum": "Paris has 14 tram lines (T1 to T13, with T3a and T3b), mostly in the suburbs and around the edge of the city. The metro is the main way into the centre, with 16 lines.",
+      "sched": "Metro about 05:30 to 01:15 (to 02:15 Friday and Saturday). Trams roughly 05:00 to 01:00 (later on Friday and Saturday).",
+      "tickets": [
+        "Metro-train-RER ticket (metro, RER, train): about 2.55 EUR",
+        "Bus-tram ticket (bus and tram only): about 2.05 EUR",
+        "Navigo Easy card: a reloadable card, about 2 EUR to buy",
+        "Navigo weekly pass: about 32 EUR, Monday to Sunday, all zones",
+        "Paris Visite tourist pass: 1, 2, 3 or 5 days, from about 31 EUR, airports included"
+      ],
+      "tip": "A weekly Navigo pass is cheaper than single tickets if you arrive on a Monday.",
+      "link": [
+        "Ile-de-France Mobilites",
+        "https://www.iledefrance-mobilites.fr"
+      ],
+      "buy": [
+        "Ticket machines at every tram stop and at metro and RER stations",
+        "Ile-de-France Mobilites or Bonjour RATP app: buy and validate with your phone (Android and iPhone)",
+        "Navigo Easy card: about 2 EUR at station machines and ticket counters, then load tickets on it. Paper tickets ended in 2025",
+        "Not possible on board trams or metro. Buy before you travel",
+        "Bank card tap-in is not yet available on the metro (from 2027 on some lines)",
+        "Fine without a valid ticket: about 70 EUR if paid on the spot"
+      ]
+    },
+    "bus": {
+      "sum": "RATP buses cover the whole city. They take the bus-tram ticket or a Navigo pass. Night buses (Noctilien) replace the metro after it closes.",
+      "sched": "Day buses run from early morning to about 00:30. Noctilien runs about 00:30 to 05:30 on main routes.",
+      "tickets": [
+        "Bus-tram ticket bought in advance: about 2.05 EUR",
+        "Ticket bought on board: about 2.55 EUR",
+        "Navigo passes are valid on buses, trams, metro and RER",
+        "Roissybus (Opera to CDG) stopped in March 2026. Use RER B instead",
+        "Long distance: FlixBus and BlaBlaCar Bus"
+      ],
+      "tip": "Buses are slower than the metro but good for seeing the city above ground.",
+      "link": [
+        "RATP",
+        "https://www.ratp.fr"
+      ],
+      "buy": [
+        "On board: tap a contactless bank card or phone on the terminal by the driver, about 2.55 EUR for one trip with no transfers",
+        "Drivers no longer sell tickets (since November 2025)",
+        "SMS ticket: text the line number to 93100 before boarding, about 2.55 EUR (French mobile numbers only)",
+        "Cheaper: load bus-tram tickets (about 2.05 EUR) on a Navigo Easy card at station machines, or on your phone with the Ile-de-France Mobilites app",
+        "FlixBus and BlaBlaCar Bus: buy online or in their apps"
+      ]
+    },
+    "airport": {
+      "sum": "Charles de Gaulle (CDG) is the main airport, Orly (ORY) the second one. Beauvais (BVA) is used by low-cost airlines and is far out.",
+      "sched": "CDG to Paris by RER B takes about 30 minutes. Orly connects via metro line 14, Orlyval and tram T7.",
+      "tickets": [
+        "RER B from CDG: about 14 EUR",
+        "Metro 14 from Orly: about 14 EUR airport fare",
+        "Taxi from CDG: fixed 56 EUR (Right Bank) or 65 EUR (Left Bank)",
+        "Taxi from Orly: fixed 36 EUR (Left Bank) or 45 EUR (Right Bank)",
+        "Beauvais shuttle bus: about 18 EUR one way"
+      ],
+      "tip": "The fixed taxi fares from CDG are set by law.",
+      "link": [
+        "Paris Aeroport",
+        "https://www.parisaeroport.fr"
+      ],
+      "buy": [
+        "RER B (CDG) and metro 14 (Orly): buy the Paris Region - Airports ticket (about 14 EUR) at station machines or in the Ile-de-France Mobilites app. No sales on board",
+        "Orly metro 14: if you have no ticket you can pay at the station exit with a contactless bank card or phone, about 14.80 EUR",
+        "Orlyval: own ticket (about 14 EUR) at Orlyval desks at Orly and Antony station",
+        "Buses 350 and 351 (CDG) and tram T7 (Orly): bus-tram ticket (about 2.05 EUR). On the bus you can pay about 2.55 EUR by bank card or SMS",
+        "Beauvais shuttle (Aerobus): buy online on FlixBus or at FlixBus sales points, about 17.90 EUR"
+      ]
+    }
+  },
+  "metro": {
+    "note": "16 metro lines plus the RER network. Lines are numbered 1 to 14, with 3bis and 7bis.",
+    "mapLabel": "Official metro map (RATP)",
+    "mapUrl": "https://www.ratp.fr/en/plans-lignes/metro",
+    "lines": [
+      "Lines 1 to 14, plus 3bis and 7bis",
+      "Line 1 crosses the centre east to west (Louvre, Champs-Elysees)",
+      "Line 14 is fully automatic and links Saint-Lazare, Chatelet, Gare de Lyon and Orly airport",
+      "Chatelet - Les Halles is the largest interchange"
+    ]
+  },
+  "tips": [
+    "Paris metro stations are close together. For short hops, walking can be as quick.",
+    "Keep your ticket until you leave the network, because inspectors check inside.",
+    "Single metro-train-RER tickets cover the whole region, but airports need the separate airport ticket."
+  ],
+  "apps": [
+    {
+      "name": "Bonjour RATP",
+      "what": "Metro, bus and tram routes and live times"
+    },
+    {
+      "name": "SNCF Connect",
+      "what": "Train tickets and schedules"
+    },
+    {
+      "name": "Citymapper",
+      "what": "Door-to-door route planning"
+    },
+    {
+      "name": "Ile-de-France Mobilites",
+      "what": "Passes and tickets"
+    }
+  ],
+  "verified": "2026-11-11",
+  "sources": [
+    {
+      "title": "Les tarifs Ile-de-France Mobilites 2026",
+      "url": "https://www.iledefrance-mobilites.fr/tarifs-titre-de-transport-en-commun-2026"
+    },
+    {
+      "title": "Travellers: how to get to Ile-de-France airports (IDFM)",
+      "url": "https://www.iledefrance-mobilites.fr/en/acceder-aux-aeroports-franciliens-"
+    },
+    {
+      "title": "Navigo Easy pass price (IDFM)",
+      "url": "https://www.iledefrance-mobilites.fr/en/aide-et-contacts/passe-navigo-easy/ou-puis-je-me-procurer-un-passe-navigo-easy-a-quel-prix"
+    },
+    {
+      "title": "Metro line 1 hours (Bonjour RATP)",
+      "url": "https://www.bonjour-ratp.fr/lignes-metro/ligne-1/"
+    },
+    {
+      "title": "Public transport in Paris Region (Visit Paris Region)",
+      "url": "https://www.visitparisregion.com/fr/en-pratique/se-deplacer-paris/transports-commun-paris-region"
+    },
+    {
+      "title": "Forfaits taxis aeroports (Service-Public.fr)",
+      "url": "https://entreprendre.service-public.gouv.fr/actualites/A15396?lang=fr&profil=tout"
+    },
+    {
+      "title": "End of the RoissyBus (Bonjour RATP)",
+      "url": "https://www.bonjour-ratp.fr/en/aeroports/roissy-charles-de-gaulle/acces/roissybus/"
+    },
+    {
+      "title": "Navette Beauvais and end of Roissybus (Air Journal)",
+      "url": "https://www.air-journal.fr/2025-12-07-info-pratique-reprise-de-la-navette-porte-maillot-beauvais-et-fin-annoncee-de-roissybus-5269987.html"
+    },
+    {
+      "title": "Les tarifs OUIGO (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/ouigo/tarifs"
+    },
+    {
+      "title": "Metro map (RATP)",
+      "url": "https://www.ratp.fr/en/plans-lignes/metro"
+    },
+    {
+      "title": "Occasional travellers: validating with your bank card (IDFM)",
+      "url": "https://www.iledefrance-mobilites.fr/en/actualites/valider-transports-carte-bancaire-ile-de-france"
+    },
+    {
+      "title": "On the bus network, what can you buy on board? (IDFM)",
+      "url": "https://www.iledefrance-mobilites.fr/en/aide-et-contacts/titres-unitaires-tarifs-reduits/achat-a-bord-bus"
+    },
+    {
+      "title": "Two options for buying your tickets in Ile-de-France (IDFM)",
+      "url": "https://www.iledefrance-mobilites.fr/en/achat-titre-transport-en-commun-dematerialise"
+    },
+    {
+      "title": "On-board SMS ticket (RATP)",
+      "url": "https://www.ratp.fr/en/le-titre-a-bord-sms"
+    },
+    {
+      "title": "Card payment on RATP and Keolis buses (Sortir a Paris)",
+      "url": "https://www.sortiraparis.com/actualites/a-paris/articles/336245-paiement-cb-dans-les-bus-ratp-et-keolis-en-ile-de-france-ce-qu-il-faut-savoir"
+    },
+    {
+      "title": "Fare fines rise to 70 EUR on 2 June 2025 (RATP Group)",
+      "url": "https://ratpgroup.com/api/media/20250522-CP-Lutte-contre-la-fraude-les-amendes-tarifiares-passent-a-70-E-le-2-juin-2025.pdf"
+    },
+    {
+      "title": "Travel with a valid ticket (Transilien)",
+      "url": "https://www.transilien.com/es/page-deplacements/voyager-en-regle"
+    },
+    {
+      "title": "Tarifs voyageurs, 16 September 2026 (SNCF Voyageurs)",
+      "url": "https://www.sncf-voyageurs.com/medias-publics/2026-09/tarifs_voyageurs-16-septembre-2026_vdef_compressed.pdf"
+    },
+    {
+      "title": "On-board checks (TGV INOUI)",
+      "url": "https://www.tgvinoui.sncf/voyager/informations-pratiques/controle-bord"
+    },
+    {
+      "title": "Our Intercites destinations (SNCF Voyageurs)",
+      "url": "https://www.sncf-voyageurs.com/en/travel-with-us/in-france/intercites/our-destinations/"
+    },
+    {
+      "title": "Night trains in 2026 (Voyager en train)",
+      "url": "https://www.voyagerentrain.fr/trains-nuit-2026/"
+    },
+    {
+      "title": "European Sleeper Paris to Berlin (Seat61)",
+      "url": "https://seat61.com/trains-and-routes/european-sleeper-paris-berlin.htm"
+    },
+    {
+      "title": "Paris-Berlin direct high-speed train (SNCF Voyageurs)",
+      "url": "https://www.sncf-voyageurs.com/fr/en-europe/actualites/europe-paris-berlin"
+    },
+    {
+      "title": "France favoured in Deutsche Bahn's 2027 offer (Voyages d'Affaires)",
+      "url": "https://www.voyages-d-affaires.com/en/?p=231167"
+    },
+    {
+      "title": "With TGV Lyria (SNCF Voyageurs)",
+      "url": "https://www.sncf-voyageurs.com/en/travel-with-us/in-europe/with-tgv-lyria/"
+    },
+    {
+      "title": "Eurostar route map (Eurostar)",
+      "url": "https://www.eurostar.com/be-fr/destinations/le-plan-de-route"
+    },
+    {
+      "title": "Paris to Cologne (Eurostar)",
+      "url": "https://www.eurostar.com/uk-en/train/paris-to-cologne"
+    },
+    {
+      "title": "Dortmund to Paris (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/en-en/train/route/dortmund/paris"
+    },
+    {
+      "title": "International trains from the Netherlands (Rijden de Treinen)",
+      "url": "https://www.rijdendetreinen.nl/en/international"
+    },
+    {
+      "title": "Trenitalia summer 2026 sales (Trenitalia France)",
+      "url": "https://trenitalia.fr/wp-content/uploads/2026/03/CP-Trenitalia_ouverture-ventes-ete-2026-1.pdf"
+    },
+    {
+      "title": "Paris to Barcelona by train (Seat61)",
+      "url": "https://www.seat61.com/trains-and-routes/paris-to-barcelona-by-train.htm"
+    },
+    {
+      "title": "Paris to Milan by train (Seat61)",
+      "url": "https://www.seat61.com/trains-and-routes/paris-to-milan-by-train.htm"
+    },
+    {
+      "title": "Paris to Nice by train (Seat61)",
+      "url": "https://www.seat61.com/trains-and-routes/paris-to-nice-by-train.htm"
+    },
+    {
+      "title": "Paris-Nice timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/fr-be/train/horaires/paris/nice"
+    },
+    {
+      "title": "Paris-Annecy timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/train/horaires/paris/annecy"
+    },
+    {
+      "title": "Paris-Saint-Malo timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/train/horaires/paris/saint-malo"
+    },
+    {
+      "title": "Paris-Biarritz timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/train/horaires/paris/biarritz"
+    },
+    {
+      "title": "Paris-Bayeux route (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/en-en/train/route/paris/bayeux"
+    },
+    {
+      "title": "Paris-Toulouse timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/fr-be/train/horaires/paris/toulouse"
+    },
+    {
+      "title": "Paris-Chartres timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/train/horaires/paris/chartres"
+    },
+    {
+      "title": "Paris-Blois timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/train/horaires/paris/blois"
+    },
+    {
+      "title": "Paris-Vernon timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/fr-be/train/horaires/paris/vernon"
+    },
+    {
+      "title": "Paris-Chantilly timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/train/horaires/paris/chantilly"
+    },
+    {
+      "title": "Paris-Tours timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/train/horaires/paris/tours"
+    },
+    {
+      "title": "Paris-La Rochelle timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/train/horaires/paris/la-rochelle"
+    },
+    {
+      "title": "Paris-Luxembourg timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/fr-be/train/horaires/paris/luxembourg"
+    },
+    {
+      "title": "Paris-Clermont-Ferrand timetable (SNCF Connect)",
+      "url": "https://www.sncf-connect.com/train/horaires/paris/clermont-ferrand"
+    },
+    {
+      "title": "Paris-Fontainebleau-Avon timetable (Horaires de trains)",
+      "url": "https://www.horaires-de-trains.fr/horaires-Paris-Fontainebleau_Avon.html"
+    },
+    {
+      "title": "FlixBus sells the Beauvais Aerobus shuttle (FlixBus)",
+      "url": "https://www.flixbus.fr/entreprise/presse/Flixbus-aerobus-paris-beauvais-navette"
+    }
+  ]
+}
