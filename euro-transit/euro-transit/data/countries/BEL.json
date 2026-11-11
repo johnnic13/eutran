@@ -1,0 +1,598 @@
+{
+  "id": "BEL",
+  "isoNumeric": "056",
+  "name": "Belgium",
+  "capital": "Brussels",
+  "flag": "v:#000000,#fdda24,#ef3340",
+  "lonLat": [
+    4.35,
+    50.85
+  ],
+  "modes": {
+    "train": {
+      "sum": "Brussels has four main stations: Midi/Zuid (Eurostar, ICE, OUIGO, night trains), Centraal, Noord and Luxembourg (European Quarter). SNCB runs fast IC trains to all Belgian cities.",
+      "sched": "Most lines run from about 05:00 to midnight, every 15 to 60 minutes, with fewer trains on weekends. A new timetable starts on 14 December 2026.",
+      "tickets": [
+        "Standard ticket: price by distance, for example Brussels to Bruges about 18 EUR",
+        "Weekend Ticket: about half price for a return trip from Friday 19:00 to Sunday",
+        "Children under 12 travel free with an adult. Discounts for under 26 and over 65",
+        "Brupass: one ticket for train, metro, tram and bus inside Brussels, about 2.70 EUR",
+        "Eurostar, OUIGO and ICE prices change by date, so book early"
+      ],
+      "tip": "Since 1 July 2026 you cannot buy a domestic ticket on board. Buy it in the SNCB app before you get on.",
+      "link": [
+        "SNCB",
+        "https://www.belgiantrain.be"
+      ],
+      "buy": [
+        "SNCB app or belgiantrain.be (e-ticket on your phone)",
+        "Ticket machines in all main stations",
+        "Ticket counters in larger stations",
+        "Not possible on board domestic trains since 1 July 2026. Without a ticket you get a payment notice that rises to 90 EUR after 14 days, and fines can reach 500 EUR",
+        "If your station had no working machine and no counter, you only pay the normal fare",
+        "Still possible on board EuroCity, EuroCity Direct, OUIGO and TGV trains"
+      ],
+      "destinations": [
+        {
+          "to": "Braine-l'Alleud (Waterloo)",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 15 min",
+          "station": "Brussels-Midi",
+          "operator": "SNCB IC",
+          "note": "Nearest station for the Waterloo battlefield"
+        },
+        {
+          "to": "Mechelen",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 20 min",
+          "station": "Brussels-Central",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Leuven",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 20 min",
+          "station": "Brussels-Nord",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Ghent",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 30 min",
+          "station": "Brussels-Midi",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Antwerp",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 40 min",
+          "station": "Brussels-Central",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Mons",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 50 min",
+          "station": "Brussels-Midi",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Charleroi",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 50 min",
+          "station": "Brussels-Midi",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Namur",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 50 min",
+          "station": "Brussels-Luxembourg",
+          "operator": "SNCB IC",
+          "note": "About 1 h 10 min from Brussels-Midi"
+        },
+        {
+          "to": "Liege",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 55 min",
+          "station": "Brussels-Nord",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Bruges",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 1 h",
+          "station": "Brussels-Midi",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Hasselt",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 1 h",
+          "station": "Brussels-Nord",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Ostend",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 1 h 10 min",
+          "station": "Brussels-Midi",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Knokke",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 1 h 15 min",
+          "station": "Brussels-Midi",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Dinant",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 1 h 25 min",
+          "station": "Brussels-Luxembourg",
+          "operator": "SNCB IC",
+          "note": "On weekends also from Midi, Central and Nord"
+        },
+        {
+          "to": "De Panne",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 2 h 15 min",
+          "station": "Brussels-Midi",
+          "operator": "SNCB IC",
+          "note": "Direct on weekends only"
+        },
+        {
+          "to": "Arlon",
+          "country": "Belgium",
+          "type": "domestic",
+          "time": "about 2 h 35 min",
+          "station": "Brussels-Luxembourg",
+          "operator": "SNCB IC",
+          "note": "On the Brussels to Luxembourg line, about 3 h from Brussels-Midi"
+        },
+        {
+          "to": "Rotterdam",
+          "country": "Netherlands",
+          "type": "international",
+          "time": "about 1 h 10 min",
+          "station": "Brussels-Midi",
+          "operator": "Eurostar, EuroCity Direct"
+        },
+        {
+          "to": "Paris",
+          "country": "France",
+          "type": "international",
+          "time": "about 1 h 22 min",
+          "station": "Brussels-Midi",
+          "operator": "Eurostar, OUIGO",
+          "note": "OUIGO: 3 trains a day"
+        },
+        {
+          "to": "Amsterdam",
+          "country": "Netherlands",
+          "type": "international",
+          "time": "about 1 h 50 min",
+          "station": "Brussels-Midi",
+          "operator": "Eurostar, EuroCity Direct",
+          "note": "EuroCity Direct goes to Amsterdam Zuid"
+        },
+        {
+          "to": "Amsterdam Schiphol Airport",
+          "country": "Netherlands",
+          "type": "international",
+          "time": "about 1 h 50 min",
+          "station": "Brussels-Midi",
+          "operator": "EuroCity Direct"
+        },
+        {
+          "to": "Cologne",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 1 h 50 min",
+          "station": "Brussels-Midi",
+          "operator": "Eurostar, ICE"
+        },
+        {
+          "to": "London",
+          "country": "United Kingdom",
+          "type": "international",
+          "time": "about 2 h",
+          "station": "Brussels-Midi",
+          "operator": "Eurostar",
+          "note": "Passport checks before boarding"
+        },
+        {
+          "to": "Luxembourg",
+          "country": "Luxembourg",
+          "type": "international",
+          "time": "about 2 h 55 min",
+          "station": "Brussels-Luxembourg",
+          "operator": "SNCB IC"
+        },
+        {
+          "to": "Frankfurt",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 3 h",
+          "station": "Brussels-Midi",
+          "operator": "ICE"
+        },
+        {
+          "to": "Lyon",
+          "country": "France",
+          "type": "international",
+          "time": "about 3 h 45 min",
+          "station": "Brussels-Midi",
+          "operator": "TGV INOUI",
+          "note": "Several direct trains a day. Also stops at Lille Europe, Charles de Gaulle airport and Marne-la-Vallee (Disneyland)"
+        },
+        {
+          "to": "Marseille",
+          "country": "France",
+          "type": "international",
+          "time": "about 5 h 30 min",
+          "station": "Brussels-Midi",
+          "operator": "TGV INOUI",
+          "note": "2 direct trains a day. Also stops at Lille Europe, Charles de Gaulle airport, Marne-la-Vallee and Lyon"
+        },
+        {
+          "to": "Bourg-Saint-Maurice (Alps)",
+          "country": "France",
+          "type": "international",
+          "time": "about 6 h 30 min",
+          "station": "Brussels-Midi",
+          "operator": "Eurostar",
+          "note": "Seasonal ski train, Saturdays 19 Dec 2026 to 3 Apr 2027"
+        },
+        {
+          "to": "Berlin",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 12 h",
+          "station": "Brussels-Midi",
+          "operator": "European Sleeper",
+          "note": "Night train, about 6 nights a week"
+        },
+        {
+          "to": "Milan",
+          "country": "Italy",
+          "type": "international",
+          "time": "about 16 h 30 min",
+          "station": "Brussels-Midi",
+          "operator": "European Sleeper",
+          "note": "Night train, 3 times a week"
+        },
+        {
+          "to": "Prague",
+          "country": "Czechia",
+          "type": "international",
+          "time": "about 17 h",
+          "station": "Brussels-Midi",
+          "operator": "European Sleeper",
+          "note": "Night train, Mon, Wed and Fri"
+        },
+        {
+          "to": "Vienna",
+          "country": "Austria",
+          "type": "international",
+          "time": "about 14 h 25 min",
+          "station": "Brussels-Midi",
+          "operator": "Nightjet",
+          "note": "Night train, 3 nights a week. From 7 September 2026 the southbound train calls at Verviers instead of Liege"
+        }
+      ]
+    },
+    "tram": {
+      "sum": "STIB runs 4 metro lines (1, 2, 5 and 6), premetro tram tunnels and a large tram network.",
+      "sched": "Metro, trams and buses run from about 06:00 to midnight. Check the times at each stop.",
+      "tickets": [
+        "Single ticket: about 2.40 EUR by contactless card or STIB app, about 2.90 EUR on paper",
+        "Contactless is capped at about 8.50 EUR per day",
+        "Day ticket: about 9.00 EUR",
+        "Brupass (STIB, SNCB, De Lijn and TEC in Brussels): about 2.70 EUR single, 9.50 EUR day, 18.90 EUR for 10 trips"
+      ],
+      "tip": "Tap your bank card on the reader every time you board. The daily cap means you never pay more than a day ticket.",
+      "link": [
+        "STIB-MIVB",
+        "https://www.stib-mivb.be"
+      ],
+      "buy": [
+        "Tap a contactless bank card, phone or watch on the reader in stations and on board",
+        "STIB-MIVB app (digital tickets and Brupass)",
+        "GO ticket machines in metro stations and at some stops",
+        "STIB Bootik and Kiosk sales points",
+        "Not possible from the driver. Tap a contactless card on board instead"
+      ]
+    },
+    "bus": {
+      "sum": "STIB runs most city buses. De Lijn (yellow and white) and TEC/Letec buses link Brussels with Flanders and Wallonia.",
+      "sched": "City buses run from about 06:00 to midnight. Noctis night buses run after the metro closes on Friday and Saturday nights.",
+      "tickets": [
+        "STIB bus: same fare as metro and tram, about 2.40 EUR",
+        "De Lijn single ticket: about 3.00 EUR, valid 60 minutes",
+        "TEC (Letec) Classique ticket: about 2.80 EUR, valid 90 minutes",
+        "Noctis night buses: normal daytime fare",
+        "Long distance: FlixBus coaches to Amsterdam, Paris, Lille and more"
+      ],
+      "tip": "Inside Brussels a Brupass works on STIB, De Lijn and TEC buses, so you can mix them.",
+      "link": [
+        "STIB-MIVB",
+        "https://www.stib-mivb.be"
+      ],
+      "buy": [
+        "STIB buses: tap a contactless card on the reader. Drivers do not sell tickets",
+        "De Lijn buses: tap a contactless card on the white reader on board, about 3.00 EUR",
+        "De Lijn app or SMS (text DL to 4884, plus about 0.25 EUR)",
+        "STIB and De Lijn machines and sales points",
+        "FlixBus: online or in the FlixBus app"
+      ]
+    },
+    "airport": {
+      "sum": "Brussels Airport (BRU) is in Zaventem, about 12 km northeast of the centre. Brussels South Charleroi (CRL), used by low-cost airlines, is about 50 km south.",
+      "sched": "Trains from Brussels Airport run 6 times an hour, from early morning to about midnight: about 11 min to Nord, 18 min to Central, 23 min to Midi. Flibco buses to Charleroi Airport take about 55 minutes.",
+      "tickets": [
+        "Train: normal fare plus the Brussels Airport Supplement (old Diabolo fee) of about 6.90 EUR",
+        "STIB bus 12 (Airport Line) to Schuman and Luxembourg: Airport2City ticket about 7.90 EUR",
+        "Taxi to the centre: about 45 EUR or more, by meter",
+        "Charleroi: Flibco bus to Brussels-Midi from about 5 EUR when booked early, often about 15 EUR",
+        "Charleroi: train to Charleroi-Central plus bus A1 (every 15 min, about 20 min). Combined ticket from SNCB"
+      ],
+      "tip": "The airport supplement is added to any train ticket to or from the airport. Direct trains also go to Antwerp, Ghent, Bruges, Liege and Cologne.",
+      "link": [
+        "Brussels Airport",
+        "https://www.brusselsairport.be"
+      ],
+      "buy": [
+        "Train: SNCB machines at level -1 or in the baggage hall, SNCB app or website",
+        "Not possible on board domestic trains. Buy before you pass the gates",
+        "STIB bus 12: tap a contactless card on board, or buy at the machines in the bus station (level 0)",
+        "De Lijn buses: tap a contactless card on board or use the De Lijn app",
+        "Flibco (Charleroi): online in advance, or at Charleroi Airport"
+      ]
+    }
+  },
+  "metro": {
+    "note": "Four metro lines: 1 and 5 run east to west, 2 and 6 loop around the centre. Trams 3 and 4 run underground as premetro on the north-south axis.",
+    "mapLabel": "Official network maps (STIB-MIVB)",
+    "mapUrl": "https://www.stib-mivb.be",
+    "lines": [
+      "Metro 1, 2, 5 and 6, plus premetro trams 3 and 4",
+      "De Brouckere and Gare Centrale link lines 1 and 5 in the old town",
+      "Arts-Loi and Gare de l'Ouest link lines 1, 2, 5 and 6",
+      "Gare du Midi links metro 2 and 6 with premetro 3 and 4 and the trains",
+      "Schuman (lines 1 and 5) serves the European Quarter"
+    ]
+  },
+  "tips": [
+    "Station names have two languages: Midi = Zuid, Nord = Noord, Central = Centraal.",
+    "Buy train tickets before boarding. Domestic trains no longer sell tickets on board.",
+    "A contactless bank card works on STIB and De Lijn. Tap in every time you board.",
+    "Strikes happen several times a year. Check STIB and SNCB before you travel.",
+    "On STIB metro, trams and buses the fine without a valid ticket is 107 EUR, or 214 EUR for a second offence within two years."
+  ],
+  "apps": [
+    {
+      "name": "SNCB",
+      "what": "Belgian train times and tickets"
+    },
+    {
+      "name": "STIB-MIVB",
+      "what": "Brussels metro, tram and bus times and tickets, Brupass"
+    },
+    {
+      "name": "De Lijn",
+      "what": "Flemish buses and trams, tickets"
+    },
+    {
+      "name": "Eurostar",
+      "what": "High-speed trains to London, Paris, Amsterdam and Cologne"
+    },
+    {
+      "name": "Citymapper",
+      "what": "Route planning"
+    }
+  ],
+  "verified": "2026-11-11",
+  "sources": [
+    {
+      "title": "SNCB: No tickets sold on board from 1 July 2026",
+      "url": "https://www.belgiantrain.be/en/news/end-of-on-board-fare"
+    },
+    {
+      "title": "SNCB: A flight from Brussels Airport? (supplement)",
+      "url": "https://www.belgiantrain.be/en/tickets-and-railcards/airports/diabolo-fee"
+    },
+    {
+      "title": "SNCB: FAQ price supplements (fares from 1 February 2026)",
+      "url": "https://www.belgiantrain.be/en/support/faq/faq-tickets-and-railcards/faq-price-supplements"
+    },
+    {
+      "title": "SNCB IC-01 timetable (Ostend - Brussels - Eupen)",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/support/riv/ic-leaflets/fr/ic-01-dec2025-fr.ashx"
+    },
+    {
+      "title": "SNCB IC-05 timetable (Charleroi - Brussels - Antwerp)",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/support/riv/ic-leaflets/fr/ic-05-dec2025-fr.ashx"
+    },
+    {
+      "title": "SNCB IC-07 timetable",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/support/riv/ic-leaflets/fr/ic-07-dec2025-fr.ashx"
+    },
+    {
+      "title": "SNCB IC-14 timetable (Mons - Brussels - Hasselt)",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/support/riv/ic-leaflets/fr/ic-14-dec2025-fr.ashx"
+    },
+    {
+      "title": "SNCB IC-16 timetable (Brussels - Namur - Luxembourg)",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/support/riv/ic-leaflets/fr/ic-16-34-dec2025-fr.ashx"
+    },
+    {
+      "title": "SNCB IC-17 timetable (Brussels - Namur - Dinant)",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/support/riv/ic-leaflets/fr/ic-17-dec2025-fr.ashx"
+    },
+    {
+      "title": "SNCB IC-20 timetable (Knokke - Ghent - Brussels - Liege)",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/support/riv/ic-leaflets/fr/ic-20-dec2025-fr.ashx"
+    },
+    {
+      "title": "SNCB IC-22 timetable (Charleroi - Brussels - Antwerp)",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/support/riv/ic-leaflets/fr/ic-22-dec2025-fr.ashx"
+    },
+    {
+      "title": "SNCB IC-29 timetable (De Panne - Ghent - Brussels - Leuven)",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/support/riv/ic-leaflets/fr/ic-29-dec2025-fr.ashx"
+    },
+    {
+      "title": "SNCB IC-35 timetable (Brussels - Antwerp - Rotterdam)",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/support/riv/ic-leaflets/fr/ic-35-dec2025-fr.ashx"
+    },
+    {
+      "title": "STIB-MIVB: Tarifs au 01.02.2026 (Moniteur belge publication)",
+      "url": "https://www.stib-mivb.be/files/live/sites/STIBMIVB/files/Buy/Fares/Publication%20MB%20Tarifs%20au%2001022026.pdf"
+    },
+    {
+      "title": "visit.brussels: Public transport STIB/MIVB",
+      "url": "https://www.visit.brussels/en/visitors/plan-your-trip/practical-info/getting-around/public-transport"
+    },
+    {
+      "title": "De Lijn: Single ticket",
+      "url": "https://www.delijn.be/en/content/tickets/ticket/"
+    },
+    {
+      "title": "De Lijn: Contactless payment on buses and trams",
+      "url": "https://www.delijn.be/en/content/contactloos-betalen/"
+    },
+    {
+      "title": "Brussels Times: Public transport fares set to rise from 1 February 2026",
+      "url": "https://www.brusselstimes.com/1938616/public-transport-fares-set-to-rise-in-belgium-from-1-february"
+    },
+    {
+      "title": "Econostrum: New TEC fares in 2026",
+      "url": "https://econostrum.info/belgique/?p=107430"
+    },
+    {
+      "title": "Brussels Times: How public transport works in Belgium",
+      "url": "https://www.brusselstimes.com/belgium/1733805/how-public-transport-works-in-belgium/"
+    },
+    {
+      "title": "Brussels Airport: Train",
+      "url": "https://www.brusselsairport.be/en/passenger/mobility/public-transport/train"
+    },
+    {
+      "title": "Brussels Airport: Bus",
+      "url": "https://www.brusselsairport.be/en/passenger/mobility/bus/"
+    },
+    {
+      "title": "Brussels Airport: Taxi services",
+      "url": "https://www.brusselsairport.be/en/passenger/mobility/airport-transfer"
+    },
+    {
+      "title": "Brussels South Charleroi Airport: Mobility",
+      "url": "https://www.brussels-charleroi-airport.com/en/mobility"
+    },
+    {
+      "title": "Flibco: Shuttle Brussels - Charleroi Airport",
+      "url": "https://www.flibco.com/nl/shuttle/shuttlebus-brussel-luchthaven-charleroi"
+    },
+    {
+      "title": "New Mobility: Letec cancels 2 bus routes to Charleroi Airport",
+      "url": "https://newmobility.news/en/2026/07/06/letec-cancels-2-bus-routes-to-charleroi-airport/"
+    },
+    {
+      "title": "Brussels Times: Taxi fares from Brussels Airport",
+      "url": "https://brusselstimes.com/63102/taxi-fares-from-brussels-airport-among-the-most-expensive-in-europe"
+    },
+    {
+      "title": "Eurostar: Route map",
+      "url": "https://www.eurostar.com/be-en/destinations/routemap"
+    },
+    {
+      "title": "Eurostar: Eurostar Snow",
+      "url": "https://www.eurostar.com/be-en/deals/eurostar-snow"
+    },
+    {
+      "title": "b-europe: Eurocity Direct",
+      "url": "https://travel.b-europe.com/EN/Trains/Eurocity-Direct"
+    },
+    {
+      "title": "Seat61: Belgium",
+      "url": "https://www.seat61.com/Belgium.htm"
+    },
+    {
+      "title": "European Sleeper: Timetable",
+      "url": "https://www.europeansleeper.eu/en/timetable"
+    },
+    {
+      "title": "Seat61: European Sleeper Paris - Brussels - Berlin",
+      "url": "https://www.seat61.com/trains-and-routes/european-sleeper-paris-berlin.htm"
+    },
+    {
+      "title": "VRT: Night train service between Brussels and Milan starts",
+      "url": "https://www.vrt.be/vrtnws/en/2026/09/09/night-train-service-between-brussels-and-milan-starts/"
+    },
+    {
+      "title": "Brussels Times: ICE connects Brussels Airport and Cologne",
+      "url": "https://brusselstimes.com/belgium/2308964/new-high-speed-train-now-connects-brussels-airport-and-major-european-city-with-more-to-come/"
+    },
+    {
+      "title": "The Local: Deutsche Bahn expands Cologne - Brussels ICE services",
+      "url": "https://www.thelocal.de/20260311/deutsche-bahn-expands-high-speed-train-services-between-cologne-and-brussels"
+    },
+    {
+      "title": "Mobilithib: OUIGO Brussels - Paris changes",
+      "url": "https://mobilithib.substack.com/p/changements-sur-le-ouigo-bruxelles"
+    },
+    {
+      "title": "Econostrum: SNCB timetable changes from December 2026",
+      "url": "https://econostrum.info/belgique/sncb-pres-de-600-trains-supplementaires/"
+    },
+    {
+      "title": "Paris Match: STIB disrupted by national strike, 9 October 2026",
+      "url": "https://www.parismatch.be/actualites/2026/10/09/le-reseau-de-la-stib-perturbe-a-bruxelles-en-raison-de-la-greve-nationale-voici-quelles-sont-les-lignes-qui-circulent-LUMGG72N5NBYVOX2QAE54UBHXM/"
+    },
+    {
+      "title": "SNCF Connect: Brussels to Marseille trains",
+      "url": "https://www.sncf-connect.com/fr-be/train/horaires/bruxelles/marseille"
+    },
+    {
+      "title": "SNCF Connect: Brussels to Lyon trains",
+      "url": "https://www.sncf-connect.com/train/horaires/bruxelles/lyon"
+    },
+    {
+      "title": "SNCF Connect: Brussels to Bordeaux trains (TGV stops at CDG and Marne-la-Vallee)",
+      "url": "https://www.sncf-connect.com/train/horaires/bruxelles/bordeaux"
+    },
+    {
+      "title": "SNCB line 50A leaflet (Brussels - Ghent - Bruges - coast)",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/support/riv/lines-leaflets/fr/l50a-dec2025-fr.ashx"
+    },
+    {
+      "title": "Eurostar: Brussels to Dusseldorf",
+      "url": "https://www.eurostar.com/be-en/destinations/dusseldorf"
+    },
+    {
+      "title": "Trip by Trip: night train and OUIGO changes through Belgium from September 2026",
+      "url": "https://tripbytrip.org/2026/07/30/european-sleeper-obb-nightjet-and-ouigo-services-through-belgium-to-change-from-september-2026/"
+    },
+    {
+      "title": "The Brussels Times: STIB fines for fare dodging",
+      "url": "https://www.brusselstimes.com/brussels/2174656/fare-dodgers-beware-stib-clampdown-in-brussels-leads-to-record-e7m-collected-in-fines/"
+    }
+  ]
+}

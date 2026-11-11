@@ -1,0 +1,679 @@
+{
+  "id": "AUT",
+  "isoNumeric": "040",
+  "name": "Austria",
+  "capital": "Vienna",
+  "flag": "h:#ed2939,#ffffff,#ed2939",
+  "lonLat": [
+    16.37,
+    48.21
+  ],
+  "modes": {
+    "train": {
+      "sum": "Wien Hauptbahnhof is the main station, with Railjet trains to Salzburg, Graz, Prague, Budapest and Munich. S-Bahn lines serve the region.",
+      "sched": "S-Bahn runs from early morning until around midnight. Until the end of October 2027 the central S-Bahn line between Praterstern and Hauptbahnhof is closed for works, so Wien Mitte and Rennweg have no trains.",
+      "tickets": [
+        "OBB Sparschiene: discount fares for long distance",
+        "S-Bahn in the city: same as city ticket",
+        "Cheap Sparschiene fares to Salzburg and Budapest when booked early",
+        "Prices change by date, so check the OBB app"
+      ],
+      "tip": "Book Railjet tickets weeks ahead for the cheapest fares.",
+      "link": [
+        "OBB",
+        "https://www.oebb.at"
+      ],
+      "buy": [
+        "ÖBB ticket machines at stations, and ÖBB ticket counters in more than 50 travel centres",
+        "ÖBB app (ÖBB Tickets) and the online ÖBB ticket shop. Phone help: +43 5 1717",
+        "Long-distance trains (Railjet, ICE, Nightjet): you can buy from the crew on board. Tell staff at the first check. Most tickets cost about 3.00 EUR extra",
+        "Regional trains (REX, R, S-Bahn): Not possible on board, except at stations with no machine or counter",
+        "Without a valid ticket you pay a fine of about 110 EUR on the spot, or about 160 EUR if you pay later"
+      ],
+      "destinations": [
+        {
+          "to": "St. Pölten",
+          "country": "Austria",
+          "type": "domestic",
+          "time": "about 40 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet",
+          "note": "every 30 minutes"
+        },
+        {
+          "to": "Melk",
+          "country": "Austria",
+          "type": "domestic",
+          "time": "about 1 h",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Regional train (REX)",
+          "note": "for the Wachau and Melk Abbey. Check the direct train times"
+        },
+        {
+          "to": "Linz",
+          "country": "Austria",
+          "type": "domestic",
+          "time": "about 1 h 30 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet",
+          "note": "every 30 minutes. Westbahn also runs from Westbahnhof"
+        },
+        {
+          "to": "Salzburg",
+          "country": "Austria",
+          "type": "domestic",
+          "time": "about 2 h 30 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet, Westbahn",
+          "note": "every 30 minutes. Westbahn leaves from Westbahnhof"
+        },
+        {
+          "to": "Graz",
+          "country": "Austria",
+          "type": "domestic",
+          "time": "about 2 h 45 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet",
+          "note": "hourly"
+        },
+        {
+          "to": "Klagenfurt",
+          "country": "Austria",
+          "type": "domestic",
+          "time": "about 3 h 10 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet, Westbahn",
+          "note": "via Graz and the Koralm Railway"
+        },
+        {
+          "to": "Villach",
+          "country": "Austria",
+          "type": "domestic",
+          "time": "about 4 h",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet, Westbahn",
+          "note": "Westbahn runs 5 times a day via Graz and Klagenfurt"
+        },
+        {
+          "to": "Zell am See",
+          "country": "Austria",
+          "type": "domestic",
+          "time": "about 4 h 15 min",
+          "station": "Wien Westbahnhof",
+          "operator": "Westbahn",
+          "note": "3 trains a day"
+        },
+        {
+          "to": "Innsbruck",
+          "country": "Austria",
+          "type": "domestic",
+          "time": "about 4 h 25 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet",
+          "note": "hourly. Westbahn also runs from Westbahnhof"
+        },
+        {
+          "to": "Saalfelden",
+          "country": "Austria",
+          "type": "domestic",
+          "time": "about 4 h 30 min",
+          "station": "Wien Westbahnhof",
+          "operator": "Westbahn",
+          "note": "3 trains a day"
+        },
+        {
+          "to": "Feldkirch",
+          "country": "Austria",
+          "type": "domestic",
+          "time": "about 8 h 55 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train. Also leaves from Wien Meidling"
+        },
+        {
+          "to": "Bratislava",
+          "country": "Slovakia",
+          "type": "international",
+          "time": "about 1 h",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Regional express",
+          "note": "hourly"
+        },
+        {
+          "to": "Brno",
+          "country": "Czech Republic",
+          "type": "international",
+          "time": "about 1 h 30 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet",
+          "note": "every 2 hours, on the Prague line"
+        },
+        {
+          "to": "Budapest",
+          "country": "Hungary",
+          "type": "international",
+          "time": "about 2 h 40 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet, EuroCity",
+          "note": "hourly. Arrives at Keleti"
+        },
+        {
+          "to": "Ostrava",
+          "country": "Czech Republic",
+          "type": "international",
+          "time": "about 2 h 50 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "EuroCity",
+          "note": "several trains a day"
+        },
+        {
+          "to": "Prague",
+          "country": "Czech Republic",
+          "type": "international",
+          "time": "about 4 h 15 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "ComfortJet, Railjet",
+          "note": "about every 2 hours. RegioJet also runs 4 trains a day"
+        },
+        {
+          "to": "Munich",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 4 h",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet",
+          "note": "every 2 hours. Westbahn also runs from Westbahnhof"
+        },
+        {
+          "to": "Poprad-Tatry",
+          "country": "Slovakia",
+          "type": "international",
+          "time": "about 4 h 45 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "EuroCity",
+          "note": "2 trains a day, new from 13 December 2026"
+        },
+        {
+          "to": "Kraków",
+          "country": "Poland",
+          "type": "international",
+          "time": "about 5 h 15 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "EuroCity",
+          "note": "3 trains a day"
+        },
+        {
+          "to": "Udine",
+          "country": "Italy",
+          "type": "international",
+          "time": "about 5 h 25 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet",
+          "note": "via Semmering"
+        },
+        {
+          "to": "Ljubljana",
+          "country": "Slovenia",
+          "type": "international",
+          "time": "about 6 h",
+          "station": "Wien Hauptbahnhof",
+          "operator": "EuroCity Emona",
+          "note": "one train a day"
+        },
+        {
+          "to": "Košice",
+          "country": "Slovakia",
+          "type": "international",
+          "time": "about 6 h 10 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "EuroCity",
+          "note": "2 trains a day, new from 13 December 2026"
+        },
+        {
+          "to": "Zagreb",
+          "country": "Croatia",
+          "type": "international",
+          "time": "about 6 h 30 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "EuroCity Croatia",
+          "note": "one train a day"
+        },
+        {
+          "to": "Trieste",
+          "country": "Italy",
+          "type": "international",
+          "time": "about 6 h 40 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet",
+          "note": "via Semmering and Koralm Railway"
+        },
+        {
+          "to": "Belgrade",
+          "country": "Serbia",
+          "type": "international",
+          "time": "about 6 h 40 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "EuroCity Avala, Ivo Andric",
+          "note": "2 trains a day. Planned to start 13 December 2026 and may be delayed"
+        },
+        {
+          "to": "Venice",
+          "country": "Italy",
+          "type": "international",
+          "time": "about 7 h 10 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet",
+          "note": "2 trains a day"
+        },
+        {
+          "to": "Warsaw",
+          "country": "Poland",
+          "type": "international",
+          "time": "about 7 h 45 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "EuroCity Sobieski, Polonia",
+          "note": "2 trains a day"
+        },
+        {
+          "to": "Zurich",
+          "country": "Switzerland",
+          "type": "international",
+          "time": "about 7 h 50 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Railjet",
+          "note": "via Salzburg, Innsbruck and the Arlberg"
+        },
+        {
+          "to": "Berlin",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 7 h 50 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "ICE",
+          "note": "2 trains a day from 19 December 2026. Before that, change at Munich"
+        },
+        {
+          "to": "Kraków",
+          "country": "Poland",
+          "type": "international",
+          "time": "about 8 h",
+          "station": "Wien Hauptbahnhof",
+          "operator": "EuroNight Chopin",
+          "note": "night train"
+        },
+        {
+          "to": "Berlin",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 8 h 25 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "ComfortJet",
+          "note": "via Prague and Dresden"
+        },
+        {
+          "to": "Warsaw",
+          "country": "Poland",
+          "type": "international",
+          "time": "about 8 h 40 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "EuroNight Chopin",
+          "note": "night train"
+        },
+        {
+          "to": "Berlin",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 9 h 30 min to 11 h 15 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train, daily. Sources give different times, so check your date"
+        },
+        {
+          "to": "Bologna",
+          "country": "Italy",
+          "type": "international",
+          "time": "about 9 h 35 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train, daily"
+        },
+        {
+          "to": "Hamburg",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 10 h",
+          "station": "Wien Hauptbahnhof",
+          "operator": "ICE",
+          "note": "2 trains a day from 19 December 2026. Before that, change at Munich"
+        },
+        {
+          "to": "Zurich",
+          "country": "Switzerland",
+          "type": "international",
+          "time": "about 10 h 40 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train, daily"
+        },
+        {
+          "to": "Hannover",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 10 h 45 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train, daily"
+        },
+        {
+          "to": "Florence",
+          "country": "Italy",
+          "type": "international",
+          "time": "about 10 h 45 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train, daily"
+        },
+        {
+          "to": "Venice",
+          "country": "Italy",
+          "type": "international",
+          "time": "about 11 h",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train, daily. Not running 25 May to 8 July 2027"
+        },
+        {
+          "to": "Düsseldorf",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 11 h 10 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train, daily, from 13 December 2026"
+        },
+        {
+          "to": "Hamburg",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 12 h 35 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train, daily"
+        },
+        {
+          "to": "Cologne",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 12 h 45 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train. Tue, Thu, Sun until 12 December 2026, then daily"
+        },
+        {
+          "to": "Amsterdam",
+          "country": "Netherlands",
+          "type": "international",
+          "time": "about 14 h",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train, daily"
+        },
+        {
+          "to": "Rome",
+          "country": "Italy",
+          "type": "international",
+          "time": "about 14 h",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train, daily"
+        },
+        {
+          "to": "Brussels",
+          "country": "Belgium",
+          "type": "international",
+          "time": "about 14 h 25 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "Nightjet",
+          "note": "night train, Tue, Thu, Sun. Check the schedule after 12 December 2026"
+        },
+        {
+          "to": "Bucharest",
+          "country": "Romania",
+          "type": "international",
+          "time": "about 17 h 45 min",
+          "station": "Wien Hauptbahnhof",
+          "operator": "EuroNight Dacia",
+          "note": "night train"
+        }
+      ]
+    },
+    "tram": {
+      "sum": "Vienna has one of the largest tram networks in the world, plus 5 U-Bahn lines (U1 to U4 and U6).",
+      "sched": "U-Bahn about 05:00 to midnight, and all night on Friday, Saturday and before holidays, every 15 minutes.",
+      "tickets": [
+        "Single ticket: about 3.00 EUR digital, about 3.20 EUR on paper",
+        "From 1 January 2027: about 3.10 EUR digital, about 3.30 EUR on paper",
+        "24-hour ticket: about 9.70 EUR digital. 7-day ticket: about 25.20 EUR digital",
+        "48-hour and 72-hour tickets are no longer sold. The Vienna City Card includes discounts"
+      ],
+      "tip": "Paper tickets must be validated at the machine before the first journey.",
+      "link": [
+        "Wiener Linien",
+        "https://www.wienerlinien.at"
+      ],
+      "buy": [
+        "Wiener Linien ticket machines at U-Bahn stations, in several languages",
+        "Trams have a ticket machine on board. Tickets cost more than at a station (single about 3.40 EUR). Validate right after boarding",
+        "Apps and shop: WienMobil app and shop.wienmobil.at. Digital tickets need no validation",
+        "Contactless Tap+Ride pilot since 28 May 2026: 15 devices at nine stations, including Hauptbahnhof, Westbahnhof, Stephansplatz and Schwedenplatz. Single rides only",
+        "Tabak Trafiken and Wiener Linien sales points also sell tickets",
+        "Without a valid ticket the fine is about 131.60 EUR if you pay at once"
+      ]
+    },
+    "bus": {
+      "sum": "Wiener Linien buses fill gaps in the network. Night buses (N lines) run after the U-Bahn closes.",
+      "sched": "Day buses usually stop earlier than the U-Bahn. Night buses about 00:30 to 05:00, every 30 minutes.",
+      "tickets": [
+        "Same fare as tram and U-Bahn",
+        "Vienna Airport Bus: about 11 EUR",
+        "Long distance: FlixBus and other coaches",
+        "City bike share: WienMobil Rad"
+      ],
+      "tip": "The city fare system is the same for all modes, so tickets can be mixed.",
+      "link": [
+        "Wiener Linien",
+        "https://www.wienerlinien.at"
+      ],
+      "buy": [
+        "Not possible on board. Drivers do not sell tickets",
+        "Buy before you board at U-Bahn ticket machines, Tabak Trafiken or Wiener Linien sales points",
+        "Apps and shop: WienMobil app and shop.wienmobil.at. Digital tickets need no validation",
+        "Paper tickets must be validated in the bus right after boarding",
+        "Without a valid ticket the fine is about 131.60 EUR if you pay at once"
+      ]
+    },
+    "airport": {
+      "sum": "Vienna International (VIE) is about 18 km southeast of the centre.",
+      "sched": "Until the end of October 2027 the CAT runs as a bus to Wien Mitte, about 21 minutes. Railjet trains reach Hauptbahnhof in about 15 minutes. The S7 only goes as far as St. Marx.",
+      "tickets": [
+        "OBB train or S7 into Vienna: about 5.50 EUR",
+        "CAT (now by bus): about 14.90 EUR",
+        "Vienna Airport Bus: about 11 EUR",
+        "Taxi: about 25 to 42 EUR, depending on the company"
+      ],
+      "tip": "Railjet or REX 7 to Hauptbahnhof is the cheapest fast option during the works. The airport bus goes direct to Schwedenplatz and Karlsplatz.",
+      "link": [
+        "Vienna Airport",
+        "https://www.viennaairport.com"
+      ],
+      "buy": [
+        "Train: ÖBB counter in the arrivals hall. ÖBB machines in the arrivals hall, at the platform passages and on the platforms. ÖBB app too",
+        "Railjet: you can buy from the crew on board for about 3.00 EUR extra. S7 and REX 7: Not possible on board",
+        "Vienna Airport Bus (about 11 EUR): buy online, at machines at the airport and Westbahnhof, or from the driver on the bus",
+        "CAT bus to Wien Mitte (about 14.90 EUR): buy online (valid 6 months), at machines or at kiosks at the stops. Buying from the driver is not confirmed",
+        "Tourist-Info Flughafen Wien in the arrivals hall, daily 09:00 to 18:00"
+      ]
+    }
+  },
+  "metro": {
+    "note": "Five U-Bahn lines: U1 to U4 and U6. The tram network is one of the largest in the world.",
+    "mapLabel": "Official network maps (Wiener Linien)",
+    "mapUrl": "https://www.wienerlinien.at/en/fahrplaene",
+    "lines": [
+      "U1, U2, U3, U4 and U6",
+      "Stephansplatz links U1 and U3 under the cathedral",
+      "Karlsplatz links U1, U2 and U4",
+      "Westbahnhof links U3 and U6"
+    ]
+  },
+  "tips": [
+    "Vienna's system runs on trust. Gates are open, but inspectors check often.",
+    "Validate paper tickets before the first journey.",
+    "Transport runs on Sundays even when shops are closed."
+  ],
+  "apps": [
+    {
+      "name": "WienMobil",
+      "what": "Routes, tickets and sharing services"
+    },
+    {
+      "name": "OBB Tickets",
+      "what": "Train tickets"
+    },
+    {
+      "name": "Citymapper",
+      "what": "Route planning"
+    },
+    {
+      "name": "Bolt",
+      "what": "Ride-hailing"
+    }
+  ],
+  "verified": "2026-11-11",
+  "sources": [
+    {
+      "title": "Wiener Linien: 24 Stunden WIEN (48h and 72h tickets withdrawn)",
+      "url": "https://www.wienerlinien.at/de/24-48-oder-72-stunden-wien"
+    },
+    {
+      "title": "Wiener Linien: Einzelfahrten",
+      "url": "https://www.wienerlinien.at/de/einzelfahrten"
+    },
+    {
+      "title": "Wiener Linien: Neue Tarife ab 1. Jaenner 2027",
+      "url": "https://www.wienerlinien.at/de/tarifanpassung-2027"
+    },
+    {
+      "title": "Wiener Linien factsheet: Tarifanpassungen 2026",
+      "url": "https://www.behindertenrat.at/wp-content/uploads/2025/09/WL_2025_Factsheet_A4_3seitig_Tarifanpassungen_web.pdf"
+    },
+    {
+      "title": "Vienna.at: Vienna public transport 2027, new ticket prices",
+      "url": "https://www.vienna.at/vienna-public-transport-2027-the-new-ticket-prices-are-now-set/10583666"
+    },
+    {
+      "title": "wien.info: Tickets",
+      "url": "https://www.wien.info/de/reiseinfos/verkehr/tickets-361374?set_language=de"
+    },
+    {
+      "title": "wien.info: Betriebszeiten",
+      "url": "https://www.wien.info/de/reiseinfos/verkehr/betriebszeiten-341222"
+    },
+    {
+      "title": "wien.info: Important information for airport travellers 2026-2027",
+      "url": "https://www.wien.info/de/reiseinfos/anreise/flughafen-zentrum/wichtige-infos-fuer-flughafenreisende-2026-2027-1108794"
+    },
+    {
+      "title": "wien.info: Express train S7",
+      "url": "https://www.wien.info/en/travel-info/to-and-around/airport-to-center/express-train-s7-345644"
+    },
+    {
+      "title": "wien.info: Bus connections from the airport",
+      "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/bus-connections-341992"
+    },
+    {
+      "title": "City Airport Train: CAT by bus",
+      "url": "https://www.cityairporttrain.com/en/cat-by-bus/cat-bus-service"
+    },
+    {
+      "title": "City Airport Train: Airport taxi",
+      "url": "https://www.cityairporttrain.com/en/info-service/airport-taxi/"
+    },
+    {
+      "title": "Wiener Linien: Netzplaene, Fahrplaene",
+      "url": "https://www.wienerlinien.at/en/fahrplaene"
+    },
+    {
+      "title": "OBB: Ways to buy a ticket",
+      "url": "https://www.oebb.at/de/tickets-kundenkarten/weg-zum-ticket"
+    },
+    {
+      "title": "OBB: Fahrgeldnachforderung",
+      "url": "https://oebb.at/fgn"
+    },
+    {
+      "title": "OBB: Self-service lines and buying on board",
+      "url": "https://www.oebb.at/de/fragen-und-antworten/rechte-pflichten/selbstbedienungsstrecken"
+    },
+    {
+      "title": "Wiener Linien: Conditions of carriage",
+      "url": "https://www.wienerlinien.at/befoerderungsbedingungen"
+    },
+    {
+      "title": "Wiener Linien: FAQ",
+      "url": "https://www.wienerlinien.at/faq"
+    },
+    {
+      "title": "ORF Wien: Tap and Ride pilot",
+      "url": "https://wien.orf.at/stories/3355631/"
+    },
+    {
+      "title": "Vienna Airport: S-Bahn and suburban railway",
+      "url": "https://www.viennaairport.com/en/passengers/arrival__parking/s-bahn__suburban_railway"
+    },
+    {
+      "title": "Vienna Airport Bus: Tickets and prices",
+      "url": "https://www.viennaairportbus.com/en/informationen/tickets-und-preise"
+    },
+    {
+      "title": "City Airport Train: CAT by bus",
+      "url": "https://www.cityairporttrain.com/en/cat-by-bus/cat-bus-service"
+    },
+    {
+      "title": "OBB: Pre-information on works Germany-Austria, 14 June to 12 December 2026",
+      "url": "https://kundeninformation-pv.oebb.at/dam/kundeninformation/extern/OEBB/2026/2026_06/VorinfoDB14062026_Gesamt.pdf"
+    },
+    {
+      "title": "Seat61: Trains from Vienna",
+      "url": "https://www.seat61.com/international-trains/trains-from-Vienna.htm"
+    },
+    {
+      "title": "Westbahn: Timetable 2026 updates",
+      "url": "https://westbahn.at/en/timetable-travel-updates/timetable-2026"
+    },
+    {
+      "title": "Westbahn: Timetable press release from 14 December 2025",
+      "url": "https://corporate.westbahn.at/uploads/251114_Westbahn_Presseaussendung_Rekordfahrplan_ab14122025.pdf"
+    },
+    {
+      "title": "Vienna.at: S-Bahn closure from 7 September 2026",
+      "url": "https://www.vienna.at/school-start-meets-s-bahn-closure-this-is-what-changes-now-for-viennas-public-transport/10447457"
+    },
+    {
+      "title": "OAMTC: Stammstrecke closure and other works in Vienna",
+      "url": "https://www.oeamtc.at/news/wien/stammstrecke-u-bahn-sperre-und-weitere-grossbaustellen-50591571"
+    },
+    {
+      "title": "VOL.at: New OBB timetable 2026 (Klagenfurt journey time)",
+      "url": "https://www.vol.at/neuer-oebb-fahrplan-mit-hochgeschwindigkeit-ins-bahnzeitalter/9856208"
+    },
+    {
+      "title": "1000things: Night train destinations from Austria 2026",
+      "url": "https://www.1000thingsmagazine.com/de/a/438895/reiseziele-mit-dem-nachtzug-aus-oesterreich/about:blank"
+    },
+    {
+      "title": "Seat61: Prague to Vienna by train",
+      "url": "https://www.seat61.com/trains-and-routes/prague-to-vienna-by-train.htm"
+    }
+  ]
+}

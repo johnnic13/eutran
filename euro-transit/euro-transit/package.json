@@ -1,0 +1,16 @@
+{
+  "name": "euro-transit-guide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Public transport guides for European capitals",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/dev.mjs",
+    "test": "node scripts/test.mjs",
+    "audit": "node scripts/audit.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

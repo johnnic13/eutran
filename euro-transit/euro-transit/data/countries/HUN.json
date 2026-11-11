@@ -1,0 +1,659 @@
+{
+  "id": "HUN",
+  "isoNumeric": "348",
+  "name": "Hungary",
+  "capital": "Budapest",
+  "flag": "h:#ce2939,#ffffff,#477050",
+  "lonLat": [
+    19.04,
+    47.5
+  ],
+  "modes": {
+    "train": {
+      "sum": "Keleti, Nyugati and Deli are the three main stations. MAV runs trains to Vienna, Bratislava and Prague, and the HEV suburban lines.",
+      "sched": "HEV suburban trains run from early morning until late evening.",
+      "tickets": [
+        "Budapest to Vienna: cheap advance fares are limited, so book early",
+        "HEV suburban line: BKK tickets and passes are valid inside the city limits",
+        "MAVPlusz app for train tickets",
+        "Intercity supplement may apply"
+      ],
+      "tip": "Keleti has international departures. Keep an eye on platform announcements.",
+      "link": [
+        "MAV",
+        "https://www.mavcsoport.hu"
+      ],
+      "buy": [
+        "MAVPlusz app or jegy.mav.hu: buy before you board, up to 60 days ahead",
+        "MAV ticket counters and ticket machines at the main stations. International tickets are sold at the international ticket offices or online",
+        "On board: in Budapest and the suburban buy-before-you-board zone you can still pay on the train, but you pay the fare plus a 30,000 HUF surcharge (25,000 HUF before 2 November 2026)",
+        "Outside that zone: boarding without a ticket costs 2,600 HUF on top of the fare, unless your stop had no way to buy one. A seat reservation bought on board costs extra",
+        "Pay the surcharge late and it rises to 50,000 HUF after 30 days. Show a valid ticket within 15 days and it drops to 2,600 HUF",
+        "HEV: BKK tickets inside the city, from BKK machines at almost all HEV stations or in BudapestGO"
+      ],
+      "destinations": [
+        {
+          "to": "Vac",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 25 min",
+          "station": "Budapest-Nyugati",
+          "operator": "MAV",
+          "note": "Danube Bend town"
+        },
+        {
+          "to": "Szentendre",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 40 min",
+          "station": "Batthyany ter (HEV)",
+          "operator": "HEV",
+          "note": "suburban line H5"
+        },
+        {
+          "to": "Nagymaros-Visegrad",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 45 min",
+          "station": "Budapest-Nyugati",
+          "operator": "MAV",
+          "note": "ferry across to Visegrad"
+        },
+        {
+          "to": "Godollo",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 50 min",
+          "station": "Ors vezer tere (HEV)",
+          "operator": "HEV",
+          "note": "suburban line H8, for Godollo Palace"
+        },
+        {
+          "to": "Szekesfehervar",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 1 h",
+          "station": "Budapest-Deli",
+          "operator": "MAV"
+        },
+        {
+          "to": "Esztergom",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 1 h 10 min",
+          "station": "Budapest-Nyugati",
+          "operator": "MAV"
+        },
+        {
+          "to": "Gyor",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 1 h 10 min",
+          "station": "Budapest-Keleti",
+          "operator": "MAV / Railjet"
+        },
+        {
+          "to": "Kecskemet",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 1 h 15 min",
+          "station": "Budapest-Nyugati",
+          "operator": "MAV InterCity"
+        },
+        {
+          "to": "Siofok",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 1 h 30 min",
+          "station": "Budapest-Deli",
+          "operator": "MAV",
+          "note": "Lake Balaton, more trains in summer"
+        },
+        {
+          "to": "Veszprem",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 1 h 45 min",
+          "station": "Budapest-Deli",
+          "operator": "MAV InterCity"
+        },
+        {
+          "to": "Eger",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 1 h 50 min",
+          "station": "Budapest-Keleti",
+          "operator": "MAV"
+        },
+        {
+          "to": "Balatonfured",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 2 h",
+          "station": "Budapest-Deli",
+          "operator": "MAV",
+          "note": "Lake Balaton"
+        },
+        {
+          "to": "Miskolc",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 2 h",
+          "station": "Budapest-Keleti",
+          "operator": "MAV InterCity"
+        },
+        {
+          "to": "Szeged",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 2 h 20 min",
+          "station": "Budapest-Nyugati",
+          "operator": "MAV InterCity"
+        },
+        {
+          "to": "Debrecen",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 2 h 30 min",
+          "station": "Budapest-Nyugati",
+          "operator": "MAV InterCity"
+        },
+        {
+          "to": "Sopron",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 2 h 40 min",
+          "station": "Budapest-Keleti",
+          "operator": "MAV / GYSEV"
+        },
+        {
+          "to": "Badacsony",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 2 h 40 min",
+          "station": "Budapest-Deli",
+          "operator": "MAV",
+          "note": "Lake Balaton wine region"
+        },
+        {
+          "to": "Tokaj",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 2 h 45 min",
+          "station": "Budapest-Keleti",
+          "operator": "MAV InterCity",
+          "note": "wine region"
+        },
+        {
+          "to": "Keszthely",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 2 h 50 min",
+          "station": "Budapest-Deli",
+          "operator": "MAV",
+          "note": "Lake Balaton, near Heviz"
+        },
+        {
+          "to": "Pecs",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 3 h",
+          "station": "Budapest-Keleti",
+          "operator": "MAV InterCity"
+        },
+        {
+          "to": "Nyiregyhaza",
+          "country": "Hungary",
+          "type": "domestic",
+          "time": "about 3 h",
+          "station": "Budapest-Nyugati",
+          "operator": "MAV InterCity"
+        },
+        {
+          "to": "Bratislava",
+          "country": "Slovakia",
+          "type": "international",
+          "time": "about 2 h 25 min",
+          "station": "Budapest-Nyugati",
+          "operator": "EuroCity"
+        },
+        {
+          "to": "Vienna",
+          "country": "Austria",
+          "type": "international",
+          "time": "about 2 h 40 min",
+          "station": "Budapest-Keleti",
+          "operator": "Railjet",
+          "note": "about every hour, some trains from Kelenfold"
+        },
+        {
+          "to": "Kosice",
+          "country": "Slovakia",
+          "type": "international",
+          "time": "about 3 h 30 min",
+          "station": "Budapest-Keleti",
+          "operator": "MAV InterCity",
+          "note": "via Miskolc"
+        },
+        {
+          "to": "Arad",
+          "country": "Romania",
+          "type": "international",
+          "time": "about 3 h 45 min",
+          "station": "Budapest-Keleti",
+          "operator": "MAV / CFR",
+          "note": "about every two hours"
+        },
+        {
+          "to": "Brno",
+          "country": "Czech Republic",
+          "type": "international",
+          "time": "about 4 h 10 min",
+          "station": "Budapest-Nyugati",
+          "operator": "EuroCity"
+        },
+        {
+          "to": "Timisoara",
+          "country": "Romania",
+          "type": "international",
+          "time": "about 5 h",
+          "station": "Budapest-Keleti",
+          "operator": "MAV / CFR",
+          "note": "three trains a day"
+        },
+        {
+          "to": "Salzburg",
+          "country": "Austria",
+          "type": "international",
+          "time": "about 5 h 20 min",
+          "station": "Budapest-Keleti",
+          "operator": "Railjet"
+        },
+        {
+          "to": "Graz",
+          "country": "Austria",
+          "type": "international",
+          "time": "about 5 h 30 min",
+          "station": "Budapest-Keleti",
+          "operator": "MAV",
+          "note": "two trains a day, via Szombathely"
+        },
+        {
+          "to": "Zagreb",
+          "country": "Croatia",
+          "type": "international",
+          "time": "about 6 h",
+          "station": "Budapest-Keleti",
+          "operator": "MAV / HZ"
+        },
+        {
+          "to": "Prague",
+          "country": "Czech Republic",
+          "type": "international",
+          "time": "about 6 h 50 min",
+          "station": "Budapest-Nyugati",
+          "operator": "EuroCity",
+          "note": "also a night train (Metropol)"
+        },
+        {
+          "to": "Munich",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 7 h",
+          "station": "Budapest-Keleti",
+          "operator": "Railjet",
+          "note": "also a night train (Kalman Imre)"
+        },
+        {
+          "to": "Katowice",
+          "country": "Poland",
+          "type": "international",
+          "time": "about 7 h 45 min",
+          "station": "Budapest-Nyugati",
+          "operator": "PKP Intercity",
+          "note": "one day train, also a night train"
+        },
+        {
+          "to": "Innsbruck",
+          "country": "Austria",
+          "type": "international",
+          "time": "about 8 h",
+          "station": "Budapest-Keleti",
+          "operator": "Railjet",
+          "note": "also a night train"
+        },
+        {
+          "to": "Krakow",
+          "country": "Poland",
+          "type": "international",
+          "time": "about 8 h",
+          "station": "Budapest-Nyugati",
+          "operator": "PKP Intercity",
+          "note": "one day train, also a night train"
+        },
+        {
+          "to": "Ljubljana",
+          "country": "Slovenia",
+          "type": "international",
+          "time": "about 7 h 45 min",
+          "station": "Budapest-Keleti",
+          "operator": "MAV InterCity",
+          "note": "one direct train a day. Track works can replace part of the route with a bus, so check your date"
+        },
+        {
+          "to": "Dresden",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 9 h 20 min",
+          "station": "Budapest-Nyugati",
+          "operator": "EuroCity"
+        },
+        {
+          "to": "Sibiu",
+          "country": "Romania",
+          "type": "international",
+          "time": "about 10 h",
+          "station": "Budapest-Keleti",
+          "operator": "CFR",
+          "note": "night train (Ister)"
+        },
+        {
+          "to": "Warsaw",
+          "country": "Poland",
+          "type": "international",
+          "time": "about 10 h 40 min",
+          "station": "Budapest-Nyugati",
+          "operator": "PKP Intercity",
+          "note": "one day train (Batory), also a night train (Metropol-Chopin)"
+        },
+        {
+          "to": "Zurich",
+          "country": "Switzerland",
+          "type": "international",
+          "time": "about 10 h 50 min",
+          "station": "Budapest-Keleti",
+          "operator": "Railjet",
+          "note": "one day train, also a night train"
+        },
+        {
+          "to": "Berlin",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 11 h",
+          "station": "Budapest-Nyugati",
+          "operator": "EuroCity",
+          "note": "also a night train (Metropol)"
+        },
+        {
+          "to": "Stuttgart",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 12 h",
+          "station": "Budapest-Keleti",
+          "operator": "EuroNight",
+          "note": "night train (Kalman Imre)"
+        },
+        {
+          "to": "Brasov",
+          "country": "Romania",
+          "type": "international",
+          "time": "about 13 h",
+          "station": "Budapest-Keleti",
+          "operator": "MAV / CFR",
+          "note": "night train (Corona), plus day trains"
+        },
+        {
+          "to": "Hamburg",
+          "country": "Germany",
+          "type": "international",
+          "time": "about 14 h",
+          "station": "Budapest-Nyugati",
+          "operator": "EuroCity",
+          "note": "one train a day (Hungaria)"
+        },
+        {
+          "to": "Bucharest",
+          "country": "Romania",
+          "type": "international",
+          "time": "about 16 h",
+          "station": "Budapest-Keleti",
+          "operator": "CFR",
+          "note": "night trains (Ister, Muntenia) and a day train (Dacia)"
+        },
+        {
+          "to": "Kyiv",
+          "country": "Ukraine",
+          "type": "international",
+          "time": "about 20 h",
+          "station": "Budapest-Nyugati",
+          "operator": "UZ",
+          "note": "night train via Lviv"
+        }
+      ]
+    },
+    "tram": {
+      "sum": "Budapest has 4 metro lines (M1 to M4), a large tram network including tram 2 along the Danube, and trolleybuses.",
+      "sched": "Metro runs from early morning until about midnight. M2, M3 and M4 run until about 01:00 on Friday and Saturday nights. Night trams and buses run after that.",
+      "tickets": [
+        "Single ticket: 500 HUF (700 HUF if bought on board)",
+        "24-hour ticket: 2,750 HUF",
+        "72-hour ticket: 5,750 HUF",
+        "Budapest Card: transport and sights"
+      ],
+      "tip": "Tram 2 along the river is one of the most scenic tram rides in Europe.",
+      "link": [
+        "BKK",
+        "https://bkk.hu"
+      ],
+      "buy": [
+        "BKK ticket machines at every metro station and at busy stops. They take cash and bank cards, and 99 take cards only",
+        "BudapestGO app: tickets and passes on your phone",
+        "Pay&GO: tap a bank card or phone on the validator to buy and validate a single ticket. Works on all metro lines and bus 100E",
+        "BKK customer centres, for example at Deak Ferenc ter, Keleti and Deli",
+        "On board trams: a 700 HUF single on lines with a sign, such as 2, 3, 19, 41 and 62. Not possible on the metro"
+      ]
+    },
+    "bus": {
+      "sum": "BKK buses are numbered and include fast and night lines. Long-distance coaches go from Nepliget.",
+      "sched": "Day buses run from early morning until late evening. Night buses have 900 numbers.",
+      "tickets": [
+        "Same tickets as metro and trams",
+        "Airport bus 100E: 2,500 HUF airport ticket",
+        "FlixBus from Nepliget",
+        "Validate tickets on board"
+      ],
+      "tip": "Ticket inspectors are strict. Always validate your ticket.",
+      "link": [
+        "BKK",
+        "https://bkk.hu"
+      ],
+      "buy": [
+        "BKK ticket machines at metro stations and busy stops, cash or bank card",
+        "BudapestGO app: tickets and passes on your phone",
+        "On board: a 700 HUF single on buses with a sign. Bank card is accepted on 200E, 105, 210 and 210B",
+        "Airport bus 100E: tap a bank card or phone on the Pay&GO reader on board",
+        "Regional buses around Budapest: the driver sells VOLAN paper tickets"
+      ]
+    },
+    "airport": {
+      "sum": "Budapest Ferenc Liszt (BUD) is about 16 km southeast of the centre.",
+      "sched": "Bus 100E runs around the clock and takes up to about 40 minutes to the centre (Kalvin ter and Deak Ferenc ter).",
+      "tickets": [
+        "Bus 100E: 2,500 HUF airport ticket (regular tickets and passes are not valid)",
+        "Bus 200E to metro M3 (Kobanya-Kispest): regular ticket",
+        "Taxi: metered at the official city rate, with a 2,100 HUF airport base fare",
+        "Train from Ferihegy station, linked to the airport by bus 200E"
+      ],
+      "tip": "Take a taxi from the official rank outside the terminal. All Budapest taxis charge the same regulated fare.",
+      "link": [
+        "Budapest Airport",
+        "https://www.bud.hu"
+      ],
+      "buy": [
+        "Bus 100E: 2,500 HUF. Tap a bank card or phone on the Pay&GO reader on board, or buy in BudapestGO or at a BKK machine",
+        "Bus 100E with a monthly pass: a 1,000 HUF supplement, sold only in BudapestGO",
+        "Bus 200E: regular BKK single. Buy in BudapestGO or at a BKK machine, or on board for 700 HUF (bank card accepted)",
+        "Train from Ferihegy station to Nyugati, about 30 minutes: buy a MAV ticket in the MAVPlusz app or at jegy.mav.hu. Some trains need a supplement",
+        "Private transfers and shuttles are also available. Book ahead"
+      ]
+    }
+  },
+  "metro": {
+    "note": "Four metro lines: M1 (yellow), M2 (red), M3 (blue) and M4 (green).",
+    "mapLabel": "Official network maps (BKK)",
+    "mapUrl": "https://bkk.hu/menetrend-utazastervezes/terkepek/",
+    "lines": [
+      "M1 (Yellow): the historic line along Andrassy ut",
+      "M2 (Red): runs east-west under the Danube",
+      "M3 (Blue): runs north-south",
+      "M4 (Green): Kelenfold to Keleti, via Szent Gellert ter and Kalvin ter"
+    ]
+  },
+  "tips": [
+    "Always validate your ticket. Inspectors are strict and fines are high.",
+    "The M1 line is historic and opened in 1896.",
+    "Use an app or an official taxi company. All Budapest taxis charge the same regulated fare.",
+    "The penalty fare without a valid ticket is 15,000 HUF if you pay the inspector by card or within two working days. After that it is 30,000 HUF, and 50,000 HUF after 30 days."
+  ],
+  "apps": [
+    {
+      "name": "BudapestGO",
+      "what": "Official transport and tickets app"
+    },
+    {
+      "name": "MÁVPlusz",
+      "what": "Official MAV train tickets app"
+    },
+    {
+      "name": "Bolt",
+      "what": "Ride-hailing"
+    },
+    {
+      "name": "Uber",
+      "what": "Taxis (licensed Fotaxi cars)"
+    }
+  ],
+  "verified": "2026-11-11",
+  "sources": [
+    {
+      "title": "BKK ticket and pass prices",
+      "url": "https://bkk.hu/jegyek-es-berletek/arak/"
+    },
+    {
+      "title": "BKK 100E Airport Express",
+      "url": "https://bkk.hu/utazasi-informaciok/kozossegi-kozlekedes/repteri-jarat/kozvetlen-autobuszjarat-a-repuloterrol-a-belvarosba.151/"
+    },
+    {
+      "title": "BKK 200E airport bus extension ticket",
+      "url": "https://bkk.hu/en/tickets-and-passes/prices/200e-airport-bus-extension-ticket/"
+    },
+    {
+      "title": "BKK late-night metro service",
+      "url": "https://bkk.hu/utazasi-informaciok/kozossegi-kozlekedes/ejszakai-metro/"
+    },
+    {
+      "title": "BKK maps",
+      "url": "https://bkk.hu/menetrend-utazastervezes/terkepek/"
+    },
+    {
+      "title": "BKK taxi information for passengers",
+      "url": "https://bkk.hu/utazasi-informaciok/kozuti-kozlekedes/taxi/utas-vagyok/"
+    },
+    {
+      "title": "Infostart: taxi fare changes from 1 August 2026",
+      "url": "https://infostart.hu/belfold/2026/08/01/taxizas-kozlekedes-vasut-nagy-valtozasok-leptek-eletbe-szombattol/amp"
+    },
+    {
+      "title": "MAV: MAVPlusz app",
+      "url": "https://mavcsoport.hu/mavapp"
+    },
+    {
+      "title": "MAV: Budapest-Vienna fares",
+      "url": "https://www.mavcsoport.hu/node/175423"
+    },
+    {
+      "title": "Just Budapest: Uber has returned",
+      "url": "https://justbudapest.com/uber-budapest-has-returned/"
+    },
+    {
+      "title": "MAV: surcharges rise from 2 November 2026",
+      "url": "https://www.mavcsoport.hu/node/209148"
+    },
+    {
+      "title": "MAV FAQ: ticket checks and surcharges",
+      "url": "https://www.mavcsoport.hu/mav-szemelyszallitas/gyik/jegyellenorzes-potdijazas"
+    },
+    {
+      "title": "MAV: buy-before-boarding zone in Budapest",
+      "url": "https://www.mavcsoport.hu/mav-szemelyszallitas/belfoldi-utazas/kotelezo-eloveteles-jegyvasarlas-elovarosi-jaratokon"
+    },
+    {
+      "title": "MAV: international night trains",
+      "url": "https://www.mavcsoport.hu/printpdf/52177"
+    },
+    {
+      "title": "MAV: international timetables",
+      "url": "https://www.mavcsoport.hu/print/51255"
+    },
+    {
+      "title": "MAV timetable: Budapest-Bratislava-Prague-Berlin",
+      "url": "https://www.mavcsoport.hu/sites/default/files/upload/page/nk_mnr_praha.pdf"
+    },
+    {
+      "title": "MAV timetable: Budapest-Krakow-Warsaw",
+      "url": "https://www.mavcsoport.hu/sites/default/files/upload/page/nk_mnr_lengyel.pdf"
+    },
+    {
+      "title": "MAV: trains to Croatia",
+      "url": "https://www.mavcsoport.hu/mav-szemelyszallitas/nemzetkozi-utazas/horvatorszag"
+    },
+    {
+      "title": "MAV: trains to Romania",
+      "url": "https://www.mavcsoport.hu/mav-szemelyszallitas/nemzetkozi-utazas/romania"
+    },
+    {
+      "title": "MAV: trains to Austria",
+      "url": "https://www.mavcsoport.hu/mav-start/nemzetkozi-utazas/ausztria"
+    },
+    {
+      "title": "MAV: Hungaria and Metropol notice 2026",
+      "url": "https://www.mavcsoport.hu/sites/default/files/upload/line-lock/10-42_tajekoztato_260717-29-0410_hungaria_a3_0.pdf"
+    },
+    {
+      "title": "BKK: ticket machines",
+      "url": "https://bkk.hu/jegyek-es-berletek/jegy-es-berletvasarlasi-informaciok/automatak/"
+    },
+    {
+      "title": "BKK: single ticket bought on board",
+      "url": "https://bkk.hu/jegyek-es-berletek/arak/helyszinen-valtott-vonaljegy/"
+    },
+    {
+      "title": "BKK: Pay&GO on all metro lines from 22 April 2026",
+      "url": "https://bkk.hu/hirek/2026/04/vonaljegyvasarlas-es-ervenyesites-egyetlen-erintessel-aprilis-22-tol-minden-metron-elerheto-a-pay_go-fizetes.16407/"
+    },
+    {
+      "title": "We Love Budapest: public transport guide 2026",
+      "url": "https://welovebudapest.com/en/article/2026/08/11/how-to-get-around-budapest-a-complete-guide-to-public-transport-in-2026/"
+    },
+    {
+      "title": "European Western Balkans: Budapest-Belgrade trains expected in December 2026",
+      "url": "https://europeanwesternbalkans.com/2026/10/08/budapest-belgrade-high-speed-passenger-trains-expected-to-launch-in-december/"
+    },
+    {
+      "title": "Seat61: Hungary",
+      "url": "https://www.seat61.com/Hungary.htm"
+    },
+    {
+      "title": "Daily News Hungary: Budapest Airport guide 2026",
+      "url": "https://dailynewshungary.com/?p=689947"
+    },
+    {
+      "title": "Omio: Budapest to Ljubljana trains",
+      "url": "https://www.omio.co.uk/trains/budapest/ljubljana"
+    },
+    {
+      "title": "BKK: information about penalty fares",
+      "url": "https://bkk.hu/en/tickets-and-passes/information-about-penalty-fares/general-information/"
+    }
+  ]
+}

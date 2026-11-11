@@ -1,0 +1,718 @@
+{
+  "id": "paris-amsterdam",
+  "title": "Paris to Amsterdam by Train: The Ultimate Eurostar (ex-Thalys) Travel Guide (2026)",
+  "short": "Paris to Amsterdam by Eurostar (formerly Thalys), with tickets, luggage, ID rules and alternatives.",
+  "summary": "Eurostar, the former Thalys, runs direct from Paris Gare du Nord to Amsterdam Centraal in about 3 hours 20 minutes, with fares from about 35 EUR one way. This guide covers classes, luggage, boarding, ID and border rules, and the options by train via Brussels, plane, coach and car.",
+  "from": {
+    "city": "Paris",
+    "station": "Paris Gare du Nord",
+    "country": "FRA"
+  },
+  "to": {
+    "city": "Amsterdam",
+    "station": "Amsterdam Centraal",
+    "country": "NLD"
+  },
+  "stats": [
+    {
+      "label": "Fastest time",
+      "value": "About 3 h 20 min"
+    },
+    {
+      "label": "Trains a day",
+      "value": "About 10 to 11 direct trains, 7 days a week"
+    },
+    {
+      "label": "Prices from",
+      "value": "About 35 EUR or 30.50 GBP one way"
+    },
+    {
+      "label": "Distance",
+      "value": "About 431 km (268 miles) by rail"
+    }
+  ],
+  "official": [
+    {
+      "label": "Eurostar Paris to Amsterdam",
+      "url": "https://www.eurostar.com/uk-en/train/paris-to-amsterdam"
+    },
+    {
+      "label": "Eurostar check-in and arrival times",
+      "url": "https://www.eurostar.com/uk-en/travel-info/your-trip/check-in"
+    },
+    {
+      "label": "Eurostar luggage rules",
+      "url": "https://www.eurostar.com/uk-en/travel-info/travel-planning/luggage"
+    },
+    {
+      "label": "Eurostar fares, fees and conditions",
+      "url": "https://www.eurostar.com/uk-en/travel-info/travel-planning/eurostar-fares-and-fees"
+    },
+    {
+      "label": "Eurostar travel documents",
+      "url": "https://www.eurostar.com/travel-info/your-trip/travel-documents"
+    },
+    {
+      "label": "NS International: Eurostar to Belgium and France",
+      "url": "https://www.nsinternational.com/en/trains/eurostar-belgium-france"
+    },
+    {
+      "label": "Interrail: international train reservation fees",
+      "url": "https://www.interrail.com/en/book-reservations/reservation-fees/international-train-reservation-fees"
+    },
+    {
+      "label": "Royal Netherlands Marechaussee: border control",
+      "url": "https://english.marechaussee.nl/topics/temporary-reintroduction-of-border-control"
+    }
+  ],
+  "sections": [
+    {
+      "id": "fast-facts",
+      "title": "Fast facts and route overview",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Eurostar is the main direct train between Paris and Amsterdam. The service was run for years under the name Thalys. Thalys is now Eurostar, with one website and one app, and the trains on this route are still red. The train runs from city centre to city centre. Both countries are in the Schengen area, so there is no passport control on this trip."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Item",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Distance",
+              "About 431 km (268 miles) by rail"
+            ],
+            [
+              "Departure station",
+              "Paris Gare du Nord, 18 Rue de Dunkerque, 75010 Paris"
+            ],
+            [
+              "Arrival station",
+              "Amsterdam Centraal, Stationsplein 15, 1012 AB Amsterdam"
+            ],
+            [
+              "Check-in requirement",
+              "Eurostar recommends arriving 20 minutes before departure. There is no check-in desk and no security screening on this route. Be ready to board 10 minutes before departure at Gare du Nord and 5 minutes before at other stations."
+            ],
+            [
+              "Luggage limit",
+              "2 pieces plus 1 small hand item in Standard and Plus. 3 pieces plus 1 hand item in Premier. Each piece up to 75 x 53 x 30 cm. No weight limit, but you must be able to carry each bag yourself."
+            ],
+            [
+              "Liquid rules",
+              "No liquid restrictions on board. Some alcohol limits apply."
+            ],
+            [
+              "Journey time",
+              "From about 3 h 20 min. Some operator sites round this to 3 h 25 min."
+            ],
+            [
+              "Frequency",
+              "About 10 to 11 direct trains a day, 7 days a week"
+            ],
+            [
+              "Operator",
+              "Eurostar (formerly Thalys)"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Eurostar's UK site shows fares from 30.50 GBP one way in Standard. NS International shows Standard fares from 35 EUR. The cheapest fares are limited and sell out first, so check the date you want."
+        }
+      ]
+    },
+    {
+      "id": "tickets",
+      "title": "Ticket classes and price breakdown",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Eurostar has three classes on this route: Standard, Plus and Premier. Your ticket is also your seat reservation."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Class",
+            "What is included",
+            "Who it suits",
+            "One-way fare, Paris to Amsterdam (NS International range)"
+          ],
+          "rows": [
+            [
+              "Standard",
+              "Standard seat. 2 bags plus 1 small hand item. Free Wi-Fi and plug sockets. Food and drink to buy at the Eurostar Cafe. Free date or time change until 1 hour before departure.",
+              "Budget travellers and short trips",
+              "35 EUR to 149 EUR"
+            ],
+            [
+              "Plus",
+              "More spacious seat. Same luggage, Wi-Fi and exchange terms as Standard. The seat-side meal service is for London routes only.",
+              "Travellers who want more space",
+              "75 EUR to 169 EUR"
+            ],
+            [
+              "Premier",
+              "More spacious seat. Lounge access, priority ticket gates and on-board dining. 3 bags plus 1 hand item. Free exchange and full refund until 48 hours after departure. Same-day boarding guarantee.",
+              "Business travellers and people who need flexibility",
+              "150 EUR to 220 EUR"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The fares in the table are the ranges NS International publishes. Real prices depend on the date, time and how full the train is."
+        },
+        {
+          "type": "p",
+          "text": "Dynamic pricing: fares rise as seats sell, like airline fares. NS International says the earlier you book, the lower the price. The cheapest fares are limited in number."
+        },
+        {
+          "type": "p",
+          "text": "How far ahead tickets go on sale: Eurostar's help centre says direct tickets between France, Belgium, the Netherlands and Germany go on sale 10 to 11 months before travel. Dates can shift when engineering work affects a line. Eurostar also runs last-minute deals under the name Eurostar Snap, so watch its site."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Children aged 4 to 11 get a discount on Standard and Plus. Eurostar's pages give different amounts, so check the price when you book. There is no child discount in Premier.",
+            "Children under 4 travel free if they sit on an adult's lap.",
+            "Child luggage: 1 bag plus 1 hand item.",
+            "Group fares: groups of 10 or more with at least 10 travelling on both the outbound and return journey. Date, time or class changes are free up to 31 days before departure. Refunds are 80 percent up to 31 days before, 50 percent from 30 to 9 days before, and nothing from 8 days before.",
+            "Flexibility in Standard and Plus: change the date or time free of charge until 1 hour before departure. You pay any price difference and a cheaper fare is not refunded. Refunds cost 25 per person per leg (shown as 25 GBP or 25 EUR) if requested at least 7 days before departure. Within 7 days the ticket is not refundable.",
+            "Phone or station bookings in Standard and Plus carry a 12 GBP fee per transaction. Booking on eurostar.com or the app avoids it.",
+            "If you arrive after the train has closed for boarding, Eurostar may refuse boarding. If you arrive before departure you can ask the ticket office for a seat on the next train. The fee in Standard and Plus is 44 GBP."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Interrail and Eurail pass holders: you need a seat reservation on every Eurostar train. The Interrail site lists reservation fees of 32 EUR in Standard and 37 EUR in Plus for Paris to Amsterdam. Booking through the Interrail reservation system adds 2 EUR per person per train. A second class pass allows Standard only. A first class pass allows Standard or Plus. Premier is not available with a pass. Fares are indicative and seats for pass holders are limited, so book early. Eurostar also says Belgium, France and Netherlands pass reservations can be made at NS, SNCF or SNCB international counters."
+        }
+      ]
+    },
+    {
+      "id": "timetable",
+      "title": "Timetable and journey times",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Eurostar's public route page loads its timetable live, so use eurostar.com or the Eurostar app for exact departures on your date. The notes below come from NS International, the Belgian railway SNCB and a third-party timetable site."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Item",
+            "Typical"
+          ],
+          "rows": [
+            [
+              "Paris to Amsterdam, first train",
+              "About 06:20 (AmsterdamTips, September 2026)"
+            ],
+            [
+              "Paris to Amsterdam, last Eurostar",
+              "About 19:25 (AmsterdamTips, September 2026)"
+            ],
+            [
+              "Amsterdam to Paris",
+              "Check the Eurostar timetable for the first and last departure on your date."
+            ],
+            [
+              "Frequency",
+              "About 10 direct trains a day per NS International, 11 per SNCB"
+            ],
+            [
+              "Fastest journey",
+              "About 3 h 20 min"
+            ],
+            [
+              "Typical stops",
+              "Brussels-Midi, Rotterdam Centraal and Schiphol Airport. Antwerp Centraal is a stop on some trains. The booking page for your train lists its stops."
+            ],
+            [
+              "Operating days",
+              "Every day"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Peak days to avoid: Fridays and Sunday afternoons are busy and dearer. School holidays and bank holiday weekends also sell out early. NS International suggests Saturday to Monday rather than Friday to Sunday for weekend trips to Belgium."
+        },
+        {
+          "type": "p",
+          "text": "Engineering work: track maintenance can affect international trains, especially at weekends. Check the Eurostar disruptions page before you leave."
+        },
+        {
+          "type": "tip",
+          "text": "A day trip is possible but long. With a first train around 06:20 and the last departure from Amsterdam in the evening, you would spend about 6 hours 40 minutes on trains. Confirm the first and last times for your date before you book."
+        }
+      ]
+    },
+    {
+      "id": "stations",
+      "title": "Stations and getting there",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Paris Gare du Nord is at 18 Rue de Dunkerque, 75010 Paris. Eurostar trains to Belgium and the Netherlands usually leave from platform 7 or 8. Check the departure board for the exact platform. Metro lines 4 and 5 and the RER B and E serve the station. A taxi stand is at the Cour des Taxis, Exit 7. The station has luggage lockers, a bureau de change, free Wi-Fi and cafes."
+        },
+        {
+          "type": "p",
+          "text": "Amsterdam Centraal is at Stationsplein 15, 1012 AB Amsterdam, and is reachable on foot, by bike or by public transport. The station has luggage lockers and luggage storage. Car parking is discouraged because most of the city centre is closed to cars. Book a taxi pick-up through My Driver."
+        },
+        {
+          "type": "table",
+          "head": [
+            "From Paris Gare du Nord to",
+            "How",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Gare de l'Est",
+              "Metro line 4 or on foot",
+              "Short hop next door"
+            ],
+            [
+              "Gare Montparnasse",
+              "Metro line 4",
+              "Follow the M signs to level -1"
+            ],
+            [
+              "Gare d'Austerlitz",
+              "Metro line 5",
+              "Follow the M signs to level -1"
+            ],
+            [
+              "Gare Saint-Lazare",
+              "RER E from Magenta - Gare du Nord",
+              "RER E is on level -1"
+            ],
+            [
+              "Charles de Gaulle Airport",
+              "RER B",
+              "Check Ile-de-France Mobilites for the current time"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Premier travellers can use the Eurostar Premier lounge at 22 Rue de Dunkerque, a short walk from Gare du Nord. Follow the signs to Cour des Taxis (Exit 7), cross the taxi stand and continue along Rue de Dunkerque. In Amsterdam, the NS International Lounge is on platform 2a. It opens 07:00 to 19:00 Monday to Friday and 10:00 to 18:00 at weekends. Eurostar lists it for Premier travellers and Carte Blanche holders."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Download your ticket",
+              "text": "Eurostar suggests downloading your ticket the day before. Save it to Apple Wallet or Google Pay if you can."
+            },
+            {
+              "title": "Arrive at the station",
+              "text": "Aim to be at the station 20 minutes before departure. There is no check-in desk for this route."
+            },
+            {
+              "title": "Find your platform",
+              "text": "The platform appears on the departure screens. At Paris Gare du Nord it is usually platform 7 or 8."
+            },
+            {
+              "title": "Scan your ticket at the gates",
+              "text": "At Amsterdam and Rotterdam you scan the QR code on your ticket at the station ticket gates to reach the platforms."
+            },
+            {
+              "title": "Board the train",
+              "text": "Be ready to board at least 10 minutes before departure from Gare du Nord and at least 5 minutes before from other stations."
+            },
+            {
+              "title": "Find your coach and seat",
+              "text": "Your ticket shows the coach and seat number. Keep your bags near you or in the luggage racks."
+            },
+            {
+              "title": "Show your ticket on board",
+              "text": "The train manager checks tickets on the way. Have your ticket and any documents for a special fare ready."
+            }
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "If you pay for transport with a bank card stored on your phone, use the ticket in Apple Wallet or Google Pay rather than a PDF or screenshot. Eurostar warns that scanning a PDF at the Amsterdam gates can lead to a wrong charge of up to 20 EUR. Ask for a refund through the OVpay website if it happens."
+        }
+      ]
+    },
+    {
+      "id": "onboard",
+      "title": "On the train",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Seating: your ticket is your seat reservation. Plus and Premier seats are more spacious.",
+            "Power and Wi-Fi: free Wi-Fi and plug sockets at the seat in all three classes.",
+            "Food and drink: buy drinks, snacks and meals at the Eurostar Cafe, the new name for the Thalys Welcome Bar. Premier includes on-board dining. The seat-side meal in Plus is for London routes only.",
+            "Luggage: put larger bags in the racks at the end of the coach or above your seat. Extra pieces cost 30 EUR each and you pay on the day. Excess or oversized items must fit in a case no longer than 200 cm. Folded pushchairs travel free in the luggage rack.",
+            "Bikes: no pre-booking is needed. On this route the bike must be taken apart with both wheels removed and carried in a non-rigid cover up to 135 x 85 x 30 cm. The fee is 30 EUR. Fully assembled bikes are accepted only on London routes.",
+            "Pets: pets are welcome on routes between Belgium, France, Germany and the Netherlands. Small pets under 6 kg travel free in a carrier up to 45 x 30 x 25 cm. A larger dog needs a dog fare of 30 EUR from the train manager and must be leashed and muzzled. Guide and assistance dogs and cats travel free if you contact Eurostar at least 24 hours before.",
+            "Accessibility: call Eurostar on +44 (0) 3432 186 186 before you travel. Eurostar's page says to go to the Eurostar Assist desk 60 minutes before departure. A wheelchair user fare lets you stay in your own wheelchair, and one companion can travel at a reduced rate."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "borders",
+      "title": "Passports, border checks and entry rules",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Status as of 11 November 2026. This is practical information only and not legal advice. Check the official pages named below before you travel."
+        },
+        {
+          "type": "p",
+          "text": "Border checks: France and the Netherlands are both in the Schengen area, so there is no passport control at Gare du Nord or at Amsterdam Centraal for this trip. Eurostar says you do not need a passport to travel between France and the Netherlands, but it is worth bringing an identity document because customs carry out random spot checks. Passport control for London trains happens at Amsterdam Centraal, but it does not apply to Paris trains. You can leave the station straight away when you arrive."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Rule",
+            "Status and date"
+          ],
+          "rows": [
+            [
+              "ID to carry",
+              "A passport or national ID card for EU citizens. Other nationals should carry their passport and any visa or residence permit. A driving licence alone is not enough."
+            ],
+            [
+              "Dutch internal border checks",
+              "The temporary controls on the Dutch borders with Belgium and Germany ended on 30 September 2026. Since 1 October 2026 the Marechaussee runs expanded Mobile Security Monitoring, which allows targeted checks within 20 km of the Belgian and German borders. Checks are targeted and not systematic."
+            ],
+            [
+              "French internal border checks",
+              "A travel-news report says France runs checks at several internal borders, including with Belgium, from 1 November 2026 to 30 April 2027. Not every passenger is stopped. Check the French government site before you travel."
+            ],
+            [
+              "EU Entry/Exit System (EES)",
+              "Fully operational at the external borders of the Schengen area since 10 April 2026. It records passport details and biometric data when non-EU visitors first enter. It replaces passport stamps. You are not asked to register again for travel inside Schengen."
+            ],
+            [
+              "ETIAS",
+              "Not running yet. As of August 2026 no start date has been announced. When it starts the fee will be 20 EUR. Do not pay for an authorisation now, and use only the official EU site."
+            ],
+            [
+              "Stay limit",
+              "Visa-free stays of up to 90 days in any 180-day period across the Schengen area. The limit covers all the countries you visit."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Children: every child needs their own valid travel document. Children under 12 must travel with a person aged 16 or over. Under-16s cannot travel unaccompanied on direct trains to or from the Netherlands. Travellers aged 16 and 17 can travel alone with a ticket and passport. French residents under 18 also need an AST form when travelling alone or without their parents."
+        },
+        {
+          "type": "p",
+          "text": "Official pages to read: Eurostar travel documents, the Marechaussee page on border control, and the EU Travel Europe site for EES and ETIAS."
+        }
+      ]
+    },
+    {
+      "id": "alternatives",
+      "title": "Other ways to get from Paris to Amsterdam",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Train via Brussels: take Eurostar from Paris to Brussels-Midi, which takes 1 hour 22 minutes, then a train on to Amsterdam. NS International runs the Eurocity Direct between Brussels-Midi and Amsterdam up to 16 times a day, with Saver fares from 25 EUR one way, and Eurostar runs up to 14 trains a day from Amsterdam to Brussels via Schiphol and Rotterdam. The Brussels leg takes about 2 hours. Allow time for the change. This is rarely faster than the direct train, but it can help if the direct Eurostar is sold out or too dear."
+        },
+        {
+          "type": "p",
+          "text": "Slow rail route for pass holders: NS International lists an Interrail route from Amsterdam via Antwerp, Kortrijk, Lille Flandres and Amiens to Paris Gare du Nord. It takes about 8 hours 28 minutes and needs no seat reservation."
+        },
+        {
+          "type": "p",
+          "text": "Flights: KLM, Air France and Transavia fly between Paris and Amsterdam Schiphol, from Charles de Gaulle and Orly. The flight takes about 1 hour 15 minutes to 1 hour 30 minutes in the air. Fares vary widely, so check the airline sites for your date. Add the time to reach the airport, security and the trip into the city. Allow about 5 to 6 hours door to door. In Paris, RER B links Gare du Nord and Charles de Gaulle."
+        },
+        {
+          "type": "p",
+          "text": "Coach: FlixBus and BlaBlaCar Bus run about 36 services a day between them. Most leave from Paris Bercy, with others from Porte Maillot and Saint-Denis, and most arrive at Amsterdam Sloterdijk, with others at Bijlmer ArenA and Amsterdam Centraal. The fastest trip takes about 6 hours 20 minutes. Many take 7 to 8 hours. Fares start around 20 EUR and are higher on busy dates."
+        },
+        {
+          "type": "p",
+          "text": "Driving: the drive is about 500 km and takes roughly 5 to 6 hours, passing through Brussels or Antwerp. Tolls are about 15 EUR depending on the route. Parking is expensive in both cities, and most of Amsterdam's centre is closed to cars. Check low-emission zone rules for Paris and Amsterdam before you go."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Mode",
+            "Typical total time",
+            "Best when"
+          ],
+          "rows": [
+            [
+              "Eurostar direct",
+              "About 3 h 20 min station to station",
+              "You want the fastest, simplest city-centre trip"
+            ],
+            [
+              "Train via Brussels",
+              "About 4 to 5 hours with the change",
+              "The direct train is sold out or you want a break in Brussels"
+            ],
+            [
+              "Flight",
+              "About 5 to 6 hours door to door",
+              "You find a very cheap fare and live near an airport"
+            ],
+            [
+              "Coach",
+              "About 6 h 20 min to 8 hours",
+              "You have the lowest budget and time to spare"
+            ],
+            [
+              "Drive",
+              "About 5 to 6 hours plus stops",
+              "You have a car, luggage or a group"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Money-saving and first-timer tips",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Book early. Tickets open 10 to 11 months ahead and the cheapest fares are limited in number.",
+            "Be flexible on days. Avoid Friday and Sunday afternoons, school holidays and bank holiday weekends.",
+            "Use free exchange. In Standard and Plus you can change the date or time free until 1 hour before departure, paying any difference.",
+            "Book on eurostar.com or the app. Phone and station bookings in Standard and Plus cost an extra 12 GBP.",
+            "Pack so you can carry every bag yourself. Each piece must be up to 75 x 53 x 30 cm. Extra pieces cost 30 EUR each.",
+            "Carry ID even though there is no passport control. Spot checks happen on international trains inside Schengen.",
+            "Save your ticket to Apple Wallet or Google Pay to avoid gate problems at Amsterdam and Rotterdam.",
+            "Pass holders: reserve your seat before you travel. Standard costs 32 EUR and Plus 37 EUR on this route, plus 2 EUR if you book through Interrail.",
+            "Check the Eurostar disruptions page before weekend trips, as engineering work can change journey times.",
+            "If your train is delayed or cancelled: for a delay of 60 to 119 minutes you can claim 25 percent of the ticket price. For 120 minutes or more you can claim 50 percent. Compensation can be taken as cash or vouchers, and vouchers pay more. For delays over 60 minutes you can also decline to travel and get a refund, or be re-routed. If no re-routing is offered within 100 minutes of the scheduled departure you may arrange your own and Eurostar will reimburse reasonable costs."
+          ]
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "mode": "Eurostar direct train",
+      "time": "About 3 h 20 min station to station",
+      "from": "Paris Gare du Nord to Amsterdam Centraal",
+      "price": "From about 35 EUR to about 220 EUR depending on class and date",
+      "best": "The fastest and simplest city-centre option."
+    },
+    {
+      "mode": "Train via Brussels",
+      "time": "About 4 to 5 hours with the change",
+      "from": "Paris Gare du Nord to Brussels-Midi, then on to Amsterdam Centraal",
+      "price": "Check eurostar.com and NS International. Eurocity Direct from Brussels starts at 25 EUR one way",
+      "best": "A backup when the direct train is sold out."
+    },
+    {
+      "mode": "Flight",
+      "time": "About 5 to 6 hours door to door",
+      "from": "Paris Charles de Gaulle or Orly to Amsterdam Schiphol",
+      "price": "Varies widely, check KLM, Air France and Transavia",
+      "best": "Worth it only when the fare is very low and the airports are close to you."
+    },
+    {
+      "mode": "Coach",
+      "time": "About 6 h 20 min to 8 hours",
+      "from": "Paris Bercy to Amsterdam Sloterdijk",
+      "price": "From about 20 EUR, higher on busy dates",
+      "best": "The lowest fares if you have plenty of time."
+    },
+    {
+      "mode": "Drive",
+      "time": "About 5 to 6 hours plus stops",
+      "from": "Paris to Amsterdam via Brussels or Antwerp",
+      "price": "Tolls about 15 EUR, plus fuel and parking",
+      "best": "A good choice for groups, heavy luggage or onward touring by car."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does the Paris to Amsterdam train take?",
+      "a": "The fastest Eurostar takes about 3 hours 20 minutes. Some operator sites list 3 hours 25 minutes."
+    },
+    {
+      "q": "Is Thalys still running between Paris and Amsterdam?",
+      "a": "The Thalys name has gone. The trains are now sold as Eurostar on eurostar.com and the Eurostar app. The red trains, the classes and the journey times stay the same."
+    },
+    {
+      "q": "How much does Paris to Amsterdam by train cost?",
+      "a": "Standard fares start from about 35 EUR or 30.50 GBP one way and run up to about 149 EUR. Plus runs from about 75 to 169 EUR and Premier from about 150 to 220 EUR, per NS International. Prices rise as the train fills."
+    },
+    {
+      "q": "Where does the train arrive in Amsterdam?",
+      "a": "It arrives at Amsterdam Centraal, in the city centre. Some trains also stop at Schiphol Airport on the way."
+    },
+    {
+      "q": "How early should I arrive?",
+      "a": "Eurostar recommends arriving 20 minutes before departure. Be ready to board 10 minutes before departure at Paris Gare du Nord."
+    },
+    {
+      "q": "What are the luggage limits?",
+      "a": "Standard and Plus include 2 pieces plus 1 small hand item. Premier includes 3 pieces plus 1 hand item. Each piece can be up to 75 x 53 x 30 cm. There is no weight limit, but you must carry the bags yourself. Extra pieces cost 30 EUR each."
+    },
+    {
+      "q": "Do I need a passport?",
+      "a": "There is no passport control between France and the Netherlands, but carry a passport or ID card because spot checks happen. EU citizens can use a national ID card."
+    },
+    {
+      "q": "Can I use an Interrail or Eurail pass?",
+      "a": "Yes, with a seat reservation. The Interrail site lists 32 EUR in Standard and 37 EUR in Plus for Paris to Amsterdam, plus 2 EUR if you book through Interrail. Premier is not available with a pass."
+    },
+    {
+      "q": "Can children travel free?",
+      "a": "Children under 4 travel free if they sit on an adult's lap. Children aged 4 to 11 pay a discounted fare in Standard and Plus. Under-16s cannot travel alone on direct trains to or from the Netherlands."
+    },
+    {
+      "q": "What if the train is delayed?",
+      "a": "For a delay of 60 to 119 minutes you can claim 25 percent of the ticket price. For 120 minutes or more you can claim 50 percent. You can also ask for a refund or re-routing."
+    },
+    {
+      "q": "Is the train better than flying?",
+      "a": "For most people, yes. The train is centre to centre, with no airport security and no liquid limit. Flying can be cheaper on some dates but takes about as long door to door."
+    }
+  ],
+  "verified": "2026-11-11",
+  "sources": [
+    {
+      "title": "Eurostar: Paris to Amsterdam",
+      "url": "https://www.eurostar.com/uk-en/train/paris-to-amsterdam"
+    },
+    {
+      "title": "Eurostar: Amsterdam to Paris",
+      "url": "https://www.eurostar.com/uk-en/train/amsterdam-to-paris"
+    },
+    {
+      "title": "Eurostar: Check-in",
+      "url": "https://www.eurostar.com/uk-en/travel-info/your-trip/check-in"
+    },
+    {
+      "title": "Eurostar: Luggage",
+      "url": "https://www.eurostar.com/uk-en/travel-info/travel-planning/luggage"
+    },
+    {
+      "title": "Eurostar: Travel classes",
+      "url": "https://www.eurostar.com/uk-en/travel-info/eurostar-experience/travel-classes"
+    },
+    {
+      "title": "Eurostar: Fares and fees",
+      "url": "https://www.eurostar.com/uk-en/travel-info/travel-planning/eurostar-fares-and-fees"
+    },
+    {
+      "title": "Eurostar: Travel documents",
+      "url": "https://www.eurostar.com/travel-info/your-trip/travel-documents"
+    },
+    {
+      "title": "Eurostar: Rail passengers rights",
+      "url": "https://www.eurostar.com/uk-en/rail-passengers-rights"
+    },
+    {
+      "title": "Eurostar: Thalys becomes Eurostar",
+      "url": "https://www.eurostar.com/uk-en/about-eurostar/thalys-becomes-eurostar"
+    },
+    {
+      "title": "Eurostar: Paris Gare du Nord",
+      "url": "https://eurostar.com/uk-en/travel-info/stations/paris-gare-du-nord"
+    },
+    {
+      "title": "Eurostar: Amsterdam Centraal",
+      "url": "https://www.eurostar.com/uk-en/travel-info/stations/amsterdam-centraal"
+    },
+    {
+      "title": "Eurostar: Pet travel",
+      "url": "https://www.eurostar.com/uk-en/pet-travel"
+    },
+    {
+      "title": "Eurostar: Accessibility",
+      "url": "https://www.eurostar.com/be-en/travel-info/travel-planning/accessibility"
+    },
+    {
+      "title": "Eurostar help: How far in advance can I book",
+      "url": "https://help.eurostar.com/be-en/question/How-far-in-advance-can-I-book-Eurostar-tickets"
+    },
+    {
+      "title": "Eurostar: Interrail pass holder fares",
+      "url": "https://www.eurostar.com/uk-en/deals/interrail"
+    },
+    {
+      "title": "Interrail: International train reservation fees",
+      "url": "https://www.interrail.com/en/book-reservations/reservation-fees/international-train-reservation-fees"
+    },
+    {
+      "title": "NS International: Eurostar to Belgium and France",
+      "url": "https://www.nsinternational.com/en/trains/eurostar-belgium-france"
+    },
+    {
+      "title": "NS International: Train to Brussels",
+      "url": "https://www.nsinternational.com/en/belgium/train-brussels"
+    },
+    {
+      "title": "NS International: Alternative routes by train",
+      "url": "https://nsinternational.com/en/travel-information/alternative-routes-train"
+    },
+    {
+      "title": "SNCB (B-Europe): Paris to Amsterdam",
+      "url": "https://www.b-europe.com/DE/Zugverbindungen/Paris-Amsterdam"
+    },
+    {
+      "title": "Deutsche Bahn: Eurostar",
+      "url": "https://int.bahn.de/en/offers/international-rail-companies/eurostar"
+    },
+    {
+      "title": "Royal Netherlands Marechaussee: Temporary reintroduction of border control",
+      "url": "https://english.marechaussee.nl/topics/temporary-reintroduction-of-border-control"
+    },
+    {
+      "title": "IamExpat: The Netherlands ends border controls but checks continue in 2026",
+      "url": "https://www.iamexpat.nl/expat-info/dutch-news/the-netherlands-ends-border-controls-checks-continue-2026"
+    },
+    {
+      "title": "4stogo: France Schengen border controls from November 2026",
+      "url": "https://4stogo.com/blog/posts/france-schengen-border-controls-november-2026"
+    },
+    {
+      "title": "European Commission: Entry/Exit System fully operational",
+      "url": "https://commission.europa.eu/news-and-media/news/more-secure-efficient-and-convenient-way-travelling-non-eu-nationals-2026-04-10_en?prefLang=ro"
+    },
+    {
+      "title": "Jetsetter Guide: ETIAS stays offline",
+      "url": "https://jetsetterguide.com/news/airlines/etias-stays-offline-eu-holds-back-launch-date"
+    },
+    {
+      "title": "AmsterdamTips: Amsterdam to Paris by train",
+      "url": "https://www.amsterdamtips.com/amsterdam-paris-train"
+    },
+    {
+      "title": "Rijdendetreinen: International trains from the Netherlands",
+      "url": "https://www.rijdendetreinen.nl/en/international"
+    },
+    {
+      "title": "Trainline: Paris to Amsterdam",
+      "url": "https://www.thetrainline.com/train-times/paris-to-amsterdam"
+    },
+    {
+      "title": "Omio: Paris to Amsterdam",
+      "url": "https://www.omio.com/travel/paris/amsterdam"
+    },
+    {
+      "title": "Dutchreview: From Amsterdam to Paris, the best ways",
+      "url": "https://dutchreview.com/traveling/international-travel/from-amsterdam-to-paris-the-best-ways-to-get-there/"
+    },
+    {
+      "title": "CheckMyBus: Bus Paris to Amsterdam",
+      "url": "https://www.checkmybus.com/paris/amsterdam"
+    },
+    {
+      "title": "Amsterdam.info: Paris to Amsterdam by car",
+      "url": "https://amsterdam.info/travel/car-paris-amsterdam"
+    }
+  ]
+}

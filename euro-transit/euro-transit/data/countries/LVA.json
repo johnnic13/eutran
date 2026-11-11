@@ -1,0 +1,406 @@
+{
+  "id": "LVA",
+  "isoNumeric": "428",
+  "name": "Latvia",
+  "capital": "Riga",
+  "flag": "h:#9e3039,#9e3039,#ffffff,#9e3039,#9e3039",
+  "lonLat": [
+    24.11,
+    56.95
+  ],
+  "modes": {
+    "train": {
+      "sum": "Riga Central Station sits next to the Old Town and the Central Market. Vivi (the Latvian passenger railway) runs electric suburban lines to Jurmala and Tukums, Skulte, Jelgava and Aizkraukle, and diesel trains to Sigulda, Valmiera, Daugavpils, Liepaja and Rezekne. A daily train runs on to Tartu and Tallinn, and another to Vilnius.",
+      "sched": "Jurmala trains run about every 30 minutes from early morning to late evening. Long-distance trains run a few times a day, and some lines run only on certain days. The basic timetables changed on 5 October 2026.",
+      "tickets": [
+        "Riga to Jurmala (Majori): about 1.50 EUR, about 30 minutes",
+        "From the conductor the same trip costs up to about 2 EUR",
+        "Some express and diesel trains need an extra 1 EUR supplement ticket",
+        "Riga to Valmiera about 4 EUR, Riga to Daugavpils about 7 EUR",
+        "Riga to Vilnius: from about 10 EUR when booked early, up to 34 EUR in first class. Seat reservation is compulsory",
+        "Riga to Tallinn: about 30 EUR. Riga to Tartu: about 19 to 22 EUR",
+        "Day, 3-day, 5-day and 30-day train tickets are sold for fixed zones"
+      ],
+      "tip": "Buy in the Vivi app or at vivi.lv before you board. On the train it costs an extra 1 EUR when the station has a ticket office, and you must register the ticket at the validator as soon as you get on.",
+      "link": [
+        "Vivi",
+        "https://vivi.lv/en/tickets"
+      ],
+      "buy": [
+        "Vivi website or Vivi Latvia app (cheapest)",
+        "Vivi ticket offices at stations",
+        "Mobilly app, bezrindas.lv and Tapbox ticket machines (conditions may differ)",
+        "From the conductor on board: extra 1 EUR if the boarding station has an open ticket office",
+        "Validate at the validator right after boarding, or with the conductor if there is none",
+        "Without a valid ticket the fine starts at 25 EUR",
+        "Vilnius trains: ltglink.lt. Tallinn and Tartu trains: elron.ee"
+      ],
+      "destinations": [
+        {
+          "to": "Jurmala (Majori)",
+          "country": "Latvia",
+          "type": "domestic",
+          "time": "about 30 min",
+          "station": "Riga Central",
+          "operator": "Vivi",
+          "note": "Tukums line, about every 30 minutes. Other stops are Lielupe, Bulduri, Dzintari and Dubulti"
+        },
+        {
+          "to": "Jelgava",
+          "country": "Latvia",
+          "type": "domestic",
+          "time": "about 45 min",
+          "station": "Riga Central",
+          "operator": "Vivi",
+          "note": "Some trains continue to Dobele and Liepaja"
+        },
+        {
+          "to": "Sigulda",
+          "country": "Latvia",
+          "type": "domestic",
+          "time": "about 1 h",
+          "station": "Riga Central",
+          "operator": "Vivi",
+          "note": "For Turaida Castle and the Gauja valley"
+        },
+        {
+          "to": "Krustpils (Jekabpils)",
+          "country": "Latvia",
+          "type": "domestic",
+          "time": "about 1 h 35 min",
+          "station": "Riga Central",
+          "operator": "Vivi",
+          "note": "On the Aizkraukle and Daugavpils line"
+        },
+        {
+          "to": "Valmiera",
+          "country": "Latvia",
+          "type": "domestic",
+          "time": "about 1 h 50 min",
+          "station": "Riga Central",
+          "operator": "Vivi, Elron",
+          "note": "Elron's Tallinn train also stops in Sigulda, Cesis and Valmiera"
+        },
+        {
+          "to": "Cesis",
+          "country": "Latvia",
+          "type": "domestic",
+          "time": "about 2 h",
+          "station": "Riga Central",
+          "operator": "Vivi, Elron",
+          "note": "Medieval castle and old town"
+        },
+        {
+          "to": "Daugavpils",
+          "country": "Latvia",
+          "type": "domestic",
+          "time": "about 2 h 40 min",
+          "station": "Riga Central",
+          "operator": "Vivi",
+          "note": "Some trains continue to Kraslava"
+        },
+        {
+          "to": "Rezekne",
+          "country": "Latvia",
+          "type": "domestic",
+          "time": "about 2 h 45 min",
+          "station": "Riga Central",
+          "operator": "Vivi"
+        },
+        {
+          "to": "Liepaja",
+          "country": "Latvia",
+          "type": "domestic",
+          "time": "about 3 h 15 min",
+          "station": "Riga Central",
+          "operator": "Vivi",
+          "note": "Daily service via Jelgava"
+        },
+        {
+          "to": "Gulbene",
+          "country": "Latvia",
+          "type": "domestic",
+          "time": "about 3 h 15 min",
+          "station": "Riga Central",
+          "operator": "Vivi",
+          "note": "Selected weekends and seasons only"
+        },
+        {
+          "to": "Zilupe",
+          "country": "Latvia",
+          "type": "domestic",
+          "time": "about 4 h 35 min",
+          "station": "Riga Central",
+          "operator": "Vivi",
+          "note": "Near the Russian border"
+        },
+        {
+          "to": "Valga (Valka)",
+          "country": "Estonia",
+          "type": "international",
+          "time": "about 2 h 45 min",
+          "station": "Riga Central",
+          "operator": "Vivi",
+          "note": "Shares its station with Valka in Latvia. Change here for Elron trains"
+        },
+        {
+          "to": "Tartu",
+          "country": "Estonia",
+          "type": "international",
+          "time": "about 3 h 40 min",
+          "station": "Riga Central",
+          "operator": "Elron, Vivi",
+          "note": "Daily direct train since 12 January 2026, about 19 to 22 EUR"
+        },
+        {
+          "to": "Vilnius",
+          "country": "Lithuania",
+          "type": "international",
+          "time": "about 4 h",
+          "station": "Riga Central",
+          "operator": "LTG Link",
+          "note": "Daily, leaving about 16:55. Seat reservation is compulsory. Bikes cost 10 EUR extra"
+        },
+        {
+          "to": "Tallinn",
+          "country": "Estonia",
+          "type": "international",
+          "time": "about 6 h",
+          "station": "Riga Central",
+          "operator": "Elron, Vivi",
+          "note": "Direct train leaving about 07:38 via Tartu. Other trips change at Valga"
+        }
+      ]
+    },
+    "tram": {
+      "sum": "Riga has no metro. Rigas satiksme runs trams, trolleybuses and buses on one ticket system, and the trams are the best way to reach the Old Town edge, Art Nouveau district and the suburbs. Minibuses run some extra routes.",
+      "sched": "Services run from about 05:00 until midnight or 01:00 depending on the route. Night bus N22 serves the airport, and some night routes run at weekends.",
+      "tickets": [
+        "90-minute ticket: 1.50 EUR when bought in advance. You must register it every time you board a new vehicle",
+        "24-hour ticket: 5.00 EUR",
+        "3-day ticket: 8.00 EUR",
+        "5-day ticket: 10.00 EUR",
+        "Single ticket from the driver: 2.00 EUR",
+        "One-month ticket: 30.00 EUR",
+        "Pet ticket: 1.50 EUR for one dog on a short leash. Hand luggage and bicycles are carried free if they do not block the vehicle"
+      ],
+      "tip": "Contactless bank cards are not accepted on trams, trolleybuses and buses yet. Buy a ticket in advance, then hold it to the validator every single time you board, even for a short ride.",
+      "link": [
+        "Rigas satiksme",
+        "https://www.rigassatiksme.lv/en/tickets-and-e-ticket/types-and-prices-of-tickets/time-ticket"
+      ],
+      "buy": [
+        "Rigas satiksme app or Mobilly app (code ticket on your phone)",
+        "Yellow e-ticket card, loaded at ticket machines, Narvesen kiosks and Rigas satiksme customer service centres",
+        "Ticket machines at major stops (not every stop has one)",
+        "From the driver: 2.00 EUR, but not all vehicles sell tickets, so buy in advance",
+        "Register the ticket at the validator on every boarding. Controllers check the ticket against the person travelling",
+        "Fine for no valid ticket or an unvalidated ticket: 15 EUR on the spot, 30 EUR if invoiced"
+      ]
+    },
+    "bus": {
+      "sum": "Rigas satiksme city buses and trolleybuses use the same tickets as trams. Long-distance coaches leave from the Riga International Coach Terminal next to the Central Market, with Lux Express, FlixBus, Ecolines and others.",
+      "sched": "City buses run from about 05:00 to midnight. Riga to Tallinn coaches take about 4 h 20 min and Riga to Vilnius about 4 h 15 min, with many departures a day.",
+      "tickets": [
+        "City bus and trolleybus: same fares as trams",
+        "Bus 22 to the airport, bought from the driver by card: about 1.81 EUR",
+        "Riga to Tallinn coach: from about 5 EUR when booked early, often 12 EUR or more on the day",
+        "Riga to Vilnius coach: from about 5 EUR when booked early, often 13 EUR or more on the day",
+        "Minibuses (mikroautobusi) on some routes: pay the driver, fares vary by route"
+      ],
+      "tip": "Buy coach tickets in advance in the operator app or on Omio, and keep the ticket until you arrive because drivers and inspectors may check it.",
+      "link": [
+        "Rigas satiksme",
+        "https://www.rigassatiksme.lv/en/tickets-and-e-ticket/types-and-prices-of-tickets/ticket-sold-in-public-transport"
+      ],
+      "buy": [
+        "City buses: Rigas satiksme app, Mobilly app, e-ticket card or machine ticket, registered on board",
+        "Driver sales: 2.00 EUR on vehicles that sell tickets. Bus 22 takes bank card only",
+        "Long-distance coaches: at the coach terminal desks, the 24/7 machine, the Mobilly app or online with the operator",
+        "Buying from the coach driver is possible but seats may be sold out"
+      ]
+    },
+    "airport": {
+      "sum": "Riga International Airport (RIX) is about 10 km south-west of the centre. There is no train yet. Bus 22 is the cheap link and a night bus N22 started on 18 April 2026.",
+      "sched": "Bus 22 runs every 10 to 30 minutes and takes about 30 minutes to the centre. The last daytime trip from Abrenes iela is at 23:30 and the last from the airport at 00:10. Night bus N22 leaves the centre (Stacijas laukums) at 00:00, 01:00, 02:00, 03:00 and 04:00, and the airport at 00:30 to 04:30.",
+      "tickets": [
+        "Bus 22 ticket in advance: 1.50 EUR for 90 minutes",
+        "Bus 22 ticket from the driver by bank card: about 1.81 EUR",
+        "Night bus N22: same fares as other Rigas satiksme routes",
+        "Bolt to the centre: about 12 to 20 EUR depending on time and demand",
+        "Taxis are metered. Check the rate on the car door before you get in"
+      ],
+      "tip": "Buy the 1.50 EUR ticket at the machine at the stop, a Narvesen shop in the terminal, or in the Rigas satiksme or Mobilly app. Register it when you board.",
+      "link": [
+        "Rigas satiksme: Bus 22 tickets",
+        "https://www.rigassatiksme.lv/en/tickets-and-e-ticket/types-and-prices-of-tickets-1/tickets-in-bus-no-22"
+      ],
+      "buy": [
+        "Ticket machine at the bus stop opposite the terminal",
+        "Narvesen shops in the terminal",
+        "Rigas satiksme app or Mobilly app",
+        "Driver on bus 22: bank card only, no cash",
+        "Taxi rank outside arrivals, or Bolt in the app"
+      ]
+    }
+  },
+  "metro": {
+    "note": "Riga has no metro. Trams are the main rail network inside the city, backed by trolleybuses and buses.",
+    "mapLabel": "Public transport in Riga (Live Riga)",
+    "mapUrl": "https://www.liveriga.com/en/17-public-transportation",
+    "lines": [
+      "Trams, trolleybuses and buses on one ticket",
+      "Tickets are valid on tram, trolleybus and bus routes run by Rigas satiksme",
+      "Night bus N22 links the centre and the airport",
+      "Suburban trains to Jurmala, Sigulda and Jelgava leave from Riga Central",
+      "Riga unified ticket for train plus city transport is sold on the Vivi site and app"
+    ]
+  },
+  "tips": [
+    "Register your ticket at the validator every time you board. Having a ticket is not enough.",
+    "Bank cards cannot be tapped on city vehicles yet. Use the Rigas satiksme app or a ticket card.",
+    "Controllers check tickets without warning. The fine is 15 EUR on the spot or 30 EUR by invoice.",
+    "Jurmala beach is only 30 minutes by train from Riga Central."
+  ],
+  "apps": [
+    {
+      "name": "Rigas satiksme",
+      "what": "Riga tram, trolleybus and bus times and code tickets"
+    },
+    {
+      "name": "Mobilly",
+      "what": "Tickets for Riga transport, Vivi trains and coaches"
+    },
+    {
+      "name": "Vivi Latvia",
+      "what": "Latvian train times and tickets"
+    },
+    {
+      "name": "Bolt",
+      "what": "Taxis and ride hailing"
+    },
+    {
+      "name": "FlixBus",
+      "what": "Coaches to Tallinn, Vilnius and Latvian towns"
+    }
+  ],
+  "verified": "2026-11-11",
+  "sources": [
+    {
+      "title": "Rigas satiksme: Ticket sold in public transport",
+      "url": "https://www.rigassatiksme.lv/en/tickets-and-e-ticket/types-and-prices-of-tickets/ticket-sold-in-public-transport"
+    },
+    {
+      "title": "Rigas satiksme: Time ticket",
+      "url": "https://www.rigassatiksme.lv/en/tickets-and-e-ticket/types-and-prices-of-tickets/time-ticket"
+    },
+    {
+      "title": "Rigas satiksme: Time ticket (90 minutes)",
+      "url": "https://www.rigassatiksme.lv/en/tickets-and-e-ticket/types-and-prices-of-tickets-1/time-ticket/"
+    },
+    {
+      "title": "Rigas satiksme: Day ticket",
+      "url": "https://rigassatiksme.lv/en/tickets-and-e-ticket/types-and-prices-of-tickets-1/dienas-bilete"
+    },
+    {
+      "title": "Rigas satiksme: Code ticket",
+      "url": "https://www.rigassatiksme.lv/en/tickets-and-e-ticket/types-and-prices-of-tickets-1/code-ticket"
+    },
+    {
+      "title": "Rigas satiksme: Ticket price list (PDF)",
+      "url": "https://www.rigassatiksme.lv/files/bilesu_veidu_saraksts.pdf"
+    },
+    {
+      "title": "Rigas satiksme: Bus No. 22 tickets",
+      "url": "https://www.rigassatiksme.lv/en/tickets-and-e-ticket/types-and-prices-of-tickets-1/tickets-in-bus-no-22"
+    },
+    {
+      "title": "Rigas satiksme: Ticket control",
+      "url": "https://rigassatiksme.lv/en/about-us/frequently-asked-questions/ticket-control"
+    },
+    {
+      "title": "Rigas satiksme: Night bus N22 from 18 April 2026",
+      "url": "https://www.rigassatiksme.lv/en/current%20information/starting-18-april-a-night-bus-route-n22-centrs-lidosta-%28centre-airport%29-will-be-introduced/"
+    },
+    {
+      "title": "Baltic Bulletin: How much Riga fines fare dodgers",
+      "url": "https://en.bb.lv/article/our-latvia/2026/01/31/hunting-for-hares-how-much-riga-fines-fare-dodgers-this-year-86221"
+    },
+    {
+      "title": "Baltic Bulletin: Riga public transport will allow payments by cards and phones",
+      "url": "https://en.bb.lv/article/our-latvia/2026/04/27/finally-rigas-public-transport-will-allow-payments-by-cards-and-phones-97493"
+    },
+    {
+      "title": "Live Riga: Public transport in Riga",
+      "url": "https://www.liveriga.com/en/17-public-transportation"
+    },
+    {
+      "title": "Live Riga: Electric trains",
+      "url": "https://www.liveriga.com/en/10941-electric-trains"
+    },
+    {
+      "title": "Latvia Travel: Public transport",
+      "url": "https://www.latvia.travel/en/public-transport"
+    },
+    {
+      "title": "In Your Pocket: Riga public transport",
+      "url": "https://www.inyourpocket.com/latvia/riga/venues/public-transport"
+    },
+    {
+      "title": "Airport transfer guide: Riga Airport bus 22 and taxis",
+      "url": "https://civvih.icomos.org/wp-content/uploads/To-travel-from-Riga-International-Airport.pdf"
+    },
+    {
+      "title": "Vivi: Tickets",
+      "url": "https://vivi.lv/en/tickets"
+    },
+    {
+      "title": "Vivi: One-time ticket",
+      "url": "https://vivi.lv/en/one-time-ticket"
+    },
+    {
+      "title": "Vivi: Basic train timetable",
+      "url": "https://vivi.lv/en/information-for-passengers"
+    },
+    {
+      "title": "Vivi: Procedures for controlling passengers and baggage",
+      "url": "https://vivi.lv/uploads/VIII_Procedures for controlling passengers and baggage.pdf"
+    },
+    {
+      "title": "Vivi: Elron Riga-Tartu train serves domestic stops in Latvia",
+      "url": "https://vivi.lv/en/news/289/elron-s-riga-tartu-train-begins-serving-domestic-stops-in-latvia/"
+    },
+    {
+      "title": "Trenopedia: Train travel in Latvia",
+      "url": "https://trenopedia.com/train-travel-in-latvia"
+    },
+    {
+      "title": "Wikiwand: Vivi (rail transit)",
+      "url": "https://wikiwand.com/en/articles/Vivi_(rail_transit)"
+    },
+    {
+      "title": "App Savvy Traveller: Day trips from Riga",
+      "url": "https://appsavvytraveller.com/day-trips-from-riga/"
+    },
+    {
+      "title": "Seat61: Trains from Riga",
+      "url": "https://www.seat61.com/international-trains/trains-from-Riga.htm"
+    },
+    {
+      "title": "Seat61: Vilnius, Riga and Tallinn by train",
+      "url": "https://www.seat61.com/trains-and-routes/vilnius-riga-tallinn-by-train"
+    },
+    {
+      "title": "Baltic Times: Tartu-Riga train line",
+      "url": "https://www.baltictimes.com/tartu-riga_train_line__low_profitability_and_infrequent_service"
+    },
+    {
+      "title": "Omio: Tallinn to Riga bus",
+      "url": "https://www.omio.com/buses/tallinn/riga"
+    },
+    {
+      "title": "Omio: Vilnius to Riga bus",
+      "url": "https://www.omio.com/buses/vilnius/riga"
+    }
+  ]
+}
