@@ -77,6 +77,132 @@
         "partner": "Airalo",
         "kind": "esim",
         "link": ""
+      },
+      {
+        "label": "Store your luggage near the station with Radical Storage",
+        "partner": "Radical Storage",
+        "kind": "luggage",
+        "link": "https://radicalstorage.tpk.lv/xkuyJ5rL"
+      }
+    ],
+    "vienna-prague": [
+      {
+        "label": "Search times and prices on Trainline",
+        "partner": "Trainline",
+        "kind": "train",
+        "link": ""
+      },
+      {
+        "label": "Compare trains and buses on Omio",
+        "partner": "Omio",
+        "kind": "train",
+        "link": ""
+      },
+      {
+        "label": "Interrail or Eurail pass holder? Reserve your seat",
+        "partner": "Interrail",
+        "kind": "pass",
+        "link": ""
+      },
+      {
+        "label": "Get an eSIM for Europe from Airalo",
+        "partner": "Airalo",
+        "kind": "esim",
+        "link": ""
+      },
+      {
+        "label": "Tickets and tours in Prague on GetYourGuide",
+        "partner": "GetYourGuide",
+        "kind": "tours",
+        "link": ""
+      },
+      {
+        "label": "Find hostels and budget stays in Prague on Hostelworld",
+        "partner": "Hostelworld",
+        "kind": "stay",
+        "link": ""
+      },
+      {
+        "label": "Store your luggage near the station with Radical Storage",
+        "partner": "Radical Storage",
+        "kind": "luggage",
+        "link": "https://radicalstorage.tpk.lv/xkuyJ5rL"
+      }
+    ],
+    "brussels-amsterdam": [
+      {
+        "label": "Search times and prices on Trainline",
+        "partner": "Trainline",
+        "kind": "train",
+        "link": ""
+      },
+      {
+        "label": "Compare trains and buses on Omio",
+        "partner": "Omio",
+        "kind": "train",
+        "link": ""
+      },
+      {
+        "label": "Interrail or Eurail pass holder? Reserve your seat",
+        "partner": "Interrail",
+        "kind": "pass",
+        "link": ""
+      },
+      {
+        "label": "Get an eSIM for Europe from Airalo",
+        "partner": "Airalo",
+        "kind": "esim",
+        "link": ""
+      },
+      {
+        "label": "Tickets and tours in Amsterdam on GetYourGuide",
+        "partner": "GetYourGuide",
+        "kind": "tours",
+        "link": ""
+      },
+      {
+        "label": "Find hostels and budget stays in Amsterdam on Hostelworld",
+        "partner": "Hostelworld",
+        "kind": "stay",
+        "link": ""
+      },
+      {
+        "label": "Store your luggage near the station with Radical Storage",
+        "partner": "Radical Storage",
+        "kind": "luggage",
+        "link": "https://radicalstorage.tpk.lv/xkuyJ5rL"
+      }
+    ],
+    "berlin-prague": [
+      {
+        "label": "Store your luggage near the station with Radical Storage",
+        "partner": "Radical Storage",
+        "kind": "luggage",
+        "link": "https://radicalstorage.tpk.lv/xkuyJ5rL"
+      }
+    ],
+    "brussels-london": [
+      {
+        "label": "Store your luggage near the station with Radical Storage",
+        "partner": "Radical Storage",
+        "kind": "luggage",
+        "link": "https://radicalstorage.tpk.lv/xkuyJ5rL"
+      }
+    ],
+    "paris-amsterdam": [
+      {
+        "label": "Store your luggage near the station with Radical Storage",
+        "partner": "Radical Storage",
+        "kind": "luggage",
+        "link": "https://radicalstorage.tpk.lv/xkuyJ5rL"
+      }
+    ],
+    "vienna-budapest": [
+      {
+        "label": "Store your luggage near the station with Radical Storage",
+        "partner": "Radical Storage",
+        "kind": "luggage",
+        "link": "https://radicalstorage.tpk.lv/xkuyJ5rL"
       }
     ]
   }
