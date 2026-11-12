@@ -23,7 +23,49 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<script>document.documentElement.className+=" js";</script>
 <link rel="stylesheet" href="/css/styles.css">
+<!-- Travelpayouts Drive (turns links to partner sites into affiliate links). Loads only after the visitor accepts. -->
+<script>
+(function () {
+  var KEY = "etg-consent";
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function loadDrive() {
+    if (window.__etgDrive) return;
+    window.__etgDrive = true;
+    var s = document.createElement("script");
+    s.async = 1;
+    s.setAttribute("data-cmp-ab", "2");
+    s.src = "https://emrldtp.cc/NTk5OTEy.js?t=599912";
+    document.head.appendChild(s);
+  }
+  function banner() {
+    if (document.getElementById("consent")) return;
+    var d = document.createElement("div");
+    d.id = "consent"; d.className = "consent"; d.setAttribute("role", "dialog"); d.setAttribute("aria-label", "Cookie choices");
+    d.innerHTML = '<p>Some links on this site go to booking partners. Our affiliate network, Travelpayouts, can use cookies to track clicks and purchases, so we only load it if you agree. The guides work the same either way. <a href="/privacy/">Privacy</a></p>' +
+      '<div class="consent-btns"><button type="button" data-c="no">Decline</button><button type="button" data-c="yes">Accept</button></div>';
+    d.addEventListener("click", function (e) {
+      var v = e.target && e.target.getAttribute && e.target.getAttribute("data-c");
+      if (!v) return;
+      set(v);
+      d.remove();
+      if (v === "yes") loadDrive();
+    });
+    document.body.appendChild(d);
+  }
+  window.etgCookieChoices = function () { var o = document.getElementById("consent"); if (o) o.remove(); banner(); };
+  document.addEventListener("DOMContentLoaded", function () {
+    var c = get();
+    if (c === "yes") loadDrive();
+    else if (c !== "no") banner();
+    var b = document.getElementById("cookie-settings");
+    if (b) b.addEventListener("click", window.etgCookieChoices);
+  });
+  if (get() === "yes") loadDrive();
+})();
+</script>
 <script>if(!location.hash)history.replaceState(null,"","#pol");</script>
 </head>
 <body>
@@ -34,7 +76,7 @@
   </header>
 
   <main>
-<noscript><h1>Warsaw public transport guide</h1><p>Warszawa Centralna is the main station for PKP Intercity trains to Krakow, Gdansk and Wroclaw. Local trains use the KM and SKM lines.</p><p>Warsaw has 2 metro lines (M1, M2) and a large tram network. The metro is quick and clean.</p><p>Chopin Airport (WAW) is only about 8 km from the centre.</p></noscript>
+<section id="static-content" class="static-content"><h1>Warsaw public transport guide</h1><p>Capital of Poland. Trains, trams and metro, buses and airport links for visitors, with ticket prices, tips and apps.</p><section><h2>Trains in Warsaw</h2><p>Warszawa Centralna is the main station for PKP Intercity trains to Krakow, Gdansk and Wroclaw. Local trains use the KM and SKM lines.</p><p>SKM trains run from early morning until late evening.</p><h3>Tickets and prices</h3><ul><li>PKP Intercity: tickets on the app, discount for advance booking</li><li>Warsaw to Krakow: limited Super Promo fares on EIP and EIC trains from 49 PLN</li><li>Airport train SKM S2/S3 to Lotnisko Chopina: city ticket</li><li>Express InterCity (EIC) requires seat reservation</li></ul><h3>Where to buy tickets</h3><ul><li>PKP Intercity: intercity.pl or the PKP Intercity app, also at ticket offices and machines</li><li>On board PKP Intercity: only if you had no other way to buy. Ticket price plus a 20 PLN fee per person. Pay by cash, contactless card or BLIK</li><li>Go to the conductor at once. On EIP and IC trains with a compulsory seat reservation, tell the conductor before you board</li><li>No ticket: PKP Intercity charges 150 PLN if you pay on the spot, 200 PLN within 14 days, and up to 750 PLN otherwise</li><li>SKM trains: ZTM city tickets are valid. Buy them at ZTM machines or in mobiWAWA</li><li>Koleje Mazowieckie: no ticket costs 147 PLN on the spot, 168 PLN within 7 days, 210 PLN otherwise</li></ul><p><strong>Good to know:</strong> Tickets in the Warsaw zone 1 work on SKM trains too.</p><p><a href="https://www.intercity.pl">PKP Intercity (official site)</a></p><h3>Direct trains from Warsaw</h3><ul><li>Lodz: about 1 h 30 min from Warszawa Centralna, PKP Intercity</li><li>Bialystok: about 1 h 30 min from Warszawa Centralna, PKP Intercity</li><li>Lublin: about 2 h from Warszawa Centralna, PKP Intercity</li><li>Torun: about 2 h from Warszawa Centralna, PKP Intercity</li><li>Krakow: about 2 h 10 min from Warszawa Centralna, PKP Intercity (EIP)</li><li>Poznan: about 2 h 15 min from Warszawa Centralna, PKP Intercity (EIP)</li><li>Katowice: about 2 h 25 min from Warszawa Centralna, PKP Intercity (EIP)</li><li>Czestochowa: about 2 h 30 min from Warszawa Centralna, PKP Intercity</li><li>Olsztyn: about 2 h 30 min from Warszawa Centralna, PKP Intercity</li><li>Malbork: about 2 h 30 min from Warszawa Centralna, PKP Intercity</li><li>Bydgoszcz: about 2 h 35 min from Warszawa Centralna, PKP Intercity</li><li>Gdansk: about 2 h 40 min from Warszawa Centralna, PKP Intercity (EIP)</li><li>Wroclaw: about 3 h 35 min from Warszawa Centralna, PKP Intercity</li><li>Rzeszow: about 3 h 40 min from Warszawa Centralna, PKP Intercity</li><li>Szczecin: about 4 h 10 min from Warszawa Centralna, PKP Intercity</li><li>Zakopane: about 4 h 20 min from Warszawa Centralna, PKP Intercity (EIP/EIC)</li><li>Ustka: about 4 h 40 min from Warszawa Centralna, PKP Intercity (EIP)</li><li>Hel: about 5 h 30 min from Warszawa Centralna, PKP Intercity</li><li>Berlin (Germany): about 5 h 30 min from Warszawa Centralna, Berlin-Warszawa-Express</li><li>Vienna (Austria): about 7 h 30 min from Warszawa Centralna, PKP Intercity</li><li>Prague (Czech Republic): about 8 h from Warszawa Centralna, PKP Intercity</li><li>Budapest (Hungary): about 10 h 40 min from Warszawa Centralna, PKP Intercity</li><li>Munich (Germany): about 15 h from Warszawa Centralna, EuroNight</li><li>Kyiv (Ukraine): about 17 h from Warszawa Centralna, PKP Intercity / UZ</li></ul></section><section><h2>Trams and metro in Warsaw</h2><p>Warsaw has 2 metro lines (M1, M2) and a large tram network. The metro is quick and clean.</p><p>Metro about 05:00 to midnight, and until about 03:00 on Friday and Saturday nights.</p><h3>Tickets and prices</h3><ul><li>20-minute ticket: 3.40 PLN</li><li>75-minute ticket: 4.40 PLN</li><li>24-hour ticket: 15 PLN</li><li>3-day ticket: 36 PLN</li></ul><h3>Where to buy tickets</h3><ul><li>ZTM ticket machines inside trams and at stops and stations. They take bank cards</li><li>mobiWAWA app (official): scan the QR code in the vehicle or at the metro gate. Jakdojade also sells tickets</li><li>ZTM passenger service points (POP) sell tickets and passes</li><li>Not possible to pay the driver. Use the machine in the tram and validate a paper ticket as soon as you board</li><li>No tap-in with a bank card on the validators yet. A new ticket system is planned for 2027</li></ul><p><strong>Good to know:</strong> Validate a paper ticket in the first vehicle. The official mobiWAWA app and Jakdojade sell tickets.</p><p><a href="https://www.ztm.waw.pl">ZTM Warsaw (official site)</a></p><h3>Warsaw network</h3><p>Two metro lines: M1 (blue) and M2 (red). Trams and buses connect the rest of the city.</p><ul><li><strong>Line M1</strong>: Kabaty to Młociny. Stops: Centrum (Palace of Culture), Świętokrzyska (Change to M2), Ratusz Arsenał (Old Town), Dworzec Gdański (Trains).</li><li><strong>Line M2</strong>: Bemowo to Bródno. Stops: Rondo Daszyńskiego (Business district), Świętokrzyska (Change to M1), Nowy Świat–Uniwersytet (Royal Route), Centrum Nauki Kopernik (Science centre), Stadion Narodowy (Stadium).</li></ul><p>Where lines meet: Świętokrzyska (M1 + M2).</p></section><section><h2>Buses in Warsaw</h2><p>ZTM buses fill the rest of the network, and night buses (N lines) run all night.</p><p>Day buses run from early morning until late evening.</p><h3>Tickets and prices</h3><ul><li>Same tickets as metro and tram</li><li>Airport bus 175: city ticket</li><li>FlixBus and other coaches: long distance</li><li>Zone 1+2 ticket for outer areas</li></ul><h3>Where to buy tickets</h3><ul><li>Ticket machines inside buses. They take bank cards</li><li>ZTM stationary machines at metro stations and stops</li><li>mobiWAWA app (official): scan the QR code in the bus. Jakdojade also sells tickets</li><li>ZTM passenger service points (POP) sell tickets and passes</li><li>Not possible to pay the driver. Validate a paper ticket as soon as you board</li></ul><p><strong>Good to know:</strong> Bus 175 connects the airport with the centre and Krakowskie Przedmiescie, near the Old Town.</p><p><a href="https://www.ztm.waw.pl">ZTM Warsaw (official site)</a></p></section><section><h2>Airport links in Warsaw</h2><p>Chopin Airport (WAW) is only about 8 km from the centre.</p><p>Bus 175 and SKM trains S2 and S3 take roughly half an hour or less to the centre.</p><h3>Tickets and prices</h3><ul><li>Bus 175: 3.40 PLN (20-minute) or 4.40 PLN (75-minute)</li><li>SKM S2/S3: standard city fare</li><li>Taxi: metered, use the official rank or an app</li><li>Modlin airport has a separate shuttle</li></ul><h3>Where to buy tickets</h3><ul><li>SKM S2 and S3 from the underground Lotnisko Chopina station: city ticket for zone 1, from ZTM machines or mobiWAWA</li><li>Buses 175, 188, 148 and night bus N32: city ticket from the machine on board or in mobiWAWA</li><li>Board airport buses on the lower arrivals level or behind the coach terminal. Boarding on the departures level is not allowed</li><li>Modlin airport: Koleje Mazowieckie train to Modlin station, then a shuttle bus. The airport ticket cost 22.40 PLN in 2025 and includes a 75-minute Warsaw ticket</li><li>Modlin: direct coaches from near Warszawa Centralna (Contbus, FlixBus). A direct rail link is not expected before 2029</li></ul><p><strong>Good to know:</strong> The airport is in zone 1, so a standard city ticket is enough.</p><p><a href="https://www.lotnisko-chopina.pl">Chopin Airport (official site)</a></p><p><a href="/warsaw/airport-to-city-centre/">Airport to city centre: full guide</a></p></section><section><h2>Tips for Warsaw</h2><ul><li>Buy and validate your ticket in the app or at a kiosk before boarding.</li><li>The metro is quick, and trams cover the places it does not reach.</li><li>Check which zone your ticket covers if you go outside the city.</li></ul></section><section><h2>Apps to download</h2><ul><li><strong>Jakdojade</strong>: Route planning and tickets</li><li><strong>mobiWAWA</strong>: Official city app with transport tickets</li><li><strong>PKP Intercity</strong>: Long-distance trains</li><li><strong>Bolt</strong>: Ride-hailing</li><li><strong>FREENOW</strong>: Taxis (moving to the Lyft app from 2027)</li></ul></section><p>Fares checked against official sources on 2026-11-10.</p></section>
     <section id="home">
       <div class="intro">
         <svg class="stars" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><polygon id="etg-star" points="0.00,-7.00 1.59,-2.18 6.66,-2.16 2.57,0.83 4.11,5.66 0.00,2.70 -4.11,5.66 -2.57,0.83 -6.66,-2.16 -1.59,-2.18"/></defs><use href="#etg-star" transform="translate(50.00 12.00)"/><use href="#etg-star" transform="translate(69.00 17.09)"/><use href="#etg-star" transform="translate(82.91 31.00)"/><use href="#etg-star" transform="translate(88.00 50.00)"/><use href="#etg-star" transform="translate(82.91 69.00)"/><use href="#etg-star" transform="translate(69.00 82.91)"/><use href="#etg-star" transform="translate(50.00 88.00)"/><use href="#etg-star" transform="translate(31.00 82.91)"/><use href="#etg-star" transform="translate(17.09 69.00)"/><use href="#etg-star" transform="translate(12.00 50.00)"/><use href="#etg-star" transform="translate(17.09 31.00)"/><use href="#etg-star" transform="translate(31.00 17.09)"/></svg>
@@ -83,7 +125,7 @@
   <footer class="note">
     <p>Prices are published fares, rounded, and change often. Check the operator's own site before you travel.</p>
     <p id="disclosure" hidden></p>
-    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a></p>
+    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a> &middot; <button type="button" class="linkbtn" id="cookie-settings">Cookie choices</button></p>
   </footer>
 </div>
 <script src="/data/data.js" defer></script>

@@ -23,7 +23,49 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<script>document.documentElement.className+=" js";</script>
 <link rel="stylesheet" href="/css/styles.css">
+<!-- Travelpayouts Drive (turns links to partner sites into affiliate links). Loads only after the visitor accepts. -->
+<script>
+(function () {
+  var KEY = "etg-consent";
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function loadDrive() {
+    if (window.__etgDrive) return;
+    window.__etgDrive = true;
+    var s = document.createElement("script");
+    s.async = 1;
+    s.setAttribute("data-cmp-ab", "2");
+    s.src = "https://emrldtp.cc/NTk5OTEy.js?t=599912";
+    document.head.appendChild(s);
+  }
+  function banner() {
+    if (document.getElementById("consent")) return;
+    var d = document.createElement("div");
+    d.id = "consent"; d.className = "consent"; d.setAttribute("role", "dialog"); d.setAttribute("aria-label", "Cookie choices");
+    d.innerHTML = '<p>Some links on this site go to booking partners. Our affiliate network, Travelpayouts, can use cookies to track clicks and purchases, so we only load it if you agree. The guides work the same either way. <a href="/privacy/">Privacy</a></p>' +
+      '<div class="consent-btns"><button type="button" data-c="no">Decline</button><button type="button" data-c="yes">Accept</button></div>';
+    d.addEventListener("click", function (e) {
+      var v = e.target && e.target.getAttribute && e.target.getAttribute("data-c");
+      if (!v) return;
+      set(v);
+      d.remove();
+      if (v === "yes") loadDrive();
+    });
+    document.body.appendChild(d);
+  }
+  window.etgCookieChoices = function () { var o = document.getElementById("consent"); if (o) o.remove(); banner(); };
+  document.addEventListener("DOMContentLoaded", function () {
+    var c = get();
+    if (c === "yes") loadDrive();
+    else if (c !== "no") banner();
+    var b = document.getElementById("cookie-settings");
+    if (b) b.addEventListener("click", window.etgCookieChoices);
+  });
+  if (get() === "yes") loadDrive();
+})();
+</script>
 <script>if(!location.hash)history.replaceState(null,"","#bgr");</script>
 </head>
 <body>
@@ -34,7 +76,7 @@
   </header>
 
   <main>
-<noscript><h1>Sofia public transport guide</h1><p>Sofia Central Station (Tsentralna gara) is the main station and has its own metro stop. BDZ runs domestic trains to Plovdiv, Burgas, Varna, Ruse and western Bulgaria, plus international trains to Istanbul and Bucharest.</p><p>Sofia has trams, trolleybuses and buses run by the Center for Urban Mobility, plus a separate metro. One ticket system covers all of them.</p><p>Sofia Airport (SOF) is about 10 km east of the centre. Terminal 2 has its own metro station, and Terminal 1 is linked to it by a free shuttle bus.</p></noscript>
+<section id="static-content" class="static-content"><h1>Sofia public transport guide</h1><p>Capital of Bulgaria. Trains, trams and metro, buses and airport links for visitors, with ticket prices, tips and apps.</p><section><h2>Trains in Sofia</h2><p>Sofia Central Station (Tsentralna gara) is the main station and has its own metro stop. BDZ runs domestic trains to Plovdiv, Burgas, Varna, Ruse and western Bulgaria, plus international trains to Istanbul and Bucharest.</p><p>Long-distance trains run through the day, and overnight trains with sleeper cars run to Varna and Burgas. Check the BDZ timetable on the day you travel, because engineering works and power failures often replace sections with buses.</p><h3>Tickets and prices</h3><ul><li>Sofia to Istanbul (Halkali) night train: 26.40 EUR in 2nd class, 39.60 EUR in 1st class, one way</li><li>Istanbul night train reservations: couchette from 10 EUR, berth 15 EUR, single compartment 35 EUR</li><li>Sofia to Bucharest: about 36 EUR in 2nd class, with a compulsory reservation</li><li>Fast domestic trains to Plovdiv, Varna, Burgas and Ruse: seat reservation about 0.25 EUR</li><li>Children 4 to 7 pay 6.20 EUR and children 7 to 12 pay 13.20 EUR on the Istanbul train. Under 4 travel free</li></ul><h3>Where to buy tickets</h3><ul><li>Online at bileti.bdz.bg (domestic tickets)</li><li>Ticket offices at Sofia Central Station and other stations. Leave at least 30 minutes for the queue</li><li>Rila agencies at larger stations sell reservations for international trains</li><li>Sofia to Bucharest international tickets are sold on the Romanian railways site bileteinternationale.cfrcalatori.ro</li><li>Buy before you board. The rules for paying the conductor are published on the BDZ site</li></ul><p><strong>Good to know:</strong> Book the night train to Istanbul and the train to Bucharest ahead, and buy domestic tickets early for summer weekends to the Black Sea.</p><p><a href="https://www.bdz.bg/en/live-updates">BDZ Passenger Services (official site)</a></p><h3>Direct trains from Sofia</h3><ul><li>Plovdiv: about 2 h 30 min from Sofia Central, BDZ</li><li>Blagoevgrad: about 2 h 20 min from Sofia Central, BDZ InterCity</li><li>Burgas: about 5 h 30 min from Sofia Central, BDZ</li><li>Ruse: about 6 h 5 min from Sofia Central, BDZ</li><li>Varna: about 7 h 30 min from Sofia Central, BDZ</li><li>Bucharest (Romania): about 10 h from Sofia Central, BDZ, CFR Calatori</li><li>Istanbul (Halkali) (Turkey): about 13 h from Sofia Central, BDZ</li></ul></section><section><h2>Trams and metro in Sofia</h2><p>Sofia has trams, trolleybuses and buses run by the Center for Urban Mobility, plus a separate metro. One ticket system covers all of them.</p><p>Daytime lines run from early morning to late evening, with night lines after that. The 24-hour and 72-hour cards include night transport. Check line times at sofiatraffic.bg.</p><h3>Tickets and prices</h3><ul><li>Single ticket 30+ (transfers within 30 minutes): 0.80 EUR</li><li>Ticket 60+ (transfers within 60 minutes): 1.10 EUR</li><li>Day card (calendar day, all lines): 2.00 EUR</li><li>24-hour card: 3.00 EUR. 72-hour card: 7.60 EUR</li><li>Children under 7 travel free. Sofia City Card costs 1.50 EUR and the Ultralight card 0.40 EUR, one time</li></ul><h3>Where to buy tickets</h3><ul><li>Contactless bank card, phone or watch on the blue validator on trams, trolleybuses and buses (charged as ticket 30+)</li><li>Ticket machines at metro station entrances</li><li>Metro cashier desks and Center for Urban Mobility desks (cards and passes)</li><li>Not from the driver. Tap a contactless card on board instead</li><li>Fine for travelling without a valid ticket: 20 EUR</li></ul><p><strong>Good to know:</strong> Tap a contactless bank card on the blue validator each time you board. From the third trip in a day you pay no more than the 2.00 EUR day price.</p><p><a href="https://www.metropolitan.bg/en/information-for-citizens/trip-cards-sofia-metro">Metropolitan (Sofia Metro) (official site)</a></p><h3>Sofia network</h3><p>Sofia has four metro lines, M1 to M4. Lines M1 and M2 cross at Serdika in the centre, and the airport and Central Station both have their own stations. Line M3 is separate from the others.</p><ul><li><strong>Line M1</strong>: Slivnitsa to Business Park. Stops: Serdika (Centre), Sofia University (University), Vasil Levski Stadium (Stadium).</li><li><strong>Line M2</strong>: Obelya to Vitosha. Stops: Serdika (Centre), Central Railway Station (Trains, buses), National Palace of Culture (NDK park).</li><li><strong>Line M3</strong>: Hadzhi Dimitar to Gorna Banya. Stops: Orlov Most (Centre), Krasno Selo (South), Ovcha Kupel (West).</li></ul><p>Where lines meet: Serdika (M1 + M2).</p></section><section><h2>Buses in Sofia</h2><p>City buses and trolleybuses cover the districts the tram and metro do not reach. Intercity coaches connect Sofia with the rest of Bulgaria.</p><p>Daytime city lines run from early morning to late evening, with night lines after that. Intercity coaches run through the day, so check the operator's timetable.</p><h3>Tickets and prices</h3><ul><li>City bus and trolleybus: same fares as the tram, 0.80 EUR for ticket 30+ and 1.10 EUR for ticket 60+</li><li>Day card 2.00 EUR, 24-hour card 3.00 EUR, 72-hour card 7.60 EUR</li><li>Night lines: covered by the 24-hour and 72-hour cards, or pay with a contactless card</li><li>Monthly pass for all lines: 25.50 EUR with a personal card</li></ul><h3>Where to buy tickets</h3><ul><li>Contactless bank card, phone or watch on the validator on board</li><li>Sofia City Card or Ultralight card loaded at metro cashier desks and Center for Urban Mobility desks</li><li>Ticket machines at metro station entrances</li><li>Not from the driver. Tap a contactless card on board instead</li><li>Intercity coaches: buy online or at the coach station from the operator</li></ul><p><strong>Good to know:</strong> One ticket 30+ lets you change between bus, trolleybus, tram and metro within 30 minutes of the first validation.</p><p><a href="https://www.metropolitan.bg/en/information-for-citizens/trip-cards-sofia-metro">Metropolitan (Sofia Metro) (official site)</a></p></section><section><h2>Airport links in Sofia</h2><p>Sofia Airport (SOF) is about 10 km east of the centre. Terminal 2 has its own metro station, and Terminal 1 is linked to it by a free shuttle bus.</p><p>The metro runs from about 05:30 to midnight and takes about 20 minutes to Serdika in the centre. Buses 84 and 184 run to the centre during the day.</p><h3>Tickets and prices</h3><ul><li>Metro to the centre: ticket 30+ at 0.80 EUR, or tap a contactless bank card</li><li>Bus 84 or 184 to General Gurko Street: 0.80 EUR for ticket 30+</li><li>Taxi: book at the OK Supertrans desk in the arrival hall, or at oktaxi.net or +359 2 973 2121</li><li>Uber does not operate in Bulgaria</li></ul><h3>Where to buy tickets</h3><ul><li>Metro: ticket machines or cashier desk in the airport metro station, or tap a contactless bank card at the barriers</li><li>Buses 84 and 184: ticket machine at Terminal 1, Center for Urban Mobility kiosks in Terminal 2, or tap a contactless card on board</li><li>Taxi: only at the licensed OK Supertrans desk, to avoid overcharging</li></ul><p><strong>Good to know:</strong> Use the metro from Terminal 2. If you land at Terminal 1, take the free shuttle bus between the terminals first.</p><p><a href="https://www.metropolitan.bg/en/information-for-citizens/trip-cards-sofia-metro">Metropolitan (Sofia Metro) (official site)</a></p><p><a href="/sofia/airport-to-city-centre/">Airport to city centre: full guide</a></p></section><section><h2>Tips for Sofia</h2><ul><li>Prices are in euros since 1 January 2026. Old ticket and card balances in levs can still be used until they expire.</li><li>Contactless bank cards work in the metro and on surface transport, so you do not need to buy a card or ticket.</li><li>Use the same bank card for every trip on a day, so the daily cap of 2.00 EUR applies.</li><li>Train timetables change often because of engineering works. Check BDZ live updates before a long trip.</li></ul></section><section><h2>Apps to download</h2><ul><li><strong>Sofia Traffic</strong>: Live arrivals and routes for tram, bus, trolleybus and metro</li><li><strong>Moovit</strong>: Route planning across all Sofia transport</li><li><strong>Google Maps</strong>: Public transport directions and metro times</li><li><strong>Bolt</strong>: Ride hailing when taxis are scarce</li></ul></section><p>Fares checked against official sources on 2026-11-11.</p></section>
     <section id="home">
       <div class="intro">
         <svg class="stars" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><polygon id="etg-star" points="0.00,-7.00 1.59,-2.18 6.66,-2.16 2.57,0.83 4.11,5.66 0.00,2.70 -4.11,5.66 -2.57,0.83 -6.66,-2.16 -1.59,-2.18"/></defs><use href="#etg-star" transform="translate(50.00 12.00)"/><use href="#etg-star" transform="translate(69.00 17.09)"/><use href="#etg-star" transform="translate(82.91 31.00)"/><use href="#etg-star" transform="translate(88.00 50.00)"/><use href="#etg-star" transform="translate(82.91 69.00)"/><use href="#etg-star" transform="translate(69.00 82.91)"/><use href="#etg-star" transform="translate(50.00 88.00)"/><use href="#etg-star" transform="translate(31.00 82.91)"/><use href="#etg-star" transform="translate(17.09 69.00)"/><use href="#etg-star" transform="translate(12.00 50.00)"/><use href="#etg-star" transform="translate(17.09 31.00)"/><use href="#etg-star" transform="translate(31.00 17.09)"/></svg>
@@ -83,7 +125,7 @@
   <footer class="note">
     <p>Prices are published fares, rounded, and change often. Check the operator's own site before you travel.</p>
     <p id="disclosure" hidden></p>
-    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a></p>
+    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a> &middot; <button type="button" class="linkbtn" id="cookie-settings">Cookie choices</button></p>
   </footer>
 </div>
 <script src="/data/data.js" defer></script>

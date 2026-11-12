@@ -23,7 +23,49 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<script>document.documentElement.className+=" js";</script>
 <link rel="stylesheet" href="/css/styles.css">
+<!-- Travelpayouts Drive (turns links to partner sites into affiliate links). Loads only after the visitor accepts. -->
+<script>
+(function () {
+  var KEY = "etg-consent";
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function loadDrive() {
+    if (window.__etgDrive) return;
+    window.__etgDrive = true;
+    var s = document.createElement("script");
+    s.async = 1;
+    s.setAttribute("data-cmp-ab", "2");
+    s.src = "https://emrldtp.cc/NTk5OTEy.js?t=599912";
+    document.head.appendChild(s);
+  }
+  function banner() {
+    if (document.getElementById("consent")) return;
+    var d = document.createElement("div");
+    d.id = "consent"; d.className = "consent"; d.setAttribute("role", "dialog"); d.setAttribute("aria-label", "Cookie choices");
+    d.innerHTML = '<p>Some links on this site go to booking partners. Our affiliate network, Travelpayouts, can use cookies to track clicks and purchases, so we only load it if you agree. The guides work the same either way. <a href="/privacy/">Privacy</a></p>' +
+      '<div class="consent-btns"><button type="button" data-c="no">Decline</button><button type="button" data-c="yes">Accept</button></div>';
+    d.addEventListener("click", function (e) {
+      var v = e.target && e.target.getAttribute && e.target.getAttribute("data-c");
+      if (!v) return;
+      set(v);
+      d.remove();
+      if (v === "yes") loadDrive();
+    });
+    document.body.appendChild(d);
+  }
+  window.etgCookieChoices = function () { var o = document.getElementById("consent"); if (o) o.remove(); banner(); };
+  document.addEventListener("DOMContentLoaded", function () {
+    var c = get();
+    if (c === "yes") loadDrive();
+    else if (c !== "no") banner();
+    var b = document.getElementById("cookie-settings");
+    if (b) b.addEventListener("click", window.etgCookieChoices);
+  });
+  if (get() === "yes") loadDrive();
+})();
+</script>
 <script>if(!location.hash)history.replaceState(null,"","#ltu");</script>
 </head>
 <body>
@@ -34,7 +76,7 @@
   </header>
 
   <main>
-<noscript><h1>Vilnius public transport guide</h1><p>Vilnius Railway Station (Geležinkelio g. 16) is the single main station, south of the Old Town and next to the Bus Station. LTG Link runs trains to Kaunas, Klaipeda, Siauliai, Trakai and Visaginas, a short shuttle to the airport, and one daily train to Riga that connects on to Tallinn.</p><p>Vilnius has no metro and no trams. Buses and trolleybuses run on one ticket system run by Vilniaus viesasis transportas (JUDU), and trolleybuses use the same tickets as buses.</p><p>Vilnius Airport (VNO) is about 6 km south of the centre, next to the railway line. A short train, three bus routes and a night bus all reach the centre in under 20 minutes.</p></noscript>
+<section id="static-content" class="static-content"><h1>Vilnius public transport guide</h1><p>Capital of Lithuania. Trains, trams and metro, buses and airport links for visitors, with ticket prices, tips and apps.</p><section><h2>Trains in Vilnius</h2><p>Vilnius Railway Station (Geležinkelio g. 16) is the single main station, south of the Old Town and next to the Bus Station. LTG Link runs trains to Kaunas, Klaipeda, Siauliai, Trakai and Visaginas, a short shuttle to the airport, and one daily train to Riga that connects on to Tallinn.</p><p>Kaunas has up to 15 trains a day and Klaipeda up to 6. Trakai, Visaginas and the Riga and Warsaw links run a few times a day. LTG Link fares were halved in April and May 2026 and are back to normal dynamic pricing.</p><h3>Tickets and prices</h3><ul><li>Dynamic pricing: booking early can save up to 40 percent. Last-minute tickets can cost up to 10 percent more</li><li>Vilnius to Kaunas: usually 5 to 10 EUR</li><li>Vilnius to Riga: 9.60 to 24 EUR in second class, 34 EUR in first class. Seat reservation is compulsory</li><li>Vilnius to Tallinn: about 39 EUR on one through ticket</li><li>Vilnius to Warsaw: from about 16 EUR, standard fare about 29 EUR, with a change at Mockava</li><li>Parents travelling with children get 50 percent off on weekdays too</li><li>Airport shuttle: 0.90 EUR</li></ul><h3>Where to buy tickets</h3><ul><li>ltglink.lt or the LTG Link app</li><li>Perlas ticket terminals at stations</li><li>Station ticket offices</li><li>On the train. Check ltglink.lt for the on-board price before you rely on it</li><li>Seat reservation is compulsory on international trains</li><li>Riga and Tallinn trains can also be booked on vivi.lv and elron.ee</li></ul><p><strong>Good to know:</strong> Book at ltglink.lt or in the LTG Link app a few days ahead for the lowest fare. International and some domestic trains need a seat reservation.</p><p><a href="https://vilnius-airport.lt/en/">Vilnius Airport: train to the city (official site)</a></p><h3>Direct trains from Vilnius</h3><ul><li>Vilnius Airport: about 7 min from Vilnius Railway Station, LTG Link</li><li>Trakai: about 30 min from Vilnius Railway Station, LTG Link</li><li>Kaunas: about 1 h 5 min from Vilnius Railway Station, LTG Link</li><li>Visaginas: about 2 h 15 min from Vilnius Railway Station, LTG Link</li><li>Siauliai: about 2 h 30 min from Vilnius Railway Station, LTG Link</li><li>Mockava: about 2 h 30 min from Vilnius Railway Station, LTG Link</li><li>Klaipeda: about 4 h 10 min from Vilnius Railway Station, LTG Link</li><li>Riga (Latvia): about 4 h from Vilnius Railway Station, LTG Link</li><li>Warsaw (Poland): about 6 h 35 min from Vilnius Railway Station, LTG Link and a Polish train</li><li>Tallinn (Estonia): about 10 h 50 min from Vilnius Railway Station, LTG Link, Vivi, Elron</li></ul></section><section><h2>Trams and metro in Vilnius</h2><p>Vilnius has no metro and no trams. Buses and trolleybuses run on one ticket system run by Vilniaus viesasis transportas (JUDU), and trolleybuses use the same tickets as buses.</p><p>Buses and trolleybuses run from early morning until around midnight. Nine night bus routes (N1 to N9) run on Friday and Saturday nights, about every 30 minutes after midnight.</p><h3>Tickets and prices</h3><ul><li>30-minute ticket: 1.00 EUR</li><li>60-minute ticket: 1.25 EUR. Transfers are allowed within the time</li><li>1-day ticket: 7.50 EUR</li><li>3-day ticket: 13.50 EUR</li><li>30-day ticket: 38 EUR</li><li>Contactless bank card: each tap buys a 60-minute ticket at 1.25 EUR</li><li>Vilnius Pass 24 hours plus public transport: 46.50 EUR</li></ul><h3>Where to buy tickets</h3><ul><li>Tap a contactless bank card or phone on the green validator (60 minutes, 1.25 EUR)</li><li>m.Ticket or Trafi app: 30 and 60 minute and day tickets, activated on board</li><li>Vilniečio (JUDU) card, 1.50 EUR, topped up at Narvesen, Lietuvos spauda, Maxima, Rimi and Aibe shops and JUDU service centres</li><li>Self-service terminals only top up an existing card</li><li>Not possible from the driver. Drivers do not sell tickets and cash is not accepted</li><li>Without a valid, activated ticket you can pay a 15 EUR inspection ticket on the spot, or be fined 16 to 30 EUR</li></ul><p><strong>Good to know:</strong> Every ticket must be activated on board, even one bought in advance. Tap your bank card on the green validator or activate the ticket in the app.</p><p><a href="https://judu.lt/en/useful-information-to-the-city-guests">JUDU: Vilnius public transport (official site)</a></p><h3>Vilnius network</h3><p>Vilnius has no metro and no trams. Trolleybuses and buses cover the city, and a short train links the airport.</p><ul><li>Trolleybuses and buses on one ticket</li><li>Express bus 3G links the airport and the centre</li><li>Night buses N1 to N9 run on Friday and Saturday nights</li><li>Night bus 88N serves the airport</li><li>Train shuttle between the airport and Vilnius Railway Station</li></ul></section><section><h2>Buses in Vilnius</h2><p>City buses and trolleybuses use the tickets above. Long-distance coaches leave from Vilnius Bus Station (Sodu g. 22), next to the railway station, with Lux Express, FlixBus, Ecolines, TOKS and Kautra.</p><p>City buses run from early morning to around midnight. Kaunas has about 14 direct coaches a day taking about 1 h 30 min, and Riga takes about 4 h 15 min.</p><h3>Tickets and prices</h3><ul><li>City bus and trolleybus: same fares as above, 1.25 EUR for 60 minutes</li><li>Night buses N1 to N9: normal fares</li><li>Vilnius to Kaunas coach: from about 10 EUR when booked early</li><li>Vilnius to Riga coach: from about 5 EUR when booked early, often 13 EUR or more on the day</li></ul><h3>Where to buy tickets</h3><ul><li>City buses: tap a contactless card on the validator, or use the m.Ticket or Trafi app</li><li>Not possible from the driver, and cash is not accepted on city buses</li><li>Long-distance coaches: online with Omio or the operator, or at the Bus Station</li></ul><p><strong>Good to know:</strong> Trains are about as fast to Kaunas, so compare both. For Riga and Tallinn, check coach and train prices for your date.</p><p><a href="https://judu.lt/en/useful-information-to-the-city-guests">JUDU: Vilnius public transport (official site)</a></p></section><section><h2>Airport links in Vilnius</h2><p>Vilnius Airport (VNO) is about 6 km south of the centre, next to the railway line. A short train, three bus routes and a night bus all reach the centre in under 20 minutes.</p><p>The airport train takes 7 to 8 minutes to the railway station and runs about 16 times a day between roughly 07:00 and 19:30. Buses 1, 2 and 88 run every 20 to 30 minutes, and express bus 3G about every 10 minutes. Night bus 88N runs from about 22:30 to 05:30.</p><h3>Tickets and prices</h3><ul><li>Train to Vilnius Railway Station: 0.90 EUR</li><li>Buses 1, 2, 88 and 3G: 1.25 EUR for 60 minutes by contactless card</li><li>Official taxi to the Old Town: about 10 EUR</li><li>Bolt to the centre: about 5 to 8 EUR, shown before you book</li></ul><h3>Where to buy tickets</h3><ul><li>Train: ltglink.lt, LTG Link app, Perlas terminals, the ticket machine on the platform outside the terminal, or on the train</li><li>Buses: tap a contactless bank card on the validator on board</li><li>Bus tickets are also sold at the Narvesen shop at the airport</li><li>Taxis from the rank, or Bolt in the app</li></ul><p><strong>Good to know:</strong> The train is the fastest option but has few departures. For late flights use night bus 88N or Bolt.</p><p><a href="https://vilnius-airport.lt/en/">Vilnius Airport (official site)</a></p><p><a href="/vilnius/airport-to-city-centre/">Airport to city centre: full guide</a></p></section><section><h2>Tips for Vilnius</h2><ul><li>Tap a contactless bank card on every bus and trolleybus. The tap buys and activates a 60-minute ticket.</li><li>Drivers do not sell tickets, so board with a card or the app ready.</li><li>Ticket inspectors are frequent. The on-the-spot inspection ticket costs 15 EUR and fines run 16 to 30 EUR.</li><li>The Old Town is walkable. Use buses and trolleybuses for the Bus Station, outer districts and the airport.</li></ul></section><section><h2>Apps to download</h2><ul><li><strong>m.Ticket</strong>: Vilnius bus and trolleybus tickets</li><li><strong>Trafi</strong>: Vilnius route planning, live bus tracking and tickets</li><li><strong>LTG Link</strong>: Lithuanian train times and tickets</li><li><strong>Bolt</strong>: Taxis and ride hailing</li><li><strong>FlixBus</strong>: Coaches to Riga, Tallinn, Kaunas and Warsaw</li></ul></section><p>Fares checked against official sources on 2026-11-11.</p></section>
     <section id="home">
       <div class="intro">
         <svg class="stars" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><polygon id="etg-star" points="0.00,-7.00 1.59,-2.18 6.66,-2.16 2.57,0.83 4.11,5.66 0.00,2.70 -4.11,5.66 -2.57,0.83 -6.66,-2.16 -1.59,-2.18"/></defs><use href="#etg-star" transform="translate(50.00 12.00)"/><use href="#etg-star" transform="translate(69.00 17.09)"/><use href="#etg-star" transform="translate(82.91 31.00)"/><use href="#etg-star" transform="translate(88.00 50.00)"/><use href="#etg-star" transform="translate(82.91 69.00)"/><use href="#etg-star" transform="translate(69.00 82.91)"/><use href="#etg-star" transform="translate(50.00 88.00)"/><use href="#etg-star" transform="translate(31.00 82.91)"/><use href="#etg-star" transform="translate(17.09 69.00)"/><use href="#etg-star" transform="translate(12.00 50.00)"/><use href="#etg-star" transform="translate(17.09 31.00)"/><use href="#etg-star" transform="translate(31.00 17.09)"/></svg>
@@ -83,7 +125,7 @@
   <footer class="note">
     <p>Prices are published fares, rounded, and change often. Check the operator's own site before you travel.</p>
     <p id="disclosure" hidden></p>
-    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a></p>
+    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a> &middot; <button type="button" class="linkbtn" id="cookie-settings">Cookie choices</button></p>
   </footer>
 </div>
 <script src="/data/data.js" defer></script>

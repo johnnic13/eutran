@@ -75,7 +75,13 @@ The build adds it to the map, the list and the news API.
 
 A route guide is a long page for one popular journey, such as London to Paris. It is linked from the home page, from both capitals' pages, and from the matching row in the train destinations table.
 
-To add one, copy `data/routes/london-paris.json`, rename it, and change `id` (it must match the file name), `from`, `to`, `stats`, `official`, `sections`, `options`, `faq` and `sources`. Section blocks can be `p`, `table`, `list`, `steps` or `tip`. Run `npm test` to check it.
+To add one, copy `data/routes/london-paris.json`, rename it, and change `id` (it must match the file name), `from`, `to`, `stats`, `official`, `sections`, `options`, `faq` and `sources`. Section blocks can be `p`, `table`, `list`, `steps`, `tip`, `book` or `places`.
+
+- `{"type":"book","title":"...","kinds":["train"]}` shows the affiliate buttons whose `kind` matches (`train`, `pass`, `esim`, `tours`, `stay`). It shows nothing until you paste a link into that slot in `data/affiliates.json`.
+- `{"type":"places","items":[{"name","why","time","cost","getting"}]}` draws the "Things to do" cards. Give the section the id `things` to get its own colour.
+- New slots for a route go under `routes.<route id>` in `data/affiliates.json`.
+
+Run `npm test` to check it.
 
 Partner buttons on a route page (Trainline, Omio, Interrail seat reservations, Airalo eSIM) are set in `data/affiliates.json` under `routes`. Paste your tracking link into `link`. A slot with no link stays hidden.
 
@@ -95,3 +101,11 @@ Set your real address before you deploy: in Netlify, go to Site configuration, t
 ## Logo, icons and share image
 
 The header uses the pastel logo (colours `--logo-rose`, `--logo-sky`, `--logo-mint` in `css/styles.css`). `site/favicon.svg` is the browser tab icon, `site/apple-touch-icon.png` the phone home-screen icon, and `site/og-image.png` (1200 by 630) the picture shown when someone shares a link on social media or a chat app. To change the share image, replace that file. The build writes the matching tags between the `seo:start` and `seo:end` markers in `site/index.html`, so leave those markers in place.
+
+## Metro and tram line chips
+
+`metro.lineStrips` in a city file draws the full-width line boxes on the Tram & Metro tab. Each entry is `{id, color, ink, label?, ends:[a,b] | loop:"text", stops:[[name, note],...]}`; `metro.hubs` lists interchanges as `[station, "A + B"]`. Without `lineStrips` the tab shows the plain text list. Colours and stops come from public network maps: check them against the operator's map before you change a city. `npm test` validates the shape.
+
+## Static page text and airport pages
+
+`scripts/render.mjs` writes the full guide text into the HTML of each city and route page (`#static-content`). It is hidden when JavaScript runs and removed by `app.js` on load, so search engines and no-JavaScript visitors still read it. The same script builds `/<city>/airport-to-city-centre/` for every capital from the airport data in `data/countries`; those pages carry FAQ markup and are in the sitemap.

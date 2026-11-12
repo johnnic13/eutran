@@ -23,7 +23,49 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<script>document.documentElement.className+=" js";</script>
 <link rel="stylesheet" href="/css/styles.css">
+<!-- Travelpayouts Drive (turns links to partner sites into affiliate links). Loads only after the visitor accepts. -->
+<script>
+(function () {
+  var KEY = "etg-consent";
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function loadDrive() {
+    if (window.__etgDrive) return;
+    window.__etgDrive = true;
+    var s = document.createElement("script");
+    s.async = 1;
+    s.setAttribute("data-cmp-ab", "2");
+    s.src = "https://emrldtp.cc/NTk5OTEy.js?t=599912";
+    document.head.appendChild(s);
+  }
+  function banner() {
+    if (document.getElementById("consent")) return;
+    var d = document.createElement("div");
+    d.id = "consent"; d.className = "consent"; d.setAttribute("role", "dialog"); d.setAttribute("aria-label", "Cookie choices");
+    d.innerHTML = '<p>Some links on this site go to booking partners. Our affiliate network, Travelpayouts, can use cookies to track clicks and purchases, so we only load it if you agree. The guides work the same either way. <a href="/privacy/">Privacy</a></p>' +
+      '<div class="consent-btns"><button type="button" data-c="no">Decline</button><button type="button" data-c="yes">Accept</button></div>';
+    d.addEventListener("click", function (e) {
+      var v = e.target && e.target.getAttribute && e.target.getAttribute("data-c");
+      if (!v) return;
+      set(v);
+      d.remove();
+      if (v === "yes") loadDrive();
+    });
+    document.body.appendChild(d);
+  }
+  window.etgCookieChoices = function () { var o = document.getElementById("consent"); if (o) o.remove(); banner(); };
+  document.addEventListener("DOMContentLoaded", function () {
+    var c = get();
+    if (c === "yes") loadDrive();
+    else if (c !== "no") banner();
+    var b = document.getElementById("cookie-settings");
+    if (b) b.addEventListener("click", window.etgCookieChoices);
+  });
+  if (get() === "yes") loadDrive();
+})();
+</script>
 <script>if(!location.hash)history.replaceState(null,"","#cyp");</script>
 </head>
 <body>
@@ -34,7 +76,7 @@
   </header>
 
   <main>
-<noscript><h1>Nicosia public transport guide</h1><p>There are no trains in Cyprus. The best way to reach other cities is the Intercity Buses network from Solomou Square in Nicosia to Larnaca, Limassol and Paphos. Airport shuttles from Kapnos link Nicosia with Larnaca and Paphos airports.</p><p>Nicosia has no trams or metro. City buses run by Cyprus Public Transport are the only public transport inside the city, so see the Bus section for fares and tickets.</p><p>Nicosia has no commercial airport. Visitors arrive at Larnaca (LCA), about 50 km away, or Paphos (PFO). Both airports have taxis, local buses and airport shuttles.</p></noscript>
+<section id="static-content" class="static-content"><h1>Nicosia public transport guide</h1><p>Capital of Cyprus. Trains, trams and metro, buses and airport links for visitors, with ticket prices, tips and apps.</p><section><h2>Trains in Nicosia</h2><p>There are no trains in Cyprus. The best way to reach other cities is the Intercity Buses network from Solomou Square in Nicosia to Larnaca, Limassol and Paphos. Airport shuttles from Kapnos link Nicosia with Larnaca and Paphos airports.</p><p>Intercity buses to Larnaca run from about 06:00 to 22:00 on weekdays. Buses to Limassol run from 05:40 to 21:30 on weekdays and 07:00 to 22:30 on weekends. Buses to Paphos run from 04:45 to 19:15 on weekdays and 07:00 to 19:00 on weekends. Services thin out after 21:00.</p><h3>Tickets and prices</h3><ul><li>Nicosia to Larnaca: about 5 EUR one way, 9 EUR return, journey about 1 h 15 min</li><li>Nicosia to Limassol: about 6 EUR one way, 11 EUR return, journey about 1 h 45 min</li><li>Nicosia to Paphos: about 7 EUR one way, 13 EUR return, journey about 2 h</li><li>All districts and intercity day ticket on a Motion card: 15 EUR</li><li>Airport shuttle from Larnaca Airport to Nicosia: about 9 EUR (Kapnos)</li></ul><h3>Where to buy tickets</h3><ul><li>Pay the driver in cash for a one-way ticket</li><li>Sales outlet in Nicosia, open weekdays 08:00 to 13:00 and 14:00 to 16:00, for returns, weekly tickets and Motion cards</li><li>Sales outlets in Larnaca (daily 08:00 to 20:00), Paphos and Limassol</li><li>Motion card top-up online through the JCC Smart platform</li><li>Call centre 8000 77 89, daily 08:00 to 21:00</li><li>Passengers without a valid ticket are fined on the spot by inspectors</li></ul><p><strong>Good to know:</strong> Buy a return if you plan to come back the same way, and check the last bus time before you leave. The last buses from Larnaca and Paphos leave in the evening.</p><p><a href="https://intercity-buses.com/en/?p=34">Intercity Buses (official site)</a></p></section><section><h2>Trams and metro in Nicosia</h2><p>Nicosia has no trams or metro. City buses run by Cyprus Public Transport are the only public transport inside the city, so see the Bus section for fares and tickets.</p><p>Check the journey planner on publictransport.com.cy for the first and last bus on your route. Night fares apply from 21:00 to 04:00.</p><h3>Tickets and prices</h3><ul><li>No tram or metro tickets exist. The same bus ticket is used for all city travel</li><li>One-way urban ticket in cash: 2.70 EUR</li><li>Night one-way ticket in cash (21:00 to 04:00): 4.70 EUR</li><li>Motion card one-way: 2.00 EUR by day, 3.50 EUR at night</li><li>New routes are added from time to time. Nicosia route 29K starts on 2 November 2026</li></ul><h3>Where to buy tickets</h3><ul><li>Not applicable: there is no tram or metro. Buy bus tickets from the driver or at a sales point</li><li>Cash from the driver for a one-way ticket</li><li>Sales points in Nicosia: Solomou Square, Makario Stadium, General Hospital, Alampra and Tamasos bus stations</li><li>Motion card top-up with the Pame app, online, at sales offices or at kiosks that sell vouchers</li></ul><p><strong>Good to know:</strong> A short taxi ride is a good option for places the buses do not reach well, or after the last bus.</p><p><a href="https://www.publictransport.com.cy/">Cyprus Public Transport (official site)</a></p><h3>Nicosia network</h3><p>Nicosia has no metro or tram. Buses are the only public transport. Most visitor sights inside the old town walls can be reached on foot.</p><ul><li>Buses leave from Solomou Square, Makario Stadium, General Hospital, Alampra and Tamasos stations</li><li>Intercity Buses to Larnaca, Limassol and Paphos leave from Solomou Square</li><li>Check the route maps and the journey planner on the Cyprus Public Transport site</li></ul></section><section><h2>Buses in Nicosia</h2><p>Cyprus Public Transport runs the city buses in Nicosia and Larnaca. Intercity Buses links Nicosia with the other cities. Pafos Buses covers Paphos. Solomou Square is the central bus stop in Nicosia.</p><p>City buses run during the day, and night fares apply from 21:00. Intercity services thin out after 21:00 and there are no reliable overnight connections.</p><h3>Tickets and prices</h3><ul><li>One-way urban ticket in cash: 2.70 EUR (from 3 August 2026)</li><li>One-way urban ticket with a Motion card: 2.00 EUR</li><li>Night one-way (21:00 to 04:00): 4.70 EUR in cash, 3.50 EUR with a Motion card</li><li>Paper Motion card: 4 trips 8.70 EUR, 2 days 17.40 EUR, 3 days 26.10 EUR, 7 days 46.80 EUR</li><li>Daily ticket for all cities: 20 EUR</li><li>Rural routes: 0.70 EUR in cash</li></ul><h3>Where to buy tickets</h3><ul><li>Pay the driver in cash for one-way, rural and night tickets. Coins from 0.05 EUR and notes up to 20 EUR are accepted</li><li>Sales points and ticket offices such as Solomou Square, and at Larnaca Central Station and Larnaca Airport</li><li>Paper smart cards at ticket offices and vending machines</li><li>Top up a Motion card in the Pame app, online, at sales offices, or with vouchers from kiosks</li><li>Validate your card every time you board</li><li>Without a valid ticket you pay the fare plus a 50 EUR penalty fare</li></ul><p><strong>Good to know:</strong> The Motion card is cheaper than cash and covers many trips. Validate it every time you board, including when you change buses.</p><p><a href="https://www.publictransport.com.cy/cms/page/cash-tickets">Cyprus Public Transport: ticket fares (official site)</a></p></section><section><h2>Airport links in Nicosia</h2><p>Nicosia has no commercial airport. Visitors arrive at Larnaca (LCA), about 50 km away, or Paphos (PFO). Both airports have taxis, local buses and airport shuttles.</p><p>Taxis wait outside arrivals at Larnaca day and night. The Kapnos shuttle from Larnaca to Nicosia takes about 40 to 50 minutes. Public buses are limited after 21:00, so book a shuttle or taxi for late arrivals.</p><h3>Tickets and prices</h3><ul><li>Larnaca: Kapnos shuttle to Nicosia, about 9 EUR per adult, to the Kyrenia Avenue station in Aglandjia</li><li>Larnaca: public bus 425 to Larnaca centre, 2.70 EUR in cash, about 15 to 20 minutes</li><li>Larnaca: taxi to Nicosia, about 55 to 75 EUR</li><li>Paphos: Pafos Buses runs airport routes to Paphos. Local one-way fare in the Paphos district is 2 EUR</li><li>Paphos to Nicosia: Kapnos shuttle, or a bus to Paphos town and then the Nicosia intercity bus for about 7 EUR</li></ul><h3>Where to buy tickets</h3><ul><li>Kapnos shuttle: book online up to 60 minutes before departure (digital boarding pass), or at the Kapnos office inside Larnaca Airport or at the Nicosia station</li><li>Bus 425: pay the driver in cash, or use a Motion card</li><li>Taxis: rank at Level 0 outside the Larnaca arrivals hall, open 24 hours</li><li>Paphos buses: Pafos Buses, phone 8000 5588</li><li>Cyprus Public Transport serves Larnaca Airport and Pafos Transport Organisation serves Paphos Airport</li></ul><p><strong>Good to know:</strong> The Kapnos station in Nicosia is on Kyrenia Avenue, outside the old town. With luggage you may need a taxi or a local bus from there.</p><p><a href="https://www.hermesairports.com/prepare-your-journey/fly-in/public-transportation">Hermes Airports: public transportation (official site)</a></p><p><a href="/nicosia/airport-to-city-centre/">Airport to city centre: full guide</a></p></section><section><h2>Tips for Nicosia</h2><ul><li>Cyprus has no trains. Plan intercity trips by bus and check the last bus time.</li><li>Keep coins for the driver. Notes above 20 EUR are not accepted.</li><li>Validate a Motion card every time you board, or you can be fined.</li><li>Fares changed on 3 August 2026, so older prices on blogs may be out of date.</li></ul></section><section><h2>Apps to download</h2><ul><li><strong>Pame</strong>: Journey planner, live bus tracking and Motion card top-up</li><li><strong>Kapnos Airport Shuttle</strong>: Book airport shuttles to Nicosia, Larnaca and Paphos</li><li><strong>Google Maps</strong>: Route planning. Check times against the operator</li></ul></section><p>Fares checked against official sources on 2026-11-11.</p></section>
     <section id="home">
       <div class="intro">
         <svg class="stars" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><polygon id="etg-star" points="0.00,-7.00 1.59,-2.18 6.66,-2.16 2.57,0.83 4.11,5.66 0.00,2.70 -4.11,5.66 -2.57,0.83 -6.66,-2.16 -1.59,-2.18"/></defs><use href="#etg-star" transform="translate(50.00 12.00)"/><use href="#etg-star" transform="translate(69.00 17.09)"/><use href="#etg-star" transform="translate(82.91 31.00)"/><use href="#etg-star" transform="translate(88.00 50.00)"/><use href="#etg-star" transform="translate(82.91 69.00)"/><use href="#etg-star" transform="translate(69.00 82.91)"/><use href="#etg-star" transform="translate(50.00 88.00)"/><use href="#etg-star" transform="translate(31.00 82.91)"/><use href="#etg-star" transform="translate(17.09 69.00)"/><use href="#etg-star" transform="translate(12.00 50.00)"/><use href="#etg-star" transform="translate(17.09 31.00)"/><use href="#etg-star" transform="translate(31.00 17.09)"/></svg>
@@ -83,7 +125,7 @@
   <footer class="note">
     <p>Prices are published fares, rounded, and change often. Check the operator's own site before you travel.</p>
     <p id="disclosure" hidden></p>
-    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a></p>
+    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a> &middot; <button type="button" class="linkbtn" id="cookie-settings">Cookie choices</button></p>
   </footer>
 </div>
 <script src="/data/data.js" defer></script>

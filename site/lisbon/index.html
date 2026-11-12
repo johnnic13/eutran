@@ -23,7 +23,49 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<script>document.documentElement.className+=" js";</script>
 <link rel="stylesheet" href="/css/styles.css">
+<!-- Travelpayouts Drive (turns links to partner sites into affiliate links). Loads only after the visitor accepts. -->
+<script>
+(function () {
+  var KEY = "etg-consent";
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function loadDrive() {
+    if (window.__etgDrive) return;
+    window.__etgDrive = true;
+    var s = document.createElement("script");
+    s.async = 1;
+    s.setAttribute("data-cmp-ab", "2");
+    s.src = "https://emrldtp.cc/NTk5OTEy.js?t=599912";
+    document.head.appendChild(s);
+  }
+  function banner() {
+    if (document.getElementById("consent")) return;
+    var d = document.createElement("div");
+    d.id = "consent"; d.className = "consent"; d.setAttribute("role", "dialog"); d.setAttribute("aria-label", "Cookie choices");
+    d.innerHTML = '<p>Some links on this site go to booking partners. Our affiliate network, Travelpayouts, can use cookies to track clicks and purchases, so we only load it if you agree. The guides work the same either way. <a href="/privacy/">Privacy</a></p>' +
+      '<div class="consent-btns"><button type="button" data-c="no">Decline</button><button type="button" data-c="yes">Accept</button></div>';
+    d.addEventListener("click", function (e) {
+      var v = e.target && e.target.getAttribute && e.target.getAttribute("data-c");
+      if (!v) return;
+      set(v);
+      d.remove();
+      if (v === "yes") loadDrive();
+    });
+    document.body.appendChild(d);
+  }
+  window.etgCookieChoices = function () { var o = document.getElementById("consent"); if (o) o.remove(); banner(); };
+  document.addEventListener("DOMContentLoaded", function () {
+    var c = get();
+    if (c === "yes") loadDrive();
+    else if (c !== "no") banner();
+    var b = document.getElementById("cookie-settings");
+    if (b) b.addEventListener("click", window.etgCookieChoices);
+  });
+  if (get() === "yes") loadDrive();
+})();
+</script>
 <script>if(!location.hash)history.replaceState(null,"","#prt");</script>
 </head>
 <body>
@@ -34,7 +76,7 @@
   </header>
 
   <main>
-<noscript><h1>Lisbon public transport guide</h1><p>Santa Apolonia and Oriente are the main stations. CP runs Alfa Pendular and Intercity trains to Porto, and suburban lines to Sintra and Cascais.</p><p>Tram 28 climbs the old districts and is famous, but very crowded. The metro has 4 lines.</p><p>Humberto Delgado Airport (LIS) is close to the city centre.</p></noscript>
+<section id="static-content" class="static-content"><h1>Lisbon public transport guide</h1><p>Capital of Portugal. Trains, trams and metro, buses and airport links for visitors, with ticket prices, tips and apps.</p><section><h2>Trains in Lisbon</h2><p>Santa Apolonia and Oriente are the main stations. CP runs Alfa Pendular and Intercity trains to Porto, and suburban lines to Sintra and Cascais.</p><p>Suburban lines to Cascais and Sintra run frequently from early morning until late evening.</p><h3>Tickets and prices</h3><ul><li>Lisbon to Sintra or Cascais: zone-based fare of a few euros one way</li><li>Lisbon to Porto: Alfa Pendular or Intercity, cheaper when booked early</li><li>Navegante card needed for suburban trains in the Lisbon area</li><li>CP app for tickets</li></ul><h3>Where to buy tickets</h3><ul><li>CP ticket offices and ticket machines in stations</li><li>CP website and CP app for Alfa Pendular and Intercidades. Seat reservation is compulsory</li><li>Sintra and Cascais lines: load zapping credit or a ticket on a navegante card (0.50 EUR) at station machines. Fertagus has its own tickets and machines</li><li>On board: generally not allowed. Only if the boarding station has no ticket sales, and then cash only, no extra fee</li><li>Without a valid ticket you can be fined 120 to 350 EUR on suburban and short regional trains, and 250 to 700 EUR on longer trips</li><li>Contactless bank cards do not work on CP trains. Buy and validate before you board</li></ul><p><strong>Good to know:</strong> Cascais line departs from Cais do Sodre, Sintra line from Rossio.</p><p><a href="https://www.cp.pt">CP (official site)</a></p><h3>Direct trains from Lisbon</h3><ul><li>Cascais: about 40 min from Cais do Sodre, CP Urbanos (Cascais line)</li><li>Sintra: about 40 min from Rossio, CP Urbanos (Sintra line)</li><li>Setubal: about 1 h from Roma-Areeiro (also Entrecampos, Sete Rios), Fertagus</li><li>Evora: about 1 h 30 min from Entrecampos or Oriente, Intercidades</li><li>Coimbra: about 1 h 40 min from Oriente or Santa Apolonia, Alfa Pendular, Intercidades</li><li>Aveiro: about 2 h 5 min from Oriente or Santa Apolonia, Alfa Pendular, Intercidades</li><li>Porto: about 2 h 45 min from Oriente or Santa Apolonia, Alfa Pendular, Intercidades</li><li>Faro: about 3 h from Oriente, Alfa Pendular, Intercidades</li><li>Braga: about 3 h 30 min from Oriente, Alfa Pendular</li><li>Santarem: about 35 min from Oriente or Santa Apolonia, Alfa Pendular, Intercidades</li><li>Entroncamento: about 55 min from Oriente or Santa Apolonia, Alfa Pendular, Intercidades</li><li>Pombal: about 1 h 25 min from Oriente or Santa Apolonia, Alfa Pendular, Intercidades</li></ul></section><section><h2>Trams and metro in Lisbon</h2><p>Tram 28 climbs the old districts and is famous, but very crowded. The metro has 4 lines.</p><p>Metro 06:30 to 01:00. Tram 28 runs from early morning to evening.</p><h3>Tickets and prices</h3><ul><li>Navegante occasional card: 0.50 EUR</li><li>Carris tram ticket on board: about 3.30 EUR, bus about 2.30 EUR</li><li>24-hour Carris and Metro ticket: about 7.25 EUR</li><li>Lisboa Card: includes attractions</li></ul><h3>Where to buy tickets</h3><ul><li>On board from the driver: about 3.30 EUR in cash. Small change only</li><li>Tap a contactless bank card on the reader by the door, about 3.30 EUR</li><li>Cheaper with a navegante card and zapping credit. Buy the card at metro machines or Carris shops</li><li>Bank cards do not work on the long trams of line 15E. Use navegante or cash</li></ul><p><strong>Good to know:</strong> Take Tram 28 early in the morning to avoid queues, or choose tram 12 instead.</p><p><a href="https://www.carris.pt">Carris (official site)</a></p><h3>Lisbon network</h3><p>Four metro lines: blue, yellow, green and red. The red line serves the airport. A new circular line is planned for 2027.</p><ul><li><strong>Blue line (Azul)</strong>: Reboleira to Santa Apolónia. Stops: Parque (Eduardo VII park), Marquês de Pombal (Roundabout), Restauradores (Praça dos Restauradores), Baixa-Chiado (Centre), Santa Apolónia (Trains).</li><li><strong>Yellow line (Amarela)</strong>: Odivelas to Rato. Stops: Campo Grande (Tiles), Saldanha (Offices), Marquês de Pombal (Roundabout), Rato (Bairro Alto side).</li><li><strong>Green line (Verde)</strong>: Telheiras to Cais do Sodré. Stops: Alameda (Line 4), Rossio (Centre), Baixa-Chiado (Centre), Cais do Sodré (Trains, Time Out Market).</li><li><strong>Red line (Vermelha)</strong>: Aeroporto to São Sebastião. Stops: Aeroporto (Airport), Oriente (Parque das Nações, trains), Alameda (Green line), Saldanha (Yellow line), São Sebastião (Blue line).</li></ul><p>Where lines meet: Baixa-Chiado (Blue + Green); Marquês de Pombal (Blue + Yellow); Saldanha (Yellow + Red); Alameda (Green + Red); São Sebastião (Blue + Red).</p></section><section><h2>Buses in Lisbon</h2><p>Carris buses cover Lisbon and Carris Metropolitana buses cover the wider region. Rede Expressos runs coaches to other cities.</p><p>Day buses from early morning to about midnight, with some night routes.</p><h3>Tickets and prices</h3><ul><li>Same navegante card</li><li>Zapping credit gives cheaper fares</li><li>Navegante Municipal monthly pass: about 30 EUR</li><li>Rede Expressos: tickets online</li></ul><h3>Where to buy tickets</h3><ul><li>Carris buses: on board from the driver, about 2.30 EUR in cash</li><li>Carris buses: tap a contactless bank card on the reader, about 2.30 EUR</li><li>Cheaper with a navegante card and zapping credit, from metro machines or Carris shops</li><li>Carris Metropolitana: use navegante. Only some routes take bank cards</li><li>Rede Expressos coaches: buy online</li></ul><p><strong>Good to know:</strong> Top up Zapping credit and tap in each time you board, or tap a contactless bank card on Carris buses and trams.</p><p><a href="https://www.carris.pt">Carris (official site)</a></p></section><section><h2>Airport links in Lisbon</h2><p>Humberto Delgado Airport (LIS) is close to the city centre.</p><p>Metro red line reaches the centre in about 20 minutes.</p><h3>Tickets and prices</h3><ul><li>Metro: about 1.90 EUR plus 0.50 EUR for the navegante card</li><li>Taxi from the airport: fixed fares since October 2026, about 16 to 23 EUR by zone and time</li><li>Ride-hailing also available</li><li>Train from Oriente: connections to Porto</li></ul><h3>Where to buy tickets</h3><ul><li>Metro red line: navegante card (0.50 EUR) plus a single at the machines or ticket office, or tap a contactless bank card at the gates</li><li>Carris bus 783: about 2.30 EUR from the driver, or cheaper with navegante</li><li>Night bus 208 to Oriente and Cais do Sodre: Carris fares</li><li>No train at the airport. Take the metro to Oriente for CP trains</li><li>The Aerobus shuttle no longer runs</li></ul><p><strong>Good to know:</strong> The metro is the cheapest way from LIS to the city. For a taxi, buy a voucher at the Turismo de Lisboa desk in arrivals or pay the driver.</p><p><a href="https://www.aeroportolisboa.pt">ANA Aeroportos (official site)</a></p><p><a href="/lisbon/airport-to-city-centre/">Airport to city centre: full guide</a></p></section><section><h2>Tips for Lisbon</h2><ul><li>Lisbon is very hilly. A short taxi or ride-hail can save a tiring climb.</li><li>One navegante card works on metro, trams, buses and trains.</li><li>A contactless bank card works at metro gates and on Carris buses and trams, but not on CP trains.</li></ul></section><section><h2>Apps to download</h2><ul><li><strong>Carris</strong>: Buses and trams</li><li><strong>navegante</strong>: Top up and check your navegante card</li><li><strong>CP</strong>: Train tickets</li><li><strong>Bolt</strong>: Ride-hailing</li></ul></section><p>Fares checked against official sources on 2026-11-11.</p></section>
     <section id="home">
       <div class="intro">
         <svg class="stars" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><polygon id="etg-star" points="0.00,-7.00 1.59,-2.18 6.66,-2.16 2.57,0.83 4.11,5.66 0.00,2.70 -4.11,5.66 -2.57,0.83 -6.66,-2.16 -1.59,-2.18"/></defs><use href="#etg-star" transform="translate(50.00 12.00)"/><use href="#etg-star" transform="translate(69.00 17.09)"/><use href="#etg-star" transform="translate(82.91 31.00)"/><use href="#etg-star" transform="translate(88.00 50.00)"/><use href="#etg-star" transform="translate(82.91 69.00)"/><use href="#etg-star" transform="translate(69.00 82.91)"/><use href="#etg-star" transform="translate(50.00 88.00)"/><use href="#etg-star" transform="translate(31.00 82.91)"/><use href="#etg-star" transform="translate(17.09 69.00)"/><use href="#etg-star" transform="translate(12.00 50.00)"/><use href="#etg-star" transform="translate(17.09 31.00)"/><use href="#etg-star" transform="translate(31.00 17.09)"/></svg>
@@ -83,7 +125,7 @@
   <footer class="note">
     <p>Prices are published fares, rounded, and change often. Check the operator's own site before you travel.</p>
     <p id="disclosure" hidden></p>
-    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a></p>
+    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a> &middot; <button type="button" class="linkbtn" id="cookie-settings">Cookie choices</button></p>
   </footer>
 </div>
 <script src="/data/data.js" defer></script>

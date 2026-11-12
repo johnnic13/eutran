@@ -281,3 +281,21 @@ a{color:var(--accent)}
 .pmeta b{color:var(--ink);font-weight:600}
 @media print{.rbook{display:none!important}}
 .rbooktxt{flex:1 1 100%;font-size:.95rem}
+
+.mlines{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;margin:12px 0}
+.mline{display:flex;gap:12px;align-items:flex-start;background:var(--panel);border:1px solid var(--line);border-left:6px solid var(--lc);border-radius:8px;padding:10px 12px;min-width:0}
+.lbadge{flex:none;width:34px;height:34px;border-radius:50%;background:var(--lc);color:var(--li);display:grid;place-items:center;font-weight:700;font-family:var(--font-display);font-size:1.2rem}
+.mline>div{min-width:0}
+.lstops small{color:var(--muted)}
+.mapbox .lstops,.mapbox .lhubs{list-style:none;padding:0;margin-left:0}
+.mapbox .lstops{margin-top:6px;display:flex;flex-wrap:wrap;gap:6px}
+.mapbox .lstops li{background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:1px 9px;font-size:.8rem;line-height:1.5}
+.mapbox .lhubs{margin-top:6px;margin-bottom:12px;display:flex;flex-wrap:wrap;gap:6px 22px}
+.mapbox .lhubs li{display:block}
+.mapbox .mline b{font-size:.95rem}
+
+.lbadge.long{width:auto;min-width:34px;padding:0 7px;border-radius:17px;font-size:.78rem;white-space:nowrap}
+
+.static-content{max-width:75ch;margin:0 auto;padding:16px}
+.js .static-content{display:none}
+.legal ul{padding-left:1.2em}.legal .tip,.legal .book{margin:14px 0}.legal table{border-collapse:collapse}

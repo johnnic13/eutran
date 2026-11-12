@@ -12,6 +12,7 @@ var BASE_DESC="Public transport guides for European capitals: trains, trams, met
 /* ---------- helpers ---------- */
 function $(id){return document.getElementById(id)}
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function slugify(t){return t.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}
 function li(t){return "<li>"+esc(t)+"</li>"}
 function safeUrl(u){return /^https?:\/\//i.test(u||"")?u:"#"}
 function setMeta(title,desc){
@@ -223,7 +224,10 @@ function metroBox(c){
   var m=c.metro||{};
   if(!m.note&&!(m.lines||[]).length)return "";
   var link=m.mapUrl?'<a href="'+esc(safeUrl(m.mapUrl))+'" target="_blank" rel="noopener">'+esc(m.mapLabel||"Official network map")+' &nearr;</a>':"";
-  return '<div class="mapbox"><b>Metro network map</b><p>'+esc(m.note)+'</p>'+((m.lines||[]).length?'<ul>'+m.lines.map(li).join("")+'</ul>':"")+link+'</div>';
+  var strips=(m.lineStrips||[]).length?'<div class="mlines">'+m.lineStrips.map(function(l){
+    return '<div class="mline" style="--lc:'+esc(l.color)+';--li:'+esc(l.ink||"#fff")+'"><span class="lbadge'+(String(l.id).length>2?' long':'')+'" aria-hidden="true">'+esc(l.id)+'</span><div><b>'+esc(l.label||("Line "+l.id))+': '+(l.loop?esc(l.loop):esc(l.ends[0])+' &harr; '+esc(l.ends[1]))+'</b><ul class="lstops">'+l.stops.map(function(x){return "<li>"+esc(x[0])+(x[1]?" <small>"+esc(x[1])+"</small>":"")+"</li>"}).join("")+'</ul></div></div>';
+  }).join("")+'</div>'+((m.hubs||[]).length?'<p class="k">Where the lines meet</p><ul class="lhubs">'+m.hubs.map(function(h){return "<li><b>"+esc(h[0])+"</b> "+esc(h[1])+"</li>"}).join("")+'</ul>':""):"";
+  return '<div class="mapbox full"><b>Metro network map</b><p>'+esc(m.note)+'</p>'+strips+(strips?"":((m.lines||[]).length?'<ul>'+m.lines.map(li).join("")+'</ul>':""))+link+'</div>';
 }
 
 var newsCache={};
@@ -262,9 +266,11 @@ function sheet(id,mode){
   el.innerHTML='<div><h3>'+esc(heading)+'</h3><p>'+esc(d.sum)+'</p>'+
     '<p class="k">Schedules</p><p>'+esc(d.sched)+'</p>'+
     '<div class="tip"><span class="k">Good to know</span>'+esc(d.tip)+'</div>'+
-    (d.link?'<a class="official" href="'+esc(safeUrl(d.link[1]))+'" target="_blank" rel="noopener">'+esc(d.link[0])+' (official site) &nearr;</a>':"")+'</div>'+
+    (d.link?'<a class="official" href="'+esc(safeUrl(d.link[1]))+'" target="_blank" rel="noopener">'+esc(d.link[0])+' (official site) &nearr;</a>':"")+
+    (mode==="airport"?'<p><a href="/'+slugify(c.capital)+'/airport-to-city-centre/">Airport to city centre: full guide &rarr;</a></p>':"")+'</div>'+
     '<div><p class="k">Tickets and prices</p><ul>'+(d.tickets||[]).map(li).join("")+'</ul>'+
-    buyBox(d)+(mode==="tram"?metroBox(c):"")+bookingBox(id,mode)+'</div>'+
+    buyBox(d)+bookingBox(id,mode)+'</div>'+
+    (mode==="tram"?metroBox(c):"")+
     (mode==="train"?destinations(c):"");
   if(mode==="train")wireDestinations();
 }
@@ -477,6 +483,7 @@ function route(){
   : Promise.all([getJSON(ROOT+"data/countries.json"),getJSON(ROOT+"data/affiliates.json").catch(function(){return {partners:[]}})]))
 .then(function(r){
   var data=r[0];AFF=r[1]||{partners:[]};
+  var sc=document.getElementById("static-content");if(sc&&sc.parentNode)sc.parentNode.removeChild(sc);
   GENERAL_TIPS=data.generalTips||[];
   ROUTES=data.routes||[];
   (data.countries||[]).forEach(function(c){COUNTRIES[c.id]=c});

@@ -23,7 +23,49 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<script>document.documentElement.className+=" js";</script>
 <link rel="stylesheet" href="/css/styles.css">
+<!-- Travelpayouts Drive (turns links to partner sites into affiliate links). Loads only after the visitor accepts. -->
+<script>
+(function () {
+  var KEY = "etg-consent";
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function loadDrive() {
+    if (window.__etgDrive) return;
+    window.__etgDrive = true;
+    var s = document.createElement("script");
+    s.async = 1;
+    s.setAttribute("data-cmp-ab", "2");
+    s.src = "https://emrldtp.cc/NTk5OTEy.js?t=599912";
+    document.head.appendChild(s);
+  }
+  function banner() {
+    if (document.getElementById("consent")) return;
+    var d = document.createElement("div");
+    d.id = "consent"; d.className = "consent"; d.setAttribute("role", "dialog"); d.setAttribute("aria-label", "Cookie choices");
+    d.innerHTML = '<p>Some links on this site go to booking partners. Our affiliate network, Travelpayouts, can use cookies to track clicks and purchases, so we only load it if you agree. The guides work the same either way. <a href="/privacy/">Privacy</a></p>' +
+      '<div class="consent-btns"><button type="button" data-c="no">Decline</button><button type="button" data-c="yes">Accept</button></div>';
+    d.addEventListener("click", function (e) {
+      var v = e.target && e.target.getAttribute && e.target.getAttribute("data-c");
+      if (!v) return;
+      set(v);
+      d.remove();
+      if (v === "yes") loadDrive();
+    });
+    document.body.appendChild(d);
+  }
+  window.etgCookieChoices = function () { var o = document.getElementById("consent"); if (o) o.remove(); banner(); };
+  document.addEventListener("DOMContentLoaded", function () {
+    var c = get();
+    if (c === "yes") loadDrive();
+    else if (c !== "no") banner();
+    var b = document.getElementById("cookie-settings");
+    if (b) b.addEventListener("click", window.etgCookieChoices);
+  });
+  if (get() === "yes") loadDrive();
+})();
+</script>
 <script>if(!location.hash)history.replaceState(null,"","#grc");</script>
 </head>
 <body>
@@ -34,7 +76,7 @@
   </header>
 
   <main>
-<noscript><h1>Athens public transport guide</h1><p>Larissis station is the main hub for intercity trains to Thessaloniki. The Proastiakos suburban railway links the airport and Piraeus.</p><p>The Athens metro has 3 lines (M1 to M3). Tram T6 runs from Syntagma to the coast at Pikrodafni. Tram T7 runs along the coast from Piraeus to Voula, via Glyfada.</p><p>Athens International (ATH) is east of the city, about 40 minutes by metro.</p></noscript>
+<section id="static-content" class="static-content"><h1>Athens public transport guide</h1><p>Capital of Greece. Trains, trams and metro, buses and airport links for visitors, with ticket prices, tips and apps.</p><section><h2>Trains in Athens</h2><p>Larissis station is the main hub for intercity trains to Thessaloniki. The Proastiakos suburban railway links the airport and Piraeus.</p><p>Proastiakos runs from early morning to late evening. Check the Hellenic Train timetable.</p><h3>Tickets and prices</h3><ul><li>Proastiakos to airport: about 9 EUR</li><li>Athens to Thessaloniki: book ahead for cheaper fares</li><li>Hellenic Train: intercity operator</li><li>Buy tickets online or at the station</li></ul><h3>Where to buy tickets</h3><ul><li>Hellenic Train website and app sell all train tickets, as e-tickets.</li><li>Ticket office at Athens (Larissis) station. Many small stations no longer have one.</li><li>Phone sales: Hellenic Train customer service, 14511.</li><li>Suburban rail (Proastiakos): ticket machines and booths at the stations. The airport ticket costs about 9 EUR.</li><li>On board: the conductor sells tickets only if your station has no open ticket office. Otherwise buy before boarding.</li></ul><p><strong>Good to know:</strong> Check strike notices. Rail strikes are common and announced in advance.</p><p><a href="https://www.hellenictrain.gr">Hellenic Train (official site)</a></p><h3>Direct trains from Athens</h3><ul><li>Piraeus: about 20 min from Athens (Larissis), Hellenic Train (Proastiakos)</li><li>Corinth: about 1 h from Athens (Larissis), Hellenic Train (Proastiakos)</li><li>Chalkida: about 1 h 20 min from Athens (Larissis), Hellenic Train (Proastiakos)</li><li>Kiato: about 1 h 20 min from Athens (Larissis), Hellenic Train (Proastiakos)</li><li>Larissa: about 3 h 40 min from Athens (Larissis), Hellenic Train (Intercity)</li><li>Thessaloniki: about 5 h 15 min from Athens (Larissis), Hellenic Train (Intercity)</li><li>Kalambaka (Meteora): about 4 h 45 min from Athens (Larissa Station), Hellenic Train</li></ul></section><section><h2>Trams and metro in Athens</h2><p>The Athens metro has 3 lines (M1 to M3). Tram T6 runs from Syntagma to the coast at Pikrodafni. Tram T7 runs along the coast from Piraeus to Voula, via Glyfada.</p><p>Metro about 05:30 to 00:30. Lines 2 and 3 run to about 02:00 on Friday and all night on Saturday. Tram also runs all night on Saturday.</p><h3>Tickets and prices</h3><ul><li>90-minute ticket: about 1.20 EUR</li><li>24-hour ticket: about 4.10 EUR</li><li>5-day ticket: about 8.20 EUR</li><li>3-day tourist ticket with one airport trip: about 20 EUR</li><li>Airport metro ticket: about 9 EUR</li></ul><h3>Where to buy tickets</h3><ul><li>Tap a contactless bank card, phone or watch at metro gates and tram validators (Tap2Ride). A tap is a 90-minute ticket, about 1.20 EUR.</li><li>Ticket machines in every metro station. They take cash and cards and have an English menu.</li><li>Ticket offices in larger metro stations sell all tickets and the ATH.ENA Card.</li><li>About 550 kiosks (periptera) and mini-markets sell ATH.ENA tickets.</li><li>ATH.ENA Go app: on Android you can use the phone as a ticket. On iPhone it only reloads a card.</li><li>Not possible to buy on board the tram. Buy before boarding or tap a bank card.</li></ul><p><strong>Good to know:</strong> Validate your ticket in the machine at the metro entrance.</p><p><a href="https://www.oasa.gr">OASA (official site)</a></p><h3>Athens network</h3><p>Three metro lines: M1 (green), M2 (red) and M3 (blue). The airport is on M3.</p><ul><li><strong>Line M1</strong>: Piraeus to Kifissia. Stops: Piraeus (Port), Thissio (Acropolis views), Monastiraki (Flea market), Omonia (Centre).</li><li><strong>Line M2</strong>: Anthoupoli to Elliniko. Stops: Larissa Station (Trains), Omonia (Centre), Panepistimio (University), Syntagma (Parliament), Acropoli (Acropolis).</li><li><strong>Line M3</strong>: Dimotiko Theatro to Airport. Stops: Monastiraki (Flea market), Syntagma (Parliament), Evangelismos (Museums), Airport (Airport).</li></ul><p>Where lines meet: Syntagma (M2 + M3); Monastiraki (M1 + M3); Omonia (M1 + M2); Attiki (M1 + M2).</p></section><section><h2>Buses in Athens</h2><p>OASA buses and trolleybuses cover the city. Express bus X95 runs between Syntagma and the airport.</p><p>Day buses 05:00 to 00:30. X95 operates 24 hours.</p><h3>Tickets and prices</h3><ul><li>Same 90-minute ticket as metro</li><li>X95 airport bus: about 5.50 EUR</li><li>Long distance: KTEL buses</li><li>Ferries from Piraeus to the islands</li></ul><h3>Where to buy tickets</h3><ul><li>Tap a contactless bank card, phone or watch on the reader on board.</li><li>Buy ATH.ENA tickets before boarding at metro station machines, ticket offices or kiosks.</li><li>Drivers on city buses and trolleys do not sell tickets. Do not count on buying on board.</li><li>Validate a paper ticket in the machine inside the bus.</li></ul><p><strong>Good to know:</strong> A 90-minute ticket covers bus, tram and metro for the whole period.</p><p><a href="https://www.oasa.gr">OASA (official site)</a></p></section><section><h2>Airport links in Athens</h2><p>Athens International (ATH) is east of the city, about 40 minutes by metro.</p><p>Metro line 3 takes about 40 minutes to Syntagma.</p><h3>Tickets and prices</h3><ul><li>Metro line 3 / airport ticket: about 9 EUR</li><li>Express bus X95: about 5.50 EUR</li><li>Taxi: fixed 50 EUR (day), 65 EUR (night)</li><li>Suburban rail via Proastiakos</li></ul><h3>Where to buy tickets</h3><ul><li>Metro line 3 and suburban rail: ticket machines and booths at the airport station. Ticket about 9 EUR.</li><li>A contactless bank card works at the metro gates, but it is charged the airport fare, about 9 EUR.</li><li>Express buses X93, X95, X96 and X97: ticket booth outside Arrivals, between exits 4 and 5. About 5.50 EUR.</li><li>On board the express buses you can tap a contactless bank card. Do not count on buying a paper ticket from the driver.</li></ul><p><strong>Good to know:</strong> Taxi fares to the centre are fixed. Night fare applies from midnight to 05:00.</p><p><a href="https://www.aia.gr">Athens Airport (official site)</a></p><p><a href="/athens/airport-to-city-centre/">Airport to city centre: full guide</a></p></section><section><h2>Tips for Athens</h2><ul><li>Validate your ticket in the machine at the metro entrance.</li><li>Strikes can stop the metro and buses, so check before you travel.</li><li>In summer, book island ferries from Piraeus in advance.</li><li>The fine without a valid, validated ticket is 100 EUR (50 EUR if you qualify for a reduced fare), in force since 30 May 2026.</li></ul></section><section><h2>Apps to download</h2><ul><li><strong>OASA Telematics</strong>: Live bus arrival times</li><li><strong>Hellenic Train</strong>: Train tickets</li><li><strong>Freenow</strong>: Taxis</li><li><strong>Moovit</strong>: Route planning</li></ul></section><p>Fares checked against official sources on 2026-11-11.</p></section>
     <section id="home">
       <div class="intro">
         <svg class="stars" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><polygon id="etg-star" points="0.00,-7.00 1.59,-2.18 6.66,-2.16 2.57,0.83 4.11,5.66 0.00,2.70 -4.11,5.66 -2.57,0.83 -6.66,-2.16 -1.59,-2.18"/></defs><use href="#etg-star" transform="translate(50.00 12.00)"/><use href="#etg-star" transform="translate(69.00 17.09)"/><use href="#etg-star" transform="translate(82.91 31.00)"/><use href="#etg-star" transform="translate(88.00 50.00)"/><use href="#etg-star" transform="translate(82.91 69.00)"/><use href="#etg-star" transform="translate(69.00 82.91)"/><use href="#etg-star" transform="translate(50.00 88.00)"/><use href="#etg-star" transform="translate(31.00 82.91)"/><use href="#etg-star" transform="translate(17.09 69.00)"/><use href="#etg-star" transform="translate(12.00 50.00)"/><use href="#etg-star" transform="translate(17.09 31.00)"/><use href="#etg-star" transform="translate(31.00 17.09)"/></svg>
@@ -83,7 +125,7 @@
   <footer class="note">
     <p>Prices are published fares, rounded, and change often. Check the operator's own site before you travel.</p>
     <p id="disclosure" hidden></p>
-    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a></p>
+    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a> &middot; <button type="button" class="linkbtn" id="cookie-settings">Cookie choices</button></p>
   </footer>
 </div>
 <script src="/data/data.js" defer></script>

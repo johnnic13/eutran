@@ -23,21 +23,63 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<script>document.documentElement.className+=" js";</script>
 <link rel="stylesheet" href="/css/styles.css">
+<!-- Travelpayouts Drive (turns links to partner sites into affiliate links). Loads only after the visitor accepts. -->
+<script>
+(function () {
+  var KEY = "etg-consent";
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function loadDrive() {
+    if (window.__etgDrive) return;
+    window.__etgDrive = true;
+    var s = document.createElement("script");
+    s.async = 1;
+    s.setAttribute("data-cmp-ab", "2");
+    s.src = "https://emrldtp.cc/NTk5OTEy.js?t=599912";
+    document.head.appendChild(s);
+  }
+  function banner() {
+    if (document.getElementById("consent")) return;
+    var d = document.createElement("div");
+    d.id = "consent"; d.className = "consent"; d.setAttribute("role", "dialog"); d.setAttribute("aria-label", "Cookie choices");
+    d.innerHTML = '<p>Some links on this site go to booking partners. Our affiliate network, Travelpayouts, can use cookies to track clicks and purchases, so we only load it if you agree. The guides work the same either way. <a href="/privacy/">Privacy</a></p>' +
+      '<div class="consent-btns"><button type="button" data-c="no">Decline</button><button type="button" data-c="yes">Accept</button></div>';
+    d.addEventListener("click", function (e) {
+      var v = e.target && e.target.getAttribute && e.target.getAttribute("data-c");
+      if (!v) return;
+      set(v);
+      d.remove();
+      if (v === "yes") loadDrive();
+    });
+    document.body.appendChild(d);
+  }
+  window.etgCookieChoices = function () { var o = document.getElementById("consent"); if (o) o.remove(); banner(); };
+  document.addEventListener("DOMContentLoaded", function () {
+    var c = get();
+    if (c === "yes") loadDrive();
+    else if (c !== "no") banner();
+    var b = document.getElementById("cookie-settings");
+    if (b) b.addEventListener("click", window.etgCookieChoices);
+  });
+  if (get() === "yes") loadDrive();
+})();
+</script>
 <style>.legal{max-width:75ch;padding:8px 0 24px}.legal h1{margin:0 0 6px}.legal h2{margin:24px 0 6px;font-size:1.15rem}.legal p,.legal li{line-height:1.6}</style>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
     <a class="brand" href="/" aria-label="Euro Transit Guide home"><i aria-hidden="true"><b></b><b></b><b></b></i>Euro Transit Guide</a>
-    <span class="pill" id="count"></span>
+    
   </header>
 
   <main><article class="legal"><h1>Affiliate disclosure</h1>
 <p class="muted">Last updated 11 November 2026</p>
 <p>Some links on Euro Transit Guide are affiliate links. If you click one and then buy a ticket, pass or service, the partner may pay us a commission. <strong>It costs you nothing extra</strong>, and the price you see is the same as if you had gone to the partner directly.</p>
 <h2>Where they appear</h2>
-<p>Booking boxes on route and city pages, and buttons for city passes and travel eSIMs. Partners may include train and bus booking sites, flight search sites, rail pass sellers and tour or eSIM providers. These links are marked as sponsored.</p>
+<p>Booking boxes on route and city pages, and buttons for city passes and travel eSIMs. Partners may include train and bus booking sites, flight search sites, rail pass sellers, hostel booking sites, luggage storage and tour or eSIM providers. If you accept cookies, some links are added automatically by our affiliate network's script. Links we add ourselves are marked as sponsored.</p>
 <h2>How we keep the guides honest</h2>
 <ul>
 <li>Fares, journey times and tips come from the operators' own published information, and each page shows the date we last checked it.</li>
@@ -50,7 +92,7 @@
   <footer class="note">
     <p>Prices are published fares, rounded, and change often. Check the operator's own site before you travel.</p>
     <p id="disclosure" hidden></p>
-    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a></p>
+    <p class="flinks"><a href="/privacy/">Privacy</a> &middot; <a href="/affiliate-disclosure/">Affiliate disclosure</a> &middot; <button type="button" class="linkbtn" id="cookie-settings">Cookie choices</button></p>
   </footer>
 </div>
 
