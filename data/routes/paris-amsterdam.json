@@ -338,6 +338,14 @@
         {
           "type": "tip",
           "text": "If you pay for transport with a bank card stored on your phone, use the ticket in Apple Wallet or Google Pay rather than a PDF or screenshot. Eurostar warns that scanning a PDF at the Amsterdam gates can lead to a wrong charge of up to 20 EUR. Ask for a refund through the OVpay website if it happens."
+        },
+        {
+          "type": "book",
+          "title": "Store your luggage and explore hands-free",
+          "text": "Arriving before check-in, or leaving late? Store your bags at a secure spot near the station and see the city without them.",
+          "kinds": [
+            "luggage"
+          ]
         }
       ]
     },

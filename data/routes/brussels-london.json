@@ -327,6 +327,14 @@
               "text": "Your ticket shows the coach and seat number. Keep your bags near you or in the luggage racks."
             }
           ]
+        },
+        {
+          "type": "book",
+          "title": "Store your luggage and explore hands-free",
+          "text": "Arriving before check-in, or leaving late? Store your bags at a secure spot near the station and see the city without them.",
+          "kinds": [
+            "luggage"
+          ]
         }
       ]
     },

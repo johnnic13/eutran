@@ -1,0 +1,567 @@
+{
+  "id": "brussels-amsterdam",
+  "title": "Brussels to Amsterdam by Train: Eurostar and Eurocity Direct Guide (2026)",
+  "short": "Brussels to Amsterdam by train: two direct options, stations, tickets, border checks and what to do in Amsterdam.",
+  "summary": "Two direct trains link Brussels and Amsterdam. Eurostar takes about 1 hour 50 minutes and arrives at Amsterdam Centraal. Eurocity Direct runs every hour, takes about 2 hours and arrives at Amsterdam Zuid, with fares from about 25 EUR. This guide explains which to choose, how to buy tickets, what to know at the border, and what to do in Amsterdam.",
+  "from": {
+    "city": "Brussels",
+    "station": "Brussels-Midi (Brussel-Zuid)",
+    "country": "BEL"
+  },
+  "to": {
+    "city": "Amsterdam",
+    "station": "Amsterdam Centraal or Zuid",
+    "country": "NLD"
+  },
+  "stats": [
+    {
+      "label": "Fastest time",
+      "value": "About 1 h 50 min (Eurostar)"
+    },
+    {
+      "label": "Trains a day",
+      "value": "Eurocity Direct every hour, plus Eurostar"
+    },
+    {
+      "label": "Prices from",
+      "value": "About 25 EUR one way"
+    },
+    {
+      "label": "Arrives at",
+      "value": "Eurostar: Amsterdam Centraal. Eurocity Direct: Amsterdam Zuid."
+    }
+  ],
+  "official": [
+    {
+      "label": "Eurostar Brussels to Amsterdam",
+      "url": "https://www.eurostar.com/uk-en/train/brussels-amsterdam"
+    },
+    {
+      "label": "Eurocity Direct (SNCB)",
+      "url": "https://b-europe.com/EN/Trains/Eurocity-Direct"
+    },
+    {
+      "label": "NS International",
+      "url": "https://www.nsinternational.com"
+    },
+    {
+      "label": "Amsterdam visitor information",
+      "url": "https://www.iamsterdam.com/en"
+    }
+  ],
+  "sections": [
+    {
+      "id": "fast-facts",
+      "title": "Fast facts and route overview",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Two direct trains run between Brussels and Amsterdam. Eurostar is the faster one and ends at Amsterdam Centraal, in the middle of the city. Eurocity Direct (run by NS and SNCB) leaves every hour, is often cheaper, and ends at Amsterdam Zuid, a business district south of the centre. Both start at Brussels-Midi. Belgium and the Netherlands are both in the Schengen area."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Item",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Departure station",
+              "Brussels-Midi, also written Brussel-Zuid or Bruxelles-Midi"
+            ],
+            [
+              "Arrival station",
+              "Eurostar: Amsterdam Centraal. Eurocity Direct: Amsterdam Zuid."
+            ],
+            [
+              "Journey time",
+              "Eurostar about 1 h 52 min. Eurocity Direct about 2 h."
+            ],
+            [
+              "Stops",
+              "Eurocity Direct calls at Antwerpen-Centraal, Rotterdam Centraal and Schiphol Airport"
+            ],
+            [
+              "Fares from",
+              "About 25 EUR on Eurocity Direct. About 29 EUR on Eurostar."
+            ],
+            [
+              "Seat reservation",
+              "Eurostar: seat included. Eurocity Direct: no reservations, so sit in any free seat."
+            ],
+            [
+              "Time zone",
+              "The same in both cities. There is no clock change."
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Which should you pick? Choose Eurostar for the fastest trip and a station in the centre of Amsterdam. Choose Eurocity Direct when it is cheaper or the time suits you better. After Eurocity Direct, a metro or train takes you from Amsterdam Zuid to Amsterdam Centraal in about 10 minutes."
+        },
+        {
+          "type": "tip",
+          "text": "Works on some weekends change the routes: 14 to 15, 21 to 22 and 28 to 29 November and 6 to 7 December 2026. On 21 and 22 November Eurocity Direct runs to Amsterdam Centraal via Gouda and skips Schiphol. Check b-europe.com before you travel."
+        }
+      ]
+    },
+    {
+      "id": "tickets",
+      "title": "Which ticket to buy and what it costs",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Eurostar and Eurocity Direct are separate trains with separate tickets. A ticket for one is not valid on the other. Buy early for the cheapest seats."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Ticket",
+            "What you get",
+            "Good for",
+            "Fare, one way"
+          ],
+          "rows": [
+            [
+              "Eurostar Standard",
+              "A reserved seat. You can exchange the ticket free up to 1 hour before departure. A 25 EUR refund is possible up to 7 days before travel.",
+              "The fastest trip into central Amsterdam",
+              "From about 29 EUR"
+            ],
+            [
+              "Eurocity Direct Saver",
+              "Valid only on the train and time shown on the ticket. No seat reservation.",
+              "The lowest fare when your time is fixed",
+              "From about 25 EUR (2nd class), about 50 EUR (1st class)"
+            ],
+            [
+              "Eurocity Direct Flex",
+              "Valid on any Eurocity Direct train on your date, at any time",
+              "Travellers who may change their time",
+              "About 65.80 EUR (2nd class), about 99.30 EUR (1st class)"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Where to buy: Eurostar tickets on eurostar.com. Eurocity Direct tickets on the NS International and SNCB (B-Europe) sites, and on Trainline.",
+            "How far ahead: Eurocity Direct tickets go on sale up to 335 days before travel. Eurostar tickets go on sale 7 to 12 months ahead, depending on the season.",
+            "Children: up to four children under 12 travel free with an adult on Eurocity Direct. For Eurostar, check its own child fares.",
+            "Bikes: Eurocity Direct takes bikes with a reservation that costs 13.90 EUR each, and space is limited.",
+            "Discount cards: some Belgian discount cards, such as Train+, apply to the Belgian part of a cross-border trip on regular trains, but not on high-speed trains."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Interrail and Eurail pass holders: check the pass rules and any reservation fees with the operator before you travel."
+        },
+        {
+          "type": "book",
+          "title": "Compare prices and book this journey",
+          "kinds": [
+            "train"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timetable",
+      "title": "Timetable and journey times",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Eurocity Direct runs 16 trains a day in each direction. From Amsterdam Zuid the first leaves at about 06:04, then trains leave hourly from 07:04 to 20:04, and a last one at 21:04 (June 2026 listing). Trains from Brussels run on a similar hourly pattern. Eurostar runs several times a day. Check the exact times for your date on the operators' sites."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Item",
+            "Typical"
+          ],
+          "rows": [
+            [
+              "Eurocity Direct frequency",
+              "Every hour, 16 trains a day each way"
+            ],
+            [
+              "Eurocity Direct journey time",
+              "About 2 h 05 min from Brussels on weekdays, about 1 h 59 min at weekends. About 2 h 07 min from Amsterdam."
+            ],
+            [
+              "Eurostar journey time",
+              "About 1 h 52 min"
+            ],
+            [
+              "Busy times",
+              "Friday afternoons, Sunday evenings and holiday weekends"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Eurocity Direct does not take seat reservations, so on busy trains you may have to stand or sit apart from your group. Eurostar guarantees a seat."
+        }
+      ]
+    },
+    {
+      "id": "stations",
+      "title": "Stations and getting there",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Brussels-Midi is a busy international station with metro lines 2 and 6 and pre-metro tram lines 3 and 4. Belgian stations use two languages, so Midi and Zuid are the same place. Eurostar passengers are asked to arrive at least 20 minutes before departure. Eurocity Direct has no check-in, so find your platform and board."
+        },
+        {
+          "type": "p",
+          "text": "Amsterdam Centraal is the main station, in the city centre, with trams, metro, buses and ferries outside. Amsterdam Zuid is south of the centre. Metro line 52 and trains connect it to Amsterdam Centraal in about 10 minutes, and metro and train connections serve Schiphol Airport."
+        },
+        {
+          "type": "table",
+          "head": [
+            "From",
+            "How",
+            "Time"
+          ],
+          "rows": [
+            [
+              "Amsterdam Centraal to the Dam and the canals",
+              "Walk",
+              "About 10 minutes"
+            ],
+            [
+              "Amsterdam Zuid to Amsterdam Centraal",
+              "Metro line 52 or a train. Check a journey planner.",
+              "About 10 minutes"
+            ],
+            [
+              "Amsterdam Centraal to the Rijksmuseum",
+              "Tram, or a longer walk",
+              "About 20 to 30 minutes"
+            ],
+            [
+              "Brussels-Midi to the centre",
+              "Pre-metro tram lines 3 and 4, or walk",
+              "A few minutes by tram"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Amsterdam transport tickets: a GVB 1-hour ticket costs about 3.40 EUR and a 24-hour ticket about 10 EUR. Tap your card in and tap out when you leave, or the card charges a default fare."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Check your station",
+              "text": "Look at your ticket. Eurostar goes to Amsterdam Centraal. Eurocity Direct goes to Amsterdam Zuid."
+            },
+            {
+              "title": "Arrive on time",
+              "text": "For Eurostar, arrive at least 20 minutes before departure. For Eurocity Direct, 10 to 15 minutes is enough to find the platform."
+            },
+            {
+              "title": "Find your platform",
+              "text": "Look for your train and platform on the board at Brussels-Midi. Platforms are shown shortly before departure."
+            },
+            {
+              "title": "Keep your ID with you",
+              "text": "There are no passport queues, but customs and police do spot checks on this route."
+            }
+          ]
+        },
+        {
+          "type": "book",
+          "title": "Store your luggage and explore hands-free",
+          "text": "Arriving before check-in, or leaving late? Store your bags at a secure spot near the station and see the city without them.",
+          "kinds": [
+            "luggage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onboard",
+      "title": "On the train",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Eurostar: a reserved seat. The luggage allowance in Standard and Plus is two pieces up to 75 x 53 x 30 cm and one small item, with no weight limit.",
+            "Eurocity Direct: open seating in 1st and 2nd class. There is no seat reservation, so board early if you want to sit together.",
+            "Bikes: Eurocity Direct takes bikes with a reservation (13.90 EUR each), and space is limited.",
+            "Food and facilities: check the operator pages for what is on board, and bring a snack and a drink for busy trips."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "borders",
+      "title": "Passports, border checks and entry rules",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Status as of 12 November 2026. This is practical information only and not legal advice. Check the official pages before you travel."
+        },
+        {
+          "type": "p",
+          "text": "Belgium and the Netherlands are both in the Schengen area, so there is no passport control at Brussels-Midi, Amsterdam Centraal or Amsterdam Zuid. Eurostar says you do not need a passport for this trip, but customs officers carry out random spot checks, so bring an identity document."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Rule",
+            "Status and date"
+          ],
+          "rows": [
+            [
+              "Checks on trains to the Netherlands",
+              "The Dutch Royal Marechaussee runs spot checks on international trains from other Schengen countries, with officers walking through the carriages to check documents. The Netherlands' temporary border controls with Belgium and Germany ended on 30 September 2026. Targeted checks continue under Mobile Security Monitoring."
+            ],
+            [
+              "Checks in Belgium",
+              "Belgium has run inland entry checks since mid-2025, including on some trains at Brussels-Midi. They can happen without notice."
+            ],
+            [
+              "What to carry",
+              "A valid passport or, for EU, EEA and Swiss citizens, a national ID card. Non-EU visitors should carry their passport and any visa or residence permit."
+            ],
+            [
+              "EU Entry/Exit System (EES)",
+              "Fully operational at the external borders of the Schengen area since 10 April 2026. It records passport details and biometric data when non-EU visitors first enter. You are not asked to register again for travel inside Schengen."
+            ],
+            [
+              "ETIAS",
+              "Not running yet. As of August 2026 no start date has been announced. Do not pay for an authorisation now, and use only the official EU site."
+            ],
+            [
+              "Stay limit",
+              "Visa-free stays of up to 90 days in any 180-day period across the Schengen area"
+            ],
+            [
+              "Money",
+              "Both countries use the euro."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alternatives",
+      "title": "Other ways to get from Brussels to Amsterdam",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Coach: FlixBus runs many buses a day. The fastest take about 2 hours 40 minutes, but many take longer in traffic. Fares start from about 10 EUR. In Brussels buses stop at Brussels-Nord and Brussels-Midi. In Amsterdam they use Amsterdam Sloterdijk and Amsterdam Centraal (De Ruijterkade)."
+        },
+        {
+          "type": "p",
+          "text": "Flights: not worth it. The airports are far from both centres and the train is faster overall."
+        },
+        {
+          "type": "p",
+          "text": "Driving: the trip takes about 2.5 hours without traffic. Parking in central Amsterdam is expensive and the city restricts some vehicles. Most visitors leave the car outside the centre, or take the train."
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Money-saving and first-timer tips",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Compare both trains for your date. Eurostar is faster and arrives in the centre, but Eurocity Direct is often cheaper.",
+            "Check the arrival station before you book a hotel or onward trip. Amsterdam Centraal and Amsterdam Zuid are not the same place.",
+            "Book Eurocity Direct Saver early for the lowest fare, and remember it only works on the train you chose.",
+            "Travelling with children? Eurocity Direct is free for up to four children under 12 per adult.",
+            "In Amsterdam, never walk or stand in the bike lanes. Cyclists have priority.",
+            "Take your luggage into account. The Rijksmuseum does not accept large bags or suitcases, so leave them at your hotel or a luggage storage point."
+          ]
+        },
+        {
+          "type": "book",
+          "title": "Stay connected and plan your trip",
+          "kinds": [
+            "pass",
+            "esim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "things",
+      "title": "Things to do in Amsterdam",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Amsterdam is small and easy to walk, with trams and metro when you need them. Book the big museums before you leave home, because the best slots sell out. Prices are for adults, so check each official site first."
+        },
+        {
+          "type": "places",
+          "items": [
+            {
+              "name": "Anne Frank House",
+              "why": "The hiding place where Anne Frank wrote her diary. Tickets are sold online only, on the official site. New tickets go on sale every Tuesday at 10:00 for visits six weeks later, and they sell out fast.",
+              "time": "About 1.5 hours",
+              "cost": "About 16.50 EUR for adults (check the official site)",
+              "getting": "About a 20-minute walk from Amsterdam Centraal, or tram 13 or 17 to Westermarkt."
+            },
+            {
+              "name": "Rijksmuseum",
+              "why": "The national museum, with Rembrandt's Night Watch and Vermeer. A timed ticket is required, booked online, even if you have a museum card. Large bags and suitcases are not accepted, but there is a free cloakroom for small bags.",
+              "time": "2 to 3 hours",
+              "cost": "25 EUR for adults, rising to 26.50 EUR in 2027. Free for under 18s. Open daily 09:00 to 17:00.",
+              "getting": "Tram or a 20 to 30-minute walk from Amsterdam Centraal."
+            },
+            {
+              "name": "Van Gogh Museum",
+              "why": "The largest collection of Van Gogh's paintings in the world. Timed tickets are sold online only, and they can sell out weeks ahead in busy months.",
+              "time": "2 hours",
+              "cost": "About 27 EUR for adults (check the official site)",
+              "getting": "Next to the Rijksmuseum, on Museumplein."
+            },
+            {
+              "name": "Canals and the Jordaan",
+              "why": "Walk the canal belt and the Jordaan neighbourhood for narrow streets, small shops and cafes. A one-hour canal cruise is the easiest way to see the centre from the water.",
+              "time": "2 to 3 hours",
+              "cost": "Walking is free. Cruise prices vary by operator, so compare.",
+              "getting": "Start at Amsterdam Centraal or the Dam."
+            },
+            {
+              "name": "Vondelpark",
+              "why": "The city's favourite park, with lawns, ponds and cafes. Good for a break between museums.",
+              "time": "1 hour",
+              "cost": "Free",
+              "getting": "A short walk from the Rijksmuseum and the Van Gogh Museum."
+            }
+          ]
+        },
+        {
+          "type": "book",
+          "title": "Skip the queue: tickets and tours in Amsterdam",
+          "kinds": [
+            "tours"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "title": "Where to stay in Amsterdam",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Amsterdam is a popular city break and beds fill up quickly, especially on weekends and in spring and summer. Book early, and check how far each place is from a tram or metro stop. The centre is small enough that most stays are a short ride from the sights."
+        },
+        {
+          "type": "book",
+          "title": "Find hostels and budget stays in Amsterdam",
+          "kinds": [
+            "stay"
+          ]
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "mode": "Eurostar",
+      "time": "About 1 h 52 min station to station",
+      "from": "Brussels-Midi to Amsterdam Centraal",
+      "price": "From about 29 EUR",
+      "best": "The fastest trip, with a reserved seat, to the centre of Amsterdam."
+    },
+    {
+      "mode": "Eurocity Direct",
+      "time": "About 2 h station to station",
+      "from": "Brussels-Midi to Amsterdam Zuid",
+      "price": "From about 25 EUR (Saver). About 65.80 EUR (Flex, 2nd class).",
+      "best": "The lowest fare or the best departure time. Runs every hour."
+    },
+    {
+      "mode": "Coach",
+      "time": "About 2 h 40 min to 3.5 hours",
+      "from": "Brussels-Nord or Brussels-Midi to Amsterdam Sloterdijk or Centraal",
+      "price": "From about 10 EUR",
+      "best": "The cheapest option when train fares are high."
+    },
+    {
+      "mode": "Car",
+      "time": "About 2.5 hours without traffic",
+      "from": "Brussels to Amsterdam",
+      "price": "Fuel, tolls and expensive city parking",
+      "best": "Trips that continue beyond Amsterdam."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does the train from Brussels to Amsterdam take?",
+      "a": "Eurostar takes about 1 hour 52 minutes. Eurocity Direct takes about 2 hours."
+    },
+    {
+      "q": "How much is a train from Brussels to Amsterdam?",
+      "a": "Eurocity Direct Saver fares start from about 25 EUR in 2nd class. Eurostar starts from about 29 EUR. Flexible Eurocity Direct tickets cost about 65.80 EUR in 2nd class."
+    },
+    {
+      "q": "Which station do I arrive at in Amsterdam?",
+      "a": "Eurostar arrives at Amsterdam Centraal, in the city centre. Eurocity Direct arrives at Amsterdam Zuid, and a metro or train takes about 10 minutes to Amsterdam Centraal."
+    },
+    {
+      "q": "Do I need to reserve a seat?",
+      "a": "Eurostar tickets include a seat. Eurocity Direct has no seat reservations, so you sit in any free seat."
+    },
+    {
+      "q": "Do I need a passport?",
+      "a": "There is no routine passport control, but customs and police do spot checks on this route. Carry your passport or ID card."
+    },
+    {
+      "q": "Is this guide also for Amsterdam to Brussels?",
+      "a": "Yes. The same trains and fares run in both directions."
+    },
+    {
+      "q": "What if the train works change the route?",
+      "a": "On some weekends Eurocity Direct runs a different route. Check b-europe.com before you travel."
+    }
+  ],
+  "verified": "2026-11-12",
+  "sources": [
+    {
+      "title": "Eurostar: Brussels to Amsterdam",
+      "url": "https://www.eurostar.com/uk-en/train/brussels-amsterdam"
+    },
+    {
+      "title": "B-Europe: Eurocity Direct",
+      "url": "https://b-europe.com/EN/Trains/Eurocity-Direct"
+    },
+    {
+      "title": "AmsterdamTips: Eurocity Direct Amsterdam-Brussels",
+      "url": "https://www.amsterdamtips.com/amsterdam-brussels-eurocity-direct"
+    },
+    {
+      "title": "B-Europe: Amsterdam to Brussels trains",
+      "url": "https://www.b-europe.com/EN/Routes/Amsterdam-Brussels"
+    },
+    {
+      "title": "Rijksmuseum: visitor FAQ",
+      "url": "https://rijksmuseum.nl/en/visit/faq"
+    },
+    {
+      "title": "Anne Frank House: choose your ticket",
+      "url": "https://www.annefrank.org/en/museum/tickets/choose-your-ticket/"
+    },
+    {
+      "title": "Dutch Marechaussee: Mobile Security Monitoring",
+      "url": "https://english.marechaussee.nl/topics/m/mobile-security-monitoring"
+    },
+    {
+      "title": "Brussels Times: Belgian inland entry checks",
+      "url": "https://www.brusselstimes.com/1664911/belgium-is-now-conducting-inland-entry-checks-to-prevent-migration"
+    },
+    {
+      "title": "FlixBus: Brussels to Amsterdam",
+      "url": "https://global.flixbus.com/bus-routes/bus-brussels-amsterdam"
+    }
+  ]
+}

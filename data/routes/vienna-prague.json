@@ -1,0 +1,559 @@
+{
+  "id": "vienna-prague",
+  "title": "Vienna to Prague by Train: Tickets, Times and Tips for Visitors (2026)",
+  "short": "Vienna to Prague by train: times, tickets, stations, border rules and what to do in Prague.",
+  "summary": "Direct trains run between Vienna and Prague every day, with no change, in about 4 hours 15 minutes. ComfortJet and Railjet trains (OBB and Czech Railways) and RegioJet compete on the route, with fares from about 15 EUR one way. This guide covers which ticket to buy, the stations, border checks, and what to do when you arrive in Prague.",
+  "from": {
+    "city": "Vienna",
+    "station": "Wien Hauptbahnhof",
+    "country": "AUT"
+  },
+  "to": {
+    "city": "Prague",
+    "station": "Praha hlavni nadrazi",
+    "country": "CZE"
+  },
+  "stats": [
+    {
+      "label": "Fastest time",
+      "value": "About 4 h 15 min"
+    },
+    {
+      "label": "Trains a day",
+      "value": "About every 2 hours, plus RegioJet"
+    },
+    {
+      "label": "Prices from",
+      "value": "About 15 EUR one way if you book early"
+    },
+    {
+      "label": "Distance",
+      "value": "About 402 km (250 miles) by rail"
+    }
+  ],
+  "official": [
+    {
+      "label": "OBB tickets and timetable",
+      "url": "https://www.oebb.at"
+    },
+    {
+      "label": "Czech Railways (CD) tickets and timetable",
+      "url": "https://www.cd.cz"
+    },
+    {
+      "label": "RegioJet tickets and timetable",
+      "url": "https://www.regiojet.com"
+    },
+    {
+      "label": "Prague visitor information",
+      "url": "https://prague.eu/en/"
+    }
+  ],
+  "sections": [
+    {
+      "id": "fast-facts",
+      "title": "Fast facts and route overview",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There is no change of train between Vienna and Prague. Direct trains run every day from city centre to city centre. Two groups sell tickets on the route. OBB (Austrian Railways) and Czech Railways run Railjet and ComfortJet trains together. RegioJet, a private company, runs its own trains. Austria and the Czech Republic are both in the Schengen area."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Item",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Distance",
+              "About 402 km (250 miles) by rail"
+            ],
+            [
+              "Departure station",
+              "Wien Hauptbahnhof (Vienna Central Station)"
+            ],
+            [
+              "Arrival station",
+              "Praha hlavni nadrazi (Prague Main Station). A few trains use Praha Holesovice instead, so check your ticket."
+            ],
+            [
+              "Journey time",
+              "About 4 h 13 min to 4 h 20 min on the direct trains"
+            ],
+            [
+              "Operators",
+              "OBB and Czech Railways (Railjet and ComfortJet), and RegioJet"
+            ],
+            [
+              "Fares from",
+              "About 14.90 EUR in 2nd class if you book early. Flexible tickets cost more."
+            ],
+            [
+              "Seat reservation",
+              "Optional on OBB and Czech Railways trains (3 EUR). Always included on RegioJet."
+            ],
+            [
+              "Time zone",
+              "The same in both cities. There is no clock change."
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Timetables change in mid-December. If you travel after that, check the new times on the operator's site."
+        }
+      ]
+    },
+    {
+      "id": "tickets",
+      "title": "Which ticket to buy and what it costs",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The same Railjet and ComfortJet trains are sold by several websites, and the price can differ between them. RegioJet sells only its own trains. For a trip on a fixed date, the cheap advance tickets are the best value. If your plans might change, pick a flexible ticket or RegioJet."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Ticket",
+            "What you get",
+            "Good for",
+            "Fare, one way"
+          ],
+          "rows": [
+            [
+              "OBB Sparschiene or Czech Railways advance",
+              "One named train. The Sparschiene fare cannot be refunded. A seat costs 3 EUR extra.",
+              "Travellers who know their train",
+              "From about 14.90 EUR (2nd class), 29.90 EUR (1st) and 44.90 EUR (Business)"
+            ],
+            [
+              "Flexible full fare (OBB or Czech Railways)",
+              "Any OBB/Czech Railways train on the day. Easy to change.",
+              "Travellers who might miss or change a train",
+              "About 59 EUR (Czech Railways price) to about 88 EUR (OBB price)"
+            ],
+            [
+              "RegioJet",
+              "One named train with a seat included. You can change or refund it in the app up to 15 minutes before departure.",
+              "Flexibility at a low price",
+              "From about 14.90 EUR (Low cost), 19.90 EUR (Standard), 22.90 EUR (Relax), 23.90 EUR (Business)"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Where to buy OBB and Czech Railways tickets: oebb.at (prices in euros), cd.cz (prices in Czech koruna, with a seat map) and Omio (Czech prices, small booking fee, seat map). Trainline sells them at Austrian prices without a seat map.",
+            "Where to buy RegioJet tickets: regiojet.com, the RegioJet app, Omio, or the RegioJet office at Prague main station.",
+            "How far ahead: tickets go on sale up to 6 months before departure, and less when the date is after the mid-December timetable change.",
+            "Children: under 6 travel free. Under 15 travel free when added to an adult's OBB Sparschiene booking. RegioJet charges a child rate for under 15.",
+            "Students: ISIC card holders get 10% off RegioJet Standard and Relax."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Interrail and Eurail pass holders: a seat reservation is optional on OBB and Czech Railways trains and costs a few euros. On RegioJet a reservation is required."
+        },
+        {
+          "type": "book",
+          "title": "Compare prices and book this journey",
+          "kinds": [
+            "train"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timetable",
+      "title": "Timetable and journey times",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OBB and Czech Railways trains run about every 2 hours. RegioJet runs about 4 trains a day. From Prague its trains leave at about 06:01, 09:01, 13:01 and 16:01. Check the Vienna departures on regiojet.com. Check the exact times on your date, because the timetable changes in mid-December."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Item",
+            "Typical"
+          ],
+          "rows": [
+            [
+              "OBB and Czech Railways",
+              "About every 2 hours, all day, 7 days a week"
+            ],
+            [
+              "RegioJet",
+              "About 4 trains a day (from Prague about 06:01, 09:01, 13:01 and 16:01). Check Vienna times on regiojet.com."
+            ],
+            [
+              "Journey time",
+              "About 4 h 13 min to 4 h 20 min"
+            ],
+            [
+              "Slow regional train (REX)",
+              "About 5 h 10 min, via Gmund and Tabor. Fares from about 14.30 EUR. Two trains a day each way. Leaves Vienna Franz-Josefs-Bahnhof, not the main station."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Busy times: Fridays, Sundays and the summer. Reserve a seat for those, and book early for the cheapest fares."
+        },
+        {
+          "type": "tip",
+          "text": "A same-day return is possible, but it means about 8.5 hours on the train. Two nights in Prague makes a much better trip."
+        }
+      ]
+    },
+    {
+      "id": "stations",
+      "title": "Stations and getting there",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vienna: Wien Hauptbahnhof is the main station. It has metro line U1, trams and S-Bahn trains. On U1 you reach Stephansplatz and the old centre in about 5 to 8 minutes."
+        },
+        {
+          "type": "p",
+          "text": "Prague: Praha hlavni nadrazi is on metro line C and is close to the centre. Wenceslas Square is about a 10-minute walk. The Old Town Square is about 20 to 25 minutes on foot. A few trains start or end at Praha Holesovice, north of the centre on metro line C."
+        },
+        {
+          "type": "table",
+          "head": [
+            "From Praha hlavni nadrazi to",
+            "How",
+            "Time"
+          ],
+          "rows": [
+            [
+              "Wenceslas Square",
+              "Walk",
+              "About 10 minutes"
+            ],
+            [
+              "Old Town Square",
+              "Metro C to Muzeum, then metro A to Staromestska. Or walk.",
+              "About 15 minutes by metro, 20 to 25 on foot"
+            ],
+            [
+              "Prague Castle",
+              "Metro A to Malostranska, then tram 22 or a walk uphill",
+              "About 25 to 30 minutes"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Prague city tickets: a 90-minute ticket costs about 50 CZK and a 24-hour ticket about 150 CZK. Validate a paper ticket in the machine before you ride."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Arrive early",
+              "text": "There is no check-in. Aim to be at the station 20 to 30 minutes before departure so you can find the platform."
+            },
+            {
+              "title": "Find your platform",
+              "text": "Look for your train number and the platform on the departure board. It is shown shortly before the train leaves."
+            },
+            {
+              "title": "Check your seat",
+              "text": "If you reserved a seat, the coach and seat number are on your ticket. Without a reservation, sit in any free seat."
+            },
+            {
+              "title": "Keep your ticket handy",
+              "text": "Staff check tickets on board. A phone ticket is fine."
+            }
+          ]
+        },
+        {
+          "type": "book",
+          "title": "Store your luggage and explore hands-free",
+          "text": "Arriving before check-in, or leaving late? Store your bags at a secure spot near the station and see the city without them.",
+          "kinds": [
+            "luggage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onboard",
+      "title": "On the train",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Railjet and ComfortJet (OBB and Czech Railways): air conditioning, a power socket at every seat, free Wi-Fi and a restaurant car. In 1st class and Business you can order food to your seat.",
+            "RegioJet: air conditioning, sockets and free Wi-Fi. There is no restaurant car, but staff bring food and drinks to your seat. Standard and higher classes include coffee and water.",
+            "Luggage: there are no size or weight checks. Bags go on overhead racks, and bigger cases go on racks at the end of the coach or between seats.",
+            "Bikes: allowed on OBB and Czech Railways trains, but spaces are limited and must be booked at a station in advance.",
+            "Lounges: Vienna main station has a RegioJet lounge for all its passengers up to an hour before departure, and an OBB lounge for 1st class."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "borders",
+      "title": "Passports, border checks and entry rules",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Status as of 12 November 2026. This is practical information only and not legal advice. Check the official government pages before you travel."
+        },
+        {
+          "type": "p",
+          "text": "Austria and the Czech Republic are both in the Schengen area, so there is no routine passport control when you board or arrive. Carry your passport or ID card anyway, because police can ask for it."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Rule",
+            "Status and date"
+          ],
+          "rows": [
+            [
+              "Austrian border controls with the Czech Republic",
+              "In mid-September 2026 Austria extended its temporary border controls with the Czech Republic, Slovakia, Hungary and Slovenia for another six months. Checks now mostly happen in the wider border area. Allow extra time and carry ID."
+            ],
+            [
+              "What to carry",
+              "A valid passport or, for EU, EEA and Swiss citizens, a national ID card. Non-EU visitors should carry their passport."
+            ],
+            [
+              "EU Entry/Exit System (EES)",
+              "Fully operational at the external borders of the Schengen area since 10 April 2026. It records passport details and biometric data when non-EU visitors first enter. You are not asked to register again for travel inside Schengen."
+            ],
+            [
+              "ETIAS",
+              "Not running yet. As of August 2026 no start date has been announced. Do not pay for an authorisation now, and use only the official EU site."
+            ],
+            [
+              "Stay limit",
+              "Visa-free stays of up to 90 days in any 180-day period across the Schengen area"
+            ],
+            [
+              "Money",
+              "Austria uses the euro. The Czech Republic uses the koruna (CZK), not the euro. Pay by card where you can."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alternatives",
+      "title": "Other ways to get from Vienna to Prague",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Coach: FlixBus and other operators run many buses a day. Journeys take about 4 to 4.5 hours. Fares start from about 10 EUR in quiet periods and are often 15 to 30 EUR on busy dates. Most Vienna buses leave from the Vienna International Busterminal at Erdberg. Most arrive at Prague main station or Praha Florenc."
+        },
+        {
+          "type": "p",
+          "text": "Flights: flying is rarely worth it. The airports are far from both centres, and with transfers and security the trip takes longer than the train. Check airline sites for current fares."
+        },
+        {
+          "type": "p",
+          "text": "Driving: the road distance is about 330 km and takes about 4 hours without traffic. You need an Austrian digital vignette and a Czech e-vignette (motorway pass). Parking in central Prague is hard, so most visitors leave the car at the hotel or take the train."
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Money-saving and first-timer tips",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Book early. The cheapest advance fares are limited per train and sell out first, especially on Fridays and Sundays.",
+            "Compare all three sellers. OBB, Czech Railways (through cd.cz or Omio) and RegioJet price the same trip differently. Try each for your date.",
+            "Pick RegioJet if your plans might change. Its tickets can be changed or refunded in the app until 15 minutes before departure.",
+            "Add a seat reservation (3 EUR) on busy days. It is optional with a pass or an advance ticket but keeps your group together.",
+            "Choose the right station. Check that your ticket says Praha hlavni nadrazi, which is closest to the centre.",
+            "Pay by card where you can, and carry a little koruna for small purchases. Use bank cash machines and avoid exchange booths in the centre, which often give poor rates."
+          ]
+        },
+        {
+          "type": "book",
+          "title": "Stay connected and plan your trip",
+          "kinds": [
+            "pass",
+            "esim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "things",
+      "title": "Things to do in Prague",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Prague's centre is compact and mostly walkable. One full day covers the main sights. Two nights lets you add the Jewish Quarter and a slower walk across the river. Prices below are for adults, so check each official site before you go."
+        },
+        {
+          "type": "places",
+          "items": [
+            {
+              "name": "Old Town Square and the Astronomical Clock",
+              "why": "The medieval heart of the city. The clock puts on a short show on the hour, from 08:00 to 23:00. You can watch from the square for free. Go up the Old Town Hall tower for the best view of the rooftops.",
+              "time": "30 minutes for the square and clock, 45 minutes for the tower",
+              "cost": "Square and clock are free. The tower is about 350 CZK.",
+              "getting": "Metro C to Muzeum, then metro A to Staromestska. About 15 minutes."
+            },
+            {
+              "name": "Charles Bridge and Mala Strana",
+              "why": "The famous stone bridge, lined with statues, leads to the quieter Lesser Town. Go early in the morning or in the evening to avoid the crowds.",
+              "time": "1 to 2 hours",
+              "cost": "Free",
+              "getting": "10 minutes on foot from the Old Town Square."
+            },
+            {
+              "name": "Prague Castle",
+              "why": "One of the largest castle complexes in the world. The courtyards and gardens are free. The Basic Tour covers the Old Royal Palace, St George's Basilica, St Vitus Cathedral and the Golden Lane.",
+              "time": "3 to 4 hours",
+              "cost": "Grounds are free. The Basic Tour is about 450 CZK and the ticket is valid for 2 days. Visit Tuesday to Friday before 09:00 or after 15:00 to skip the longest queues.",
+              "getting": "Metro A to Malostranska, then tram 22 or a walk uphill."
+            },
+            {
+              "name": "The Jewish Quarter",
+              "why": "One ticket covers the synagogues and the Old Jewish Cemetery that are open. It is a moving and important part of the city's history.",
+              "time": "2 to 3 hours",
+              "cost": "About 600 CZK for adults. The ticket is valid for 3 opening days. It is closed on Saturdays and Jewish holidays.",
+              "getting": "10 minutes on foot from the Old Town Square."
+            },
+            {
+              "name": "Wenceslas Square",
+              "why": "Prague's main shopping boulevard, with the National Museum at the top. It is a good place to start or finish a walk.",
+              "time": "30 to 45 minutes",
+              "cost": "Free to walk. The museum charges admission.",
+              "getting": "10 minutes on foot from the station."
+            }
+          ]
+        },
+        {
+          "type": "book",
+          "title": "Skip the queue: tickets and tours in Prague",
+          "kinds": [
+            "tours"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "title": "Where to stay in Prague",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Old Town (Stare Mesto) and New Town (Nove Mesto) are the easiest places to base yourself. Both are within walking distance of the main station and the main sights. Beds fill up on weekends and in spring, summer and December, so book early."
+        },
+        {
+          "type": "book",
+          "title": "Find hostels and budget stays in Prague",
+          "kinds": [
+            "stay"
+          ]
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "mode": "Train (Railjet, ComfortJet or RegioJet)",
+      "time": "About 4 h 15 min station to station",
+      "from": "Wien Hauptbahnhof to Praha hlavni nadrazi",
+      "price": "From about 15 EUR if you book early. About 59 to 88 EUR for a flexible ticket.",
+      "best": "The most comfortable way, and it goes from city centre to city centre."
+    },
+    {
+      "mode": "Coach",
+      "time": "About 4 to 4.5 hours",
+      "from": "Vienna International Busterminal to Praha hlavni nadrazi or Florenc",
+      "price": "From about 10 EUR in quiet periods, often 15 to 30 EUR on busy dates",
+      "best": "The cheapest option when train fares are high."
+    },
+    {
+      "mode": "Flight",
+      "time": "Longer than the train in most cases",
+      "from": "Vienna Airport to Prague Airport",
+      "price": "Varies widely. Check airline sites.",
+      "best": "Only when you are already flying on from one of the airports."
+    },
+    {
+      "mode": "Car",
+      "time": "About 4 hours without traffic",
+      "from": "Vienna to Prague",
+      "price": "Fuel, tolls and parking. Needs an Austrian vignette and a Czech e-vignette.",
+      "best": "A longer road trip with stops on the way."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does the train from Vienna to Prague take?",
+      "a": "About 4 hours 15 minutes on the direct trains. The slower regional train takes about 5 hours 10 minutes."
+    },
+    {
+      "q": "How much is a train from Vienna to Prague?",
+      "a": "Advance tickets start from about 14.90 EUR in 2nd class on OBB, Czech Railways and RegioJet. Flexible OBB and Czech Railways tickets cost about 59 to 88 EUR."
+    },
+    {
+      "q": "Is this guide also for Prague to Vienna?",
+      "a": "Yes. The same trains, operators and prices run in both directions. Use the Prague departure times when you travel from Prague."
+    },
+    {
+      "q": "Do I need to reserve a seat?",
+      "a": "On OBB and Czech Railways trains a seat is optional and costs 3 EUR. RegioJet tickets always include a reserved seat. Reserve on Fridays, Sundays and in summer."
+    },
+    {
+      "q": "Do I need a passport?",
+      "a": "Both countries are in the Schengen area, so there is no routine passport control on the train. Austria has extended temporary border controls with the Czech Republic, so carry your passport or ID card because police may ask for it."
+    },
+    {
+      "q": "Which station does the train arrive at in Prague?",
+      "a": "Most trains arrive at Praha hlavni nadrazi, close to the centre. A few use Praha Holesovice, so check your ticket."
+    },
+    {
+      "q": "Can I do Vienna to Prague as a day trip?",
+      "a": "You can, but it is about 8.5 hours on the train for the return. Two nights in Prague gives you a much better visit."
+    }
+  ],
+  "verified": "2026-11-12",
+  "sources": [
+    {
+      "title": "Seat61: Prague to Vienna by train",
+      "url": "https://www.seat61.com/trains-and-routes/prague-to-vienna-by-train.htm"
+    },
+    {
+      "title": "Expats.cz: Austria extends border controls with Czechia",
+      "url": "https://www.expats.cz/czech-news/article/austria-extends-border-controls-with-czechia-what-travelers-need-to-know"
+    },
+    {
+      "title": "Prague Castle ticket guide (Prague Trip)",
+      "url": "https://www.prague-trip.com/tickets-and-passes/prague-castle-tickets/"
+    },
+    {
+      "title": "Old Town Hall tickets (Prague Trip)",
+      "url": "https://www.prague-trip.com/tickets-and-passes/old-town-hall-tickets/"
+    },
+    {
+      "title": "Jewish Museum in Prague: admission",
+      "url": "https://www.jewishmuseum.cz/en/visit/admission/"
+    },
+    {
+      "title": "OBB",
+      "url": "https://www.oebb.at"
+    },
+    {
+      "title": "Czech Railways",
+      "url": "https://www.cd.cz"
+    },
+    {
+      "title": "RegioJet",
+      "url": "https://www.regiojet.com"
+    }
+  ]
+}

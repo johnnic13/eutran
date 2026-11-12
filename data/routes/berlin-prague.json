@@ -362,6 +362,14 @@
               "text": "Check whether your train stops at Praha hl. n. or only at Praha-Holesovice. Metro C links the two."
             }
           ]
+        },
+        {
+          "type": "book",
+          "title": "Store your luggage and explore hands-free",
+          "text": "Arriving before check-in, or leaving late? Store your bags at a secure spot near the station and see the city without them.",
+          "kinds": [
+            "luggage"
+          ]
         }
       ]
     },
