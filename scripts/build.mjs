@@ -151,7 +151,7 @@ ${contactLine}`,
 <p class="muted">Last updated ${UPDATED}</p>
 <p>Some links on Euro Transit Guide are affiliate links. If you click one and then buy a ticket, pass or service, the partner may pay us a commission. <strong>It costs you nothing extra</strong>, and the price you see is the same as if you had gone to the partner directly.</p>
 <h2>Where they appear</h2>
-<p>Booking boxes on route and city pages, and buttons for city passes and travel eSIMs. Partners may include train and bus booking sites, flight search sites, rail pass sellers and tour or eSIM providers. If you accept cookies, some links are added automatically by our affiliate network's script. Links we add ourselves are marked as sponsored.</p>
+<p>Booking boxes on route and city pages, and buttons for city passes and travel eSIMs. Partners may include train and bus booking sites, flight search sites, rail pass sellers, hostel booking sites, luggage storage and tour or eSIM providers. If you accept cookies, some links are added automatically by our affiliate network's script. Links we add ourselves are marked as sponsored.</p>
 <h2>How we keep the guides honest</h2>
 <ul>
 <li>Fares, journey times and tips come from the operators' own published information, and each page shows the date we last checked it.</li>
