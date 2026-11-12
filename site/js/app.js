@@ -329,7 +329,20 @@ function renderRouteList(){
   $("routecount").textContent=ROUTES.length+(ROUTES.length===1?" guide":" guides");
   $("routesbox").hidden=false;
 }
-function renderBlock(b){
+function slotButtons(r,kinds){
+  var slots=((AFF.routes||{})[r.id]||[]).filter(function(x){return x.link&&(!kinds||!kinds.length||kinds.indexOf(x.kind)>-1)});
+  return slots.map(function(x){return '<a class="partner" href="'+esc(safeUrl(x.link))+'" target="_blank" rel="sponsored noopener">'+esc(x.label)+' &nearr;</a>'}).join("");
+}
+function renderBlock(b,r){
+  if(b.type==="book"){
+    var btns=r?slotButtons(r,b.kinds):"";
+    if(!btns)return "";
+    return '<div class="rbook"><b>'+esc(b.title||"Ready to book?")+'</b>'+(b.text?'<span class="rbooktxt">'+esc(b.text)+'</span>':"")+'<div class="rbookbtns">'+btns+'</div><small>Affiliate links. We may earn a commission at no extra cost to you.</small></div>';
+  }
+  if(b.type==="places")return '<div class="places">'+(b.items||[]).map(function(p){
+    var meta=[["Time",p.time],["Cost",p.cost],["From the station",p.getting]].filter(function(x){return x[1]}).map(function(x){return "<li><b>"+x[0]+":</b> "+esc(x[1])+"</li>"}).join("");
+    return '<article class="place"><h3>'+esc(p.name)+'</h3><p>'+esc(p.why)+'</p>'+(meta?'<ul class="pmeta">'+meta+"</ul>":"")+"</article>";
+  }).join("")+"</div>";
   if(b.type==="p")return "<p>"+esc(b.text)+"</p>";
   if(b.type==="list")return '<ul class="rlist">'+(b.items||[]).map(li).join("")+"</ul>";
   if(b.type==="tip")return '<div class="tip rtip"><span class="k">Good to know</span>'+esc(b.text)+"</div>";
@@ -358,7 +371,7 @@ function renderRoute(r){
       extra='<div class="dscroll"><table class="rtable"><thead><tr><th scope="col">Option</th><th scope="col">Door to door</th><th scope="col">From and to</th><th scope="col">Typical price</th><th scope="col">Best for</th></tr></thead><tbody>'+
         r.options.map(function(o){return '<tr><th scope="row">'+esc(o.mode)+'</th><td>'+esc(o.time)+'</td><td>'+esc(o.from)+'</td><td>'+esc(o.price)+'</td><td>'+esc(o.best)+'</td></tr>'}).join("")+"</tbody></table></div>";
     }
-    return '<section class="rsec" id="rs-'+esc(sc.id)+'"><h2>'+esc(sc.title)+'</h2>'+extra+blocks.map(renderBlock).join("")+"</section>";
+    return '<section class="rsec'+(sc.id==="things"?" things":"")+'" id="rs-'+esc(sc.id)+'"><h2>'+esc(sc.title)+'</h2>'+extra+blocks.map(function(b){return renderBlock(b,r)}).join("")+"</section>";
   }).join("");
   var faq=(r.faq||[]).length?'<section class="rsec" id="rs-faq"><h2>Frequently asked questions</h2>'+r.faq.map(function(x){return '<details class="faq"><summary>'+esc(x.q)+"</summary><p>"+esc(x.a)+"</p></details>"}).join("")+"</section>":"";
   var src=(r.sources||[]).length?'<details class="rsources"><summary>Sources</summary><ul>'+r.sources.map(function(x){return '<li><a href="'+esc(safeUrl(x.url))+'" target="_blank" rel="noopener">'+esc(x.title||x.url)+"</a></li>"}).join("")+"</ul></details>":"";
@@ -371,7 +384,7 @@ function renderRoute(r){
     '<p class="rmeta">'+(r.verified?'<span class="checked">Checked '+esc(fmtDate(r.verified))+'</span>':"")+'<span class="tools">'+toolsHTML()+"</span></p></header>"+
     '<div class="rstats">'+r.stats.map(function(x){return "<div><span>"+esc(x.label)+"</span><b>"+esc(x.value)+"</b></div>"}).join("")+"</div>"+
     '<div class="rquick"><h2>Quick booking and essential links</h2><div class="rquicklinks">'+official+partners+"</div>"+
-    (partners?'<p class="muted">Some of these are affiliate links. We may earn a commission at no extra cost to you.</p>':'<p class="muted">Booking partner links will appear here in a later version.</p>')+"</div>"+
+    (partners?'<p class="muted">Some of these are affiliate links. We may earn a commission at no extra cost to you.</p>':"")+"</div>"+
     '<nav class="rnav" aria-label="On this page">'+nav+(faq?'<a href="#route-'+esc(r.id)+'" data-jump="faq">Frequently asked questions</a>':"")+"</nav>"+
     secs+faq+verified+src+cityLinks;
   $("routepage").querySelectorAll("[data-jump]").forEach(function(a){
@@ -472,7 +485,7 @@ function route(){
   $("pickcount").textContent=IDS.length+" countries";
   $("chips").innerHTML=IDS.map(function(id){var c=COUNTRIES[id];
     return '<li><a href="#'+id.toLowerCase()+'">'+flagSVG(c.flag)+'<span>'+esc(c.name)+' <small>'+esc(c.capital)+'</small></span></a></li>'}).join("");
-  var hasAff=(AFF.partners||[]).some(function(p){return p.link||(p.cityLinks&&Object.keys(p.cityLinks).length)});
+  var hasAff=(AFF.partners||[]).some(function(p){return p.link||(p.cityLinks&&Object.keys(p.cityLinks).length)})||Object.keys(AFF.routes||{}).some(function(k){return (AFF.routes[k]||[]).some(function(x){return x.link})});
   if(hasAff&&AFF.disclosure){$("disclosure").textContent=AFF.disclosure;$("disclosure").hidden=false}
   renderRouteList();
   document.addEventListener("click",function(e){
