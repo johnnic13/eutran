@@ -35,6 +35,10 @@ npm run audit    # lists data that disagrees between pages, thin lists and old c
 
 The first build downloads the Europe map (world-atlas, Natural Earth 1:50m) into `site/data/world.topo.json`. If that download fails, the site falls back to a map loaded from cdnjs.
 
+## Legal pages
+
+The build writes `/privacy/` and `/affiliate-disclosure/`. Set `CONTACT_EMAIL` in Netlify environment variables (next to `SITE_URL`) to show a contact address on them; without it the contact line is left out.
+
 ## Deploy to Netlify
 
 Netlify Drop (drag and drop) does not run functions, so deploy from Git or with the CLI so that live news works.

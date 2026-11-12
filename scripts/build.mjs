@@ -116,6 +116,67 @@ for (const r of routes) {
   const body = `<h1>${h(r.title)}</h1><p>${h(r.summary || "")}</p><ul>${r.stats.map((x) => `<li>${h(x.label)}: ${h(x.value)}</li>`).join("")}</ul>`;
   await page(`/routes/${r.id}/`, { title: `${r.title} · Euro Transit Guide`, desc: r.summary || r.short || r.title, hash: "route-" + r.id, body, ld });
 }
+// 3c. Plain legal pages (no app script): /privacy/ and /affiliate-disclosure/
+const contact = process.env.CONTACT_EMAIL || "";
+if (!contact) console.warn("CONTACT_EMAIL is not set: the legal pages will have no contact line.");
+const UPDATED = "11 November 2026";
+const contactLine = contact ? `<p>Questions about this page or your data: <a href="mailto:${h(contact)}">${h(contact)}</a>.</p>` : "";
+const LEGAL = {
+  "/privacy/": {
+    title: "Privacy · Euro Transit Guide",
+    desc: "What Euro Transit Guide collects (very little), which services it relies on, and how to contact us.",
+    body: `<h1>Privacy</h1>
+<p class="muted">Last updated ${UPDATED}</p>
+<p>Euro Transit Guide is an information site. You don't need an account, and we don't ask you for your name, email address or any other personal details.</p>
+<h2>What we collect</h2>
+<p>We do not run analytics or advertising trackers, and the site itself does not set cookies. Our hosting provider, Netlify, keeps standard server logs (for example your IP address, the page requested and the time) to run and secure the service.</p>
+<h2>Services the site uses</h2>
+<ul>
+<li><strong>Netlify</strong> hosts the site and runs the news feature. <strong>Cloudflare</strong> provides the domain name.</li>
+<li><strong>Google Fonts</strong> supplies the typefaces, and <strong>jsDelivr</strong> may supply the map outlines. Loading them sends your IP address and browser details to those providers.</li>
+<li>The <strong>News</strong> tab asks Google News for headlines about the city you opened. The request is made from our server and contains only the city name, not anything about you.</li>
+<li>Your browser may store copies of pages so the site works offline. You can clear them in your browser settings.</li>
+</ul>
+<h2>Affiliate links</h2>
+<p>Some links go to booking partners. If you follow one, that partner may set its own cookies and handle your data under its own policy. See the <a href="/affiliate-disclosure/">affiliate disclosure</a>.</p>
+<h2>Your rights</h2>
+<p>If you are in the UK or EU you can ask what personal data we hold about you, and ask us to correct or delete it. Because we collect almost none, there is usually nothing beyond server logs, which Netlify deletes on its own schedule.</p>
+${contactLine}`,
+  },
+  "/affiliate-disclosure/": {
+    title: "Affiliate disclosure · Euro Transit Guide",
+    desc: "How Euro Transit Guide earns money from booking links, and why it doesn't change what we write.",
+    body: `<h1>Affiliate disclosure</h1>
+<p class="muted">Last updated ${UPDATED}</p>
+<p>Some links on Euro Transit Guide are affiliate links. If you click one and then buy a ticket, pass or service, the partner may pay us a commission. <strong>It costs you nothing extra</strong>, and the price you see is the same as if you had gone to the partner directly.</p>
+<h2>Where they appear</h2>
+<p>Booking boxes on route and city pages, and buttons for city passes and travel eSIMs. Partners may include train and bus booking sites, flight search sites, rail pass sellers and tour or eSIM providers. These links are marked as sponsored.</p>
+<h2>How we keep the guides honest</h2>
+<ul>
+<li>Fares, journey times and tips come from the operators' own published information, and each page shows the date we last checked it.</li>
+<li>Partners don't pay to be listed and can't change what we write about them or their competitors.</li>
+<li>Official operator sites are linked wherever they exist, so you can always book directly.</li>
+</ul>
+<p>The commission helps cover the running costs of the site.</p>
+${contactLine}`,
+  },
+};
+const legalCss = '<style>.legal{max-width:75ch;padding:8px 0 24px}.legal h1{margin:0 0 6px}.legal h2{margin:24px 0 6px;font-size:1.15rem}.legal p,.legal li{line-height:1.6}</style>';
+for (const [path, L] of Object.entries(LEGAL)) {
+  let html = template
+    .replace(/<title>.*?<\/title>/, `<title>${h(L.title)}</title>`)
+    .replace(/(<meta name="description" content=")[^"]*(">)/, `$1${h(L.desc)}$2`)
+    .replace('href="css/', 'href="/css/')
+    .replace(SEO_RE, seo({ title: L.title, desc: L.desc, path }))
+    .replace("</head>", legalCss + "\n</head>")
+    .replace(/<main>[\s\S]*<\/main>/, `<main><article class="legal">${L.body}<p><a href="/">&larr; Back to the map</a></p></article></main>`)
+    .replace(/<script src="data\/data\.js"[^>]*><\/script>\s*<script src="js\/app\.js"[^>]*><\/script>/, "")
+    .replace('href="#home"', 'href="/"');
+  const dest = join(siteDir, path.replace(/^\//, ""));
+  await mkdir(dest, { recursive: true });
+  await writeFile(join(dest, "index.html"), html);
+  urls.push(siteUrl + path);
+}
 await writeFile(join(siteDir, "sitemap.xml"),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` + urls.map((u) => `  <url><loc>${u}</loc></url>`).join("\n") + `\n</urlset>\n`);
 await writeFile(join(siteDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${siteUrl}/sitemap.xml\n`);
