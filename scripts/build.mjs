@@ -129,13 +129,13 @@ const LEGAL = {
 <p class="muted">Last updated ${UPDATED}</p>
 <p>Euro Transit Guide is an information site. You don't need an account, and we don't ask you for your name, email address or any other personal details.</p>
 <h2>What we collect</h2>
-<p>We do not run our own analytics or advertising trackers, and the site itself does not set cookies. However, the site loads a script from our affiliate network, Travelpayouts, which can recognise links to partner sites and may set its own cookies or similar identifiers in your browser to track clicks and purchases. See Travelpayouts' own privacy policy for details. Our hosting provider, Netlify, keeps standard server logs (for example your IP address, the page requested and the time) to run and secure the service.</p>
+<p>We do not run our own analytics or advertising trackers, and the site itself does not set cookies. The exception is our affiliate network, Travelpayouts, whose script can recognise links to partner sites and may set its own cookies or similar identifiers to track clicks and purchases. We load it only if you click Accept on the cookie banner. Your choice is saved in your browser, and you can change it at any time with the Cookie choices link in the footer. See Travelpayouts' own privacy policy for details. Our hosting provider, Netlify, keeps standard server logs (for example your IP address, the page requested and the time) to run and secure the service.</p>
 <h2>Services the site uses</h2>
 <ul>
 <li><strong>Netlify</strong> hosts the site and runs the news feature. <strong>Cloudflare</strong> provides the domain name.</li>
 <li><strong>Google Fonts</strong> supplies the typefaces, and <strong>jsDelivr</strong> may supply the map outlines. Loading them sends your IP address and browser details to those providers.</li>
 <li>The <strong>News</strong> tab asks Google News for headlines about the city you opened. The request is made from our server and contains only the city name, not anything about you.</li>
-<li><strong>Travelpayouts</strong> (affiliate network) loads a script on every page that turns links to partner sites into affiliate links and records clicks.</li>
+<li><strong>Travelpayouts</strong> (affiliate network) loads a script, only if you accept, that turns links to partner sites into affiliate links and records clicks.</li>
 <li>Your browser may store copies of pages so the site works offline. You can clear them in your browser settings.</li>
 </ul>
 <h2>Affiliate links</h2>
@@ -151,7 +151,7 @@ ${contactLine}`,
 <p class="muted">Last updated ${UPDATED}</p>
 <p>Some links on Euro Transit Guide are affiliate links. If you click one and then buy a ticket, pass or service, the partner may pay us a commission. <strong>It costs you nothing extra</strong>, and the price you see is the same as if you had gone to the partner directly.</p>
 <h2>Where they appear</h2>
-<p>Booking boxes on route and city pages, and buttons for city passes and travel eSIMs. Partners may include train and bus booking sites, flight search sites, rail pass sellers and tour or eSIM providers. Some links are added automatically by our affiliate network's script, and links we add ourselves are marked as sponsored.</p>
+<p>Booking boxes on route and city pages, and buttons for city passes and travel eSIMs. Partners may include train and bus booking sites, flight search sites, rail pass sellers and tour or eSIM providers. If you accept cookies, some links are added automatically by our affiliate network's script. Links we add ourselves are marked as sponsored.</p>
 <h2>How we keep the guides honest</h2>
 <ul>
 <li>Fares, journey times and tips come from the operators' own published information, and each page shows the date we last checked it.</li>
