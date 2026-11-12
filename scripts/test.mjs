@@ -22,6 +22,12 @@ for (const f of await readdir(dir)) {
   }
   for (const m of ["train", "tram", "bus", "airport"]) assert.ok((c.modes[m].buy || []).length, `${f}: no "buy" info for ${m}`);
   assert.ok(Array.isArray(c.tips) && Array.isArray(c.apps), `${f}: tips/apps missing`);
+  for (const l of (c.metro && c.metro.lineStrips) || []) {
+    assert.match(l.color, /^#[0-9a-fA-F]{6}$/, `${f}: line ${l.id} needs a hex colour`);
+    assert.match(l.ink || "#ffffff", /^#[0-9a-fA-F]{6}$/, `${f}: line ${l.id} ink must be hex`);
+    assert.ok(l.loop || (Array.isArray(l.ends) && l.ends.length === 2), `${f}: line ${l.id} needs two end stations or a loop description`);
+    assert.ok(Array.isArray(l.stops) && l.stops.length >= 2 && l.stops.every((x) => Array.isArray(x) && x[0]), `${f}: line ${l.id} needs stops`);
+  }
   n++;
 }
 console.log(`ok - ${n} country files valid`);
@@ -38,7 +44,11 @@ for (const f of await readdir(rdir).catch(() => [])) {
   assert.ok(r.stats.length >= 3 && r.sections.length >= 4, `${f}: too little content`);
   for (const sc of r.sections) {
     assert.ok(sc.id && sc.title && Array.isArray(sc.blocks) && sc.blocks.length, `${f}: bad section ${sc.id}`);
-    for (const b of sc.blocks) assert.ok(["p", "table", "list", "steps", "tip"].includes(b.type), `${f}: unknown block ${b.type}`);
+    for (const b of sc.blocks) {
+      assert.ok(["p", "table", "list", "steps", "tip", "book", "places"].includes(b.type), `${f}: unknown block ${b.type}`);
+      if (b.type === "places") for (const p of b.items || []) assert.ok(p.name && p.why, `${f}: place needs name and why`);
+      if (b.type === "book") assert.ok(Array.isArray(b.kinds) && b.kinds.length, `${f}: book block needs kinds`);
+    }
   }
   for (const o of r.official || []) assert.match(o.url, /^https:\/\//, `${f}: official link must be https`);
   for (const o of r.options || []) assert.ok(o.mode && o.time && o.from && o.price && o.best, `${f}: incomplete option ${o.mode}`);

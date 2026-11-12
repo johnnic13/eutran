@@ -377,6 +377,131 @@
       "Arts-Loi and Gare de l'Ouest link lines 1, 2, 5 and 6",
       "Gare du Midi links metro 2 and 6 with premetro 3 and 4 and the trains",
       "Schuman (lines 1 and 5) serves the European Quarter"
+    ],
+    "lineStrips": [
+      {
+        "id": "1",
+        "color": "#B2217F",
+        "ink": "#ffffff",
+        "ends": [
+          "Gare de l'Ouest",
+          "Stockel"
+        ],
+        "stops": [
+          [
+            "Beekkant",
+            "West"
+          ],
+          [
+            "De Brouckere",
+            "Old town"
+          ],
+          [
+            "Gare Centrale",
+            "Central station"
+          ],
+          [
+            "Arts-Loi",
+            "Centre"
+          ],
+          [
+            "Schuman",
+            "EU quarter"
+          ]
+        ]
+      },
+      {
+        "id": "2",
+        "color": "#F08A00",
+        "ink": "#1b1b1b",
+        "loop": "circle line around the centre",
+        "stops": [
+          [
+            "Gare du Midi",
+            "Trains, Eurostar"
+          ],
+          [
+            "Louise",
+            "Shops"
+          ],
+          [
+            "Arts-Loi",
+            "Centre"
+          ],
+          [
+            "Rogier",
+            "North"
+          ]
+        ]
+      },
+      {
+        "id": "5",
+        "color": "#F9D100",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Erasme",
+          "Herrmann-Debroux"
+        ],
+        "stops": [
+          [
+            "Gare Centrale",
+            "Central station"
+          ],
+          [
+            "De Brouckere",
+            "Old town"
+          ],
+          [
+            "Arts-Loi",
+            "Centre"
+          ],
+          [
+            "Schuman",
+            "EU quarter"
+          ]
+        ]
+      },
+      {
+        "id": "6",
+        "color": "#0072BC",
+        "ink": "#ffffff",
+        "ends": [
+          "Elisabeth",
+          "Roi Baudouin"
+        ],
+        "stops": [
+          [
+            "Gare du Midi",
+            "Trains, Eurostar"
+          ],
+          [
+            "Rogier",
+            "North"
+          ],
+          [
+            "Heysel",
+            "Atomium"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Arts-Loi",
+        "1 + 2 + 5 + 6"
+      ],
+      [
+        "De Brouckere",
+        "1 + 5"
+      ],
+      [
+        "Gare du Midi",
+        "2 + 6 + premetro"
+      ],
+      [
+        "Schuman",
+        "1 + 5"
+      ]
     ]
   },
   "tips": [

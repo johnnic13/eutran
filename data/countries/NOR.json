@@ -210,6 +210,162 @@
       "Line 4: Vestli to Bergkrystallen",
       "Line 5: Sognsvann to Vestli",
       "Majorstuen, Nationaltheatret, Stortinget, Jernbanetorget, Grønland and Tøyen are on the shared city tunnel"
+    ],
+    "lineStrips": [
+      {
+        "id": "1",
+        "color": "#444444",
+        "ink": "#ffffff",
+        "label": "Line 1",
+        "ends": [
+          "Frognerseteren",
+          "Bergkrystallen"
+        ],
+        "stops": [
+          [
+            "Majorstuen",
+            "Frogner"
+          ],
+          [
+            "Nationaltheatret",
+            "Palace, theatre"
+          ],
+          [
+            "Stortinget",
+            "Karl Johans gate"
+          ],
+          [
+            "Jernbanetorget",
+            "Central station"
+          ]
+        ]
+      },
+      {
+        "id": "2",
+        "color": "#444444",
+        "ink": "#ffffff",
+        "label": "Line 2",
+        "ends": [
+          "Østerås",
+          "Ellingsrudåsen"
+        ],
+        "stops": [
+          [
+            "Majorstuen",
+            "Frogner"
+          ],
+          [
+            "Nationaltheatret",
+            "Palace, theatre"
+          ],
+          [
+            "Jernbanetorget",
+            "Central station"
+          ],
+          [
+            "Grønland",
+            "Food, nightlife"
+          ]
+        ]
+      },
+      {
+        "id": "3",
+        "color": "#444444",
+        "ink": "#ffffff",
+        "label": "Line 3",
+        "ends": [
+          "Kolsås",
+          "Mortensrud"
+        ],
+        "stops": [
+          [
+            "Majorstuen",
+            "Frogner"
+          ],
+          [
+            "Nationaltheatret",
+            "Palace, theatre"
+          ],
+          [
+            "Jernbanetorget",
+            "Central station"
+          ],
+          [
+            "Tøyen",
+            "Munch Museum"
+          ]
+        ]
+      },
+      {
+        "id": "4",
+        "color": "#444444",
+        "ink": "#ffffff",
+        "label": "Line 4",
+        "ends": [
+          "Vestli",
+          "Bergkrystallen"
+        ],
+        "stops": [
+          [
+            "Carl Berners plass",
+            "North-east"
+          ],
+          [
+            "Tøyen",
+            "Munch Museum"
+          ],
+          [
+            "Jernbanetorget",
+            "Central station"
+          ],
+          [
+            "Stortinget",
+            "Karl Johans gate"
+          ]
+        ]
+      },
+      {
+        "id": "5",
+        "color": "#444444",
+        "ink": "#ffffff",
+        "label": "Line 5",
+        "ends": [
+          "Sognsvann",
+          "Vestli"
+        ],
+        "stops": [
+          [
+            "Blindern",
+            "University"
+          ],
+          [
+            "Majorstuen",
+            "Frogner"
+          ],
+          [
+            "Jernbanetorget",
+            "Central station"
+          ],
+          [
+            "Carl Berners plass",
+            "North-east"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Jernbanetorget",
+        "All lines, central station"
+      ],
+      [
+        "Stortinget",
+        "All lines"
+      ],
+      [
+        "Majorstuen",
+        "1, 2, 3, 5"
+      ]
     ]
   },
   "tips": [

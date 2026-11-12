@@ -411,6 +411,411 @@
       "Elizabeth line runs from Reading and Heathrow through the centre to Abbey Wood and Shenfield",
       "King's Cross St Pancras, Oxford Circus and Bank/Monument are major interchanges",
       "Zones 1 to 9 set the fare"
+    ],
+    "lineStrips": [
+      {
+        "id": "Bak",
+        "color": "#B36305",
+        "ink": "#ffffff",
+        "label": "Bakerloo",
+        "ends": [
+          "Harrow & Wealdstone",
+          "Elephant & Castle"
+        ],
+        "stops": [
+          [
+            "Paddington",
+            "Trains, Heathrow Express"
+          ],
+          [
+            "Baker Street",
+            "Madame Tussauds"
+          ],
+          [
+            "Piccadilly Circus",
+            "West End"
+          ],
+          [
+            "Waterloo",
+            "Trains"
+          ]
+        ]
+      },
+      {
+        "id": "Cen",
+        "color": "#E32017",
+        "ink": "#ffffff",
+        "label": "Central",
+        "ends": [
+          "West Ruislip",
+          "Epping"
+        ],
+        "stops": [
+          [
+            "Marble Arch",
+            "Hyde Park"
+          ],
+          [
+            "Oxford Circus",
+            "Oxford Street"
+          ],
+          [
+            "Tottenham Court Road",
+            "Soho"
+          ],
+          [
+            "St Paul's",
+            "Cathedral"
+          ],
+          [
+            "Bank",
+            "City"
+          ]
+        ]
+      },
+      {
+        "id": "Cir",
+        "color": "#FFD300",
+        "ink": "#1b1b1b",
+        "label": "Circle",
+        "loop": "circle line around the centre",
+        "stops": [
+          [
+            "Victoria",
+            "Trains"
+          ],
+          [
+            "Westminster",
+            "Big Ben"
+          ],
+          [
+            "Embankment",
+            "Thames"
+          ],
+          [
+            "Tower Hill",
+            "Tower of London"
+          ],
+          [
+            "King's Cross St Pancras",
+            "Eurostar"
+          ]
+        ]
+      },
+      {
+        "id": "Dis",
+        "color": "#00782A",
+        "ink": "#ffffff",
+        "label": "District",
+        "ends": [
+          "Upminster",
+          "Richmond / Wimbledon / Ealing Broadway"
+        ],
+        "stops": [
+          [
+            "South Kensington",
+            "Museums"
+          ],
+          [
+            "Victoria",
+            "Trains"
+          ],
+          [
+            "Westminster",
+            "Big Ben"
+          ],
+          [
+            "Embankment",
+            "Thames"
+          ],
+          [
+            "Tower Hill",
+            "Tower of London"
+          ]
+        ]
+      },
+      {
+        "id": "H&C",
+        "color": "#F3A9BB",
+        "ink": "#1b1b1b",
+        "label": "Hammersmith & City",
+        "ends": [
+          "Hammersmith",
+          "Barking"
+        ],
+        "stops": [
+          [
+            "Paddington",
+            "Trains"
+          ],
+          [
+            "Baker Street",
+            "Sherlock Holmes"
+          ],
+          [
+            "King's Cross St Pancras",
+            "Eurostar"
+          ],
+          [
+            "Whitechapel",
+            "East End"
+          ]
+        ]
+      },
+      {
+        "id": "Jub",
+        "color": "#A0A5A9",
+        "ink": "#1b1b1b",
+        "label": "Jubilee",
+        "ends": [
+          "Stanmore",
+          "Stratford"
+        ],
+        "stops": [
+          [
+            "Baker Street",
+            "Madame Tussauds"
+          ],
+          [
+            "Bond Street",
+            "Shopping"
+          ],
+          [
+            "Westminster",
+            "Big Ben"
+          ],
+          [
+            "London Bridge",
+            "Shard"
+          ],
+          [
+            "Canary Wharf",
+            "Business district"
+          ]
+        ]
+      },
+      {
+        "id": "Met",
+        "color": "#9B0056",
+        "ink": "#ffffff",
+        "label": "Metropolitan",
+        "ends": [
+          "Aldgate",
+          "Amersham / Watford / Uxbridge"
+        ],
+        "stops": [
+          [
+            "Baker Street",
+            "Madame Tussauds"
+          ],
+          [
+            "King's Cross St Pancras",
+            "Eurostar"
+          ],
+          [
+            "Farringdon",
+            "Elizabeth line"
+          ],
+          [
+            "Liverpool Street",
+            "Trains"
+          ]
+        ]
+      },
+      {
+        "id": "Nor",
+        "color": "#000000",
+        "ink": "#ffffff",
+        "label": "Northern",
+        "ends": [
+          "Edgware / High Barnet",
+          "Morden / Battersea"
+        ],
+        "stops": [
+          [
+            "Camden Town",
+            "Markets"
+          ],
+          [
+            "Leicester Square",
+            "West End"
+          ],
+          [
+            "Waterloo",
+            "Trains"
+          ],
+          [
+            "London Bridge",
+            "Shard"
+          ]
+        ]
+      },
+      {
+        "id": "Pic",
+        "color": "#003688",
+        "ink": "#ffffff",
+        "label": "Piccadilly",
+        "ends": [
+          "Cockfosters",
+          "Heathrow / Uxbridge"
+        ],
+        "stops": [
+          [
+            "Heathrow",
+            "Airport"
+          ],
+          [
+            "Hyde Park Corner",
+            "Buckingham Palace"
+          ],
+          [
+            "Piccadilly Circus",
+            "West End"
+          ],
+          [
+            "Covent Garden",
+            "Market"
+          ],
+          [
+            "King's Cross St Pancras",
+            "Eurostar"
+          ]
+        ]
+      },
+      {
+        "id": "Vic",
+        "color": "#0098D4",
+        "ink": "#ffffff",
+        "label": "Victoria",
+        "ends": [
+          "Walthamstow Central",
+          "Brixton"
+        ],
+        "stops": [
+          [
+            "Euston",
+            "Trains"
+          ],
+          [
+            "King's Cross St Pancras",
+            "Eurostar"
+          ],
+          [
+            "Oxford Circus",
+            "Oxford Street"
+          ],
+          [
+            "Green Park",
+            "Palace"
+          ],
+          [
+            "Victoria",
+            "Trains"
+          ]
+        ]
+      },
+      {
+        "id": "W&C",
+        "color": "#95CDBA",
+        "ink": "#1b1b1b",
+        "label": "Waterloo & City",
+        "ends": [
+          "Waterloo",
+          "Bank"
+        ],
+        "stops": [
+          [
+            "Waterloo",
+            "Trains"
+          ],
+          [
+            "Bank",
+            "City"
+          ]
+        ]
+      },
+      {
+        "id": "Eliz",
+        "color": "#6950A1",
+        "ink": "#ffffff",
+        "label": "Elizabeth line",
+        "ends": [
+          "Reading / Heathrow",
+          "Abbey Wood / Shenfield"
+        ],
+        "stops": [
+          [
+            "Heathrow",
+            "Airport"
+          ],
+          [
+            "Paddington",
+            "Trains"
+          ],
+          [
+            "Tottenham Court Road",
+            "Soho"
+          ],
+          [
+            "Liverpool Street",
+            "Trains"
+          ],
+          [
+            "Canary Wharf",
+            "Business district"
+          ]
+        ]
+      },
+      {
+        "id": "DLR",
+        "color": "#00A4A7",
+        "ink": "#ffffff",
+        "label": "DLR",
+        "ends": [
+          "Bank / Tower Gateway",
+          "Lewisham / Beckton / Woolwich"
+        ],
+        "stops": [
+          [
+            "Tower Gateway",
+            "Tower of London"
+          ],
+          [
+            "Canary Wharf",
+            "Business district"
+          ],
+          [
+            "Cutty Sark",
+            "Greenwich"
+          ],
+          [
+            "London City Airport",
+            "Airport"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "King's Cross St Pancras",
+        "Piccadilly + Victoria + Northern + Circle + H&C + Met"
+      ],
+      [
+        "Oxford Circus",
+        "Central + Victoria + Bakerloo"
+      ],
+      [
+        "Bank / Monument",
+        "Central + Northern + W&C + District + Circle + DLR"
+      ],
+      [
+        "Westminster",
+        "Jubilee + District + Circle"
+      ],
+      [
+        "Baker Street",
+        "Bakerloo + Jubilee + Circle + H&C + Met"
+      ]
     ]
   },
   "tips": [

@@ -316,6 +316,72 @@
       "M2: east-west line from Bemowo to Brodno, crossing the Vistula. A western extension to Karolin is being built.",
       "Swietokrzyska is the only interchange between M1 and M2",
       "M1 Centrum station is next to the Palace of Culture and Science"
+    ],
+    "lineStrips": [
+      {
+        "id": "M1",
+        "color": "#0075BF",
+        "ink": "#ffffff",
+        "ends": [
+          "Kabaty",
+          "Młociny"
+        ],
+        "stops": [
+          [
+            "Centrum",
+            "Palace of Culture"
+          ],
+          [
+            "Świętokrzyska",
+            "Change to M2"
+          ],
+          [
+            "Ratusz Arsenał",
+            "Old Town"
+          ],
+          [
+            "Dworzec Gdański",
+            "Trains"
+          ]
+        ]
+      },
+      {
+        "id": "M2",
+        "color": "#E30613",
+        "ink": "#ffffff",
+        "ends": [
+          "Bemowo",
+          "Bródno"
+        ],
+        "stops": [
+          [
+            "Rondo Daszyńskiego",
+            "Business district"
+          ],
+          [
+            "Świętokrzyska",
+            "Change to M1"
+          ],
+          [
+            "Nowy Świat–Uniwersytet",
+            "Royal Route"
+          ],
+          [
+            "Centrum Nauki Kopernik",
+            "Science centre"
+          ],
+          [
+            "Stadion Narodowy",
+            "Stadium"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Świętokrzyska",
+        "M1 + M2"
+      ]
     ]
   },
   "tips": [

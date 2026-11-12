@@ -172,6 +172,111 @@
       "M2 (Red): Anthoupoli to Elliniko",
       "M3 (Blue): Dimotiko Theatro to the airport",
       "Syntagma links M2 and M3, Monastiraki links M1 and M3, Omonia and Attiki link M1 and M2"
+    ],
+    "lineStrips": [
+      {
+        "id": "M1",
+        "color": "#3C9A4C",
+        "ink": "#ffffff",
+        "ends": [
+          "Piraeus",
+          "Kifissia"
+        ],
+        "stops": [
+          [
+            "Piraeus",
+            "Port"
+          ],
+          [
+            "Thissio",
+            "Acropolis views"
+          ],
+          [
+            "Monastiraki",
+            "Flea market"
+          ],
+          [
+            "Omonia",
+            "Centre"
+          ]
+        ]
+      },
+      {
+        "id": "M2",
+        "color": "#E0211D",
+        "ink": "#ffffff",
+        "ends": [
+          "Anthoupoli",
+          "Elliniko"
+        ],
+        "stops": [
+          [
+            "Larissa Station",
+            "Trains"
+          ],
+          [
+            "Omonia",
+            "Centre"
+          ],
+          [
+            "Panepistimio",
+            "University"
+          ],
+          [
+            "Syntagma",
+            "Parliament"
+          ],
+          [
+            "Acropoli",
+            "Acropolis"
+          ]
+        ]
+      },
+      {
+        "id": "M3",
+        "color": "#1E90D6",
+        "ink": "#ffffff",
+        "ends": [
+          "Dimotiko Theatro",
+          "Airport"
+        ],
+        "stops": [
+          [
+            "Monastiraki",
+            "Flea market"
+          ],
+          [
+            "Syntagma",
+            "Parliament"
+          ],
+          [
+            "Evangelismos",
+            "Museums"
+          ],
+          [
+            "Airport",
+            "Airport"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Syntagma",
+        "M2 + M3"
+      ],
+      [
+        "Monastiraki",
+        "M1 + M3"
+      ],
+      [
+        "Omonia",
+        "M1 + M2"
+      ],
+      [
+        "Attiki",
+        "M1 + M2"
+      ]
     ]
   },
   "tips": [

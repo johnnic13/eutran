@@ -411,6 +411,103 @@
       "Line B: Rebibbia to Laurentina, stops include Colosseo and Circo Massimo",
       "Line C: Monte Compatri-Pantano to Colosseo/Fori Imperiali, meets A at San Giovanni and B at Colosseo",
       "Termini is where A and B meet"
+    ],
+    "lineStrips": [
+      {
+        "id": "A",
+        "color": "#F39200",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Battistini",
+          "Anagnina"
+        ],
+        "stops": [
+          [
+            "Ottaviano",
+            "Vatican"
+          ],
+          [
+            "Spagna",
+            "Spanish Steps"
+          ],
+          [
+            "Barberini",
+            "Trevi Fountain"
+          ],
+          [
+            "Termini",
+            "Main station"
+          ],
+          [
+            "San Giovanni",
+            "Basilica"
+          ]
+        ]
+      },
+      {
+        "id": "B",
+        "color": "#0071BC",
+        "ink": "#ffffff",
+        "ends": [
+          "Rebibbia",
+          "Laurentina"
+        ],
+        "stops": [
+          [
+            "Termini",
+            "Main station"
+          ],
+          [
+            "Cavour",
+            "Monti"
+          ],
+          [
+            "Colosseo",
+            "Colosseum"
+          ],
+          [
+            "Circo Massimo",
+            "Circus Maximus"
+          ]
+        ]
+      },
+      {
+        "id": "C",
+        "color": "#00A650",
+        "ink": "#ffffff",
+        "ends": [
+          "Monte Compatri–Pantano",
+          "Colosseo"
+        ],
+        "stops": [
+          [
+            "Pigneto",
+            "Neighbourhood"
+          ],
+          [
+            "San Giovanni",
+            "Basilica"
+          ],
+          [
+            "Colosseo",
+            "Colosseum"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Termini",
+        "A + B"
+      ],
+      [
+        "San Giovanni",
+        "A + C"
+      ],
+      [
+        "Colosseo",
+        "B + C"
+      ]
     ]
   },
   "tips": [

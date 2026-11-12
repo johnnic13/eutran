@@ -242,6 +242,123 @@
       "M3: Cityringen, a loop through the centre including Frederiksberg and Kongens Nytorv",
       "M4: Nordhavn and Sydhavn, branching from M3 at Østerport and København H",
       "Kongens Nytorv links M1, M2, M3 and M4. Nørreport links the Metro with the S-train"
+    ],
+    "lineStrips": [
+      {
+        "id": "M1",
+        "color": "#3DAE2B",
+        "ink": "#ffffff",
+        "ends": [
+          "Vanløse",
+          "Vestamager"
+        ],
+        "stops": [
+          [
+            "Nørreport",
+            "S-train"
+          ],
+          [
+            "Kongens Nytorv",
+            "Nyhavn"
+          ],
+          [
+            "Christianshavn",
+            "Freetown"
+          ]
+        ]
+      },
+      {
+        "id": "M2",
+        "color": "#FFC700",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Vanløse",
+          "Lufthavnen"
+        ],
+        "stops": [
+          [
+            "Nørreport",
+            "S-train"
+          ],
+          [
+            "Kongens Nytorv",
+            "Nyhavn"
+          ],
+          [
+            "Christianshavn",
+            "Freetown"
+          ],
+          [
+            "Lufthavnen",
+            "Airport"
+          ]
+        ]
+      },
+      {
+        "id": "M3",
+        "color": "#E5001C",
+        "ink": "#ffffff",
+        "loop": "Cityringen (circle line)",
+        "stops": [
+          [
+            "København H",
+            "Central station"
+          ],
+          [
+            "Rådhuspladsen",
+            "City Hall Square"
+          ],
+          [
+            "Kongens Nytorv",
+            "Nyhavn"
+          ],
+          [
+            "Østerport",
+            "Trains, north"
+          ]
+        ]
+      },
+      {
+        "id": "M4",
+        "color": "#0075C9",
+        "ink": "#ffffff",
+        "ends": [
+          "Orientkaj",
+          "Copenhagen South"
+        ],
+        "stops": [
+          [
+            "København H",
+            "Central station"
+          ],
+          [
+            "Kongens Nytorv",
+            "Nyhavn"
+          ],
+          [
+            "Østerport",
+            "Trains, north"
+          ],
+          [
+            "Enghave Brygge",
+            "Sydhavn"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Kongens Nytorv",
+        "M1 + M2 + M3 + M4"
+      ],
+      [
+        "Nørreport",
+        "M1 + M2 + S-train"
+      ],
+      [
+        "København H",
+        "M3 + M4 + trains"
+      ]
     ]
   },
   "tips": [

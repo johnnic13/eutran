@@ -507,6 +507,122 @@
       "M2 (Red): runs east-west under the Danube",
       "M3 (Blue): runs north-south",
       "M4 (Green): Kelenfold to Keleti, via Szent Gellert ter and Kalvin ter"
+    ],
+    "lineStrips": [
+      {
+        "id": "M1",
+        "color": "#FFD800",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Vörösmarty tér",
+          "Mexikói út"
+        ],
+        "stops": [
+          [
+            "Vörösmarty tér",
+            "Centre"
+          ],
+          [
+            "Opera",
+            "Opera House"
+          ],
+          [
+            "Hősök tere",
+            "Heroes' Square"
+          ],
+          [
+            "Széchenyi fürdő",
+            "Thermal baths"
+          ]
+        ]
+      },
+      {
+        "id": "M2",
+        "color": "#E41F18",
+        "ink": "#ffffff",
+        "ends": [
+          "Déli pályaudvar",
+          "Örs vezér tere"
+        ],
+        "stops": [
+          [
+            "Batthyány tér",
+            "Parliament"
+          ],
+          [
+            "Deák Ferenc tér",
+            "Centre"
+          ],
+          [
+            "Keleti pályaudvar",
+            "Trains"
+          ]
+        ]
+      },
+      {
+        "id": "M3",
+        "color": "#005CA5",
+        "ink": "#ffffff",
+        "ends": [
+          "Kőbánya-Kispest",
+          "Újpest-Központ"
+        ],
+        "stops": [
+          [
+            "Nyugati pályaudvar",
+            "Trains"
+          ],
+          [
+            "Deák Ferenc tér",
+            "Centre"
+          ],
+          [
+            "Kálvin tér",
+            "Great Market Hall"
+          ]
+        ]
+      },
+      {
+        "id": "M4",
+        "color": "#4CA22F",
+        "ink": "#ffffff",
+        "ends": [
+          "Kelenföld vasútállomás",
+          "Keleti pályaudvar"
+        ],
+        "stops": [
+          [
+            "Szent Gellért tér",
+            "Baths, hill"
+          ],
+          [
+            "Fővám tér",
+            "Market Hall"
+          ],
+          [
+            "Kálvin tér",
+            "Centre"
+          ],
+          [
+            "Keleti pályaudvar",
+            "Trains"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Deák Ferenc tér",
+        "M1 + M2 + M3"
+      ],
+      [
+        "Kálvin tér",
+        "M3 + M4"
+      ],
+      [
+        "Keleti pályaudvar",
+        "M2 + M4"
+      ]
     ]
   },
   "tips": [

@@ -3,6 +3,7 @@
 import { readdir, readFile, writeFile, mkdir, access } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { cityStatic, routeStatic, airportData, airportPath } from "./render.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const out = join(root, "site", "data");
@@ -97,14 +98,14 @@ async function page(path, { title, desc, hash, body, ld }) {
     .replace(SEO_RE, seo({ title, desc, path }))
     .replace("</head>", (ld ? `<script type="application/ld+json" id="ld">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>\n` : "") +
       `<script>if(!location.hash)history.replaceState(null,"","#${hash}");</script>\n</head>`)
-    .replace("<main>", `<main>\n<noscript>${body}</noscript>`);
+    .replace("<main>", `<main>\n${body}`);
   const dest = join(siteDir, path.replace(/^\//, ""));
   await mkdir(dest, { recursive: true });
   await writeFile(join(dest, "index.html"), html);
   urls.push(siteUrl + path);
 }
 for (const c of countries) {
-  const body = `<h1>${h(c.capital)} public transport guide</h1><p>${h(c.modes.train.sum)}</p><p>${h(c.modes.tram.sum)}</p><p>${h(c.modes.airport.sum)}</p>`;
+  const body = cityStatic(c, routes);
   await page(`/${slug(c.capital)}/`, {
     title: `${c.capital} public transport guide for visitors · Euro Transit Guide`,
     desc: `${c.capital} public transport for visitors: train, tram and metro, bus and airport links, ticket prices, tips, apps and news.`,
@@ -113,7 +114,7 @@ for (const c of countries) {
 }
 for (const r of routes) {
   const ld = (r.faq || []).length ? { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: r.faq.map((x) => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) } : null;
-  const body = `<h1>${h(r.title)}</h1><p>${h(r.summary || "")}</p><ul>${r.stats.map((x) => `<li>${h(x.label)}: ${h(x.value)}</li>`).join("")}</ul>`;
+  const body = routeStatic(r);
   await page(`/routes/${r.id}/`, { title: `${r.title} · Euro Transit Guide`, desc: r.summary || r.short || r.title, hash: "route-" + r.id, body, ld });
 }
 // 3c. Plain legal pages (no app script): /privacy/ and /affiliate-disclosure/
@@ -172,7 +173,30 @@ for (const [path, L] of Object.entries(LEGAL)) {
     .replace("</head>", legalCss + "\n</head>")
     .replace(/<main>[\s\S]*<\/main>/, `<main><article class="legal">${L.body}<p><a href="/">&larr; Back to the map</a></p></article></main>`)
     .replace(/<script src="data\/data\.js"[^>]*><\/script>\s*<script src="js\/app\.js"[^>]*><\/script>/, "")
-    .replace('href="#home"', 'href="/"');
+    .replace('href="#home"', 'href="/"')
+    .replace('<span class="pill" id="count"></span>', "");
+  const dest = join(siteDir, path.replace(/^\//, ""));
+  await mkdir(dest, { recursive: true });
+  await writeFile(join(dest, "index.html"), html);
+  urls.push(siteUrl + path);
+}
+// 3d. Airport to city centre page for each capital: /<capital>/airport-to-city-centre/
+for (const c of countries) {
+  const path = airportPath(c);
+  const A = airportData(c, aff, routes);
+  const city = `/${slug(c.capital)}/`;
+  let html = template
+    .replace(/<title>.*?<\/title>/, `<title>${h(A.title)}</title>`)
+    .replace(/(<meta name="description" content=")[^"]*(">)/, `$1${h(A.desc)}$2`)
+    .replace('href="css/', 'href="/css/')
+    .replace(SEO_RE, seo({ title: A.title, desc: A.desc, path }))
+    .replace("</head>", `<script type="application/ld+json">${JSON.stringify(A.ld).replace(/</g, "\\u003c")}</script>\n${legalCss}\n</head>`)
+    .replace(/<main>[\s\S]*<\/main>/, `<main><article class="legal">${A.body}<p><a href="${city}">&larr; ${h(c.capital)} public transport guide</a></p></article></main>`)
+    .replace(/<script src="data\/data\.js"[^>]*><\/script>\s*<script src="js\/app\.js"[^>]*><\/script>/, "")
+    .replace('href="#home"', 'href="/"')
+    .replace('<span class="pill" id="count"></span>', "");
+  if (seen.has(path)) throw new Error(`duplicate page path ${path}`);
+  seen.add(path);
   const dest = join(siteDir, path.replace(/^\//, ""));
   await mkdir(dest, { recursive: true });
   await writeFile(join(dest, "index.html"), html);

@@ -274,6 +274,46 @@
       "Hamilius and Place de Metz serve the old town",
       "Philharmonie - Mudam, Europaparlament and Luxexpo are on the Kirchberg section",
       "Findel - Luxembourg Airport is the last stop on the line"
+    ],
+    "lineStrips": [
+      {
+        "id": "T1",
+        "color": "#444444",
+        "ink": "#ffffff",
+        "label": "Tram T1",
+        "ends": [
+          "Stadion",
+          "Findel Airport"
+        ],
+        "stops": [
+          [
+            "Gare Centrale",
+            "Trains"
+          ],
+          [
+            "Hamilius",
+            "Old town"
+          ],
+          [
+            "Philharmonie–Mudam",
+            "Kirchberg"
+          ],
+          [
+            "Europaparlament",
+            "EU quarter"
+          ],
+          [
+            "Findel",
+            "Airport"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Gare Centrale",
+        "Tram + CFL trains + buses"
+      ]
     ]
   },
   "tips": [

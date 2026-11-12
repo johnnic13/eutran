@@ -524,6 +524,157 @@
       "Stephansplatz links U1 and U3 under the cathedral",
       "Karlsplatz links U1, U2 and U4",
       "Westbahnhof links U3 and U6"
+    ],
+    "lineStrips": [
+      {
+        "id": "U1",
+        "color": "#E3000F",
+        "ink": "#ffffff",
+        "ends": [
+          "Oberlaa",
+          "Leopoldau"
+        ],
+        "stops": [
+          [
+            "Südtiroler Platz–Hauptbahnhof",
+            "Main station"
+          ],
+          [
+            "Karlsplatz",
+            "Opera, Naschmarkt"
+          ],
+          [
+            "Stephansplatz",
+            "Cathedral"
+          ],
+          [
+            "Praterstern",
+            "Prater, trains"
+          ]
+        ]
+      },
+      {
+        "id": "U2",
+        "color": "#A762A3",
+        "ink": "#ffffff",
+        "ends": [
+          "Karlsplatz",
+          "Seestadt"
+        ],
+        "stops": [
+          [
+            "Museumsquartier",
+            "Museums"
+          ],
+          [
+            "Rathaus",
+            "City Hall"
+          ],
+          [
+            "Schottentor",
+            "University"
+          ],
+          [
+            "Praterstern",
+            "Prater, trains"
+          ]
+        ]
+      },
+      {
+        "id": "U3",
+        "color": "#EF8200",
+        "ink": "#ffffff",
+        "ends": [
+          "Ottakring",
+          "Simmering"
+        ],
+        "stops": [
+          [
+            "Westbahnhof",
+            "Trains, west"
+          ],
+          [
+            "Volkstheater",
+            "Museum quarter"
+          ],
+          [
+            "Stephansplatz",
+            "Cathedral"
+          ],
+          [
+            "Landstraße",
+            "Wien Mitte, airport train"
+          ]
+        ]
+      },
+      {
+        "id": "U4",
+        "color": "#009540",
+        "ink": "#ffffff",
+        "ends": [
+          "Hütteldorf",
+          "Heiligenstadt"
+        ],
+        "stops": [
+          [
+            "Schönbrunn",
+            "Palace"
+          ],
+          [
+            "Karlsplatz",
+            "Opera"
+          ],
+          [
+            "Landstraße",
+            "Wien Mitte"
+          ],
+          [
+            "Schwedenplatz",
+            "Danube Canal"
+          ]
+        ]
+      },
+      {
+        "id": "U6",
+        "color": "#9C5B25",
+        "ink": "#ffffff",
+        "ends": [
+          "Siebenhirten",
+          "Floridsdorf"
+        ],
+        "stops": [
+          [
+            "Westbahnhof",
+            "Trains, west"
+          ],
+          [
+            "Spittelau",
+            "Trains, north"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Stephansplatz",
+        "U1 + U3"
+      ],
+      [
+        "Karlsplatz",
+        "U1 + U2 + U4"
+      ],
+      [
+        "Volkstheater",
+        "U2 + U3"
+      ],
+      [
+        "Westbahnhof",
+        "U3 + U6"
+      ],
+      [
+        "Praterstern",
+        "U1 + U2"
+      ]
     ]
   },
   "tips": [

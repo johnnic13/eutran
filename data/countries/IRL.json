@@ -253,6 +253,110 @@
       "DART: Howth and Malahide through Connolly and Pearse to Bray and Greystones",
       "Connolly links Luas Red, DART, commuter trains and the Belfast train",
       "Heuston links Luas Red with trains to Cork, Galway and Limerick"
+    ],
+    "lineStrips": [
+      {
+        "id": "Green",
+        "color": "#3DAE2B",
+        "ink": "#ffffff",
+        "label": "Luas Green Line",
+        "ends": [
+          "Broombridge",
+          "Brides Glen"
+        ],
+        "stops": [
+          [
+            "O'Connell GPO",
+            "Main street"
+          ],
+          [
+            "Dawson",
+            "Grafton Street"
+          ],
+          [
+            "Trinity",
+            "College"
+          ],
+          [
+            "St Stephen's Green",
+            "Park"
+          ]
+        ]
+      },
+      {
+        "id": "Red",
+        "color": "#E20026",
+        "ink": "#ffffff",
+        "label": "Luas Red Line",
+        "ends": [
+          "The Point / Connolly",
+          "Tallaght / Saggart"
+        ],
+        "stops": [
+          [
+            "Connolly",
+            "Trains, DART"
+          ],
+          [
+            "Busáras",
+            "Bus station"
+          ],
+          [
+            "Jervis",
+            "Shopping"
+          ],
+          [
+            "Smithfield",
+            "Distillery"
+          ],
+          [
+            "Heuston",
+            "Trains west"
+          ]
+        ]
+      },
+      {
+        "id": "DART",
+        "color": "#1B75BC",
+        "ink": "#ffffff",
+        "label": "DART",
+        "ends": [
+          "Howth / Malahide",
+          "Greystones"
+        ],
+        "stops": [
+          [
+            "Connolly",
+            "Trains, Luas"
+          ],
+          [
+            "Tara Street",
+            "Centre"
+          ],
+          [
+            "Pearse",
+            "Trinity"
+          ],
+          [
+            "Dalkey",
+            "Coast"
+          ],
+          [
+            "Howth",
+            "Fishing village"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Connolly",
+        "Luas Red + DART + trains"
+      ],
+      [
+        "Heuston",
+        "Luas Red + trains west"
+      ]
     ]
   },
   "tips": [

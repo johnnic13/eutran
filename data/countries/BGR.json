@@ -172,6 +172,83 @@
       "Central Railway Station (Tsentralna gara) is on the metro, next to the BDZ station",
       "Sofia Airport station is next to Terminal 2",
       "The metro runs from about 05:30 to midnight, every 2 to 7 minutes in the day"
+    ],
+    "lineStrips": [
+      {
+        "id": "M1",
+        "color": "#D71920",
+        "ink": "#ffffff",
+        "ends": [
+          "Slivnitsa",
+          "Business Park"
+        ],
+        "stops": [
+          [
+            "Serdika",
+            "Centre"
+          ],
+          [
+            "Sofia University",
+            "University"
+          ],
+          [
+            "Vasil Levski Stadium",
+            "Stadium"
+          ]
+        ]
+      },
+      {
+        "id": "M2",
+        "color": "#0072BC",
+        "ink": "#ffffff",
+        "ends": [
+          "Obelya",
+          "Vitosha"
+        ],
+        "stops": [
+          [
+            "Serdika",
+            "Centre"
+          ],
+          [
+            "Central Railway Station",
+            "Trains, buses"
+          ],
+          [
+            "National Palace of Culture",
+            "NDK park"
+          ]
+        ]
+      },
+      {
+        "id": "M3",
+        "color": "#2E9D4B",
+        "ink": "#ffffff",
+        "ends": [
+          "Hadzhi Dimitar",
+          "Gorna Banya"
+        ],
+        "stops": [
+          [
+            "Orlov Most",
+            "Centre"
+          ],
+          [
+            "Krasno Selo",
+            "South"
+          ],
+          [
+            "Ovcha Kupel",
+            "West"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Serdika",
+        "M1 + M2"
+      ]
     ]
   },
   "tips": [

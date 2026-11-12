@@ -609,6 +609,256 @@
       "Line 1 crosses the centre east to west (Louvre, Champs-Elysees)",
       "Line 14 is fully automatic and links Saint-Lazare, Chatelet, Gare de Lyon and Orly airport",
       "Chatelet - Les Halles is the largest interchange"
+    ],
+    "lineStrips": [
+      {
+        "id": "1",
+        "color": "#FFCE00",
+        "ink": "#1b1b1b",
+        "ends": [
+          "La Défense",
+          "Château de Vincennes"
+        ],
+        "stops": [
+          [
+            "Charles de Gaulle–Étoile",
+            "Arc de Triomphe"
+          ],
+          [
+            "Concorde",
+            "Tuileries"
+          ],
+          [
+            "Palais Royal–Musée du Louvre",
+            "Louvre"
+          ],
+          [
+            "Châtelet",
+            "Centre"
+          ],
+          [
+            "Bastille",
+            "Opera Bastille"
+          ],
+          [
+            "Gare de Lyon",
+            "Trains"
+          ]
+        ]
+      },
+      {
+        "id": "2",
+        "color": "#0064B0",
+        "ink": "#ffffff",
+        "ends": [
+          "Porte Dauphine",
+          "Nation"
+        ],
+        "stops": [
+          [
+            "Anvers",
+            "Sacré-Cœur funicular"
+          ],
+          [
+            "Pigalle",
+            "Montmartre"
+          ],
+          [
+            "Père Lachaise",
+            "Cemetery"
+          ]
+        ]
+      },
+      {
+        "id": "4",
+        "color": "#C04191",
+        "ink": "#ffffff",
+        "ends": [
+          "Porte de Clignancourt",
+          "Bagneux–Lucie Aubrac"
+        ],
+        "stops": [
+          [
+            "Gare du Nord",
+            "Eurostar"
+          ],
+          [
+            "Châtelet",
+            "Centre"
+          ],
+          [
+            "Saint-Germain-des-Prés",
+            "Left Bank"
+          ],
+          [
+            "Montparnasse",
+            "Trains, tower"
+          ]
+        ]
+      },
+      {
+        "id": "6",
+        "color": "#6ECA97",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Charles de Gaulle–Étoile",
+          "Nation"
+        ],
+        "stops": [
+          [
+            "Trocadéro",
+            "Eiffel Tower views"
+          ],
+          [
+            "Bir-Hakeim",
+            "Eiffel Tower"
+          ],
+          [
+            "Montparnasse",
+            "Trains"
+          ],
+          [
+            "Place d'Italie",
+            "South"
+          ]
+        ]
+      },
+      {
+        "id": "8",
+        "color": "#E19BDF",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Balard",
+          "Pointe du Lac"
+        ],
+        "stops": [
+          [
+            "Invalides",
+            "Napoleon's tomb"
+          ],
+          [
+            "Concorde",
+            "Tuileries"
+          ],
+          [
+            "Madeleine",
+            "Church"
+          ],
+          [
+            "Opéra",
+            "Opera Garnier"
+          ],
+          [
+            "Bastille",
+            "Marais"
+          ]
+        ]
+      },
+      {
+        "id": "14",
+        "color": "#62259D",
+        "ink": "#ffffff",
+        "ends": [
+          "Saint-Denis Pleyel",
+          "Aéroport d'Orly"
+        ],
+        "stops": [
+          [
+            "Madeleine",
+            "Centre"
+          ],
+          [
+            "Châtelet",
+            "Centre"
+          ],
+          [
+            "Gare de Lyon",
+            "Trains"
+          ],
+          [
+            "Aéroport d'Orly",
+            "Airport"
+          ]
+        ]
+      },
+      {
+        "id": "RER A",
+        "color": "#E2231A",
+        "ink": "#ffffff",
+        "label": "RER A",
+        "ends": [
+          "Cergy / Poissy / St-Germain",
+          "Marne-la-Vallée–Chessy"
+        ],
+        "stops": [
+          [
+            "Charles de Gaulle–Étoile",
+            "Arc de Triomphe"
+          ],
+          [
+            "Châtelet–Les Halles",
+            "Centre"
+          ],
+          [
+            "Gare de Lyon",
+            "Trains"
+          ],
+          [
+            "Marne-la-Vallée–Chessy",
+            "Disneyland Paris"
+          ]
+        ]
+      },
+      {
+        "id": "RER B",
+        "color": "#5291CE",
+        "ink": "#ffffff",
+        "label": "RER B",
+        "ends": [
+          "Charles de Gaulle Airport",
+          "Saint-Rémy-lès-Chevreuse"
+        ],
+        "stops": [
+          [
+            "Gare du Nord",
+            "Eurostar"
+          ],
+          [
+            "Châtelet–Les Halles",
+            "Centre"
+          ],
+          [
+            "Saint-Michel–Notre-Dame",
+            "Latin Quarter"
+          ],
+          [
+            "Charles de Gaulle Airport",
+            "Airport"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Châtelet–Les Halles",
+        "1 + 4 + 14 + RER A, B"
+      ],
+      [
+        "Gare du Nord",
+        "4 + RER B"
+      ],
+      [
+        "Gare de Lyon",
+        "1 + 14 + RER A"
+      ],
+      [
+        "Concorde",
+        "1 + 8"
+      ],
+      [
+        "Montparnasse",
+        "4 + 6"
+      ]
     ]
   },
   "tips": [

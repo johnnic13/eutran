@@ -249,6 +249,194 @@
       "Green: lines 17, 18 and 19",
       "T-Centralen links all three colour groups with commuter trains",
       "Gates accept bank cards, SL Access cards and SL app tickets"
+    ],
+    "lineStrips": [
+      {
+        "id": "10",
+        "color": "#0089CA",
+        "ink": "#ffffff",
+        "label": "Blue line 10",
+        "ends": [
+          "Kungsträdgården",
+          "Hjulsta"
+        ],
+        "stops": [
+          [
+            "T-Centralen",
+            "Central station"
+          ],
+          [
+            "Rådhuset",
+            "Art"
+          ],
+          [
+            "Kungsträdgården",
+            "Art, park"
+          ]
+        ]
+      },
+      {
+        "id": "11",
+        "color": "#0089CA",
+        "ink": "#ffffff",
+        "label": "Blue line 11",
+        "ends": [
+          "Kungsträdgården",
+          "Akalla"
+        ],
+        "stops": [
+          [
+            "T-Centralen",
+            "Central station"
+          ],
+          [
+            "Solna centrum",
+            "Art"
+          ],
+          [
+            "Kungsträdgården",
+            "Art, park"
+          ]
+        ]
+      },
+      {
+        "id": "13",
+        "color": "#E32D22",
+        "ink": "#ffffff",
+        "label": "Red line 13",
+        "ends": [
+          "Norsborg",
+          "Ropsten"
+        ],
+        "stops": [
+          [
+            "T-Centralen",
+            "Central station"
+          ],
+          [
+            "Gamla stan",
+            "Old Town"
+          ],
+          [
+            "Slussen",
+            "Södermalm"
+          ],
+          [
+            "Ropsten",
+            "Buses to Lidingö"
+          ]
+        ]
+      },
+      {
+        "id": "14",
+        "color": "#E32D22",
+        "ink": "#ffffff",
+        "label": "Red line 14",
+        "ends": [
+          "Fruängen",
+          "Mörby centrum"
+        ],
+        "stops": [
+          [
+            "T-Centralen",
+            "Central station"
+          ],
+          [
+            "Gamla stan",
+            "Old Town"
+          ],
+          [
+            "Östermalmstorg",
+            "Food hall"
+          ],
+          [
+            "Stadion",
+            "Olympic stadium"
+          ]
+        ]
+      },
+      {
+        "id": "17",
+        "color": "#4DA944",
+        "ink": "#ffffff",
+        "label": "Green line 17",
+        "ends": [
+          "Åkeshov",
+          "Skarpnäck"
+        ],
+        "stops": [
+          [
+            "Hötorget",
+            "Market"
+          ],
+          [
+            "T-Centralen",
+            "Central station"
+          ],
+          [
+            "Slussen",
+            "Södermalm"
+          ]
+        ]
+      },
+      {
+        "id": "18",
+        "color": "#4DA944",
+        "ink": "#ffffff",
+        "label": "Green line 18",
+        "ends": [
+          "Alvik",
+          "Farsta strand"
+        ],
+        "stops": [
+          [
+            "T-Centralen",
+            "Central station"
+          ],
+          [
+            "Slussen",
+            "Södermalm"
+          ],
+          [
+            "Hornstull",
+            "Södermalm"
+          ]
+        ]
+      },
+      {
+        "id": "19",
+        "color": "#4DA944",
+        "ink": "#ffffff",
+        "label": "Green line 19",
+        "ends": [
+          "Hässelby strand",
+          "Hagsätra"
+        ],
+        "stops": [
+          [
+            "T-Centralen",
+            "Central station"
+          ],
+          [
+            "Slussen",
+            "Södermalm"
+          ],
+          [
+            "Hornstull",
+            "Södermalm"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "T-Centralen",
+        "All lines, trains"
+      ],
+      [
+        "Slussen",
+        "Green + Red"
+      ]
     ]
   },
   "tips": [

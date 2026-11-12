@@ -366,6 +366,247 @@
       "Sol, Callao and Gran Via serve the centre",
       "Atocha connects to Renfe trains and AVE",
       "Nuevos Ministerios links to line 8 for the airport"
+    ],
+    "lineStrips": [
+      {
+        "id": "1",
+        "color": "#2DBEF0",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Pinar de Chamartín",
+          "Valdecarros"
+        ],
+        "stops": [
+          [
+            "Chamartín",
+            "Trains, north"
+          ],
+          [
+            "Gran Vía",
+            "Shopping"
+          ],
+          [
+            "Sol",
+            "Puerta del Sol"
+          ],
+          [
+            "Atocha",
+            "Trains, Reina Sofía"
+          ]
+        ]
+      },
+      {
+        "id": "2",
+        "color": "#ED1C24",
+        "ink": "#ffffff",
+        "ends": [
+          "Las Rosas",
+          "Cuatro Caminos"
+        ],
+        "stops": [
+          [
+            "Ópera",
+            "Royal Palace"
+          ],
+          [
+            "Sol",
+            "Puerta del Sol"
+          ],
+          [
+            "Banco de España",
+            "Cibeles"
+          ],
+          [
+            "Retiro",
+            "Park"
+          ]
+        ]
+      },
+      {
+        "id": "3",
+        "color": "#FFDF00",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Villaverde Alto",
+          "Moncloa"
+        ],
+        "stops": [
+          [
+            "Moncloa",
+            "Buses, park"
+          ],
+          [
+            "Callao",
+            "Gran Vía"
+          ],
+          [
+            "Sol",
+            "Puerta del Sol"
+          ],
+          [
+            "Lavapiés",
+            "Neighbourhood"
+          ]
+        ]
+      },
+      {
+        "id": "4",
+        "color": "#985C2D",
+        "ink": "#ffffff",
+        "ends": [
+          "Argüelles",
+          "Pinar de Chamartín"
+        ],
+        "stops": [
+          [
+            "Bilbao",
+            "Nightlife"
+          ],
+          [
+            "Colón",
+            "Plaza de Colón"
+          ],
+          [
+            "Serrano",
+            "Shopping"
+          ],
+          [
+            "Goya",
+            "Shopping"
+          ]
+        ]
+      },
+      {
+        "id": "5",
+        "color": "#96BF0D",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Alameda de Osuna",
+          "Casa de Campo"
+        ],
+        "stops": [
+          [
+            "Casa de Campo",
+            "Park"
+          ],
+          [
+            "Ópera",
+            "Royal Palace"
+          ],
+          [
+            "Callao",
+            "Gran Vía"
+          ],
+          [
+            "Gran Vía",
+            "Shopping"
+          ]
+        ]
+      },
+      {
+        "id": "6",
+        "color": "#999999",
+        "ink": "#1b1b1b",
+        "loop": "circular line around the city",
+        "stops": [
+          [
+            "Nuevos Ministerios",
+            "Line 8 to airport"
+          ],
+          [
+            "Moncloa",
+            "Buses, park"
+          ],
+          [
+            "Príncipe Pío",
+            "Trains, west"
+          ],
+          [
+            "Avenida de América",
+            "Buses"
+          ]
+        ]
+      },
+      {
+        "id": "8",
+        "color": "#F373B7",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Nuevos Ministerios",
+          "Aeropuerto T4"
+        ],
+        "stops": [
+          [
+            "Nuevos Ministerios",
+            "Change from 6, 10"
+          ],
+          [
+            "Mar de Cristal",
+            "Line 4"
+          ],
+          [
+            "Barajas",
+            "Terminals 1, 2, 3"
+          ],
+          [
+            "Aeropuerto T4",
+            "Terminal 4"
+          ]
+        ]
+      },
+      {
+        "id": "10",
+        "color": "#005AA9",
+        "ink": "#ffffff",
+        "ends": [
+          "Hospital Infanta Sofía",
+          "Puerto de Santa María"
+        ],
+        "stops": [
+          [
+            "Príncipe Pío",
+            "Trains, west"
+          ],
+          [
+            "Plaza de España",
+            "Gran Vía"
+          ],
+          [
+            "Tribunal",
+            "Malasaña"
+          ],
+          [
+            "Nuevos Ministerios",
+            "Line 8 to airport"
+          ],
+          [
+            "Chamartín",
+            "Trains, north"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Sol",
+        "1 + 2 + 3"
+      ],
+      [
+        "Callao",
+        "3 + 5"
+      ],
+      [
+        "Nuevos Ministerios",
+        "6 + 8 + 10"
+      ],
+      [
+        "Tribunal",
+        "1 + 10"
+      ],
+      [
+        "Príncipe Pío",
+        "6 + 10"
+      ]
     ]
   },
   "tips": [

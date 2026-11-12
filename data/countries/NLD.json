@@ -523,6 +523,158 @@
       "Line 52 (North/South line) runs under the centre from Noord to Zuid",
       "Centraal Station is the hub for trains, trams, buses and ferries",
       "Station Zuid connects to national trains and Schiphol"
+    ],
+    "lineStrips": [
+      {
+        "id": "50",
+        "color": "#4CAF50",
+        "ink": "#ffffff",
+        "label": "Metro 50 (ring line)",
+        "ends": [
+          "Isolatorweg",
+          "Gein"
+        ],
+        "stops": [
+          [
+            "Lelylaan",
+            "Trains"
+          ],
+          [
+            "Zuid",
+            "Trains, Schiphol"
+          ],
+          [
+            "Amstel",
+            "Trains"
+          ]
+        ]
+      },
+      {
+        "id": "51",
+        "color": "#F28C00",
+        "ink": "#1b1b1b",
+        "label": "Metro 51",
+        "ends": [
+          "Isolatorweg",
+          "Centraal"
+        ],
+        "stops": [
+          [
+            "Centraal",
+            "Central station"
+          ],
+          [
+            "Waterlooplein",
+            "Rembrandt House"
+          ],
+          [
+            "Amstel",
+            "Trains"
+          ],
+          [
+            "Zuid",
+            "Trains, Schiphol"
+          ]
+        ]
+      },
+      {
+        "id": "52",
+        "color": "#0098C3",
+        "ink": "#ffffff",
+        "label": "Metro 52 (North/South line)",
+        "ends": [
+          "Noord",
+          "Zuid"
+        ],
+        "stops": [
+          [
+            "Noord",
+            "Ferry, north"
+          ],
+          [
+            "Centraal",
+            "Central station"
+          ],
+          [
+            "Rokin",
+            "Dam Square"
+          ],
+          [
+            "De Pijp",
+            "Albert Cuyp market"
+          ],
+          [
+            "Zuid",
+            "Trains, Schiphol"
+          ]
+        ]
+      },
+      {
+        "id": "53",
+        "color": "#8B3A8F",
+        "ink": "#ffffff",
+        "label": "Metro 53",
+        "ends": [
+          "Gaasperplas",
+          "Centraal"
+        ],
+        "stops": [
+          [
+            "Centraal",
+            "Central station"
+          ],
+          [
+            "Waterlooplein",
+            "Rembrandt House"
+          ],
+          [
+            "Amstel",
+            "Trains"
+          ],
+          [
+            "Bijlmer ArenA",
+            "Stadium"
+          ]
+        ]
+      },
+      {
+        "id": "54",
+        "color": "#E4002B",
+        "ink": "#ffffff",
+        "label": "Metro 54",
+        "ends": [
+          "Gein",
+          "Centraal"
+        ],
+        "stops": [
+          [
+            "Centraal",
+            "Central station"
+          ],
+          [
+            "Waterlooplein",
+            "Rembrandt House"
+          ],
+          [
+            "Amstel",
+            "Trains"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Centraal",
+        "51 + 52 + 53 + 54"
+      ],
+      [
+        "Zuid",
+        "50 + 51 + 52"
+      ],
+      [
+        "Amstel",
+        "50 + 51 + 53 + 54"
+      ]
     ]
   },
   "tips": [

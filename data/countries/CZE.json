@@ -352,6 +352,107 @@
       "Line B (yellow) runs east-west",
       "Line C (red) links the main station and Vysehrad",
       "Mustek links A and B, Muzeum links A and C, Florenc links B and C"
+    ],
+    "lineStrips": [
+      {
+        "id": "A",
+        "color": "#1a9d4b",
+        "ink": "#ffffff",
+        "ends": [
+          "Nemocnice Motol",
+          "Depo Hostivar"
+        ],
+        "stops": [
+          [
+            "Malostranska",
+            "Prague Castle"
+          ],
+          [
+            "Staromestska",
+            "Old Town Square"
+          ],
+          [
+            "Mustek",
+            "Wenceslas Square"
+          ],
+          [
+            "Muzeum",
+            "National Museum"
+          ]
+        ]
+      },
+      {
+        "id": "B",
+        "color": "#f6c800",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Cerny Most",
+          "Zlicin"
+        ],
+        "stops": [
+          [
+            "Florenc",
+            "Main bus station"
+          ],
+          [
+            "Namesti Republiky",
+            "Old Town"
+          ],
+          [
+            "Mustek",
+            "Wenceslas Square"
+          ],
+          [
+            "Andel",
+            "Shopping, Smichov"
+          ]
+        ]
+      },
+      {
+        "id": "C",
+        "color": "#d6001c",
+        "ink": "#ffffff",
+        "ends": [
+          "Letnany",
+          "Haje"
+        ],
+        "stops": [
+          [
+            "Nadrazi Holesovice",
+            "Trains, north"
+          ],
+          [
+            "Florenc",
+            "Main bus station"
+          ],
+          [
+            "Hlavni nadrazi",
+            "Main station"
+          ],
+          [
+            "Muzeum",
+            "National Museum"
+          ],
+          [
+            "Vysehrad",
+            "Fortress and river"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Mustek",
+        "A + B"
+      ],
+      [
+        "Muzeum",
+        "A + C"
+      ],
+      [
+        "Florenc",
+        "B + C"
+      ]
     ]
   },
   "tips": [

@@ -533,6 +533,261 @@
       "S-Bahn Ringbahn circles the inner city",
       "Alexanderplatz, Friedrichstrasse and Zoologischer Garten are main interchanges",
       "Hauptbahnhof connects to the S-Bahn and the U5"
+    ],
+    "lineStrips": [
+      {
+        "id": "U1",
+        "color": "#7DAD4C",
+        "ink": "#ffffff",
+        "ends": [
+          "Uhlandstraße",
+          "Warschauer Straße"
+        ],
+        "stops": [
+          [
+            "Wittenbergplatz",
+            "KaDeWe"
+          ],
+          [
+            "Kottbusser Tor",
+            "Kreuzberg"
+          ],
+          [
+            "Schlesisches Tor",
+            "Oberbaum Bridge"
+          ],
+          [
+            "Warschauer Straße",
+            "East Side Gallery"
+          ]
+        ]
+      },
+      {
+        "id": "U2",
+        "color": "#DA421E",
+        "ink": "#ffffff",
+        "ends": [
+          "Pankow",
+          "Ruhleben"
+        ],
+        "stops": [
+          [
+            "Alexanderplatz",
+            "TV tower"
+          ],
+          [
+            "Potsdamer Platz",
+            "Centre"
+          ],
+          [
+            "Zoologischer Garten",
+            "Trains, west"
+          ],
+          [
+            "Olympia-Stadion",
+            "Stadium"
+          ]
+        ]
+      },
+      {
+        "id": "U3",
+        "color": "#16683D",
+        "ink": "#ffffff",
+        "ends": [
+          "Krumme Lanke",
+          "Warschauer Straße"
+        ],
+        "stops": [
+          [
+            "Dahlem-Dorf",
+            "Museums"
+          ],
+          [
+            "Wittenbergplatz",
+            "KaDeWe"
+          ],
+          [
+            "Nollendorfplatz",
+            "Schöneberg"
+          ]
+        ]
+      },
+      {
+        "id": "U4",
+        "color": "#F0D722",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Nollendorfplatz",
+          "Innsbrucker Platz"
+        ],
+        "stops": [
+          [
+            "Viktoria-Luise-Platz",
+            "Schöneberg"
+          ],
+          [
+            "Bayerischer Platz",
+            "Schöneberg"
+          ],
+          [
+            "Rathaus Schöneberg",
+            "Town hall"
+          ]
+        ]
+      },
+      {
+        "id": "U5",
+        "color": "#7E5330",
+        "ink": "#ffffff",
+        "ends": [
+          "Hauptbahnhof",
+          "Hönow"
+        ],
+        "stops": [
+          [
+            "Hauptbahnhof",
+            "Main station"
+          ],
+          [
+            "Brandenburger Tor",
+            "Brandenburg Gate"
+          ],
+          [
+            "Museumsinsel",
+            "Museums"
+          ],
+          [
+            "Alexanderplatz",
+            "TV tower"
+          ]
+        ]
+      },
+      {
+        "id": "U6",
+        "color": "#8C6DAB",
+        "ink": "#ffffff",
+        "ends": [
+          "Alt-Tegel",
+          "Alt-Mariendorf"
+        ],
+        "stops": [
+          [
+            "Friedrichstraße",
+            "Trains"
+          ],
+          [
+            "Stadtmitte",
+            "Gendarmenmarkt"
+          ],
+          [
+            "Kochstraße / Checkpoint Charlie",
+            "Wall museum"
+          ],
+          [
+            "Naturkundemuseum",
+            "Natural history"
+          ]
+        ]
+      },
+      {
+        "id": "U7",
+        "color": "#528DBA",
+        "ink": "#ffffff",
+        "ends": [
+          "Rudow",
+          "Spandau Rathaus"
+        ],
+        "stops": [
+          [
+            "Hermannplatz",
+            "Neukölln"
+          ],
+          [
+            "Mehringdamm",
+            "Kreuzberg"
+          ],
+          [
+            "Fehrbelliner Platz",
+            "Offices"
+          ],
+          [
+            "Bismarckstraße",
+            "Charlottenburg"
+          ]
+        ]
+      },
+      {
+        "id": "U8",
+        "color": "#224F86",
+        "ink": "#ffffff",
+        "ends": [
+          "Wittenau",
+          "Hermannstraße"
+        ],
+        "stops": [
+          [
+            "Alexanderplatz",
+            "TV tower"
+          ],
+          [
+            "Moritzplatz",
+            "Kreuzberg"
+          ],
+          [
+            "Kottbusser Tor",
+            "Kreuzberg"
+          ],
+          [
+            "Hermannplatz",
+            "Neukölln"
+          ]
+        ]
+      },
+      {
+        "id": "U9",
+        "color": "#F3791D",
+        "ink": "#ffffff",
+        "ends": [
+          "Osloer Straße",
+          "Rathaus Steglitz"
+        ],
+        "stops": [
+          [
+            "Zoologischer Garten",
+            "Trains, west"
+          ],
+          [
+            "Kurfürstendamm",
+            "Shopping"
+          ],
+          [
+            "Turmstraße",
+            "Moabit"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Alexanderplatz",
+        "U2 + U5 + U8"
+      ],
+      [
+        "Kottbusser Tor",
+        "U1 + U8"
+      ],
+      [
+        "Nollendorfplatz",
+        "U1 + U3 + U4"
+      ],
+      [
+        "Wittenbergplatz",
+        "U1 + U2 + U3"
+      ],
+      [
+        "Zoologischer Garten",
+        "U2 + U9"
+      ]
     ]
   },
   "tips": [

@@ -216,6 +216,150 @@
       "Baixa-Chiado links Blue and Green",
       "Marques de Pombal links Blue and Yellow",
       "Saldanha links Yellow and Red, and Alameda links Green and Red"
+    ],
+    "lineStrips": [
+      {
+        "id": "Azul",
+        "color": "#0095DA",
+        "ink": "#ffffff",
+        "label": "Blue line (Azul)",
+        "ends": [
+          "Reboleira",
+          "Santa Apolónia"
+        ],
+        "stops": [
+          [
+            "Parque",
+            "Eduardo VII park"
+          ],
+          [
+            "Marquês de Pombal",
+            "Roundabout"
+          ],
+          [
+            "Restauradores",
+            "Praça dos Restauradores"
+          ],
+          [
+            "Baixa-Chiado",
+            "Centre"
+          ],
+          [
+            "Santa Apolónia",
+            "Trains"
+          ]
+        ]
+      },
+      {
+        "id": "Amarela",
+        "color": "#FFD800",
+        "ink": "#1b1b1b",
+        "label": "Yellow line (Amarela)",
+        "ends": [
+          "Odivelas",
+          "Rato"
+        ],
+        "stops": [
+          [
+            "Campo Grande",
+            "Tiles"
+          ],
+          [
+            "Saldanha",
+            "Offices"
+          ],
+          [
+            "Marquês de Pombal",
+            "Roundabout"
+          ],
+          [
+            "Rato",
+            "Bairro Alto side"
+          ]
+        ]
+      },
+      {
+        "id": "Verde",
+        "color": "#00A94F",
+        "ink": "#ffffff",
+        "label": "Green line (Verde)",
+        "ends": [
+          "Telheiras",
+          "Cais do Sodré"
+        ],
+        "stops": [
+          [
+            "Alameda",
+            "Line 4"
+          ],
+          [
+            "Rossio",
+            "Centre"
+          ],
+          [
+            "Baixa-Chiado",
+            "Centre"
+          ],
+          [
+            "Cais do Sodré",
+            "Trains, Time Out Market"
+          ]
+        ]
+      },
+      {
+        "id": "Verm.",
+        "color": "#E4002B",
+        "ink": "#ffffff",
+        "label": "Red line (Vermelha)",
+        "ends": [
+          "Aeroporto",
+          "São Sebastião"
+        ],
+        "stops": [
+          [
+            "Aeroporto",
+            "Airport"
+          ],
+          [
+            "Oriente",
+            "Parque das Nações, trains"
+          ],
+          [
+            "Alameda",
+            "Green line"
+          ],
+          [
+            "Saldanha",
+            "Yellow line"
+          ],
+          [
+            "São Sebastião",
+            "Blue line"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Baixa-Chiado",
+        "Blue + Green"
+      ],
+      [
+        "Marquês de Pombal",
+        "Blue + Yellow"
+      ],
+      [
+        "Saldanha",
+        "Yellow + Red"
+      ],
+      [
+        "Alameda",
+        "Green + Red"
+      ],
+      [
+        "São Sebastião",
+        "Blue + Red"
+      ]
     ]
   },
   "tips": [

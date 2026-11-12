@@ -255,6 +255,76 @@
       "Rautatientori (Central Railway Station) links the Metro with commuter trains, including the Ring Rail trains to the airport",
       "Trains run every 2.5 to 15 minutes",
       "Metro stations are in zones A, B and C, and an ABC ticket covers the whole system"
+    ],
+    "lineStrips": [
+      {
+        "id": "M1",
+        "color": "#F2711C",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Kivenlahti",
+          "Vuosaari"
+        ],
+        "stops": [
+          [
+            "Tapiola",
+            "Espoo"
+          ],
+          [
+            "Ruoholahti",
+            "Harbour"
+          ],
+          [
+            "Kamppi",
+            "Bus station"
+          ],
+          [
+            "Rautatientori",
+            "Central station"
+          ],
+          [
+            "Hakaniemi",
+            "Market hall"
+          ]
+        ]
+      },
+      {
+        "id": "M2",
+        "color": "#F7941D",
+        "ink": "#1b1b1b",
+        "ends": [
+          "Tapiola",
+          "Mellunmäki"
+        ],
+        "stops": [
+          [
+            "Ruoholahti",
+            "Harbour"
+          ],
+          [
+            "Kamppi",
+            "Bus station"
+          ],
+          [
+            "Rautatientori",
+            "Central station"
+          ],
+          [
+            "Hakaniemi",
+            "Market hall"
+          ]
+        ]
+      }
+    ],
+    "hubs": [
+      [
+        "Rautatientori",
+        "Central station, all metro trains"
+      ],
+      [
+        "Kamppi",
+        "Long-distance buses"
+      ]
     ]
   },
   "tips": [
