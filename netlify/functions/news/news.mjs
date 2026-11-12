@@ -3,11 +3,31 @@
 // Responses are cached at Netlify's edge for 15 minutes.
 import cities from "./cities.mjs";
 
-const TOPICS = '(metro OR train OR tram OR bus OR airport OR strike OR "public transport" OR railway)';
+// Search terms: specific transport phrases, not bare words like "train" or "airport" that match sport and crime stories.
+const TOPICS = '(metro OR subway OR underground OR tram OR "public transport" OR "public transit" OR "rail strike" OR "train strike" OR "bus strike" OR "transport strike" OR "train services" OR "rail services" OR "railway" OR "bus network" OR "bus lines" OR "ticket prices" OR "fares" OR "airport train" OR "airport rail" OR "airport transfer" OR "S-Bahn" OR "U-Bahn" OR "RER")';
 
-export function feedUrl(city) {
-  const q = `"${city}" ${TOPICS} when:7d`;
+export function feedUrl(city, window = "7d") {
+  const q = `"${city}" ${TOPICS} when:${window}`;
   return "https://news.google.com/rss/search?" + new URLSearchParams({ q, hl: "en-GB", gl: "GB", ceid: "GB:en" });
+}
+
+// Second pass on the headline itself: it must be about getting around, and not about sport, showbiz or markets.
+const ABOUT_TRANSPORT = /\b(metro|subway|underground|tube|tram|trams|bus|buses|coach|train|trains|rail|railway|railways|rail link|transit|transport|commuters?|station|stations|timetable|timetables|fares?|\w*tickets?\w*|ticketing|day pass|travel card|strike|strikes|walkout|disruption|delays?|cancell?ed|cancellations?|signal(?:ling)?|S-Bahn|U-Bahn|RER|Eurostar|Interrail|Eurail|Flixbus|line closure|service)\b/i;
+const NOT_TRAVEL = /\b(football|soccer|rugby|tennis|basketball|league|fixtures?|transfer window|striker|goal|concert|album|film|movie|series|celebrity|stocks?|shares|investors?|earnings|real estate|property prices|obituary|killed|murder|stabbed|stabbing|shooting|arrested|court|trial)\b/i;
+
+export function isRelevant(title) {
+  return ABOUT_TRANSPORT.test(title) && !NOT_TRAVEL.test(title);
+}
+
+// Drops repeats of the same story from different outlets (compares the first words of the headline).
+export function dedupe(items) {
+  const seen = new Set();
+  return items.filter((i) => {
+    const key = i.title.toLowerCase().replace(/[^a-z0-9 ]/g, "").split(/\s+/).slice(0, 7).join(" ");
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 function decodeEntities(s) {
@@ -54,9 +74,14 @@ export default async (req) => {
   const entry = cities[id];
   if (!entry) return json({ error: "Unknown country code" }, 400, false);
   try {
-    const res = await fetch(feedUrl(entry.city), { headers: { "user-agent": "EuroTransitGuide/1.0" } });
-    if (!res.ok) throw new Error(`feed HTTP ${res.status}`);
-    const items = parseFeed(await res.text());
+    const load = async (window) => {
+      const res = await fetch(feedUrl(entry.city, window), { headers: { "user-agent": "EuroTransitGuide/1.0" } });
+      if (!res.ok) throw new Error(`feed HTTP ${res.status}`);
+      return dedupe(parseFeed(await res.text(), 40).filter((i) => isRelevant(i.title)));
+    };
+    let items = await load("7d");
+    if (items.length < 3) items = await load("30d"); // quiet week: look back a month
+    items = items.slice(0, 8);
     return json({ city: entry.city, items, updated: new Date().toISOString() });
   } catch (err) {
     console.error(err);
